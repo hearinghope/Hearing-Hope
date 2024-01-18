@@ -9,14 +9,14 @@ const AboutCertifications = () => {
   // Wrap the initialization of 'certificationsData' in useMemo
   const certificationsData = useMemo(
     () => [
-      { id: 1, imageUrl: '/Certificate1.jpg' },
-      { id: 2, imageUrl: '/Certificate2.jpg' },
-      { id: 3, imageUrl: '/Certificate3.png' },
-      { id: 4, imageUrl: '/Certificate4.png' },
-      { id: 5, imageUrl: '/Certificate5.png' },
-      { id: 6, imageUrl: '/Certificate6.png' },
-      { id: 7, imageUrl: '/Certificate7.png' },
-      { id: 8, imageUrl: '/Certificate8.png' },
+      { id: 1, imageUrl: '/About/Certificate1.jpg' },
+      { id: 2, imageUrl: '/About/Certificate2.jpg' },
+      { id: 3, imageUrl: '/About/Certificate3.png' },
+      { id: 4, imageUrl: '/About/Certificate4.png' },
+      { id: 5, imageUrl: '/About/Certificate5.png' },
+      { id: 6, imageUrl: '/About/Certificate6.png' },
+      { id: 7, imageUrl: '/About/Certificate7.png' },
+      { id: 8, imageUrl: '/About/Certificate8.png' },
     ],
     []
   );
@@ -38,7 +38,7 @@ const AboutCertifications = () => {
   
     const interval = setInterval(() => {
       handleAutomaticScroll('right');
-    }, 0); // Adjust the duration for automatic scrolling
+    }, 7000); // Adjust the duration for automatic scrolling
   
     // Cleanup function to clear the interval when the component is unmounted
     return () => {

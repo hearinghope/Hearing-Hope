@@ -11,7 +11,7 @@ const ServiceAbout = () => {
         </p>
       </div>
       <div className={styles.AboutServiceimge}>
-        <Image src="/ServiceAbout.avif" alt="Service image" width={400} height={300} style={{ borderRadius: '9px', objectFit: 'cover', objectPosition: 'center' }} />
+        <Image src="/Service/OurService.jpg" alt="Service image" width={400} height={300} style={{ borderRadius: '9px', objectFit: 'cover', objectPosition: 'center' }} />
       </div>
     </div>
   );

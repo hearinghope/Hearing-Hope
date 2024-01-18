@@ -9,14 +9,14 @@ const IndexCertifications = () => {
 
   const certificationsData = useMemo(
     () => [
-      { id: 1, imgeUrl: '/Certificate1.jpg' },
-      { id: 2, imgeUrl: '/Certificate2.jpg' },
-      { id: 3, imgeUrl: '/Certificate3.png' },
-      { id: 4, imgeUrl: '/Certificate4.png' },
-      { id: 5, imgeUrl: '/Certificate5.png' },
-      { id: 6, imgeUrl: '/Certificate6.png' },
-      { id: 7, imgeUrl: '/Certificate7.png' },
-      { id: 8, imgeUrl: '/Certificate8.png' },
+      { id: 1, imgeUrl: '/Home/Certificate1.jpg' },
+      { id: 2, imgeUrl: '/Home/Certificate2.jpg' },
+      { id: 3, imgeUrl: '/Home/Certificate3.png' },
+      { id: 4, imgeUrl: '/Home/Certificate4.png' },
+      { id: 5, imgeUrl: '/Home/Certificate5.png' },
+      { id: 6, imgeUrl: '/Home/Certificate6.png' },
+      { id: 7, imgeUrl: '/Home/Certificate7.png' },
+      { id: 8, imgeUrl: '/Home/Certificate8.png' },
     ],
     []
   );

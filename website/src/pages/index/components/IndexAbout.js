@@ -6,7 +6,7 @@ const IndexAbout = () => {
     { id: 1, value: 15, name: 'Years of Experience' },
     { id: 2, value: 20000, name: 'Happy Customers' },
     { id: 3, value: 50000, name: 'Hearing Aids Sold' },
-    { id: 4, value: 50000, name: 'Hearing Tests' },
+    { id: 4, value: 55000, name: 'Hearing Tests' },
   ], []); // Empty dependency array means it only runs once on mount
 
   const [animatedValues, setAnimatedValues] = useState(countingNumbersData.map(() => 0));
@@ -20,7 +20,7 @@ const IndexAbout = () => {
           return newValue;
         });
       });
-    }, 50); // Adjust the interval for smoother animation or change the animation method if needed
+    }, 100); // Adjust the interval for smoother animation or change the animation method if needed
 
     return () => clearInterval(interval);
   }, [countingNumbersData]); // Run once on component mount
@@ -28,7 +28,7 @@ const IndexAbout = () => {
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.aboutColumn}>
-        <h2 style={{ color: '#ff6600', fontSize: '45px' }}>About</h2>
+        <h2 style={{ color: 'teal', fontSize: '45px' }}>Welcome To Hearing Hope</h2>
         <p>
         Our mission is to improve the health of our community by providing high quality, comprehensive hearing care in a welcoming and compassionate environment.
 
@@ -54,12 +54,14 @@ On behalf of the entire staff, we would like to welcome you to our clinic. We ar
             <div key={number.id} className={styles.countingNumber}>
               <h3>
                 {animatedValues[index + 2].toFixed(0)}
-                {number.value === 50000 ? '+' : ''}
+                {number.value === 50000 ? '+' : '' || 55000 ? '+' : ''} 
               </h3>
               <p>{number.name}</p>
             </div>
           ))}
         </div>
+
+        
       </div>
     </div>
   );

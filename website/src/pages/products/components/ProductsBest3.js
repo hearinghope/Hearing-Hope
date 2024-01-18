@@ -1,5 +1,4 @@
 import styles from '../styles/products.module.css';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import React, { useRef, useState, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 
@@ -9,12 +8,18 @@ const ProductsBest3 = () => {
 
   // Use useMemo to memoize the certificationsData array
   const certificationsData = useMemo(() => [
-    { id: 1, imgeUrl: '/Product2.png', description: 'Product 1' },
-    { id: 2, imgeUrl: '/Product2.png', description: 'Product 2' },
-    { id: 3, imgeUrl: '/Product2.png', description: 'Product 3' },
-    { id: 4, imgeUrl: '/Product2.png', description: 'Product 4' },
-    { id: 5, imgeUrl: '/Product2.png', description: 'Product 5' },
-    { id: 6, imgeUrl: '/Product2.png', description: 'Product 6' },
+    { id: 1, imgeUrl: '/Products/BestSeller.png', description: 'Silk Rechargeable IX' },
+    { id: 2, imgeUrl: '/Products/SilkNxCouple.png', description: 'Silk Nx Couple' },
+    { id: 3, imgeUrl: '/Products/Motion CnG XP.png', description: 'Motion CnG XP' },
+    { id: 4, imgeUrl: '/Products/Styletto RIC.png', description: 'Styletto RIC' },
+    { id: 5, imgeUrl: '/Products/Pure312X.png', description: 'Pure 312X' },
+    { id: 6, imgeUrl: '/Products/Insio ITC Nx.png', description: 'Insio ITC Nx' },
+    { id: 7, imgeUrl: '/Products/Product2.png', description: 'Kit Pure Charge & Go 1AX' },
+    { id: 8, imgeUrl: '/Products/InsioCharge&GoAX.png', description: 'Kit Insio Charge & Go AX' },
+    { id: 9, imgeUrl: '/Products/ActivePro.png', description: 'Kit Active Pro' },
+    { id: 10, imgeUrl: '/Products/BTEmotionCharge.png', description: 'Kit BTE Motion Charge & Go SP 1X' },
+    { id: 11, imgeUrl: '/Products/Styletto.png', description: 'Styletto AX' },
+    { id: 12, imgeUrl: '/Products/PureCharge&GoAX.png', description: 'Kit Pure Charge & Go AX' },
   ], []); // Empty dependency array since certificationsData does not depend on any props or state
 
   useEffect(() => {
@@ -32,7 +37,7 @@ const ProductsBest3 = () => {
 
     const interval = setInterval(() => {
       handleAutomaticScroll();
-    }, 0); // Adjust the duration for automatic scrolling
+    }, 7000); // Adjust the duration for automatic scrolling
 
     return () => clearInterval(interval);
   }, [currentSlide, certificationsData]);
@@ -58,7 +63,7 @@ const ProductsBest3 = () => {
             <Image
               src={certification.imgeUrl}
               alt={`Certification ${certification.id}`}
-              width={450} // Adjust the width
+              width={500} // Adjust the width
               height={250} // Adjust the height
             />
             <p className={styles.ProductsName}>{certification.description}</p>

@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import IndexHeader from './components/IndexHeader';
 import styles from './styles/index.module.css';
@@ -13,11 +14,23 @@ import IndexLocations from './components/IndexLocations';
 import IndexFAQ from './components/IndexFAQ';
 import IndexBlog from './components/IndexBlog';
 import WhatsAppButton from '../WhatsAppButton';
-
+import PopupForm from '@/components/PopupForm';
 const IndexPage = () => {
+  // State to manage the visibility of the form
+  const [isFormOpen, setIsFormOpen] = useState(true);
+
+  // Function to handle the form close event
+  const handleFormClose = () => {
+    setIsFormOpen(false);
+  };
+
   return (
     
     <div className={styles.container}>
+       <div>
+        {/* Render the form if it's open */}
+        {isFormOpen && <PopupForm onClose={handleFormClose} />}
+      </div>
       <div>
       <WhatsAppButton />
       </div>

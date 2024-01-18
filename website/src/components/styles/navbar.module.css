@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 4;
+    width: 100%;
     padding: 0 15px;
     background-color: whitesmoke;
     color: rgb(0, 0, 0);

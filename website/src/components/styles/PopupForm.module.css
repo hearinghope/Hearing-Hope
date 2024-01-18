@@ -1,0 +1,78 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 30px;
+    width: 500px;
+    border-radius: 8px;
+  }
+  
+  .formContainer label{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font: 500;
+  }
+
+.formContainer input{
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(43, 43, 43);
+    color: teal;
+    margin-bottom: 20px;
+}
+
+.FormSubmit{
+    margin-top: 15px;
+}
+
+.FormSubmit button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: teal;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .buttonContainer button {
+    position: absolute;
+    top: 95px;
+    right: 450px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+  } 
+  
+
+  @media (max-width: 768px){
+    .buttonContainer button{
+        top: 100px;
+        right: 190px;
+        font-size: 80px;
+    }
+    .popup{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  }

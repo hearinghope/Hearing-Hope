@@ -9,12 +9,18 @@ const IndexProducts = () => {
   // Wrap the initialization of 'certificationsData' in useMemo
   const certificationsData = useMemo(
     () => [
-      { id: 1, imgeUrl: '/Product2.png', description: 'Product 1' },
-      { id: 2, imgeUrl: '/Product2.png', description: 'Product 1' },
-      { id: 3, imgeUrl: '/Product2.png', description: 'Product 1' },
-      { id: 4, imgeUrl: '/Product2.png', description: 'Product 1' },
-      { id: 5, imgeUrl: '/Product2.png', description: 'Product 1' },
-      { id: 6, imgeUrl: '/Product2.png', description: 'Product 1' },
+      { id: 1, imgeUrl: '/Products/BestSeller.png', description: 'Silk Rechargeable IX' },
+      { id: 2, imgeUrl: '/Products/SilkNxCouple.png', description: 'Silk Nx Couple' },
+      { id: 3, imgeUrl: '/Products/Motion CnG XP.png', description: 'Motion CnG XP' },
+      { id: 4, imgeUrl: '/Products/Styletto RIC.png', description: 'Styletto RIC' },
+      { id: 5, imgeUrl: '/Products/Pure312X.png', description: 'Pure 312X' },
+      { id: 6, imgeUrl: '/Products/Insio ITC Nx.png', description: 'Insio ITC Nx' },
+      { id: 7, imgeUrl: '/Products/Product2.png', description: 'Kit Pure Charge & Go 1AX' },
+      { id: 8, imgeUrl: '/Products/InsioCharge&GoAX.png', description: 'Kit Insio Charge & Go AX' },
+      { id: 9, imgeUrl: '/Products/ActivePro.png', description: 'Kit Active Pro' },
+      { id: 10, imgeUrl: '/Products/BTEmotionCharge.png', description: 'Kit BTE Motion Charge & Go SP 1X' },
+      { id: 11, imgeUrl: '/Products/Styletto.png', description: 'Styletto AX' },
+      { id: 12, imgeUrl: '/Products/PureCharge&GoAX.png', description: 'Kit Pure Charge & Go AX' },
     ],
     []
   );
@@ -34,7 +40,7 @@ const IndexProducts = () => {
 
     const interval = setInterval(() => {
       handleAutomaticScroll('right');
-    }, 5000); // Adjust the duration for automatic scrolling
+    }, 7000); // Adjust the duration for automatic scrolling
 
     return () => clearInterval(interval);
   }, [currentSlide, certificationsData]);

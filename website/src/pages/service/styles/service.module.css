@@ -2,52 +2,52 @@
 
 
 .cardContainer {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Work Sans', sans-serif;
-    margin: 20px auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Work Sans', sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: maroon;
+  border: 1px solid maroon;
+  color: white;
+  border-radius: 8px;
+  padding: 30px;
+  width: 500px;
+  height: 200px;
+  box-shadow: 0 2px 6px maroon;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.description {
+  font-size: 1rem;
+  text-align: start;
+}
+
+@media (min-width: 600px) {
   .card {
-    background-color: maroon;
-    border: 1px solid maroon;
-    color: white;
-    border-radius: 8px;
-    padding: 30px;
-    width: 500px;
-    height: 200px;
-    box-shadow: 0 2px 6px maroon;
-    transition: transform 0.3s ease;
+    width: calc(50% - 20px);
   }
-  
-  .card:hover {
-    transform: translateY(-5px);
+}
+
+@media (min-width: 900px) {
+  .card {
+    width: calc(33.33% - 20px);
   }
-  
-  .title {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    text-align: start;
-  }
-  
-  .description {
-    font-size: 1rem;
-    text-align: start;
-  }
-  
-  @media (min-width: 600px) {
-    .card {
-      width: calc(50% - 20px);
-    }
-  }
-  
-  @media (min-width: 900px) {
-    .card {
-      width: calc(33.33% - 20px);
-    }
-  }
+}
 
 /*--------- SERVICE ABOUT -------------*/
 
@@ -55,19 +55,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 95px;
   padding: 20px 100px;
   text-align: start;
 }
 
 .ServiceAboutTextContainer {
   flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.AboutServiceimgeContainer {
-  padding: 20px;
+  padding: 18px;
 }
 
 .ServiceAboutHeading {
@@ -83,42 +78,69 @@
   line-height: 30px;
 }
 
-.AboutServiceimge {
-  max-width: 400px;
+.AboutServiceImageContainer2 image {
+  max-width: 50%;
+  /* Adjusted max-width for smaller screens */
   border-radius: 8px;
   margin-top: 30px;
   margin-bottom: 30px;
   box-shadow: 0 8px 10px gray;
 }
 
-@media (max-width: 768px) {
-  .ServiceAboutContainer {
-    flex-direction: column;
-  }
+.AboutServiceImage {
+  max-width: 100%;
+  /* Adjusted max-width for smaller screens */
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 10px gray;
+}
 
+@media (max-width: 500px) {
   .ServiceAboutContainer {
-    padding: 20px 50px;
-  }
-  .ServiceAboutTextContainer,
-  .AboutServiceimgeContainer {
-    flex: none;
-    width: 100%;
-    padding: 0;
+    padding: 20px 5px;
+    /* Adjusted padding for smaller screens */
   }
 }
 
+@media (max-width: 768px) {
+  .ServiceAboutContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    /* Adjusted padding for smaller screens */
+  }
+
+  .ServiceAboutTextContainer,
+  .AboutServiceImageContainer2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ServiceAboutContainer {
+    padding: 10px 10px;
+    /* Adjusted padding for larger screens */
+  }
+}
+
+@media (max-width: 1200px) {
+  .AboutServiceImage {
+    /* Adjust styles if needed for larger screens */
+  }
+}
 
 /*---------- SERVICE STRIP 2 ----------*/
 
 
 .serviceStripContainer {
-  background: rgb(218,87,0);
-  background: linear-gradient(90deg, rgba(218,87,0,1) 0%, rgba(255,132,50,1) 33%, rgba(255,172,117,1) 65%, rgba(218,87,0,1) 100%);
+  background: rgb(218, 87, 0);
+  background: linear-gradient(90deg, rgba(218, 87, 0, 1) 0%, rgba(255, 132, 50, 1) 33%, rgba(255, 172, 117, 1) 65%, rgba(218, 87, 0, 1) 100%);
   color: #fff;
   padding: 40px 20px;
   margin-top: 0px;
   text-align: center;
-  position: relative; 
+  position: relative;
 }
 
 .serviceStripContent {
@@ -131,12 +153,12 @@
 .serviceStripImage {
   position: absolute;
   top: -160px;
-  left: 10px; 
+  left: 10px;
 }
 
 .serviceStripText {
   text-align: center;
-  margin-top: 20px; 
+  margin-top: 20px;
   margin-left: 180px;
   text-align: start;
 }
@@ -169,44 +191,59 @@
 
 @media (max-width: 768px) {
   .serviceStripContainer {
-    background: rgb(218,87,0);
-    background: linear-gradient(90deg, rgba(218,87,0,1) 0%, rgba(255,132,50,1) 33%, rgba(255,172,117,1) 65%, rgba(218,87,0,1) 100%);
+    background: rgb(218, 87, 0);
+    background: linear-gradient(90deg, rgba(218, 87, 0, 1) 0%, rgba(255, 132, 50, 1) 33%, rgba(255, 172, 117, 1) 65%, rgba(218, 87, 0, 1) 100%);
     color: #fff;
     padding: 40px 20px;
     margin-top: 0px;
     text-align: center;
     position: relative;
   }
-  
+
   .serviceStripContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
   }
-  
+
   .serviceStripText {
     text-align: center;
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-left: 0px;
   }
 
-  .serviceStripimge {
+  .serviceStripImage {
     display: none;
   }
-  
+
   .serviceStripText {
     text-align: center;
-    margin-top: 10px; 
+    margin-top: 10px;
   }
-  
+
   .serviceStripButtons {
     position: relative;
     margin-top: 25px;
   }
-  
+
 }
 
+@media (max-width: 1400px) {
+  .serviceStripImage {
+    top: -160px;
+    left: -50px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .serviceStripImage {
+    top: -160px;
+    left: -80px;
+  }
+}
 
 /*---------- SERVICE TYPES ----------*/
 
@@ -219,7 +256,7 @@
 }
 
 .ServiceTypesHeadingContainer {
-  background: rgb(1,146,116);
+  background: rgb(1, 146, 116);
   padding: 12px 50px;
   border-radius: 0px 90px 90px 0px;
   margin-bottom: 10px;
@@ -227,6 +264,10 @@
   margin-top: 40px;
   margin-bottom: 25px;
   text-align: start;
+}
+
+.AboutServiceImageContainer2 {
+  margin: 20px;
 }
 
 .ServiceTypesHeading {
@@ -239,19 +280,21 @@
   font-size: 2rem;
   margin: 0;
   color: #fff;
-  background: rgb(1,146,116);
+  background: rgb(1, 146, 116);
   padding: 12px 50px;
   border-radius: 90px 0px 0px 90px;
   margin-top: 40px;
   margin-bottom: 10px;
-  width: 50%; /* Full width for desktop view */
+  width: 50%;
+  /* Full width for desktop view */
   text-align: end;
   margin-left: auto;
 }
 
 .ServiceTypesContentContainer {
   display: flex;
-  flex-direction: column; /* Updated for mobile view */
+  flex-direction: column;
+  /* Updated for mobile view */
   padding-top: 10px;
 }
 
@@ -266,20 +309,22 @@
 .ServiceTypesimgeContainer {
   overflow: hidden;
   border-radius: 8px;
-  margin: 0 auto; /* Center imge in mobile view */
+  margin: 0 auto;
+  /* Center imge in mobile view */
 }
 
-.ServiceTypesimge {
+.ServiceTypesImage {
   width: auto;
   height: 250px;
   border-radius: 8px;
-  margin: 10px 0; /* Add margin for spacing in mobile view */
+  margin: 10px 0;
+  /* Add margin for spacing in mobile view */
 }
 
 .ServiceTypesButton {
   padding: 15px;
   margin-top: 20px;
-  background: rgb(1,146,116);
+  background: rgb(1, 146, 116);
   border: none;
   border-radius: 8px;
   font-weight: 500;
@@ -298,12 +343,21 @@
   }
 }
 
+@media (max-width: 500px) {
+  .ServiceTypesHeadingContainer {
+    width: 60%;
+  }
+
+  .serviceTypesContainer {}
+}
+
+
 /*---------- SERVICE STRIP ----------*/
 
 
 .serviceStripContainer {
-  background: rgb(218,87,0);
-  background: linear-gradient(90deg, rgba(218,87,0,1) 0%, rgba(255,132,50,1) 33%, rgba(255,172,117,1) 65%, rgba(218,87,0,1) 100%);
+  background: rgb(218, 87, 0);
+  background: linear-gradient(90deg, rgba(218, 87, 0, 1) 0%, rgba(255, 132, 50, 1) 33%, rgba(255, 172, 117, 1) 65%, rgba(218, 87, 0, 1) 100%);
   color: #fff;
   padding: 20px;
 }
@@ -322,12 +376,12 @@
 
 }
 
-.serviceStripText{
+.serviceStripText {
   line-height: 25px;
 }
 
 .serviceStripText h1 {
-  margin: 0;
+  margin-bottom: 15px;
 }
 
 .serviceButtons {
@@ -369,11 +423,5 @@
     margin-top: 0;
     margin-left: 20px;
   }
-  
+
 }
-
-
-
-
-
-  

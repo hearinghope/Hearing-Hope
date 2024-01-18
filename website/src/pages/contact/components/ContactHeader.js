@@ -1,44 +1,9 @@
-import { useState } from 'react';
 import Image from 'next/image'; // Import the Image component
 import Link from 'next/link'; // Import the link component
 import styles from '../styles/contact.module.css';
 
+
 const ContactHeader = () => {
-  const [submitting, setSubmitting] = useState(false);
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setSubmitting(true);
-
-    try {
-      const formData = new FormData(e.target);
-
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: new URLSearchParams(formData).toString(),
-      });
-
-      if (response.ok) {
-        e.target.reset();
-        // Provide feedback to the user as needed (e.g., show a success message)
-        alert('Form submitted successfully! We will get back to you soon.');
-      } else {
-        console.error('Form submission failed:', response.statusText);
-        // Provide feedback to the user as needed (e.g., show an error message)
-        alert('Form submission failed. Please try again later.');
-      }
-    } catch (error) {
-      console.error('Error submitting form:', error);
-      // Provide feedback to the user as needed (e.g., show an error message)
-      alert('Error submitting form. Please try again later.');
-    } finally {
-      setSubmitting(false);
-    }
-  };
-
   return (
     <section className={styles.contactSection}>
       <div className={styles.container}>
@@ -50,7 +15,7 @@ const ContactHeader = () => {
                   <h3 className={`${styles.mb4} ${styles.mtMd4}`}>Looking for the best Hearing Test in town?</h3>
                   <div className={styles.dbox}>
                     <div className={styles.icon}>
-                      <Image src='/gps.png' alt='call' height={41} width={41} />
+                      <Image src='/Contact/gps.png' alt='call' height={41} width={41} />
                     </div>
                     <div className={styles.text}>
                       <p style={{ lineHeight: '25px' }}>
@@ -60,7 +25,7 @@ const ContactHeader = () => {
                   </div>
                   <div className={styles.dbox}>
                     <div className={styles.icon}>
-                      <Image src='/call.png' alt='call' height={50} width={50} />
+                      <Image src='/Contact/call.png' alt='call' height={50} width={50} />
                     </div>
                     <div className={styles.text}>
                       <p>
@@ -70,7 +35,7 @@ const ContactHeader = () => {
                   </div>
                   <div className={styles.dbox}>
                     <div className={styles.icon}>
-                      <Image src='/email.png' alt='call' height={41} width={41} />
+                      <Image src='/Contact/email.png' alt='call' height={41} width={41} />
                     </div>
                     <div className={styles.text}>
                       <p>
@@ -83,14 +48,14 @@ const ContactHeader = () => {
               </div>
               <div className={`${styles.colMd7} ${styles.flexAlignStretch}`}>
                 <div className={styles.contactWrap}>
-                  <form className={styles.formContainer} method="POST" id={styles.contactForm} name="contactForm" onSubmit={handleSubmit}>
+                  <form className={styles.formContainer} method="POST" id={styles.contactForm} name="contactForm" >
                     <div className={styles.row}>
                       <div className={styles.colMd6}>
                         <div className={styles.formGroup}>
                           <input
                             type="text"
                             className={styles.formControl}
-                            name="name"
+                            name="Name"
                             id="name"
                             placeholder="Name"
                           />
@@ -101,7 +66,7 @@ const ContactHeader = () => {
                           <input
                             type="email"
                             className={styles.formControl}
-                            name="email"
+                            name="Email"
                             id="email"
                             placeholder="Email"
                           />
@@ -110,11 +75,11 @@ const ContactHeader = () => {
                       <div className={styles.colMd12}>
                         <div className={styles.formGroup}>
                           <input
-                            type="text"
+                            type='tel'
                             className={styles.formControl}
-                            name="subject"
+                            name="Phone Number"
                             id="subject"
-                            placeholder="Subject"
+                            placeholder="+91..."
                           />
                         </div>
                       </div>
@@ -123,7 +88,7 @@ const ContactHeader = () => {
                           <textarea
                             name="message"
                             className={styles.textareaControl}
-                            id="message"
+                            id="Message"
                             cols="30"
                             rows="7"
                             placeholder="Message"
@@ -131,15 +96,14 @@ const ContactHeader = () => {
                         </div>
                       </div>
                       <div className={styles.colMd12}>
-                        <div className={styles.formGroup}>
-                          <input
-                            type="submit"
-                            value={submitting ? 'Submitting...' : 'Send Message'}
-                            className={styles.btnPrimary}
-                            disabled={submitting}
-                          />
-                          <div className={styles.submitting}></div>
-                        </div>
+                       <div className={styles.formGroup}>
+                        <input
+                         type="submit"
+                         className={styles.btnPrimary}
+                         value="Submit"
+                        />
+                        <div className={styles.submitting}></div>
+                       </div>
                       </div>
                     </div>
                   </form>

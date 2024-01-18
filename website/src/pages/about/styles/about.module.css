@@ -36,10 +36,11 @@
   }
   
   .CountUp {
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 600;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     .countersContainer {
       flex-direction: column;
     }
@@ -74,7 +75,7 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .AboutDescriptionContainer {
     display: flex;
     flex-direction: column;
@@ -99,14 +100,12 @@
 
 /*-------- ABOUT CARDS ---------*/
 
+
 .card {
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  flex-wrap: wrap; 
 }
-
-
 
 .flipCard {
   background-color: transparent;
@@ -166,6 +165,21 @@
     transform: rotateY(180deg);
   }
   
+    
+  @media screen and (max-width: 820px) {
+    .card {
+      flex-wrap:wrap;
+      align-items: center; 
+    }
+  
+    .flipCard {
+      margin: 0px 0px 20px 0px; 
+    }
+    .AboutCard{
+      margin-bottom: 300px;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     .card {
       flex-direction: column; 
@@ -179,6 +193,8 @@
       margin-bottom: 300px;
     }
   }
+
+  
 /*-------- ABOUT TESTIMONIALS ---------*/
 
 .Testimonialcontainer {
@@ -241,13 +257,33 @@
   margin-top: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 370px) {
+  .Testimonialcontainer{
+    margin-top: 450px;
+    margin-bottom: 450px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
   .card {
     width: 100%;
   }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (max-width: 600px) {
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .TestimonialcardContainer{
+    width: 100%;
+  }
   .card {
     width: 48%;
   }
@@ -337,13 +373,13 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #ccc;
+    background-color: rgba(255, 166, 0, 0.577);
     margin-right: 5px;
     cursor: pointer;
   }
   
   .activeDot {
-    background-color: #333;
+    background-color:black;
   }
   
   /* Responsive Styles */
@@ -357,4 +393,5 @@
       margin-right: 0;
     }
   }
+
   

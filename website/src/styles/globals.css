@@ -22,6 +22,10 @@
   background-color: transparent;
 }
 /*-----------SCROLLBAR END----------------*/
+::selection {
+  color: white;
+  background: teal;
+}
 
 body {
   background-color: whitesmoke;

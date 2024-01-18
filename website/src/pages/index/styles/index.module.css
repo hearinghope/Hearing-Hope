@@ -11,14 +11,21 @@
 }
 
 /*--------- HOME CARDS -------------*/
-
+.HomeCards{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .card {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
     transition: transform 0.3s ease;
-
+    margin-top: 30px;
   }
   
   .cardimg {
@@ -32,9 +39,15 @@
     transform: translateY(-5px);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1190px) {
     .card {
       margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .cardimg{
+      width: 90%;
     }
   }
 /*--------- HOME ABOUT -------------*/
@@ -105,12 +118,13 @@
 
   .countingNumbersColumn {
     margin-top: 20px;
+    gap: 50px;
   }
 
   .upperNumbers,
   .lowerNumbers {
     width: 100%;
-    gap: 10px; /* Adjust the spacing on smaller screens */
+    gap: 17px; /* Adjust the spacing on smaller screens */
   }
 }
 
@@ -131,8 +145,7 @@
 
 .ProductsName{
   font-size: 18px;
-  position: relative;
-  top: -30px;
+  margin-bottom: 20px;
  }  
 
 @media (max-width: 768px) {
@@ -262,13 +275,33 @@
   margin-top: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 370px) {
+  .Testimonialcontainer{
+    margin-top: 450px;
+    margin-bottom: 450px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
   .card {
     width: 100%;
   }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (max-width: 600px) {
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .TestimonialcardContainer{
+    width: 100%;
+  }
   .card {
     width: 48%;
   }
@@ -363,8 +396,8 @@
     display: inline-block;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background-color: #ccc;
+    border-radius: 50%;  
+    background-color: rgba(255, 166, 0, 0.577);
     margin-right: 5px;
     cursor: pointer;
   }

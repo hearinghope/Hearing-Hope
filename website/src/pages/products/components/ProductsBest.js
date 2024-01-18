@@ -8,12 +8,13 @@ const ProductsBest = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const certificationsData = useMemo(() => [
-    { id: 1, imgeUrl: '/Product2.png', description: 'Product 1' },
-    { id: 2, imgeUrl: '/Product2.png', description: 'Product 2' },
-    { id: 3, imgeUrl: '/Product2.png', description: 'Product 3' },
-    { id: 4, imgeUrl: '/Product2.png', description: 'Product 4' },
-    { id: 5, imgeUrl: '/Product2.png', description: 'Product 5' },
-    { id: 6, imgeUrl: '/Product2.png', description: 'Product 6' },
+    { id: 1, imgeUrl: '/Products/Product2.png', description: 'Kit Pure Charge & Go 1AX' },
+    { id: 2, imgeUrl: '/Products/InsioCharge&GoAX.png', description: 'Kit Insio Charge & Go AX' },
+    { id: 3, imgeUrl: '/Products/ActivePro.png', description: 'Kit Active Pro' },
+    { id: 4, imgeUrl: '/Products/BTEmotionCharge.png', description: 'Kit BTE Motion Charge & Go SP 1X' },
+    { id: 5, imgeUrl: '/Products/Styletto.png', description: 'Styletto AX' },
+    { id: 6, imgeUrl: '/Products/PureCharge&GoAX.png', description: 'Kit Pure Charge & Go AX' },
+    { id: 7, imgeUrl: '/Products/BestSeller.png', description: 'Silk Rechargeable IX' },
   ], []); // The empty dependency array ensures that useMemo runs only once
 
   useEffect(() => {
@@ -31,7 +32,7 @@ const ProductsBest = () => {
 
     const interval = setInterval(() => {
       handleAutomaticScroll();
-    }, 0); // Adjust the duration for automatic scrolling
+    }, 7000); // Adjust the duration for automatic scrolling
 
     return () => clearInterval(interval);
   }, [currentSlide, certificationsData]);
@@ -57,7 +58,7 @@ const ProductsBest = () => {
             <Image
               src={certification.imgeUrl}
               alt={`Certification ${certification.id}`}
-              width={450} // Adjust the width
+              width={500} // Adjust the width
               height={250} // Adjust the height
             />
             <p className={styles.ProductsName}>{certification.description}</p>

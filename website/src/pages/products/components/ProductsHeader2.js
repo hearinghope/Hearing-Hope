@@ -5,11 +5,11 @@ const ProductsHeader2 = () => {
   return (
     <div className={styles.ProductsContainer}>
       <div className={styles.Productsimge}>
-        <Image src='/Product2.png' alt='Best Seller' width={800} height={600} />
+        <Image src='/Products/Product2.png' alt='Best Seller' width={800} height={600} />
       </div>
       <div className={styles.ProductsContent}>
         <h1>New Arrivals</h1>
-        <p>We are a private, independent practice constantly striving to provide excellence in personalized, compassionate care that is consistent, quality-driven and choice-conscious for all of our patients. Our staff is well trained, caring and professional. Each and every one of us respects the diversity and dignity of our patients. We welcome advances in learning and technology in an effort to achieve efficient and quality-driven patient care.</p>
+        <p>Embark on an auditory adventure with Hearing Hope&apos;s latest launches in hearing aids. Our newest arrivals blend state-of-the-art technology with sleek designs, promising an unparalleled listening experience. Discover innovation that transcends boundaries, providing clarity, comfort, and style. Elevate your hearing journey with our exciting new additions where every sound becomes a celebration. At Hearing Hope, we&apos;re delighted to introduce solutions that redefine the future of hearing.</p>
       </div>
     </div>
   );

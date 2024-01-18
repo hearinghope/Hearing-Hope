@@ -36,9 +36,9 @@ const Footer = () => {
       <div className={styles.socials}>
         <h3>Socials</h3>
         <div className={styles.socialIcons}>
-          <Link href='https://www.instagram.com/hearinghope/'><Image src="/instagram.png" alt="Instagram" width={100} height={40} /></Link>
-          <Link href='https://www.facebook.com/people/Hearing-Hope/100063607797322/'><Image src="/facebook.png" alt="Facebook" width={100} height={40} /></Link>
-          <Link href='https://www.youtube.com/@HearingHope'><Image src="/youtube.png" alt="YouTube" width={100} height={40} /></Link>
+          <Link href='https://www.instagram.com/hearinghope/'><Image src="/Components/instagram.png" alt="Instagram" width={100} height={40} /></Link>
+          <Link href='https://www.facebook.com/people/Hearing-Hope/100063607797322/'><Image src="/Components/facebook.png" alt="Facebook" width={100} height={40} /></Link>
+          <Link href='https://www.youtube.com/@HearingHope'><Image src="/Components/youtube.png" alt="YouTube" width={100} height={40} /></Link>
         </div>
       </div>
     </footer>

@@ -15,13 +15,13 @@ const AboutCard = () => {
           <div className={styles.flipCardInner}>
             <div className={styles.flipCardFront} style={{borderRadius:'11px'}}>
               {/* Use next/image for image optimization */}
-              <Image src="/Aditya.jpg" alt="Avatar" width={300} height={400} className={styles.cardImage} style={{borderRadius:'11px'}}/>
+              <Image src="/About/Neelam.jpg" alt="Avatar" width={300} height={400} className={styles.cardImage} style={{borderRadius:'11px', objectFit:'cover'}}/>
             </div>
             <div className={styles.flipCardBack}>
-              <h1>Mrs. Neelam</h1>
-              <p style={{ marginTop: '10px' }}>Executive Director</p>
+              <h1>Ms. Neelam</h1>
+              <p style={{ marginTop: '10px' }}>Director</p>
               <p style={{ marginTop: '20px', textAlign: 'start' }}>
-                I&apos;m Mrs. Neelam, Executive Director at Hearing Hope, where I&apos;ve dedicated 15+ years. It&apos;s my dream to gift everyone the hope of hearing. I&apos;m immensely pleased with my incredible team, whose dedication and passion are shaping a future where the gift of Hearing becomes a reality for all.
+                I&apos;m Mrs. Neelam, Director at Hearing Hope, where I&apos;ve dedicated 15+ years. It&apos;s my dream to gift everyone the hope of hearing. I&apos;m immensely pleased with my incredible team, whose dedication and passion are shaping a future where the gift of Hearing becomes a reality for all.
               </p>
             </div>
           </div>
@@ -31,7 +31,7 @@ const AboutCard = () => {
         <div className={styles.flipCard}>
           <div className={styles.flipCardInner}>
             <div className={styles.flipCardFront} style={{borderRadius:'11px'}}>
-              <Image src="/Aditya.jpg" alt="Avatar" width={300} height={400} className={styles.cardImage} style={{borderRadius:'11px'}} />
+              <Image src="/About/Harshi.jpg" alt="Avatar" width={300} height={400} className={styles.cardImage} style={{borderRadius:'11px',objectFit:'cover'}} />
             </div>
             <div className={styles.flipCardBack} >
               <h1>Dr. Harshi</h1>
@@ -47,10 +47,10 @@ const AboutCard = () => {
         <div className={styles.flipCard}>
           <div className={styles.flipCardInner}>
             <div className={styles.flipCardFront} style={{borderRadius:'11px'}}>
-              <Image src="/AboutBhawna.png" alt="Avatar" width={300} height={400} className={styles.cardImage} style={{borderRadius:'11px'}} />
+              <Image src="/About/Bhawna.jpg" alt="Avatar" width={300} height={400} className={styles.cardImage} style={{borderRadius:'11px',objectFit:'cover'}} />
             </div>
             <div className={styles.flipCardBack}>
-              <h1>Mrs. Bhawna</h1>
+              <h1>Ms. Bhawna</h1>
               <p style={{ marginTop: '10px' }}>Business Development Manager</p>
               <p style={{ marginTop: '20px', textAlign: 'start' }}>
                 Greetings, I&apos;m Mrs. Bhawna, the Business Development Manager at Hearing Hope. This remarkable journey with Hearing Hope has not just been a career but a platform for my personal growth. It&apos;s fulfilling to be part of a team dedicated to making a meaningful impact by connecting people with the gift of hearing.
@@ -59,6 +59,42 @@ const AboutCard = () => {
           </div>
         </div>
       </div>
+
+        <div className={styles.card}>
+        {/* Card 4 */}
+        <div className={styles.flipCard}>
+          <div className={styles.flipCardInner}>
+            <div className={styles.flipCardFront} style={{borderRadius:'11px'}}>
+              <Image src="/About/Saksham.jpg" alt="Avatar" width={300} height={400} className={styles.cardImage} style={{borderRadius:'11px', objectFit:'cover'}} />
+            </div>
+            <div className={styles.flipCardBack}>
+              <h1>Mr. Saksham</h1>
+              <p style={{ marginTop: '10px' }}>Techincal Staff</p>
+              <p style={{ marginTop: '20px', textAlign: 'start' }}>
+              Meet Mr. Saksham, our skilled Developer at Hearing Hope. With a passion for innovation, he brings a wealth of expertise to our technological initiatives. Saksham is instrumental in crafting seamless digital experiences that amplify our mission. His commitment to excellence ensures that Hearing Hope remains at the forefront of accessible and user-friendly solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+         {/* Card 5 */}
+         <div className={styles.flipCard}>
+          <div className={styles.flipCardInner}>
+            <div className={styles.flipCardFront} style={{borderRadius:'11px'}}>
+              <Image src="/About/Mohit.jpg" alt="Avatar" width={300} height={400} className={styles.cardImage} style={{borderRadius:'11px', objectFit:'cover'}} />
+            </div>
+            <div className={styles.flipCardBack}>
+              <h1>Mr. Mohit</h1>
+              <p style={{ marginTop: '10px' }}>Audiologist</p>
+              <p style={{ marginTop: '20px', textAlign: 'start' }}>
+              Hello, I&apos;m Mr. Mohit, an Audiologist at Hearing Hope. My commitment is to your hearing health. From thorough assessments to personalized hearing aid fittings, I&apos;m here for your unique needs. Trust me to guide you on a journey to optimal hearing, where compassionate care meets professional excellence.
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
     </div>
   );
 };

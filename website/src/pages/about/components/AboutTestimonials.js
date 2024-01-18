@@ -7,49 +7,49 @@ const AboutTestimonials = () => {
     {
       id: 1,
       name: 'Ritik Mehta',
-      imge: '/R.png',
+      imge: 'R.png',
       stars: 5,
       review: 'Hello, I am Ritik. I recently bought a hearing aid from here. People were there very friendly and helpful and explained it very calmly and reasonably how to use it and their service was very good.',
     },
     {
       id: 2,
       name: 'Suman Kumar Mishra',
-      imge: '/S.png',
+      imge: 'S.png',
       stars: 5,
       review: 'Got a new machine feeling better and balanced. Most importantly, they understand the need of a person who visits. Good experience doctor with expertise and staff well mannered. Thank you',
     },
     {
       id: 3,
       name: 'Rahul Marwah',
-      imge: '/R.png',
+      imge: 'R.png',
       stars: 5,
       review: 'The staff is very co-operative. They provide the best services to their patients. Thanks.',
     },
     {
       id: 4,
       name: 'Prakash Sharma',
-      imge: '/P.png',
+      imge: 'P.png',
       stars: 5,
       review: 'I am a repeat customer of Hearing Hope and bought my new Hearing Aids from them. The whole team is very customer-friendly and gives service with a smile. All the very best to the whole team! ',
     },
     {
       id: 5,
       name: 'Vasundhra Sharma',
-      imge: '/V.png',
+      imge: 'V.png',
       stars: 5,
       review: 'Amazing experience and trusted when it comes to product, pricing, and after-sale services. Would highly recommend.',
     },
     {
       id: 6,
       name: 'Srishti Banzal',
-      imge: '/S.png',
+      imge: 'S.png',
       stars: 5,
       review: 'The staff was very professional and friendly. They gave my grandmother a very good audiometry and hearing aid trial at home. I would recommend Hearing Hope for your needs.',
     },
     {
       id: 7,
       name: 'Gaurav Vij',
-      imge: '/G.png',
+      imge: 'G.png',
       stars: 5,
       review: 'Happy with service. Explained about the product and provided a good hearing aid for my brother.',
     },
@@ -65,7 +65,7 @@ const AboutTestimonials = () => {
             <div className={styles.userInfo}>
               <Image
                 className={styles.userimge}
-                src={`${review.imge}`}
+                src={`/About/${review.imge}`}
                 alt={`${review.name}'s avatar`}
                 width={50}
                 height={50}
@@ -74,7 +74,7 @@ const AboutTestimonials = () => {
                 {review.name}
                 <span className={styles.rating}>{'\u2605'.repeat(review.stars)}</span>
               </div>
-              <Image src='/google.png' alt='google' height={30} width={30} />
+              <Image src='/About/google.png' alt='google' height={30} width={30} />
             </div>
             <div className={styles.review}>{review.review}</div>
           </div>

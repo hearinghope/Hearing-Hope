@@ -1,5 +1,6 @@
 // ServiceStrip2.js
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/service.module.css';
 
 const ServiceStrip2 = () => {
@@ -8,7 +9,7 @@ const ServiceStrip2 = () => {
       <div className={styles.serviceStripContent}>
         <div className={styles.serviceStripImage}>
           <Image
-            src='/HearingAids.png'
+            src='/Service/HearingAids.png'
             alt='Hearing Aids'
             width={390} // Set the desired width
             height={380} // Set the desired height
@@ -21,9 +22,11 @@ const ServiceStrip2 = () => {
           </p>
         </div>
         <div className={styles.serviceStripButtons}>
-          <button className={styles.btn}>
+          <Link href="/contact" legacyBehavior>
+          <a><button className={styles.btn}>
             <span>Book an appointment</span>
-          </button>
+          </button></a>
+          </Link>
         </div>
       </div>
     </div>

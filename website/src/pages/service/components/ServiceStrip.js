@@ -28,11 +28,11 @@ const ServiceStrip = () => {
         <div className={styles.serviceButtons}>
           <button className={styles.btn} onClick={handleWhatsAppButtonClick}>
             <span>WhatsApp</span>
-            <Image src="/whatsapp.webp" alt="WhatsApp" width={20} height={20} style={{ marginLeft: '5px' }} />
+            <Image src="/Service/whatsapp.webp" alt="WhatsApp" width={20} height={20} style={{ marginLeft: '5px' }} />
           </button>
           <button className={styles.btn} onClick={handleCallButtonClick}>
             <span>Call Now</span>
-            <Image src="/call.png" alt="Call Now" width={20} height={20} style={{ marginLeft: '5px' }} />
+            <Image src="/Service/call.png" alt="Call Now" width={20} height={20} style={{ marginLeft: '5px' }} />
           </button>
         </div>
       </div>

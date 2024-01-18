@@ -63,7 +63,7 @@ const IndexTestimonials = () => {
           <div key={review.id} className={styles.Testimonialcard}>
             <div className={styles.userInfo}>
               <Image
-                src={`/${review.imge}`} // Assuming your images are in the public directory
+                src={`/Home/${review.imge}`} // Assuming your images are in the public directory
                 alt={`${review.name}'s avatar`}
                 height={50}
                 width={50}
@@ -73,7 +73,7 @@ const IndexTestimonials = () => {
                 {review.name}
                 <span className={styles.rating}>{'\u2605'.repeat(review.stars)}</span>
               </div>
-              <Image src="/google.png" alt="google" height={30} width={30} />
+              <Image src="/Home/google.png" alt="google" height={30} width={30} />
             </div>
             <div className={styles.review}>{review.review}</div>
           </div>

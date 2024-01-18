@@ -6,16 +6,16 @@ const IndexCards = ({ imgeSrc, text }) => {
   return (
     <Link href="/service">
       <div className={styles.card}>
-        <Image src={imgeSrc} alt={text} width={400} height={200} style={{borderRadius:'11px'}}/>
+        <Image src={imgeSrc} alt={text} width={350} height={170} style={{borderRadius:'11px'}}/>
       </div>
     </Link>
   );
 };
 // Page logic
 const cardsData = [
-  { id: 1, imgeSrc: '/IndexCard1.png', text: 'Hearing Aids' },
-  { id: 2, imgeSrc: '/IndexCard3.png', text: 'Hearing Tests' },
-  { id: 3, imgeSrc: '/IndexCard2.png', text: 'Hearing Speech Therapy' },
+  { id: 1, imgeSrc: '/Home/IndexCard1.png', text: 'Hearing Aids' },
+  { id: 2, imgeSrc: '/Home/IndexCard2.png', text: 'Hearing Tests' },
+  { id: 3, imgeSrc: '/Home/IndexCard3.png', text: 'Hearing Speech Therapy' },
 ];
 
 const Home = () => {

@@ -7,12 +7,12 @@ const ProductsBest2 = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const productsData = [
-    { id: 1, imgUrl: '/Product2.png', description: 'Product 1' },
-    { id: 2, imgUrl: '/Product2.png', description: 'Product 2' },
-    { id: 3, imgUrl: '/Product2.png', description: 'Product 3' },
-    { id: 4, imgUrl: '/Product2.png', description: 'Product 4' },
-    { id: 5, imgUrl: '/Product2.png', description: 'Product 5' },
-    { id: 6, imgUrl: '/Product2.png', description: 'Product 6' },
+    { id: 1, imgUrl: '/Products/Product2.png', description: 'Product 1' },
+    { id: 2, imgUrl: '/Products/PureDry&CleanCharger.png', description: 'Pure Dry & Clean Charger' },
+    { id: 3, imgUrl: '/Products/Pure CnG IX.png', description: 'Pure CnG IX' },
+    { id: 4, imgUrl: '/Products/SilkCNGIX.png', description: 'Silk CNG IX' },
+    { id: 5, imgUrl: '/Products/Pure Charger.png', description: 'Pure Charger' },
+    { id: 6, imgUrl: '/Products/PureCNG.png', description: 'Pure CNG' },
   ];
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const ProductsBest2 = () => {
   
     const interval = setInterval(() => {
       handleAutomaticScroll('right');
-    }, 0); // Adjust the duration for automatic scrolling
+    }, 7000); // Adjust the duration for automatic scrolling
   
     return () => clearInterval(interval);
   }, [currentSlide, productsData.length]);
@@ -61,7 +61,7 @@ const ProductsBest2 = () => {
             <Image
               src={product.imgUrl}
               alt={`Product ${product.id}`}
-              width={450} // Adjust the width
+              width={500} // Adjust the width
               height={250} // Adjust the height
             />
             <p className={styles.ProductsName}>{product.description}</p>

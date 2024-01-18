@@ -16,13 +16,13 @@ const ServiceTypes = () => {
             </p>
             <button type='button' className={styles.ServiceTypesButton}>Know More</button>
           </div>
-          <div className={styles.AboutServiceImageContainer}>
+          <div className={styles.AboutServiceImageContainer2}>
             <Image
-              src="/ServiceAbout.avif"
-              alt="Service image"
-              width={400}
+              src="/Service/ServiceHearingAids.png"
+              alt="Service Hearing Aids"
+              width={370}
               height={300}
-              style={{borderRadius:'12px'}}
+              style={{borderRadius:'12px', objectFit:'cover'}}
             />
           </div>
         </div>
@@ -33,13 +33,13 @@ const ServiceTypes = () => {
           <h2 className={styles.ServiceTypesHeading}>Hearing Test</h2>
         </div>
         <div className={styles.ServiceAboutContainer}>
-          <div className={styles.AboutServiceImageContainer}>
+          <div className={styles.AboutServiceImageContainer2}>
             <Image
-              src="/ServiceHearingTest.jpg"
-              alt="Service image"
-              width={400}
+              src="/Service/ServiceHearingTest.jpg"
+              alt="Service Hearing Test"
+              width={370}
               height={300}
-              style={{borderRadius:'12px'}}
+              style={{width:"500",borderRadius:'12px', objectFit:'cover'}}
             />
           </div>
           <div className={styles.ServiceAboutTextContainer}>
@@ -62,13 +62,13 @@ const ServiceTypes = () => {
             </p>
             <button type='button' className={styles.ServiceTypesButton}>Know More</button>
           </div>
-          <div className={styles.AboutServiceImageContainer}>
+          <div className={styles.AboutServiceImageContainer2}>
             <Image
-              src="/ServiceAbout.avif"
-              alt="Service image"
-              width={400}
+              src="/Service/ServiceAbout.avif"
+              alt="Speech Therapy"
+              width={370}
               height={300}
-              style={{borderRadius:'12px'}}
+              style={{borderRadius:'12px', objectFit:'cover'}}
             />
           </div>
         </div>

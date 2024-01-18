@@ -9,8 +9,8 @@ const AboutHeader = ({ start, end, heading }) => {
       <CountUp
         start={start}
         end={end}
-        duration={3}
-        formattingFn={(value) => (value <= 50000 ? `${value.toLocaleString()}+` : value.toLocaleString())}
+        duration={10}
+        formattingFn={(value) => (value <= 55000 ? `${value.toLocaleString()} +` : value.toLocaleString())}
         className={styles.CountUp}
       />
       <h2>{heading}</h2>
@@ -23,12 +23,12 @@ const Page = () => {
     { start: 0, end: 15, heading: 'Years of Experience' },
     { start: 1000, end: 20000, heading: 'Happy Customers' },
     { start: 1000, end: 50000, heading: 'Hearing Aids Sold' },
-    { start: 1000, end: 50000, heading: 'Hearing Tests' },
+    { start: 1000, end: 55000, heading: 'Hearing Tests' },
   ];
 
   return (
     <div className={styles.AboutContainer}>
-      <Image src='/AboutHeader.png' alt='AboutHeader' width={1200} height={600} />
+      <Image src='/About/AboutHeader.png' alt='AboutHeader' width={1200} height={600} />
       <div className={styles.countersContainer}>
         {counters.map((counter, index) => (
           <AboutHeader

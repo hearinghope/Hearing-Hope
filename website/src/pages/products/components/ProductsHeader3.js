@@ -6,10 +6,10 @@ const ProductsHeader3 = () => {
     <div className={styles.ProductsContainer}>
       <div className={styles.ProductsContent}>
         <h1>All Products</h1>
-        <p>We are a private, independent practice constantly striving to provide excellence in personalized, compassionate care that is consistent, quality-driven, and choice-conscious for all of our patients. Our staff is well trained, caring, and professional. Each and every one of us respects the diversity and dignity of our patients. We welcome advances in learning and technology in an effort to achieve efficient and quality-driven patient care.</p>
+        <p>Experience the pinnacle of hearing innovation with Hearing Hope&apos;s Signia collection. From discreet designs to powerful digital solutions, each Signia hearing aid combines cutting-edge technology with comfort and style. Rediscover the joy of clear, natural sound as we redefine your auditory experience. At Hearing Hope, we&apos;re committed to bringing you the best in hearing solutions.</p>
       </div>
       <div className={styles.Productsimge}>
-        <Image src='/Product2.png' alt='Best Seller' width={800} height={600} />
+        <Image src='/Products/Styletto RIC.png' alt='Best Seller' width={800} height={600} />
       </div>
     </div>
   );
