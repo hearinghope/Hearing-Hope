@@ -13,14 +13,28 @@ const images = [
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
+    const preloadImages = images.map((image, index) => {
+      const img = new window.Image(); // Use the native Image constructor
+      img.src = image.path;
+      img.onload = () => {
+        if (index === images.length - 1) {
+          setIsLoaded(true);
+        }
+      };
+      return img;
+    });
+
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000); // Change slide every 5 seconds
+      if (isLoaded) {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+      }
+    }, 4000); // Change slide every 4 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [isLoaded]);
 
   return (
     <div className={styles.Homecarousel}>
@@ -28,7 +42,11 @@ const Carousel = () => {
         <div
           key={index}
           className={`${styles.Homeslide} ${index === currentIndex ? styles.Homeactive : ''}`}
-          style={{ opacity: index === currentIndex ? 1 : 0, transition: 'opacity 1s easy-in-out' }}
+          style={{
+            display: index === currentIndex ? 'block' : 'none',
+            transition: 'display 1s ease-in-out',
+            zIndex: index === currentIndex ? 1 : 0,
+          }}
         >
           <Image src={image.path} alt={`Slide ${index + 1}`} width={image.width} height={image.height} />
         </div>

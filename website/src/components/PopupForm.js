@@ -27,32 +27,6 @@ const PopupForm = ({ onClose }) => {
 
   const router = useRouter();
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    try {
-      // Store data in Firestore
-      const docRef = await addDoc(collection(db, 'contactForms'), formData);
-      console.log('Document written with ID: ', docRef.id);
-
-      // Handle successful form submission
-
-      // Close the popup form
-      onClose();
-
-      // Set a flag in localStorage to indicate that the popup has been shown
-      localStorage.setItem('hasPopupBeenShown', 'true');
-
-      // Navigate to the home page
-      router.push('/');
-
-      console.log('Form submitted successfully');
-    } catch (error) {
-      // Handle failed form submission
-      console.error('Error submitting form:', error);
-    }
-  };
-
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -60,7 +34,55 @@ const PopupForm = ({ onClose }) => {
     });
   };
 
-  const [isVisible, setIsVisible] = useState(false);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+  
+    try {
+      console.log('Form Data:', formData); // Log the form data
+  
+      // Check for empty fields in formData
+      const isEmptyData = Object.values(formData).some(value => value === '');
+  
+      if (isEmptyData) {
+        console.error('Form data contains empty fields');
+        return;
+      }
+  
+      // Store data in Firestore
+      const docRef = await addDoc(collection(db, 'contactForms'), formData);
+      console.log('Document written with ID: ', docRef.id);
+  
+      // Clear the form after successful submission
+      setFormData({
+        Name: '',
+        Email: '',
+        PhoneNumber: '',
+        Message: '',
+      });
+  
+      alert("We'll get back to you within 24 hours.");
+  
+      // Close the popup form
+      onClose();
+  
+      // Set a flag in localStorage to indicate that the popup has been shown
+      localStorage.setItem('hasPopupBeenShown', 'true');
+  
+      // Navigate to the home page
+      router.push('/');
+  
+      console.log('Form submitted successfully');
+    } catch (error) {
+      // Handle failed form submission
+      console.error('Error submitting form:', error);
+    }
+  };
+  
+  
+
+
+
+  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
     // Check if the popup should be visible based on a flag in localStorage
@@ -89,13 +111,14 @@ const PopupForm = ({ onClose }) => {
             <h1 style={{ color: '#ff6600', marginBottom: '20px', fontSize: '35px' }}>Connect With Us</h1>
           </center>
           <label>Name: </label>
-          <input type="text" placeholder="Your Name..." onChange={handleChange} />
-          <label>Phone Number: </label>
-          <input type="tel" placeholder="+91 ...." />
-          <label>Email: </label>
-          <input type="email" placeholder="@gmail.com" onChange={handleChange} />
-          <label>Message: </label>
-          <input type="text" placeholder="Optional..." onChange={handleChange} />
+<input type="text" name="Name" placeholder="Your Name..." onChange={handleChange} />
+<label>Phone Number: </label>
+<input type="tel" name="PhoneNumber" placeholder="+91 ...." onChange={handleChange} />
+<label>Email: </label>
+<input type="email" name="Email" placeholder="@gmail.com" onChange={handleChange} />
+<label>Message: </label>
+<input type="text" name="Message" placeholder="Optional..." onChange={handleChange} />
+
 
           <div className={styles.FormSubmit}>
             <button type="submit" onClick={handleSubmit}>
