@@ -16,9 +16,9 @@ const ServiceTypes = () => {
             </p>
             <button type='button' className={styles.ServiceTypesButton}>Know More</button>
           </div>
-          <div className={styles.AboutServiceImageContainer2}>
+          <div className={styles.AboutServiceimge}>
             <Image
-              src="/Service/ServiceHearingAids.png"
+              src="/Service/ServiceHearingAids.jpg"
               alt="Service Hearing Aids"
               width={370}
               height={300}
@@ -33,7 +33,7 @@ const ServiceTypes = () => {
           <h2 className={styles.ServiceTypesHeading}>Hearing Test</h2>
         </div>
         <div className={styles.ServiceAboutContainer}>
-          <div className={styles.AboutServiceImageContainer2}>
+          <div className={styles.AboutServiceimge}>
             <Image
               src="/Service/ServiceHearingTest.jpg"
               alt="Service Hearing Test"
@@ -62,9 +62,9 @@ const ServiceTypes = () => {
             </p>
             <button type='button' className={styles.ServiceTypesButton}>Know More</button>
           </div>
-          <div className={styles.AboutServiceImageContainer2}>
+          <div className={styles.AboutServiceimge}>
             <Image
-              src="/Service/ServiceAbout.avif"
+              src="/Service/ServiceSpeechTherapy.png"
               alt="Speech Therapy"
               width={370}
               height={300}

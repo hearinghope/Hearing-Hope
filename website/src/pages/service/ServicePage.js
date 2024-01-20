@@ -1,5 +1,4 @@
 import Navbar from '@/components/Navbar';
-import ServiceHeader from './components/ServiceHeader';
 import styles from './styles/service.module.css';
 import Footer from '@/components/Footer';
 import Head from 'next/head';

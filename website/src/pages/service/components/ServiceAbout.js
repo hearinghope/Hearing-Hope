@@ -3,7 +3,7 @@ import styles from '../styles/service.module.css';
 
 const ServiceAbout = () => {
   return (
-    <div className={styles.ServiceAboutContainer}>
+    <div className={styles.ServiceAboutContainer2}>
       <div className={styles.ServiceAboutTextContainer}>
         <h2 className={styles.ServiceAboutHeading}>Our Services</h2>
         <p className={styles.ServiceAboutDescription}>
@@ -11,7 +11,7 @@ const ServiceAbout = () => {
         </p>
       </div>
       <div className={styles.AboutServiceimge}>
-        <Image src="/Service/OurService.jpg" alt="Service image" width={400} height={300} style={{ borderRadius: '9px', objectFit: 'cover', objectPosition: 'center' }} />
+        <Image src="/Service/OurService.jpg" alt="Service image" width={370} height={300} style={{ borderRadius: '9px', objectFit: 'cover', objectPosition: 'center' }} />
       </div>
     </div>
   );

@@ -10,10 +10,10 @@ const ProductsBest3 = () => {
   const certificationsData = useMemo(() => [
     { id: 1, imgeUrl: '/Products/BestSeller.png', description: 'Silk Rechargeable IX' },
     { id: 2, imgeUrl: '/Products/SilkNxCouple.png', description: 'Silk Nx Couple' },
-    { id: 3, imgeUrl: '/Products/Motion CnG XP.png', description: 'Motion CnG XP' },
+    { id: 3, imgeUrl: '/Products/Motion CnG SP X.png', description: 'Motion CnG SP X' },
     { id: 4, imgeUrl: '/Products/Styletto RIC.png', description: 'Styletto RIC' },
     { id: 5, imgeUrl: '/Products/Pure312X.png', description: 'Pure 312X' },
-    { id: 6, imgeUrl: '/Products/Insio ITC Nx.png', description: 'Insio ITC Nx' },
+    { id: 6, imgeUrl: '/Products/X Charger Styletto.png', description: 'X Charger Styletto' },
     { id: 7, imgeUrl: '/Products/Product2.png', description: 'Kit Pure Charge & Go 1AX' },
     { id: 8, imgeUrl: '/Products/InsioCharge&GoAX.png', description: 'Kit Insio Charge & Go AX' },
     { id: 9, imgeUrl: '/Products/ActivePro.png', description: 'Kit Active Pro' },

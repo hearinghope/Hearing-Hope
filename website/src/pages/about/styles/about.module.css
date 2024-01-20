@@ -40,9 +40,12 @@
     font-weight: 600;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 780px) {
     .countersContainer {
       flex-direction: column;
+    }
+    .AboutContainer{
+      margin-top: 100px
     }
     .AboutContainer img {
       width: 100%;
@@ -257,19 +260,8 @@
   margin-top: 10px;
 }
 
-@media (max-width: 370px) {
-  .Testimonialcontainer{
-    margin-top: 450px;
-    margin-bottom: 450px;
-  }
 
-  .TestimonialcardContainer{
-    width: 100%;
-  }
-  .card {
-    width: 100%;
-  }
-}
+
 
 @media (max-width: 600px) {
   .TestimonialcardContainer{
@@ -287,8 +279,34 @@
   .card {
     width: 48%;
   }
-}
 
+}
+@media (max-width: 450px) {
+  .Testimonialcontainer{
+    margin-top: 450px;
+    margin-bottom: 450px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+@media (max-width: 370px) {
+  .Testimonialcontainer{
+    margin-top: 450px;
+    margin-bottom: 230px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
 
 /*-------- ABOUT CERTIFICATE ---------*/
 
@@ -383,9 +401,32 @@
   }
   
   /* Responsive Styles */
+
+  @media (max-width: 864px) {
+    .carouselContainer{
+      margin-top: 130px;
+    }
+    .certificationItem {
+      width: 100%;
+      max-width: none;
+      margin-right: 0;
+    }
+  }
+
   @media (max-width: 768px) {
     .carouselContainer{
-      margin-top: 280px;
+      margin-top: 100px;
+    }
+    .certificationItem {
+      width: 100%;
+      max-width: none;
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .carouselContainer{
+      margin-top: 120px;
     }
     .certificationItem {
       width: 100%;

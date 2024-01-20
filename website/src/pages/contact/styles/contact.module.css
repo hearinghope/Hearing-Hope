@@ -78,7 +78,7 @@
 .formControl {
   width: 100%;
   padding: 10px;
-  color: black;
+  color: teal;
   border: none;
   border-bottom: 1px solid black;
   background-color: transparent;
@@ -113,7 +113,7 @@
 
 /* Info Wrap Styles */
 .infoWrap {
-  background: url(../../../../public/Contact/contactForm-Image.png);
+  background: url('/Contact/ContactForm-Image.jpg');
   background-size: cover;
   color: white;
   border-radius: 5px 0px 0px 5px;
@@ -147,13 +147,9 @@
   margin-bottom: 10px;
 }
 
-/* Text Styles */
 .text {
   flex: 1;
 }
-
-/* Responsive Styles */
-/* ... (your existing styles) */
 
 /* Responsive Styles */
 @media (max-width: 767px) {
@@ -234,6 +230,7 @@
   background: linear-gradient(90deg, rgba(218,87,0,1) 0%, rgba(255,132,50,1) 33%, rgba(255,172,117,1) 65%, rgba(218,87,0,1) 100%);
   color: #fff;
   padding: 20px;
+  margin-top: 70px;
 }
 
 .contactStripContent {
@@ -296,6 +293,13 @@
   .contactButtons {
     margin-top: 0;
     margin-left: 20px;
+  }
+  
+}
+
+@media (max-width: 769px) {
+  .contactStripContainer{
+    margin-top: 100px;
   }
   
 }
@@ -365,8 +369,6 @@
   margin-bottom: 40px;
 }
 
-.mapBox {
-}
 
 .mapHeading {
   text-align: center;

@@ -1,9 +1,47 @@
 import Image from 'next/image'; // Import the Image component
 import Link from 'next/link'; // Import the link component
 import styles from '../styles/contact.module.css';
+import { useState } from 'react';
 
+  const ContactHeader = () => {
+    const [formData, setFormData] = useState({
+      Name: '',
+      Email: '',
+      'Phone Number': '',
+      Message: '',
+    });
+  
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+  
+      try {
+        const response = await fetch('URL_TO_YOUR_GOOGLE_APPS_SCRIPT', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+  
+        if (response.ok) {
+          // Handle successful form submission
+          console.log('Form submitted successfully');
+        } else {
+          // Handle failed form submission
+          console.error('Form submission failed');
+        }
+      } catch (error) {
+        console.error('Error submitting form:', error);
+      }
+    };
+  
+    const handleChange = (e) => {
+      setFormData({
+        ...formData,
+        [e.target.name]: e.target.value,
+      });
+    };
 
-const ContactHeader = () => {
   return (
     <section className={styles.contactSection}>
       <div className={styles.container}>
@@ -40,7 +78,7 @@ const ContactHeader = () => {
                     <div className={styles.text}>
                       <p>
                         <span style={{ color: '#ff6600' }}><b>Email:</b></span>{' '}
-                        <Link href="mailto:info@yoursite.com">Hearinghope@gmail.com</Link>
+                        <Link href="mailto:Hearinghope@gmail.com">Hearinghope@gmail.com</Link>
                       </p>
                     </div>
                   </div>
@@ -48,7 +86,7 @@ const ContactHeader = () => {
               </div>
               <div className={`${styles.colMd7} ${styles.flexAlignStretch}`}>
                 <div className={styles.contactWrap}>
-                  <form className={styles.formContainer} method="POST" id={styles.contactForm} name="contactForm" >
+                  <form className={styles.formContainer} method="POST" id={styles.contactForm} name="contactForm" onSubmit={handleSubmit}>
                     <div className={styles.row}>
                       <div className={styles.colMd6}>
                         <div className={styles.formGroup}>
@@ -58,6 +96,7 @@ const ContactHeader = () => {
                             name="Name"
                             id="name"
                             placeholder="Name"
+                            onChange={handleChange}
                           />
                         </div>
                       </div>
@@ -69,6 +108,7 @@ const ContactHeader = () => {
                             name="Email"
                             id="email"
                             placeholder="Email"
+                            onChange={handleChange}
                           />
                         </div>
                       </div>
@@ -79,6 +119,7 @@ const ContactHeader = () => {
                             className={styles.formControl}
                             name="Phone Number"
                             id="subject"
+                            onChange={handleChange}
                             placeholder="+91..."
                           />
                         </div>
@@ -92,6 +133,7 @@ const ContactHeader = () => {
                             cols="30"
                             rows="7"
                             placeholder="Message"
+                            onChange={handleChange}
                           ></textarea>
                         </div>
                       </div>
@@ -116,5 +158,6 @@ const ContactHeader = () => {
     </section>
   );
 };
+
 
 export default ContactHeader;

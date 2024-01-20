@@ -6,15 +6,27 @@ import styles from './styles/navbar.module.css';
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isNavbarVisible, setNavbarVisible] = useState(true);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
 
+  const handleNavbarVisibility = () => {
+    setNavbarVisible(!isNavbarVisible);
+  };
+
   return (
-    <div className={`${styles.navbar} ${isMenuOpen ? styles.open : ''}`}>
+    <div
+  className={`${styles.navbar} ${isMenuOpen ? styles.open : ''} ${
+    isNavbarVisible ? styles.visible : ''
+  }`}
+  onMouseEnter={() => handleNavbarVisibility()}
+>
       <div className={styles.logo}>
+        <Link href='/'>
         <Image src="/logo-transparent.png" alt="logo" height={100} width={100} />
+        </Link>
       </div>
 
       <div className={`${styles.navLinks} ${isMenuOpen ? styles.open : ''}`}>

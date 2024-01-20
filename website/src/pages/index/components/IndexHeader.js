@@ -5,7 +5,7 @@ const IndexHeader = () => {
   return (
     <div className={styles.header}>
       <Image
-        src="/Home/HomeCarousel1.png" // Adjust the path based on your project structure
+        src="/Home/HomeCarousel2.png" // Adjust the path based on your project structure
         alt="HomeCarousel"
         width={1200}
         height={600}
