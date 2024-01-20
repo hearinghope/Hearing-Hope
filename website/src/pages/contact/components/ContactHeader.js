@@ -7,7 +7,7 @@ import { useState } from 'react';
     const [formData, setFormData] = useState({
       Name: '',
       Email: '',
-      'Phone Number': '',
+      PhoneNumber: '',
       Message: '',
     });
   
@@ -117,7 +117,7 @@ import { useState } from 'react';
                           <input
                             type='tel'
                             className={styles.formControl}
-                            name="Phone Number"
+                            name="PhoneNumber"
                             id="subject"
                             onChange={handleChange}
                             placeholder="+91..."
