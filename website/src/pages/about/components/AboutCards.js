@@ -69,7 +69,7 @@ const AboutCard = () => {
             </div>
             <div className={styles.flipCardBack}>
               <h1>Mr. Saksham</h1>
-              <p style={{ marginTop: '10px' }}>Techincal Staff</p>
+              <p style={{ marginTop: '10px' }}>Digital Marketing Expert</p>
               <p style={{ marginTop: '20px', textAlign: 'start' }}>
               Meet Mr. Saksham, our skilled Developer at Hearing Hope. With a passion for innovation, he brings a wealth of expertise to our technological initiatives. Saksham is instrumental in crafting seamless digital experiences that amplify our mission. His commitment to excellence ensures that Hearing Hope remains at the forefront of accessible and user-friendly solutions.
               </p>

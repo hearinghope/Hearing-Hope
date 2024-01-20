@@ -7,6 +7,8 @@ const images = [
   { path: '/Home/HomeCarousel1.png', width: 800, height: 600 },
   { path: '/Home/HomeCarousel2.png', width: 800, height: 600 },
   { path: '/Home/HomeCarousel3.png', width: 800, height: 600 },
+  { path: '/Home/HomeCarousel4.png', width: 800, height: 600 },
+  { path: '/Home/HomeCarousel5.png', width: 800, height: 600 },
 ];
 
 const Carousel = () => {
@@ -15,7 +17,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3500); // Change slide every 5 seconds
+    }, 4000); // Change slide every 5 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -26,7 +28,7 @@ const Carousel = () => {
         <div
           key={index}
           className={`${styles.Homeslide} ${index === currentIndex ? styles.Homeactive : ''}`}
-          style={{ opacity: index === currentIndex ? 1 : 0, transition: 'opacity 1s ease-in-out' }}
+          style={{ opacity: index === currentIndex ? 1 : 0, transition: 'opacity 1s easy-in-out' }}
         >
           <Image src={image.path} alt={`Slide ${index + 1}`} width={image.width} height={image.height} />
         </div>

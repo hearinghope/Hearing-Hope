@@ -1,46 +1,56 @@
 import Image from 'next/image'; // Import the Image component
 import Link from 'next/link'; // Import the link component
-import styles from '../styles/contact.module.css';
 import { useState } from 'react';
+import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, addDoc } from 'firebase/firestore';
+import styles from '../styles/contact.module.css';
 
-  const ContactHeader = () => {
-    const [formData, setFormData] = useState({
-      Name: '',
-      Email: '',
-      PhoneNumber: '',
-      Message: '',
-    });
-  
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-  
-      try {
-        const response = await fetch('URL_TO_YOUR_GOOGLE_APPS_SCRIPT', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(formData),
-        });
-  
-        if (response.ok) {
-          // Handle successful form submission
-          console.log('Form submitted successfully');
-        } else {
-          // Handle failed form submission
-          console.error('Form submission failed');
-        }
-      } catch (error) {
-        console.error('Error submitting form:', error);
-      }
-    };
-  
-    const handleChange = (e) => {
+const firebaseConfig = {
+  apiKey: "AIzaSyChtn1kg8jerQFj6t1dEP1Pwy0a9s0hEgI",
+  authDomain: "hearinghope-96349.firebaseapp.com",
+  projectId: "hearinghope-96349",
+  storageBucket: "hearinghope-96349.appspot.com",
+  messagingSenderId: "243314305458",
+  appId: "1:243314305458:web:2a3f79b072265c45b35cab",
+  measurementId: "G-WVMMKVE0G7"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+const ContactHeader = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phoneNumber: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      // Store data in Firestore
+      const docRef = await addDoc(collection(db, 'contactForms'), formData);
+      console.log('Document written with ID: ', docRef.id);
+
+      // Clear the form after successful submission
       setFormData({
-        ...formData,
-        [e.target.name]: e.target.value,
+        name: '',
+        email: '',
+        phoneNumber: '',
+        message: '',
       });
-    };
+      alert("We'll get back to you within 24 hours.");
+    } catch (error) {
+      console.error('Error adding document: ', error);
+    }
+  };
+
 
   return (
     <section className={styles.contactSection}>
@@ -93,9 +103,10 @@ import { useState } from 'react';
                           <input
                             type="text"
                             className={styles.formControl}
-                            name="Name"
+                            name="name"
                             id="name"
                             placeholder="Name"
+                            value={formData.name}
                             onChange={handleChange}
                           />
                         </div>
@@ -105,9 +116,10 @@ import { useState } from 'react';
                           <input
                             type="email"
                             className={styles.formControl}
-                            name="Email"
+                            name="email"
                             id="email"
                             placeholder="Email"
+                            value={formData.email}
                             onChange={handleChange}
                           />
                         </div>
@@ -115,12 +127,13 @@ import { useState } from 'react';
                       <div className={styles.colMd12}>
                         <div className={styles.formGroup}>
                           <input
-                            type='tel'
+                            type="tel"
                             className={styles.formControl}
-                            name="PhoneNumber"
+                            name="phoneNumber"
                             id="subject"
-                            onChange={handleChange}
                             placeholder="+91..."
+                            value={formData.phoneNumber}
+                            onChange={handleChange}
                           />
                         </div>
                       </div>
@@ -133,19 +146,22 @@ import { useState } from 'react';
                             cols="30"
                             rows="7"
                             placeholder="Message"
+                            value={formData.message}
                             onChange={handleChange}
                           ></textarea>
                         </div>
                       </div>
                       <div className={styles.colMd12}>
-                       <div className={styles.formGroup}>
-                        <input
-                         type="submit"
-                         className={styles.btnPrimary}
-                         value="Submit"
-                        />
-                        <div className={styles.submitting}></div>
-                       </div>
+                        <div className={styles.formGroup}>
+                          <input
+                            type="submit"
+                            className={styles.btnPrimary}
+                            value="Submit"
+                            onChange={handleChange}
+
+                          />
+                          <div className={styles.submitting}></div>
+                        </div>
                       </div>
                     </div>
                   </form>
