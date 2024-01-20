@@ -23,6 +23,38 @@
   }
 }
 
+
+/* styles/Carousel.module.css */
+
+.Homecarousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.Homeslide {
+  display: none;
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s ease-in-out;
+}
+
+.Homeactive {
+  display: block;
+}
+
+.Homeactive img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .Homecarousel {
+    margin-top: 100px;
+  }
+}
+
 /*--------- HOME CARDS -------------*/
 .HomeCards{
   width: 100%;

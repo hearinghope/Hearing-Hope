@@ -1,40 +1,40 @@
 import { useState } from 'react';
 import styles from '../styles/index.module.css';
 
-  const IndexFAQ = () => {
-    const [activeIndex, setActiveIndex] = useState(null);
-  
-    const handleAccordionClick = (index) => {
-      setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
-    };
-  
-    return (
-      <div className={styles.accordion}>
-        <h1>Frequently Asked Questions</h1>
-  
-        {faqData.map((faq, index) => (
-          <div className={styles.accordionItem} key={index}>
-            <input
-              type="checkbox"
-              id={`accordion${index + 1}`}
-              checked={activeIndex === index}
-            />
-            <label
-              htmlFor={`accordion${index + 1}`}
-              className={styles.accordionItemTitle}
-              onClick={() => handleAccordionClick(index)}
-            >
-              <span className={styles.icon}></span>
-              {faq.question}
-            </label>
-            <div className={`${styles.accordionItemDesc} ${activeIndex === index ? styles.active : ''}`}>
-              {faq.answer}
-            </div>
-          </div>
-        ))}
-      </div>
-    );
+const IndexFAQ = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const handleAccordionClick = (index) => {
+    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
+
+  return (
+    <div className={styles.accordion}>
+      <h1>Frequently Asked Questions</h1>
+
+      {faqData.map((faq, index) => (
+        <div className={styles.accordionItem} key={index}>
+          <input
+            type="checkbox"
+            id={`accordion${index + 1}`}
+            defaultChecked={activeIndex === index}
+          />
+          <label
+            htmlFor={`accordion${index + 1}`}
+            className={styles.accordionItemTitle}
+            onClick={() => handleAccordionClick(index)}
+          >
+            <span className={styles.icon}></span>
+            {faq.question}
+          </label>
+          <div className={`${styles.accordionItemDesc} ${activeIndex === index ? styles.active : ''}`}>
+            {faq.answer}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 const faqData = [
   {
