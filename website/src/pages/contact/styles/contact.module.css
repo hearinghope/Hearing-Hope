@@ -113,7 +113,8 @@
 
 /* Info Wrap Styles */
 .infoWrap {
-  background: url('/Contact/ContactForm-Image.jpg');
+  background: rgb(0,120,120);
+  background: linear-gradient(90deg, rgba(0,120,120,1) 0%, rgba(0,185,185,1) 30%, rgba(0,185,185,1) 60%, rgba(0,120,120,1) 100%);
   background-size: cover;
   color: white;
   border-radius: 5px 0px 0px 5px;
@@ -253,6 +254,8 @@
 
 .contactStripText h1 {
   margin: 0;
+  line-height: 23px;
+
 }
 
 .contactButtons {

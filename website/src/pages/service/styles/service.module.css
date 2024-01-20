@@ -139,6 +139,11 @@
   text-align: start;
 }
 
+.serviceStripText h1{
+  line-height: 23px;
+
+}
+
 .serviceStripButtons {
   margin-top: 20px;
 }
@@ -358,6 +363,7 @@
 
 .serviceStripText h1 {
   margin-bottom: 15px;
+  line-height: 23px;
 }
 
 .serviceButtons {
