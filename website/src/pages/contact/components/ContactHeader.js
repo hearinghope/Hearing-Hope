@@ -1,22 +1,26 @@
-import Image from 'next/image'; // Import the Image component
-import Link from 'next/link'; // Import the link component
+import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
-import { initializeApp } from 'firebase/app';
+import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';
 import styles from '../styles/contact.module.css';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyChtn1kg8jerQFj6t1dEP1Pwy0a9s0hEgI",
-  authDomain: "hearinghope-96349.firebaseapp.com",
-  projectId: "hearinghope-96349",
-  storageBucket: "hearinghope-96349.appspot.com",
-  messagingSenderId: "243314305458",
-  appId: "1:243314305458:web:2a3f79b072265c45b35cab",
-  measurementId: "G-WVMMKVE0G7"
+  apiKey: "AIzaSyCDaZ7cjeaI4UX-RxeA4D7VXEeIaWe-qwE",
+  authDomain: "hearing-hope.firebaseapp.com",
+  projectId: "hearing-hope",
+  storageBucket: "hearing-hope.appspot.com",
+  messagingSenderId: "441467204936",
+  appId: "1:441467204936:web:26380e59d9ed0969e92f7d",
+  measurementId: "G-4MEFFQ7855"
 };
 
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+if (!getApps().length) {
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  // Now you can use 'app' and 'db' throughout your application
+}
 
 const ContactHeader = () => {
   const [formData, setFormData] = useState({
@@ -34,6 +38,10 @@ const ContactHeader = () => {
     e.preventDefault();
 
     try {
+      // Ensure that 'db' is accessible here
+      const app = getApp(); // Retrieve the Firebase app
+      const db = getFirestore(app); // Retrieve the Firestore instance
+
       // Store data in Firestore
       const docRef = await addDoc(collection(db, 'contactForms'), formData);
       console.log('Document written with ID: ', docRef.id);
@@ -50,6 +58,7 @@ const ContactHeader = () => {
       console.error('Error adding document: ', error);
     }
   };
+
 
 
   return (

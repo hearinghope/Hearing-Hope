@@ -1,57 +1,51 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import styles from './styles/PopupForm.module.css';
-import { initializeApp } from 'firebase/app';
+import { getApps, initializeApp, getApp } from 'firebase/app';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyChtn1kg8jerQFj6t1dEP1Pwy0a9s0hEgI",
-  authDomain: "hearinghope-96349.firebaseapp.com",
-  projectId: "hearinghope-96349",
-  storageBucket: "hearinghope-96349.appspot.com",
-  messagingSenderId: "243314305458",
-  appId: "1:243314305458:web:2a3f79b072265c45b35cab",
-  measurementId: "G-WVMMKVE0G7"
+  apiKey: "AIzaSyCDaZ7cjeaI4UX-RxeA4D7VXEeIaWe-qwE",
+  authDomain: "hearing-hope.firebaseapp.com",
+  projectId: "hearing-hope",
+  storageBucket: "hearing-hope.appspot.com",
+  messagingSenderId: "441467204936",
+  appId: "1:441467204936:web:26380e59d9ed0969e92f7d",
+  measurementId: "G-4MEFFQ7855"
 };
 
-const app = initializeApp(firebaseConfig);
+// Ensure Firebase app is initialized only once
+let app;
+if (getApps().length === 0) {
+  app = initializeApp(firebaseConfig);
+} else {
+  app = getApp();
+}
 const db = getFirestore(app);
 
 const PopupForm = ({ onClose }) => {
   const [formData, setFormData] = useState({
-    Name: '',
-    Email: '',
-    PhoneNumber: '',
-    Message: '',
+    name: '',
+    email: '',
+    phoneNumber: '',
+    message: '',
   });
 
   const router = useRouter();
 
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+    setFormData({ ...formData, [e.target.name.toLowerCase()]: e.target.value });
+
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     try {
-      console.log('Form Data:', formData); // Log the form data
-  
-      // Check for empty fields in formData
-      const isEmptyData = Object.values(formData).some(value => value === '');
-  
-      if (isEmptyData) {
-        console.error('Form data contains empty fields');
-        return;
-      }
-  
       // Store data in Firestore
       const docRef = await addDoc(collection(db, 'contactForms'), formData);
       console.log('Document written with ID: ', docRef.id);
-  
+
       // Clear the form after successful submission
       setFormData({
         Name: '',
@@ -59,28 +53,23 @@ const PopupForm = ({ onClose }) => {
         PhoneNumber: '',
         Message: '',
       });
-  
       alert("We'll get back to you within 24 hours.");
-  
+
       // Close the popup form
       onClose();
-  
+
       // Set a flag in localStorage to indicate that the popup has been shown
       localStorage.setItem('hasPopupBeenShown', 'true');
-  
+
       // Navigate to the home page
       router.push('/');
-  
+
       console.log('Form submitted successfully');
     } catch (error) {
       // Handle failed form submission
       console.error('Error submitting form:', error);
     }
   };
-  
-  
-
-
 
   const [isVisible, setIsVisible] = useState(true);
 
@@ -106,19 +95,19 @@ const PopupForm = ({ onClose }) => {
   return (
     isVisible && (
       <div className={styles.popup}>
+        <form onSubmit={handleSubmit} method="POST">
         <div className={styles.formContainer}>
           <center>
             <h1 style={{ color: '#ff6600', marginBottom: '20px', fontSize: '35px' }}>Connect With Us</h1>
           </center>
           <label>Name: </label>
-<input type="text" name="Name" placeholder="Your Name..." onChange={handleChange} />
-<label>Phone Number: </label>
-<input type="tel" name="PhoneNumber" placeholder="+91 ...." onChange={handleChange} />
-<label>Email: </label>
-<input type="email" name="Email" placeholder="@gmail.com" onChange={handleChange} />
-<label>Message: </label>
-<input type="text" name="Message" placeholder="Optional..." onChange={handleChange} />
-
+          <input type="text" placeholder="Your Name..." name='name' onChange={handleChange} />
+          <label>Phone Number: </label>
+          <input type="tel" placeholder="+91 ...." name='phoneNumber' onChange={handleChange}/>
+          <label>Email: </label>
+          <input type="email" placeholder="@gmail.com" name='email' onChange={handleChange} />
+          <label>Message: </label>
+          <input type="text" placeholder="Optional..." name='message' onChange={handleChange} />
 
           <div className={styles.FormSubmit}>
             <button type="submit" onClick={handleSubmit}>
@@ -129,6 +118,7 @@ const PopupForm = ({ onClose }) => {
             </button>
           </div>
         </div>
+        </form>
       </div>
     )
   );
