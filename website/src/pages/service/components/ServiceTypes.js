@@ -1,6 +1,7 @@
-// ServiceTypes.js
 import styles from '../styles/service.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 const ServiceTypes = () => {
   return (
@@ -35,7 +36,7 @@ const ServiceTypes = () => {
         <div className={styles.ServiceAboutContainer}>
           <div className={styles.AboutServiceimge}>
             <Image
-              src="/Service/ServiceHearingTest.jpg"
+              src="/Service/ServiceHearingTest.png"
               alt="Service Hearing Test"
               width={370}
               height={300}
@@ -46,7 +47,9 @@ const ServiceTypes = () => {
             <p className={styles.ServiceAboutDescription}>
               At Hearing Hope, we prioritize your auditory well-being through meticulous Hearing Tests. Our dedicated team of audiologists, driven by a commitment to your satisfaction, employs advanced techniques to ensure precision in diagnostics. As a Signia Certified center, we take pride in delivering accurate assessments and customized solutions. Trust us to guide your journey to clearer hearing with expertise and care. At Hearing Hope, our focus extends beyond tests; we are here to offer a personalized and compassionate experience, ensuring that every step toward optimal hearing is supported by our unwavering commitment to your well-being.
             </p>
+            <Link href='/service/HearingTest' >
             <button type='button' className={styles.ServiceTypesButton}>Know More</button>
+            </Link>
           </div>
         </div>
       </div>

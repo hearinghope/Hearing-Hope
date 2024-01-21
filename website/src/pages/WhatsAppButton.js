@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 // Function to handle "Call Now" button click
 const handleCallNowClick = (phoneNumber) => {
   const telLink = `tel:${phoneNumber}`;
@@ -28,7 +28,7 @@ const WhatsAppButton = () => {
 
       {/* "Call Now" bar for mobile screens */}
       <div className="call-now-bar" onClick={() => handleCallNowClick(phoneNumber)}>
-        <span>Call Now</span>
+        <span><Image src='./CallPhone.svg' alt='CallPhone' width={22} height={22} className='CallPhone'></Image> Call Us Now</span>
       </div>
 
       <style jsx>{`
@@ -55,24 +55,33 @@ const WhatsAppButton = () => {
           width: 100%;
           background-color: #ff6600;
           z-index: 100;
-
+          align-items: center;
           color: white;
           text-align: center;
-          padding: 10px;
+          padding: 12px;
+          font-size:20px;
           cursor: pointer;
+        }
+
+        .CallPhone{
+          position:relative;
+          top:50px;
         }
 
         @media (max-width: 768px) {
           .float {
             /* Adjust the styles as needed for mobile screens */
             position: fixed;
-            bottom: 45px;
+            bottom: 60px;
             right: 15px;
             display: block;
+            
           }
-
+         
           .call-now-bar {
             display: block;
+            align-items: center;
+            
           }
         }
 

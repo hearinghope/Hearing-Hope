@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.column}>
-        <h3>Locations</h3>
+        <h3 style={{color:'#ff6600'}}>Locations</h3>
         <ul>
           <li>G-14, Ground Floor, Kings Mall, Twin District, Centre, Sector 10, Rohini.</li>
           <li>B, 7/108A, Safdarjung Enclave, opposite Deer Park, Block B 7, Arjun Nagar, Extension, New Delhi, Delhi 110029, India.</li>
@@ -21,7 +21,7 @@ const Footer = () => {
 
       <div className={styles.column2}>
         <div>
-          <h3>Useful Links</h3>
+          <h3 style={{color:'#ff6600'}}>Useful Links</h3>
           <ul>
             <Link href="/about"><li>About</li></Link>
             <Link href="/service"><li>Services</li></Link>
@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.socials}>
-        <h3>Socials</h3>
+        <h3 style={{color:'#ff6600'}}>Socials</h3>
         <div className={styles.socialIcons}>
           <Link href='https://www.instagram.com/hearinghope/'><Image src="/Components/instagram.png" alt="Instagram" width={100} height={40} /></Link>
           <Link href='https://www.facebook.com/people/Hearing-Hope/100063607797322/'><Image src="/Components/facebook.png" alt="Facebook" width={100} height={40} /></Link>

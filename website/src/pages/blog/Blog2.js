@@ -14,7 +14,7 @@ const Blog2 = () => {
           <h1>Hearing Hope: Opening Doors to a Vibrant and Connected Life</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Blog/ServiceAbout.avif' alt='Blog' height={200} width={300} />
+          <Image src='/Home/Home Blog2.png' alt='Blog' height={250} width={500} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}}  />
         </div>
         <div className={styles.BlogDescription}>
           <p>Imagine living a life in which every interaction, sound, and moment is distinct and alive. At Hearing Hope, we believe that everyone deserves to enjoy the joy and connection that come with having their hearing at its best. We are committed to providing individuals with hearing issues access to a vibrant and connected life through our assortment of services and unique solutions. This blog post will explore the many facets of Hearing Hope and how we can support you in regaining your hearing.</p>
@@ -42,7 +42,7 @@ const Blog2 = () => {
         </div>
   
         <div className={styles.BlogImage}>
-          <Image src='/Blog/ServiceAbout.avif' alt='Blog' height={200} width={300} />
+          <Image src='/Blog/ServiceAbout.avif' alt='Blog' height={250} width={500} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
         </div>
   
         <div className={styles.BlogHeading}>

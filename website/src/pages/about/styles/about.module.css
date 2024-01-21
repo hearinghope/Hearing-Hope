@@ -3,7 +3,7 @@
 /*-------- ABOUT HEADER ---------*/
 
 .AboutContainer{
-    margin: 0;
+    margin-top: 70px;
     padding: 0;
 }
 
@@ -68,10 +68,38 @@
   padding: 50px 100px 80px 100px;
 }
 
+.AboutDescriptionContainer2{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px 80px 50px;
+}
+
+
 .AboutDescriptionContainer h1{
   margin-bottom: 35px;
   font-size: 45px;
 }
+
+.AboutDescriptionRow1{
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.AboutDescriptionRow2{
+  margin-left: 40px;
+
+}
+
+.AboutDescriptionRow2 ul li{
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.AboutDescriptionContainer h2{
+  margin-bottom: 35px;
+  font-size: 45px;
+}
+
 
 .AboutDescriptionContainer p{
   line-height: 30px;
@@ -85,6 +113,18 @@
     justify-content: center;
     align-items: center;
     padding: 50px 20px 80px 20px; 
+  }
+
+  .AboutDescriptionContainer2{
+    flex-direction: column;
+  }
+  .AboutDescriptionRow1{
+    width: 100%;
+
+  }
+
+  .AboutDescriptionRow2{
+    margin-left: 0;
   }
   
   .AboutDescriptionContainer h1 {

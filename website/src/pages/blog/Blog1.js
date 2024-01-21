@@ -3,10 +3,15 @@ import Link from 'next/link';
 import styles from './styles/blog.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import WhatsAppButton from '../WhatsAppButton';
 
 const Blog1 = () => {
     return(
         <>
+        <div>
+          <WhatsAppButton/>
+        </div>
+
         <Navbar />
         <div className={styles.BlogContainer}>
 
@@ -14,7 +19,7 @@ const Blog1 = () => {
           <h1>The Path to Healthy Hearing: Empowered by Hearing Hope</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Blog/ServiceAbout.avif' alt='Blog' height={200} width={300} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
+          <Image src='/Home/HomeBlog1.png' alt='Blog' height={250} width={500} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
         </div>
         <div className={styles.BlogDescription}>
           <p>The ability to hear is a priceless gift that connects us to the people and experiences around us in a world full of the symphony of life. Unfortunately, many people face hearing problems, which can significantly lower their quality of life. Hearing Hope is committed to assisting you on a transformative journey towards better hearing and increased well-being because we recognize the value of healthy hearing.</p>
@@ -42,7 +47,7 @@ const Blog1 = () => {
         </div>
   
         <div className={styles.BlogImage}>
-          <Image src='/Blog/ServiceAbout.avif' alt='Blog' height={200} width={300} />
+          <Image src='/Home/HomeBlog1.png' alt='Blog' height={250} width={500} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
         </div>
   
         <div className={styles.BlogHeading}>

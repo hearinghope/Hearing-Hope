@@ -13,7 +13,7 @@ const Blog3 = () => {
           <h1>Harmony of Mind and Body: 7 Healthy Habits for Lifelong Hearing Protection</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Blog/ServiceAbout.avif' alt='Blog' height={200} width={300} />
+          <Image src='/Home/HomeBlog3.png' alt='Blog' height={250} width={500} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}}  />
         </div>
         <div className={styles.BlogDescription}>
           <p>Hearing involves the harmonious interaction of our mind and body, not just our ears. Adopting healthy practices that enhance general well-being is crucial if we are to effectively safeguard our hearing and maintain lifelong auditory health. This blog post will discuss seven essential behaviors that can promote mental and physical balance while protecting your hearing.</p>
@@ -41,9 +41,8 @@ const Blog3 = () => {
         </div>
   
         <div className={styles.BlogImage}>
-          <Image src='/Blog/ServiceAbout.avif' alt='Blog' height={200} width={300} />
+          <Image src='/Home/HomeBlog3.png' alt='Blog' height={250} width={500} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}}  />
         </div>
-  
         <div className={styles.BlogHeading}>
           <h1>Protect Your Ears from Loud Noise:</h1>
         </div>

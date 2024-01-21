@@ -17,6 +17,7 @@
   justify-content: center;
   gap: 20px;
   margin-bottom: 30px;
+  
   padding: 20px;
 }
 
@@ -82,7 +83,7 @@
   /*--------- PARTICULAR BLOG PAGE STYLING -----------*/
 
 .BlogContainer{
-    margin: 50px 150px;
+    margin: 120px 150px;
 }
 
 .BlogHeading{
@@ -119,12 +120,12 @@
 
 @media (max-width:800px){
   .BlogContainer{
-    margin:30px 60px;
+    margin:150px 60px;
   }
 }
 
 @media (max-width:400px){
   .BlogContainer{
-    margin:30px 30px;
+    margin:150px 30px;
   }
 }

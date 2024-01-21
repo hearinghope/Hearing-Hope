@@ -9,7 +9,7 @@ const AboutHeader = ({ start, end, heading }) => {
       <CountUp
         start={start}
         end={end}
-        duration={10}
+        duration={13}
         formattingFn={(value) => (value <= 55000 ? `${value.toLocaleString()} +` : value.toLocaleString())}
         className={styles.CountUp}
       />
