@@ -320,7 +320,19 @@
   margin-top: 10px;
 }
 
+@media (max-width: 858px) {
+  .Testimonialcontainer{
+    margin-top: 380px;
+    margin-bottom: 350px;
+  }
 
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
 @media (max-width: 768px) {
   .Testimonialcontainer{
     margin-top: 380px;

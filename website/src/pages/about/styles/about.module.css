@@ -263,12 +263,16 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .TestimonialcardContainer{
     width: 100%;
   }
   .card {
     width: 100%;
+  }
+  .Testimonialcontainer{
+    margin-top: 350px;
+    margin-bottom: 320px;
   }
 }
 
@@ -296,8 +300,8 @@
 }
 @media (max-width: 370px) {
   .Testimonialcontainer{
-    margin-top: 450px;
-    margin-bottom: 230px;
+    margin-top: 390px;
+    margin-bottom: 400px;
   }
 
   .TestimonialcardContainer{

@@ -45,7 +45,7 @@ const ContactHeader = () => {
       // Store data in Firestore
       const docRef = await addDoc(collection(db, 'contactForms'), formData);
       console.log('Document written with ID: ', docRef.id);
-
+  
       // Clear the form after successful submission
       setFormData({
         name: '',
@@ -53,12 +53,10 @@ const ContactHeader = () => {
         phoneNumber: '',
         message: '',
       });
-      alert("We'll get back to you within 24 hours.");
     } catch (error) {
       console.error('Error adding document: ', error);
     }
   };
-
 
 
   return (

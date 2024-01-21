@@ -3,6 +3,8 @@ import { useRouter } from 'next/router';
 import styles from './styles/PopupForm.module.css';
 import { getApps, initializeApp, getApp } from 'firebase/app';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';
+// Import your custom ThankYouMessage component
+import ThankYouMessage from './ThankYouMessage';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCDaZ7cjeaI4UX-RxeA4D7VXEeIaWe-qwE",
@@ -35,7 +37,6 @@ const PopupForm = ({ onClose }) => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name.toLowerCase()]: e.target.value });
-
   };
 
   const handleSubmit = async (e) => {
@@ -48,18 +49,20 @@ const PopupForm = ({ onClose }) => {
 
       // Clear the form after successful submission
       setFormData({
-        Name: '',
-        Email: '',
-        PhoneNumber: '',
-        Message: '',
+        name: '',
+        email: '',
+        phoneNumber: '',
+        message: '',
       });
-      alert("We'll get back to you within 24 hours.");
 
       // Close the popup form
       onClose();
 
       // Set a flag in localStorage to indicate that the popup has been shown
       localStorage.setItem('hasPopupBeenShown', 'true');
+
+      // Display the custom thank you message
+      setThankYouVisible(true);
 
       // Navigate to the home page
       router.push('/');
@@ -71,7 +74,8 @@ const PopupForm = ({ onClose }) => {
     }
   };
 
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
+  const [thankYouVisible, setThankYouVisible] = useState(false);
 
   useEffect(() => {
     // Check if the popup should be visible based on a flag in localStorage
@@ -93,35 +97,42 @@ const PopupForm = ({ onClose }) => {
   };
 
   return (
-    isVisible && (
-      <div className={styles.popup}>
-        <form onSubmit={handleSubmit} method="POST">
-        <div className={styles.formContainer}>
-          <center>
-            <h1 style={{ color: '#ff6600', marginBottom: '20px', fontSize: '35px' }}>Connect With Us</h1>
-          </center>
-          <label>Name: </label>
-          <input type="text" placeholder="Your Name..." name='name' onChange={handleChange} />
-          <label>Phone Number: </label>
-          <input type="tel" placeholder="+91 ...." name='phoneNumber' onChange={handleChange}/>
-          <label>Email: </label>
-          <input type="email" placeholder="@gmail.com" name='email' onChange={handleChange} />
-          <label>Message: </label>
-          <input type="text" placeholder="Optional..." name='message' onChange={handleChange} />
+    <>
+      {isVisible && (
+        <div className={styles.popup}>
+          <form onSubmit={handleSubmit} method="POST">
+            <div className={styles.formContainer}>
+              <center>
+                <h1 style={{ color: '#ff6600', marginBottom: '20px', fontSize: '35px' }}>Connect With Us</h1>
+              </center>
+              <label>Name: </label>
+              <input type="text" placeholder="Your Name..." name='name' onChange={handleChange} />
+              <label>Phone Number: </label>
+              <input type="tel" placeholder="+91 ...." name='phoneNumber' onChange={handleChange}/>
+              <label>Email: </label>
+              <input type="email" placeholder="@gmail.com" name='email' onChange={handleChange} />
+              <label>Message: </label>
+              <input type="text" placeholder="Optional..." name='message' onChange={handleChange} />
 
-          <div className={styles.FormSubmit}>
-            <button type="submit" onClick={handleSubmit}>
-              Submit
-            </button>
-            <button onClick={handleCrossButtonClick} className={styles.btn}>
-              Later
-            </button>
-          </div>
+              <div className={styles.FormSubmit}>
+                <button type="submit" onClick={handleSubmit}>
+                  Submit
+                </button>
+                <button onClick={handleCrossButtonClick} className={styles.btn}>
+                  Later
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
-        </form>
-      </div>
-    )
+      )}
+
+      {thankYouVisible && (
+        <ThankYouMessage onClose={() => setThankYouVisible(false)} />
+      )}
+    </>
   );
 };
 
 export default PopupForm;
+

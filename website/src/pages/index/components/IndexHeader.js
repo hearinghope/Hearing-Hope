@@ -4,11 +4,11 @@ import Image from 'next/image';
 import styles from '../styles/index.module.css';
 
 const images = [
-  { path: '/Home/HomeCarousel1.png', width: 800, height: 600 },
-  { path: '/Home/HomeCarousel2.png', width: 800, height: 600 },
   { path: '/Home/HomeCarousel3.png', width: 800, height: 600 },
+  { path: '/Home/HomeCarousel2.png', width: 800, height: 600 },
   { path: '/Home/HomeCarousel4.png', width: 800, height: 600 },
   { path: '/Home/HomeCarousel5.png', width: 800, height: 600 },
+  { path: '/Home/HomeCarousel1.png', width: 800, height: 600 },
 ];
 
 const Carousel = () => {

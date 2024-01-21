@@ -77,4 +77,30 @@
         padding-right: 20px;
         z-index: 3;
     }
+    .formContainer{
+      width: 400px;
+    }
+  }
+
+  @media (max-width: 440px){
+    .buttonContainer button{
+        top: 100px;
+        right: 190px;
+        font-size: 80px;
+    }
+    .popup{
+        padding-left: 20px;
+        padding-right: 20px;
+        z-index: 3;
+    }
+    .formContainer{
+      width: 350px;
+    }
+  }
+
+  @media (max-width: 371px){
+
+    .formContainer{
+      width: 335px;
+    }
   }
