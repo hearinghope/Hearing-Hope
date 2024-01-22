@@ -7,7 +7,7 @@ const ProductsBest2 = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const productsData = [
-    { id: 1, imgUrl: '/Products/Product2.png', description: 'Product 1' },
+    { id: 1, imgUrl: '/Products/Product2.png', description: 'Kit Pure Charge & Go 1AX' },
     { id: 2, imgUrl: '/Products/PureDry&CleanCharger.png', description: 'Pure Dry & Clean Charger' },
     { id: 3, imgUrl: '/Products/Pure CnG IX.png', description: 'Pure CnG IX' },
     { id: 4, imgUrl: '/Products/SilkCNGIX.png', description: 'Silk CNG IX' },

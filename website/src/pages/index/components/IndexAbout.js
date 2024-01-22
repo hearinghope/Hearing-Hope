@@ -30,7 +30,7 @@ const IndexAbout = () => {
       <div className={styles.aboutColumn}>
         <h2 style={{ color: 'teal', fontSize: '45px' }}>Welcome To Hearing Hope</h2>
         <p>
-        Our mission is to improve the health of our community by providing high quality, comprehensive hearing care in a welcoming and compassionate environment.
+        We are <span style={{color: '#ff6600'}}>Signia Certified Center.</span> Our mission is to improve the health of our community by providing high quality, comprehensive hearing care in a welcoming and compassionate environment.
 
 On behalf of the entire staff, we would like to welcome you to our clinic. We are pleased to have the opportunity to assist you with your hearing care. Our goal is to provide the highest quality and most up-to-date Hearing treatments available in a professional and caring manner. We are committed to helping you attain your rehabilitation goals. It is also our goal to provide you with outstanding service.
         </p>
