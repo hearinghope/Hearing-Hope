@@ -7,11 +7,11 @@ const handleCallNowClick = (phoneNumber) => {
 };
 
 const WhatsAppButton = () => {
-  const phoneNumber = '9711871168';
+  const phoneNumber = '9871163939';
 
   const handleWhatsAppButtonClick = (e) => {
     e.preventDefault();
-    const whatsappLink = `https://wa.me/${phoneNumber}`;
+    const whatsappLink = `https://wa.me/9871163939`;
     window.open(whatsappLink, '_blank');
   };
 
