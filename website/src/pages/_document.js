@@ -10,7 +10,17 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
           />
-          {/* Add other global stylesheets or meta tags here */}
+          {
+          /* Add other global stylesheets or meta tags here */
+          }
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKSQZQZT0D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VKSQZQZT0D');
+</script>
         </Head>
         <body>
           <Main />
