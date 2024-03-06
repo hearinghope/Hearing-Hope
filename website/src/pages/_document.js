@@ -14,12 +14,13 @@ class MyDocument extends Document {
           /* Add other global stylesheets or meta tags here */
           }
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKSQZQZT0D"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
+<script dangerouslySetInnerHTML={{__html : `window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)}
-  gtag(&apos;js&apos;, new Date());
+  gtag('js', new Date());
 
-  gtag(&apos;config&apos;, &apos;G-VKSQZQZT0D&apos;);
+  gtag('config', 'G-VKSQZQZT0D');`}}>
+
+
 </script>
         </Head>
         <body>
