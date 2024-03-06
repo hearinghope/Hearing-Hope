@@ -17,9 +17,9 @@ class MyDocument extends Document {
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
+  gtag(&apos;js&apos;, new Date());
 
-  gtag('config', 'G-VKSQZQZT0D');
+  gtag(&apos;config&apos;, &apos;G-VKSQZQZT0D&apos;);
 </script>
         </Head>
         <body>
