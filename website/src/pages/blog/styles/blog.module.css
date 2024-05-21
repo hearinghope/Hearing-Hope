@@ -15,10 +15,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 0px;
   margin-bottom: 30px;
   
-  padding: 20px;
+  padding: 11px;
 }
 
 .Blogcard {
@@ -76,6 +76,15 @@
 @media screen and (max-width: 600px) {
   .Blogcard {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cardsContainer {
+    width: 100%;
+  }
+  .Blogcard{
+    width: 300px;
   }
 }
 
