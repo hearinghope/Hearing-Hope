@@ -16,7 +16,7 @@ const HearingCare = () => {
         <div className={styles.BlogContainer}>
 
         <div className={styles.BlogHeading}>
-          <h1 style={{color:'teal'}}>Hearing Care</h1>
+          <h1 style={{color:'teal'}}>Hearing Care Clinic in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
           <Image src='/Service/ServiceHearingTest.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from './styles/service.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingTestFAQS from './components/ServicesFAQS/HearingTestFAQS';
 
@@ -11,12 +12,20 @@ const HearingTest = () => {
       <div>
       <WhatsAppButton />
       </div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Best Hearing Test Service in Delhi - Hearing Hope </title>
+        <meta name="description" content="Get expert hearing test service in Delhi by Hearing Hope. Our specialists provide comprehensive assessments for your hearing needs. Book an appointment now!"></meta>
+
+        <link rel="icon" href="./favicon.png" />
+      </Head>
         <Navbar />
 
         <div className={styles.BlogContainer}>
 
         <div className={styles.BlogHeading}>
-          <h1 style={{color:'teal'}}>Hearing Test</h1>
+          <h1 style={{color:'teal'}}>Hearing Test Service in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
           <Image src='/Service/HearingTest.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />

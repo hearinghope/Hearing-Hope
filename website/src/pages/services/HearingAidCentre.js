@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from './styles/service.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingAidCentreFAQS from './components/ServicesFAQS/HearingAidCentreFAQS';
 
@@ -11,12 +12,20 @@ const HearingAidCentre = () => {
       <div>
       <WhatsAppButton />
       </div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Best Hearing Aid Centre in Delhi - Hearing Hope</title>
+        <meta name="description" content="Get expert solutions for hearing loss at Hearing Hope, the leading hearing aid centre in Delhi. Trust our specialists for personalized care."></meta>
+
+        <link rel="icon" href="./favicon.png" />
+      </Head>
         <Navbar />
 
         <div className={styles.BlogContainer}>
 
         <div className={styles.BlogHeading}>
-          <h1 style={{color:'teal'}}>Hearing Aid Centre</h1>
+          <h1 style={{color:'teal'}}>Hearing Aid Centre in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
           <Image src='/Service/OfficeFrontPic.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />

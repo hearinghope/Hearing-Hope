@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import RechargeableFAQS from '../components/HeairingAidsTypesFAQS/RechargeableFAQS';
@@ -9,6 +10,13 @@ import RechargeableFAQS from '../components/HeairingAidsTypesFAQS/RechargeableFA
 const RechargeableHearingAids = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rechargeable Hearing Aids</title>
+        <meta name="description" content="Discover the convenience of Rechargeable Hearing Aids at Hearing Hope. Personalized solutions for improved hearing."></meta>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
     <Navbar/>
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import AnalogFAQS from '../components/HeairingAidsTypesFAQS/AnalogFAQS';
@@ -9,6 +10,13 @@ import AnalogFAQS from '../components/HeairingAidsTypesFAQS/AnalogFAQS';
 const AnalogHearingAids = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Analog Hearing Aid</title>
+        <meta name="description" content="Find Analog Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists."></meta>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
     <Navbar/>
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>

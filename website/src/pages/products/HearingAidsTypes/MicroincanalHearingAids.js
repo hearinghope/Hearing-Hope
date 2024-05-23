@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import MicroInCanalFAQS from '../components/HeairingAidsTypesFAQS/MicroInCanalFAQS';
@@ -9,6 +10,13 @@ import MicroInCanalFAQS from '../components/HeairingAidsTypesFAQS/MicroInCanalFA
 const MicroInCanalHearingAids = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Micro In Canal Hearing Aid</title>
+        <meta name="description" content="Experience discreet Micro In Canal Hearing Aid at Hearing Hope. Personalized solutions for improved hearing."></meta>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
     <Navbar/>
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>

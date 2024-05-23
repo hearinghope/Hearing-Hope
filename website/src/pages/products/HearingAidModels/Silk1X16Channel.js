@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/Silk1X16ChannelFAQS';
@@ -9,6 +10,13 @@ import HearingModelsFAQS from '../components/HearingAidModelsFAQS/Silk1X16Channe
 const Silk1X16Channel = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signia Silk 1X- 16 Channel Hearing Aids</title>
+        <meta name="description" content="Find Signia Silk 1X- 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts."></meta>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
     <Navbar/>
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>
