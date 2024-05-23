@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from './styles/service.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import SpeechTherapyFAQS from './components/ServicesFAQS/SpeechTherapyFAQS';
 
@@ -11,12 +12,20 @@ const SpeechTherapy = () => {
       <div>
       <WhatsAppButton />
       </div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Best Speech Therapy Service in Delhi - Hearing Hope </title>
+        <meta name="description" content="Get professional speech therapy services in Delhi from Hearing Hope. Improve communication skills and overcome speech challenges with expert help."></meta>
+
+        <link rel="icon" href="./favicon.png" />
+      </Head>
         <Navbar />
 
         <div className={styles.BlogContainer}>
 
         <div className={styles.BlogHeading}>
-          <h1 style={{color:'teal'}}>Speech Therapy</h1>
+          <h1 style={{color:'teal'}}>Speech Therapy services in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
           <Image src='/Service/OurService.jpg' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEIntuis40PSPFAQS';
@@ -9,6 +10,14 @@ import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEIntuis40PSP
 const BTEIntuis40PSP = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signia BTE INTUIS 4.0 P/ SP Hearing Aids </title>
+        <meta name="description" content="Find Signia BTE INTUIS 4.0 P/ SP Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts."></meta>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
+      
     <Navbar/>
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>

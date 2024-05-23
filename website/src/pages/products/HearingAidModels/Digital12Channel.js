@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/Digital12ChannelFAQS';
@@ -9,6 +10,13 @@ import HearingModelsFAQS from '../components/HearingAidModelsFAQS/Digital12Chann
 const Digital12Channel = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signia Digital 12 Channel Hearing Aids</title>
+        <meta name="description" content="Explore Signia Digital 12 Channel Hearing Aids at Hearing Hope. Our experts offer personalized solutions for improved hearing."></meta>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
     <Navbar/>
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>

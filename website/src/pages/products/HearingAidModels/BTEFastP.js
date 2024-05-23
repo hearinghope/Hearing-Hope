@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEFastPFAQS';
@@ -9,6 +10,13 @@ import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEFastPFAQS';
 const BTEFastP = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signia BTE Fast P Hearing Aids</title>
+        <meta name="description" content="Explore Signia BTE Fast P at Hearing Hope for tailored hearing solutions. Get expert consultations and support for better hearing today."></meta>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
     <Navbar/>
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>

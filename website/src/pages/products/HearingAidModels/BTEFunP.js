@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEFunPFAQS';
@@ -9,6 +10,13 @@ import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEFunPFAQS';
 const BTEFunP = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signia BTE Fun P Hearing Aids</title>
+        <meta name="description" content="Explore Signia BTE Fun P with personalized solutions at Hearing Hope. Enhance your hearing with expert consultations and support."></meta>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
     <Navbar/>
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>

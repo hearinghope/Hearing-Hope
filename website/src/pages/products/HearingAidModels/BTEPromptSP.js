@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEPromptSPFAQS';
@@ -9,6 +10,13 @@ import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEPromptSPFAQ
 const BTEPromptSP = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signia BTE Prompt SP Hearing Aids</title>
+        <meta name="description" content="Discover Signia BTE Prompt SP Hearing Aids for enhanced hearing at Hearing Hope. Our experts provide tailored solutions."></meta>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
     <Navbar/>
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>
