@@ -67,6 +67,8 @@
   background-color: white;
   padding: 10px;
   margin-top: -10%;
+  height: 300px;
+  overflow-y: scroll;
   left: 95%;
   border-radius: 5px;
   width: max-content;

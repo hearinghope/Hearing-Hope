@@ -337,7 +337,7 @@
 
 @media (max-width: 858px) {
   .Testimonialcontainer{
-    margin-top: 380px;
+    margin-top: 30px;
     margin-bottom: 350px;
   }
 
@@ -350,7 +350,7 @@
 }
 @media (max-width: 1200px) {
   .Testimonialcontainer{
-    margin-top: 200px;
+    margin-top: 20px;
   }
 
   .TestimonialcardContainer{
@@ -362,7 +362,7 @@
 }
 @media (max-width: 768px) {
   .Testimonialcontainer{
-    margin-top: 380px;
+    margin-top: 30px;
     margin-bottom: 350px;
   }
 
@@ -386,7 +386,7 @@
 
 @media (max-width: 450px) {
   .Testimonialcontainer{
-    margin-top: 380px;
+    margin-top: 30px;
     margin-bottom: 330px;
   }
 
@@ -401,6 +401,7 @@
 @media (min-width: 600px) and (max-width: 900px) {
   .TestimonialcardContainer{
     width: 100%;
+    margin-top: 3px;
   }
   .card {
     width: 48%;
@@ -523,6 +524,7 @@
       width: 100%;
       max-width: none;
       margin-right: 0;
+
     }
     .carouselContainer{
       margin-top: 50px;
