@@ -41,6 +41,7 @@ const IndexPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Best Hearing Care Clinic in Delhi - Hearing Hope</title>
         <meta name="description" content="Experience expert hearing care in Delhi at Hearing Hope. Get tailored solutions for your hearing needs. Book your appointment today!"></meta>
+        <meta name="robots" content= "index,follow"/>
         <meta property="og:title" content="Best Hearing Care Clinic in Delhi - Hearing Hope" />
         <meta property="og:description" content="Experience expert hearing care in Delhi at Hearing Hope. Get tailored solutions for your hearing needs. Book your appointment today!" />
             <meta property="og:url" content="https://www.hearinghope.in/"/>
