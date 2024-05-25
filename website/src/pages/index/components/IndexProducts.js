@@ -10,18 +10,18 @@ const IndexProducts = () => {
 
   const certificationsData = useMemo(
     () => [
-      { id: 1, imageUrl: '/Products/BestSeller.png', description: 'Silk Rechargeable IX', href: '/products/components/ProductsPage/SilkRechargeableIX' },
-      { id: 2, imageUrl: '/Products/SilkNxCouple.png', description: 'Silk Nx Couple', href: '/products/components/ProductsPage/SilkNxCouple' },
-      { id: 3, imageUrl: '/Products/Motion CnG SP X.png', description: 'Motion CnG SP X', href: '/products/components/ProductsPage/MotionCnGSPX' },
-      { id: 4, imageUrl: '/Products/Styletto RIC.png', description: 'Styletto RIC', href: '/products/components/ProductsPage/StylettoRIC' },
-      { id: 5, imageUrl: '/Products/Pure312X.png', description: 'Pure 312X', href: '/products/components/ProductsPage/Pure312X' },
-      { id: 6, imageUrl: '/Products/X Charger Styletto.png', description: 'X Charger Styletto', href: '/products/components/ProductsPage/XChargerStyletto' },
-      { id: 7, imageUrl: '/Products/Product2.png', description: 'Kit Pure Charge & Go 1AX', href: '/products/components/ProductsPage/KitPureCharge&GoAX' },
-      { id: 8, imageUrl: '/Products/InsioCharge&GoAX.png', description: 'Kit Insio Charge & Go AX', href: '/products/components/ProductsPage/KitInsioCharge&GoAX' },
-      { id: 9, imageUrl: '/Products/ActivePro.png', description: 'Kit Active Pro', href: '/products/components/ProductsPage/KitActivePro' },
-      { id: 10, imageUrl: '/Products/BTEmotionCharge.png', description: 'Kit BTE Motion Charge & Go SP 1X', href: '/products/components/ProductsPage/KitBTEMotionCharge&GoSP1X' },
-      { id: 11, imageUrl: '/Products/Styletto.png', description: 'Styletto AX', href: '/products/components/ProductsPage/StylettoAX' },
-      { id: 12, imageUrl: '/Products/PureCharge&GoAX.png', description: 'Kit Pure Charge & Go AX', href: '/products/components/ProductsPage/KitPureCharge&GoAX' },
+      { id: 1, imageUrl: '/Products/BestSeller.png', description: 'Silk Rechargeable IX', href: '/hearing-aids/components/ProductsPage/SilkRechargeableIX' },
+      { id: 2, imageUrl: '/Products/SilkNxCouple.png', description: 'Silk Nx Couple', href: '/hearing-aids/components/ProductsPage/SilkNxCouple' },
+      { id: 3, imageUrl: '/Products/Motion CnG SP X.png', description: 'Motion CnG SP X', href: '/hearing-aids/components/ProductsPage/MotionCnGSPX' },
+      { id: 4, imageUrl: '/Products/Styletto RIC.png', description: 'Styletto RIC', href: '/hearing-aids/components/ProductsPage/StylettoRIC' },
+      { id: 5, imageUrl: '/Products/Pure312X.png', description: 'Pure 312X', href: '/hearing-aids/components/ProductsPage/Pure312X' },
+      { id: 6, imageUrl: '/Products/X Charger Styletto.png', description: 'X Charger Styletto', href: '/hearing-aids/components/ProductsPage/XChargerStyletto' },
+      { id: 7, imageUrl: '/Products/Product2.png', description: 'Kit Pure Charge & Go 1AX', href: '/hearing-aids/components/ProductsPage/KitPureCharge&GoAX' },
+      { id: 8, imageUrl: '/Products/InsioCharge&GoAX.png', description: 'Kit Insio Charge & Go AX', href: '/hearing-aids/components/ProductsPage/KitInsioCharge&GoAX' },
+      { id: 9, imageUrl: '/Products/ActivePro.png', description: 'Kit Active Pro', href: '/hearing-aids/components/ProductsPage/KitActivePro' },
+      { id: 10, imageUrl: '/Products/BTEmotionCharge.png', description: 'Kit BTE Motion Charge & Go SP 1X', href: '/hearing-aids/components/ProductsPage/KitBTEMotionCharge&GoSP1X' },
+      { id: 11, imageUrl: '/Products/Styletto.png', description: 'Styletto AX', href: '/hearing-aids/components/ProductsPage/StylettoAX' },
+      { id: 12, imageUrl: '/Products/PureCharge&GoAX.png', description: 'Kit Pure Charge & Go AX', href: '/hearing-aids/components/ProductsPage/KitPureCharge&GoAX' },
     ],
     []
   );

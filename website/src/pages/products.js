@@ -1,5 +1,5 @@
 
-import ProductsPage from './products/ProductsPage';
+import ProductsPage from './hearing-aids/ProductsPage';
 
 const About = () => {
   return <ProductsPage />;
