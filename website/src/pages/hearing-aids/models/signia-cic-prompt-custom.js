@@ -24,7 +24,7 @@ const BTEPromptSP = () => {
       <h1 >Signia CIC Prompt Custom</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/CICInsio1PXCustom.png' alt='CICInsio1PXCustom' width={500} height={400} /> 
+      <Image src='/Products/CICInsio1.png' alt='CICInsio1' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>
