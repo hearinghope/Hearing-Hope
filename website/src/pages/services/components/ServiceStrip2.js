@@ -18,7 +18,7 @@ const ServiceStrip2 = () => {
         <div className={styles.serviceStripText}>
           <h1 style={{ fontWeight: '600' }}>Hear the World Around You</h1>
           <p style={{ marginTop: '10px' }}>
-            At Clear Sound, we bring change in the way you approach wellness and care.
+          At Hearing Hope, we transform your approach to wellness and care.
           </p>
         </div>
         <div className={styles.serviceStripButtons}>

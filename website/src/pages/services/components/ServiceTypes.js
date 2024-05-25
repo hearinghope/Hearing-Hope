@@ -15,7 +15,7 @@ const ServiceTypes = () => {
             <p className={styles.ServiceAboutDescription}>
               Discover a World of Clear Hearing with Our Hearing Aids. Our expert team is dedicated to providing personalized fittings and ongoing support, ensuring the perfect solution for your unique needs. Experience the joy of improved hearing through our cutting-edge technology, designed to elevate your auditory experience. At Hearing Hope, we go beyond offering products; we provide a commitment to your satisfaction and the restoration of crystal-clear sound in your everyday life. Trust us to be your partner in embracing a world of clear hearing and enhanced communication.
             </p>
-            <Link href='/services/HearingAidCentre' >
+            <Link href='/hearing-aids/Hearing-aids' >
             <button type='button' className={styles.ServiceTypesButton}>Know More</button>
             </Link>
           </div>
@@ -49,7 +49,7 @@ const ServiceTypes = () => {
             <p className={styles.ServiceAboutDescription}>
               At Hearing Hope, we prioritize your auditory well-being through meticulous Hearing Tests. Our dedicated team of audiologists, driven by a commitment to your satisfaction, employs advanced techniques to ensure precision in diagnostics. As a Signia Certified center, we take pride in delivering accurate assessments and customized solutions. Trust us to guide your journey to clearer hearing with expertise and care. At Hearing Hope, our focus extends beyond tests; we are here to offer a personalized and compassionate experience, ensuring that every step toward optimal hearing is supported by our unwavering commitment to your well-being.
             </p>
-            <Link href='/services/HearingTest' >
+            <Link href='/services/hearing-test-in-delhi' >
             <button type='button' className={styles.ServiceTypesButton}>Know More</button>
             </Link>
           </div>
@@ -65,7 +65,7 @@ const ServiceTypes = () => {
             <p className={styles.ServiceAboutDescription}>
               Our team of experienced speech therapists is committed to advancing your speech and language proficiency through individualized sessions. Committed to advancing your speech and language proficiency, we offer individualized sessions that draw on extensive expertise. Tailoring our approach to meet your unique needs, our unwavering dedication ensures comprehensive support. Trust us to guide you towards refined communication, unlocking a more fulfilling auditory experience. At Hearing Hope, we go beyond the conventional, positioning ourselves as partners in your pursuit of articulate expression. With our team commitment, expertise, and personalized approach, we are dedicated to fostering your speech and language skills for a richer, more satisfying communication journey.
             </p>
-            <Link href='/services/SpeechTherapy' >
+            <Link href='/services/speech-therapy-in-delhi' >
             <button type='button' className={styles.ServiceTypesButton}>Know More</button>
             </Link>
           </div>

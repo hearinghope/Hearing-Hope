@@ -87,12 +87,13 @@ const Navbar = () => {
             style={{ cursor: 'pointer', fontWeight: 500 }}
             onClick={toggleServicesMenu}
           >
-            <Link href="/services">
+            
             Services &#9662;
-            </Link>
+            
           </span>
           {isServicesMenuOpen && (
             <div className={styles.dropdownContent}>
+              <Link href="../../services" className={styles.dropdownContentLinks}>All Services</Link>
               <Link href="../../services/hearing-test-in-delhi" className={styles.dropdownContentLinks}>Hearing Test Services</Link>
               <Link href="../../services/speech-therapy-in-delhi" className={styles.dropdownContentLinks}>Speech Therapy Services</Link>
               {/* <Link href="../../services/Audiologist" className={styles.dropdownContentLinks}>Audiologist</Link> */}
@@ -114,6 +115,9 @@ const Navbar = () => {
           </span>
           {isProductsMenuOpen && (
             <div className={styles.dropdownContent}>
+             <div className={styles.subDropdown} >
+               <Link href="../../hearing-aids/Hearing-aids" className={styles.dropdownContentLinks}>All Hearing Aids</Link>
+               </div>
               <div className={styles.subDropdown} onClick={toggleSubProduct1Menu}>
                 <span>Hearing Aids Types &#9662;</span>
                 {isSubProduct1MenuOpen && (
