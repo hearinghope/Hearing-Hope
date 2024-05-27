@@ -24,7 +24,7 @@ const Digital8Channel = () => {
       <h1 >Digital 8 Channel</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/SigniaBTEPromptPSP.png' alt='KitActivePro' width={500} height={400} /> 
+      <Image src='/Products/SigniaPromptPSP.png' alt='SigniaPromptPSP' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>
