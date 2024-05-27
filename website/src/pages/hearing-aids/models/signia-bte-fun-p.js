@@ -15,6 +15,13 @@ const BTEFunP = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Signia BTE Fun P Hearing Aids</title>
         <meta name="description" content="Explore Signia BTE Fun P with personalized solutions at Hearing Hope. Enhance your hearing with expert consultations and support."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Signia BTE Fun P Hearing Aids" />
+        <meta property="og:description" content="Explore Signia BTE Fun P with personalized solutions at Hearing Hope. Enhance your hearing with expert consultations and support." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-bte-fun-p"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FSigniaBTEFastP.png&w=1080&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-fun-p"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>
@@ -32,7 +39,7 @@ const BTEFunP = () => {
 
 The Signia BTE Fun P is engineered to enhance your auditory experience with its state-of-the-art technology and user-friendly features. Whether you&apos;re engaging in conversation, enjoying your favorite TV shows, or simply savoring the sounds of nature, this hearing aid is designed to improve your hearing ability and overall quality of life. Read on to discover how the Signia BTE Fun P can transform your daily interactions and bring clear, crisp sound back into your world.
 <br></br><br></br>
-<h1>Key Features</h1>
+<h2>Key Features</h2>
 
 The Signia BTE Fun P hearing aid is packed with features designed to cater to those with severe hearing challenges:
 <br></br>
@@ -44,7 +51,7 @@ The Signia BTE Fun P hearing aid is packed with features designed to cater to th
 
 These features are carefully integrated to provide a superior auditory experience, making everyday interactions smoother and more enjoyable for users.
 
-<h1>Benefits</h1>
+<h2>Benefits</h2>
 
 The Signia BTE Fun P hearing aid transforms its advanced features into tangible benefits that improve everyday life for its users:
 
@@ -56,7 +63,7 @@ The Signia BTE Fun P hearing aid transforms its advanced features into tangible 
 
 These benefits are designed to meet the needs of users looking for reliable hearing support, ensuring that every moment sounds as clear and vibrant as possible.
 
-<h1>Technical Specifications</h1>
+<h2>Technical Specifications</h2>
 
 The Signia BTE Fun P offers comprehensive technical details that assure users of its quality and suitability:
 

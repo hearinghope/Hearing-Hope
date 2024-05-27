@@ -15,6 +15,13 @@ const Silk1X16Channel = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Signia Silk 1X- 16 Channel Hearing Aids</title>
         <meta name="description" content="Find Signia Silk 1X- 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Signia Silk 1X- 16 Channel Hearing Aids" />
+        <meta property="og:description" content="Find Signia Silk 1X- 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-silk-1x-16-channel"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FSilkNxCouple.png&w=640&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-silk-1x-16-channel"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>

@@ -153,7 +153,7 @@ const Navbar = () => {
                     <Link href="/hearing-aids/models/signia-bte-fast-p" className={styles.subDropdownContentLinks}>Signia BTE Fast P</Link>
                     <Link href="/hearing-aids/models/signia-bte-fun-p" className={styles.subDropdownContentLinks}>Signia BTE Fun P</Link>
                     <Link href="/hearing-aids/models/signia-bte-fun-sp" className={styles.subDropdownContentLinks}>Signia BTE Fun SP</Link>
-                    <Link href="/hearing-aids/models/Digital8Channel" className={styles.subDropdownContentLinks}>Signia Digital - 8 channel</Link>
+                    <Link href="/hearing-aids/models/signia-digital-8-channel" className={styles.subDropdownContentLinks}>Signia Digital - 8 channel</Link>
                     <Link href="/hearing-aids/models/signia-bte-prompt-p" className={styles.subDropdownContentLinks}>Signia BTE prompt P</Link>
                     <Link href="/hearing-aids/models/signia-bte-prompt-sp" className={styles.subDropdownContentLinks}>Signia BTE Prompt SP</Link>
                     <Link href="/hearing-aids/models/signia-cic-prompt-custom" className={styles.subDropdownContentLinks}>Signia CIC prompt Custom</Link>

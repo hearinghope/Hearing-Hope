@@ -15,6 +15,13 @@ const BTEIntuis40PSP = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Signia BTE INTUIS 4.0 P/ SP Hearing Aids </title>
         <meta name="description" content="Find Signia BTE INTUIS 4.0 P/ SP Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Signia BTE INTUIS 4.0 P/ SP Hearing Aids" />
+        <meta property="og:description" content="Find Signia BTE INTUIS 4.0 P/ SP Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-bte-intuis-4.0-p-sp"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEIntuis40PSP.png&w=1080&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-intuis-4.0-p-sp"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
       
@@ -32,7 +39,7 @@ const BTEIntuis40PSP = () => {
       Experience exceptional hearing clarity with the Signia BTE INTUIS 4.0 P/SP, a state-of-the-art hearing aid designed for individuals with severe hearing loss. This behind-the-ear device combines advanced sound technology and user-friendly features to deliver superior sound quality and comfort.<br></br><br></br><br></br>
 The Signia BTE INTUIS 4.0 P/SP offers a robust solution for those who seek not only to improve their hearing but also to enhance their overall quality of life through better communication. It is crafted using cutting-edge technology that includes sophisticated noise reduction capabilities, making it easier to understand conversations in challenging environments. With its sleek and discreet design, this hearing aid fits comfortably behind the ear and is barely noticeable to others, ensuring that you can wear it confidently throughout the day. Whether you&apos;re engaging in a quiet conversation or navigating a noisy setting, the Signia BTE INTUIS 4.0 P/SP is engineered to provide unparalleled audio clarity, enhancing every interaction.<br></br><br></br>
 
-<h1>Product Features and Benefits</h1>
+<h2>Product Features and Benefits</h2>
 
 <b>Advanced Technology</b>
 <li><ul><b>Noise Reduction:</b> Equipped with superior noise reduction capabilities, the Signia BTE INTUIS 4.0 P/SP allows for clearer conversations in noisy environments, such as restaurants or crowded places.</ul></li>
@@ -56,7 +63,7 @@ The Signia BTE INTUIS 4.0 P/SP offers a robust solution for those who seek not o
 
 These features are designed to not only improve hearing but also to enhance the ease with which users can interact with their environment and maintain their active lifestyles. With the Signia BTE INTUIS 4.0 P/SP, users can expect a seamless integration of technology and functionality that meets the demands of modern life.
 
-<h1>Technical Specifications</h1>
+<h2>Technical Specifications</h2>
 The Signia BTE INTUIS 4.0 P/SP is designed with detailed specifications that ensure optimal performance for users with severe hearing loss. Here is a comprehensive breakdown of its technical features:
 <li><ul><b>Type:</b> BTE (Behind The Ear)</ul></li>
 <li><ul><b>Model:</b> INTUIS 4.0 P/SP</ul></li>

@@ -15,6 +15,13 @@ const Digital12Channel = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Signia Digital 12 Channel Hearing Aids</title>
         <meta name="description" content="Explore Signia Digital 12 Channel Hearing Aids at Hearing Hope. Our experts offer personalized solutions for improved hearing."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Signia Digital 12 Channel Hearing Aids" />
+        <meta property="og:description" content="Explore Signia Digital 12 Channel Hearing Aids at Hearing Hope. Our experts offer personalized solutions for improved hearing." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-digital-12-channel"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEIntuis40PSP.png&w=1080&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-digital-12-channel"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>
@@ -30,7 +37,7 @@ const Digital12Channel = () => {
       <br></br>
       Discover unparalleled auditory clarity with the Signia Digital 12 Channel Hearing Aid, tailored to enhance your hearing experience. Available exclusively at HearingHope.in, this state-of-the-art device is designed for individuals seeking a powerful yet seamless solution to hearing impairment. With cutting-edge technology, the Signia Digital offers an exceptional sound quality that adapts to diverse environments, ensuring you never miss a moment in life.<br></br><br></br><br></br>
 The Signia Digital 12 Channel is more than just a hearing aid; it&apos;s a gateway to a clearer world. Equipped with advanced features such as superior noise reduction, customizable sound profiles, and wireless connectivity, this hearing aid is perfect for anyone who values high-quality sound and comfort. Whether you&apos;re in a busy cafe, at a family gathering, or enjoying quiet time outdoors, the Signia Digital ensures your hearing is balanced and clear.<br></br><br></br><br></br>
-<h1>Product Details</h1>
+<h2>Product Details</h2>
 <h2>Model Overview</h2>
 The Signia Digital 12 Channel hearing aid is designed with precision to cater to a wide range of hearing impairments. Combining aesthetics with functionality, it offers a discreet and modern design that is both durable and easy to wear. Suitable for mild to severe hearing loss, this device provides personalized hearing support tailored to your specific needs.<br></br>
 <h2>Specifications</h2>

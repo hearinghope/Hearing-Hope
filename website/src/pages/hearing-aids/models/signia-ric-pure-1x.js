@@ -15,6 +15,13 @@ const RICPure1X= () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Signia RIC Pure 1X Hearing Aids</title>
         <meta name="description" content="Discover Signia RIC Pure 1X Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Signia RIC Pure 1X Hearing Aids" />
+        <meta property="og:description" content="Discover Signia RIC Pure 1X Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1x"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FPure312X.png&w=1080&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1x"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>
@@ -32,7 +39,7 @@ const RICPure1X= () => {
 <br></br><br></br>
 Discover the next level of auditory assistance with Signia Ric pure 1X. Our innovative technology adapts to your environment, ensuring optimal performance wherever you are. With its sleek design, the Signia Ric pure 1X is as stylish as it is functional, offering comfort and sophistication in one package. Perfect for anyone seeking to enhance their hearing without drawing attention to their aid, the Signia Ric pure 1X provides an ideal solution for all your hearing needs. Join us at HearingHope.in to explore how this advanced hearing aid can transform your auditory perception and reconnect you with your surroundings.<br></br><br></br>
 
-<h1>Product Features</h1>
+<h2>Product Features</h2>
 
 Signia Ric pure 1X offers a range of advanced features designed to provide superior sound quality and an exceptional hearing experience:
 
@@ -49,7 +56,7 @@ Signia Ric pure 1X offers a range of advanced features designed to provide super
 
 These features are meticulously engineered to meet the needs of a wide range of hearing impairments, ensuring that every user can find the right support to lead a more connected and engaged life.
 
-<h1>Benefits</h1>
+<h2>Benefits</h2>
 
 The Signia Ric pure 1X hearing aids are not just about hearing better—they&apos;re about living better. Here are the key benefits that users can expect:
 

@@ -15,6 +15,13 @@ const RICPure1AX= () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Signia RIC Pure 1AX Hearing Aids</title>
         <meta name="description" content="Explore Signia RIC Pure 1AX Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Signia RIC Pure 1AX Hearing Aids" />
+        <meta property="og:description" content="Explore Signia RIC Pure 1AX Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1ax"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FPure312X.png&w=1080&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1ax"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>

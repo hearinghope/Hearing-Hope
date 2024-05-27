@@ -15,6 +15,13 @@ const BTEPromptSP = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Signia CIC Prompt Custom Hearing Aids</title>
         <meta name="description" content="Get Signia CIC Prompt Custom Hearing Aids at Hearing Hope. Personalized solutions for better hearing from our expert audiologists."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Signia CIC Prompt Custom Hearing Aids" />
+        <meta property="og:description" content="Get Signia CIC Prompt Custom Hearing Aids at Hearing Hope. Personalized solutions for better hearing from our expert audiologists." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-cic-prompt-custom"/>
+            <meta property="og:image:url"
+        content="" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-cic-prompt-custom"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>
@@ -30,7 +37,7 @@ const BTEPromptSP = () => {
       <br></br>
       Discover unmatched auditory clarity with the Signia CIC Prompt Custom, designed exclusively for those seeking a discreet and powerful hearing solution. This custom-made, completely-in-canal (CIC) hearing aid is tailored to fit perfectly within your ear canal, providing unparalleled comfort and superior sound quality without the visibility of traditional hearing aids.<br></br><br></br><br></br>
 At HearingHope.in, we understand the need for a hearing aid that doesn&apos;t just amplify sound, but enhances your hearing experience. The Signia CIC Prompt Custom is equipped with state-of-the-art technology that adapts to various environments, ensuring clear and natural sound no matter where you are. Its sleek design is almost invisible to others, offering you confidence in social settings. Ideal for individuals with mild to moderately severe hearing loss, this device combines aesthetics with functionality to deliver a hearing aid solution that meets your expectations for both performance and discretion.<br></br><br></br>
-<h1>Key Features of Signia CIC Prompt Custom</h1>
+<h2>Key Features of Signia CIC Prompt Custom</h2>
 
 <b>Discreet Design:</b>
 <li><ul><b>Invisible Fit:</b> Tailored to sit completely within your ear canal, making it virtually undetectable to others.</ul></li>

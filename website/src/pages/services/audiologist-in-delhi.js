@@ -17,7 +17,13 @@ const HearingTest = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Best Audiologist Clinic in Delhi - Hearing Hope </title>
         <meta name="description" content="Discover the top audiologist clinic in Delhi at Hearing Hope. Our experts offer personalized solutions for better hearing. Book a consultation now!"></meta>
-
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Best Audiologist Clinic in Delhi - Hearing Hope " />
+        <meta property="og:description" content="Discover the top audiologist clinic in Delhi at Hearing Hope. Our experts offer personalized solutions for better hearing. Book a consultation now!" />
+            <meta property="og:url" content="https://www.hearinghope.in/services/audiologist-in-delhi"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FService%2FHearingTest.png&w=828&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/services/audiologist-in-delhi"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
         <Navbar />
