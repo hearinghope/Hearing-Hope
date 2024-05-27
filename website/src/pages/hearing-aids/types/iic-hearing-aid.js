@@ -15,6 +15,13 @@ const IICHearingAids = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Invisible in Canal (IIC) Hearing Aid</title>
         <meta name="description" content="Get discreet IIC Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Invisible in Canal (IIC) Hearing Aid" />
+        <meta property="og:description" content="Get discreet IIC Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/iic-hearing-aid"/>
+            <meta property="og:image:url"
+        content="" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/iic-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>

@@ -15,6 +15,13 @@ const BTEHearingAids = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Behind The Ear (BTE) Hearing Aids</title>
         <meta name="description" content="Find top-quality BTE Hearing Aid solutions at Hearing Hope. Our experts offer personalized consultations for enhanced hearing."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Behind The Ear (BTE) Hearing Aids" />
+        <meta property="og:description" content="Find top-quality BTE Hearing Aid solutions at Hearing Hope. Our experts offer personalized consultations for enhanced hearing." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/bte-hearing-aid"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEIntuis40PSP.png&w=1080&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/bte-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>

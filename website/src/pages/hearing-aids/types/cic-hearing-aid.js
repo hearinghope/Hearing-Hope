@@ -15,6 +15,13 @@ const CICHearingAids = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CIC Hearing Aids</title>
         <meta name="description" content="Discover advanced CIC Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="CIC Hearing Aids" />
+        <meta property="og:description" content="Discover advanced CIC Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/cic-hearing-aid"/>
+            <meta property="og:image:url"
+        content="" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/cic-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>

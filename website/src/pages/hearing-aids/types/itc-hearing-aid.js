@@ -15,6 +15,13 @@ const KitActivePro = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>In The Canal (ITC) Hearing Aid</title>
         <meta name="description" content="Explore ITC Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="In The Canal (ITC) Hearing Aid" />
+        <meta property="og:description" content="Explore ITC Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/itc-hearing-aid"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FActivePro.png&w=1080&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/itc-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>

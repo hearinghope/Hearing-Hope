@@ -46,7 +46,7 @@ const IndexPage = () => {
         <meta property="og:description" content="Experience expert hearing care in Delhi at Hearing Hope. Get tailored solutions for your hearing needs. Book your appointment today!" />
             <meta property="og:url" content="https://www.hearinghope.in/"/>
             <meta property="og:image:url"
-        content="" />
+        content="https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75" />
         <link rel="canonical" href="https://www.hearinghope.in/"/>
         <link rel="icon" href="./favicon.png" />
 

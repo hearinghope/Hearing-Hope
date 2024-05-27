@@ -15,6 +15,13 @@ const RICHearingAids = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Receiver in Canal Hearing Aid</title>
         <meta name="description" content="Experience advanced RIC Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Receiver in Canal Hearing Aid" />
+        <meta property="og:description" content="Experience advanced RIC Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists." />
+            <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/ric-hearing-aid"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FStyletto%20RIC.png&w=1080&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/ric-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
     <Navbar/>

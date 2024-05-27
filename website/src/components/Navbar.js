@@ -96,7 +96,7 @@ const Navbar = () => {
               <Link href="../../services/hearing-test-in-delhi" className={styles.dropdownContentLinks}>Hearing Test Services</Link>
               <Link href="../../services/speech-therapy-in-delhi" className={styles.dropdownContentLinks}>Speech Therapy Services</Link>
               {/* <Link href="../../services/Audiologist" className={styles.dropdownContentLinks}>Audiologist</Link> */}
-              <Link href="../../services/HearingCare" className={styles.dropdownContentLinks}>Hearing Care</Link>
+              <Link href="../../services/hearing-care-solution-in-delhi" className={styles.dropdownContentLinks}>Hearing Care</Link>
               <Link href="../../services/hearing-aid-center-in-delhi" className={styles.dropdownContentLinks}>Hearing Aid Centre</Link>
             </div>
           )}
@@ -118,17 +118,17 @@ const Navbar = () => {
                 <span>Hearing Aids Types &#9662;</span>
                 {isSubProduct1MenuOpen && (
                   <div className={styles.subDropdownContent}>
-                    <Link href="/hearing-aids/types/BTEHearingAids" className={styles.subDropdownContentLinks}>BTE Hearing Aids</Link>
-                    <Link href="/hearing-aids/types/CICHearingAids" className={styles.subDropdownContentLinks}>CIC Hearing Aids</Link>
-                    <Link href="/hearing-aids/types/ITCHearingAids" className={styles.subDropdownContentLinks}>ITC Hearing Aids</Link>
-                    <Link href="/hearing-aids/types/IICHearingAids" className={styles.subDropdownContentLinks}>IIC Hearing Aids</Link>
-                    <Link href="/hearing-aids/types/RICHearingAids" className={styles.subDropdownContentLinks}>RIC Hearing Aids</Link>
-                    <Link href="/hearing-aids/types/RechargeableHearingAids" className={styles.subDropdownContentLinks}>Rechargeable Hearing Aids</Link>
-                    <Link href="/hearing-aids/types/AnalogHearingAids" className={styles.subDropdownContentLinks}>Analog Hearing Aids</Link>
-                    <Link href="/hearing-aids/types/WirelessHearingAids" className={styles.subDropdownContentLinks}>Wireless Hearing Aids</Link>
-                    <Link href="/hearing-aids/types/BluetoothHearingAids" className={styles.subDropdownContentLinks}>Bluetooth Hearing Aids </Link>
-                    <Link href="/hearing-aids/types/MicroincanalHearingAids" className={styles.subDropdownContentLinks}>Micro in Canal Hearing Aids </Link>
-                    <Link href="/hearing-aids/types/PocketHearingAids" className={styles.subDropdownContentLinks}>Pocket Hearing Aids </Link>
+                    <Link href="/hearing-aids/types/bte-hearing-aid" className={styles.subDropdownContentLinks}>BTE Hearing Aids</Link>
+                    <Link href="/hearing-aids/types/cic-hearing-aid" className={styles.subDropdownContentLinks}>CIC Hearing Aids</Link>
+                    <Link href="/hearing-aids/types/itc-hearing-aid" className={styles.subDropdownContentLinks}>ITC Hearing Aids</Link>
+                    <Link href="/hearing-aids/types/iic-hearing-aid" className={styles.subDropdownContentLinks}>IIC Hearing Aids</Link>
+                    <Link href="/hearing-aids/types/ric-hearing-aid" className={styles.subDropdownContentLinks}>RIC Hearing Aids</Link>
+                    <Link href="/hearing-aids/types/rechargeable-hearing-aid" className={styles.subDropdownContentLinks}>Rechargeable Hearing Aids</Link>
+                    <Link href="/hearing-aids/types/analog-hearing-aid" className={styles.subDropdownContentLinks}>Analog Hearing Aids</Link>
+                    <Link href="/hearing-aids/types/wireless-hearing-aid" className={styles.subDropdownContentLinks}>Wireless Hearing Aids</Link>
+                    <Link href="/hearing-aids/types/bluetooth-hearing-aid" className={styles.subDropdownContentLinks}>Bluetooth Hearing Aids </Link>
+                    <Link href="/hearing-aids/types/micro-in-canal-hearing-aid" className={styles.subDropdownContentLinks}>Micro in Canal Hearing Aids </Link>
+                    <Link href="/hearing-aids/types/pocket-hearing-aid" className={styles.subDropdownContentLinks}>Pocket Hearing Aids </Link>
                   </div>
                 )}
               </div>

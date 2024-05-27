@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from './styles/service.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingcareFAQS from './components/ServicesFAQS/HearingCareFAQS'
 
@@ -11,6 +12,20 @@ const HearingCare = () => {
       <div>
       <WhatsAppButton />
       </div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Best Hearing Care Solution in Delhi - Hearing Hope</title>
+        <meta name="description" content="Discover the best hearing care solutions in Delhi at Hearing Hope. Expert audiologists provide personalized care for better hearing. Book a consultation today!"></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Best Hearing Care Solution in Delhi - Hearing Hope" />
+        <meta property="og:description" content="Discover the best hearing care solutions in Delhi at Hearing Hope. Expert audiologists provide personalized care for better hearing. Book a consultation today!" />
+            <meta property="og:url" content="https://www.hearinghope.in/services/hearing-care-solution-in-delhi"/>
+            <meta property="og:image:url"
+        content="https://www.hearinghope.in/_next/image?url=%2FService%2FServiceHearingTest.png&w=828&q=75" />
+        <link rel="canonical" href="https://www.hearinghope.in/services/hearing-care-solution-in-delhi"/>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
         <Navbar />
 
         <div className={styles.BlogContainer}>
