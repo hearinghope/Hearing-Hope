@@ -42,35 +42,32 @@ The Signia Ric pure 1AX stands out in the market for its sleek design and superi
 
 Experience top-tier auditory support with the Signia Ric pure 1AX, designed to cater to your unique hearing needs. Below are some of the standout features and benefits of this innovative device:
 
-<li><ul><b>Automatic Environment Adjustment:</b> The Signia Ric pure 1AX utilizes sophisticated sensors to detect changes in your listening environment and automatically adjusts settings for optimal hearing, whether you&apos;re in a noisy street or a quiet room.</ul></li>
-<li><ul><b>Bluetooth Connectivity:</b> Seamlessly connect your hearing aids to smartphones, TVs, and other Bluetooth-enabled devices for a direct audio stream, enhancing your ability to engage with media and communications without strain.</ul></li>
-<li><ul><b>Rechargeable Batteries:</b> Equipped with high-capacity rechargeable batteries, the Signia Ric pure 1AX offers a full day&apos;s power on a single charge. Forget the hassle of frequent battery replacements and enjoy uninterrupted hearing.</ul></li>
-<li><ul><b>Speech Clarity:</b> Enhanced speech understanding technology focuses on human voices, reducing background noise and making conversations clearer, especially in crowded places.</ul></li>
-<li><ul><b>Tinnitus Relief:</b> Integrated tinnitus therapy features offer relief and management options for those experiencing ringing in the ears, providing comfort and improved quality of life.</ul></li>
-<li><ul><b>OVP™ (Own Voice Processing) Technology:</b> Unique to Signia, this feature processes the wearer&apos;s voice separately from other sounds, delivering a natural voice experience and improving overall satisfaction.</ul></li>
-<li><ul><b>TeleCare Support:</b> Access remote tuning and support from hearing professionals, allowing adjustments to be made to your hearing aids from the comfort of your home.</ul></li>
+<ul>
+    <li><strong>Automatic Environment Adjustment:</strong> The Signia Ric pure 1AX utilizes sophisticated sensors to detect changes in your listening environment and automatically adjusts settings for optimal hearing, whether you're in a noisy street or a quiet room.</li>
+    <li><strong>Bluetooth Connectivity:</strong> Seamlessly connect your hearing aids to smartphones, TVs, and other Bluetooth-enabled devices for a direct audio stream, enhancing your ability to engage with media and communications without strain.</li>
+    <li><strong>Rechargeable Batteries:</strong> Equipped with high-capacity rechargeable batteries, the Signia Ric pure 1AX offers a full day's power on a single charge. Forget the hassle of frequent battery replacements and enjoy uninterrupted hearing.</li>
+    <li><strong>Speech Clarity:</strong> Enhanced speech understanding technology focuses on human voices, reducing background noise and making conversations clearer, especially in crowded places.</li>
+    <li><strong>Tinnitus Relief:</strong> Integrated tinnitus therapy features offer relief and management options for those experiencing ringing in the ears, providing comfort and improved quality of life.</li>
+    <li><strong>OVP™ (Own Voice Processing) Technology:</strong> Unique to Signia, this feature processes the wearer's voice separately from other sounds, delivering a natural voice experience and improving overall satisfaction.</li>
+    <li><strong>TeleCare Support:</strong> Access remote tuning and support from hearing professionals, allowing adjustments to be made to your hearing aids from the comfort of your home.</li>
+  </ul>
 
+  <h1>Technical Specifications</h1>
+  <ul>
+    <li><strong>Model Type:</strong> Receiver-in- Canal (RIC)</li>
+    <li><strong>Channels and Programs:</strong> 24 processing channels with multiple customizable programs</li>
+    <li><strong>Technology Level:</strong> Advanced</li>
+    <li><strong>Battery Type:</strong> Lithium-ion rechargeable battery</li>
+    <li><strong>Battery Life:</strong> Up to 24 hours on a single charge with typical use</li>
+    <li><strong>Connectivity Options:</strong> Bluetooth 5.0 for connectivity with smartphones, TV, and other devices</li>
+    <li><strong>App Compatibility:</strong> Compatible with the Signia app for iOS and Android, offering personalized control and adjustments</li>
+    <li><strong>Microphones:</strong> Dual-microphone technology for superior sound localization and noise reduction</li>
+    <li><strong>Water Resistance:</strong> IP68 rated for resistance to moisture and dust</li>
+    <li><strong>Dimensions:</strong> Discreet and lightweight design suitable for all-day wear</li>
+    <li><strong>Color Options:</strong> Available in a range of colors to match your style and preference</li>
+  </ul>
 
-Each feature is crafted to enhance your hearing experience, ensuring that the Signia Ric pure 1AX is not just a hearing aid, but a gateway to a world of clearer, more connected living.
-
-<h1>Technical Specifications</h1>
-
-The Signia Ric pure 1AX is built with precision engineering and high-quality materials to provide an exceptional hearing experience. Here are the detailed specifications that make this device a leader in hearing technology:
-
-<li><ul><b>Model Type:</b> Receiver-in-Canal (RIC)</ul></li>
-<li><ul><b>Channels and Programs:</b> 24 processing channels with multiple customizable programs</ul></li>
-<li><ul><b>Technology Level:</b> Advanced</ul></li>
-<li><ul><b>Battery Type:</b> Lithium-ion rechargeable battery</ul></li>
-<li><ul><b>Battery Life:</b> Up to 24 hours on a single charge with typical use</ul></li>
-<li><ul><b>Connectivity Options:</b> Bluetooth 5.0 for connectivity with smartphones, TV, and other devices</ul></li>
-<li><ul><b>App Compatibility:</b> Compatible with the Signia app for iOS and Android, offering personalized control and adjustments</ul></li>
-<li><ul><b>Microphones:</b> Dual-microphone technology for superior sound localization and noise reduction</ul></li>
-<li><ul><b>Water Resistance:</b> IP68 rated for resistance to moisture and dust</ul></li>
-<li><ul><b>Dimensions:</b> Discreet and lightweight design suitable for all-day wear</ul></li>
-<li><ul><b>Color Options:</b> Available in a range of colors to match your style and preference</ul></li>
-
-
-These specifications ensure that the Signia Ric pure 1AX can provide a tailored hearing solution that adapts to various environments and personal preferences, enhancing not only hearing but also the overall quality of life for its users.
+  <p>Each feature is crafted to enhance your hearing experience, ensuring that the Signia Ric pure 1AX is not just a hearing aid, but a gateway to a world of clearer, more connected living.</p>
 
 <h2>How It Works</h2>
 

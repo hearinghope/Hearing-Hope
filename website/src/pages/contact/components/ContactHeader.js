@@ -74,7 +74,7 @@ const ContactHeader = () => {
                     </div>
                     <div className={styles.text}>
                       <p style={{ lineHeight: '25px' }}>
-                        <span style={{ color: '#ff6600' }}><b>Address:</b></span> G-14, Ground Floor, Kings Mall, Twin District Centre, Sector 10, Rohini.
+                        <span style={{ color: '#ff6600' }}><strong>Address:</strong></span> G-14, Ground Floor, Kings Mall, Twin District Centre, Sector 10, Rohini.
                       </p>
                     </div>
                   </div>
@@ -84,7 +84,7 @@ const ContactHeader = () => {
                     </div>
                     <div className={styles.text}>
                       <p>
-                        <span style={{ color: '#ff6600' }}><b>Phone:</b></span> <a href="tel://9711871168">+91 9711871168</a>
+                        <span style={{ color: '#ff6600' }}><strong>Phone:</strong></span> <a href="tel://9711871168">+91 9711871168</a>
                       </p>
                     </div>
                   </div>
@@ -94,7 +94,7 @@ const ContactHeader = () => {
                     </div>
                     <div className={styles.text}>
                       <p>
-                        <span style={{ color: '#ff6600' }}><b>Email:</b></span>{' '}
+                        <span style={{ color: '#ff6600' }}><strong>Email:</strong></span>{' '}
                         <Link href="mailto:Hearinghope@gmail.com">Hearinghope@gmail.com</Link>
                       </p>
                     </div>

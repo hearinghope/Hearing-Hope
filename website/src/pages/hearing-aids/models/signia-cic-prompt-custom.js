@@ -39,54 +39,74 @@ const BTEPromptSP = () => {
 At HearingHope.in, we understand the need for a hearing aid that doesn&apos;t just amplify sound, but enhances your hearing experience. The Signia CIC Prompt Custom is equipped with state-of-the-art technology that adapts to various environments, ensuring clear and natural sound no matter where you are. Its sleek design is almost invisible to others, offering you confidence in social settings. Ideal for individuals with mild to moderately severe hearing loss, this device combines aesthetics with functionality to deliver a hearing aid solution that meets your expectations for both performance and discretion.<br></br><br></br>
 <h2>Key Features of Signia CIC Prompt Custom</h2>
 
-<b>Discreet Design:</b>
-<li><ul><b>Invisible Fit:</b> Tailored to sit completely within your ear canal, making it virtually undetectable to others.</ul></li>
-<li><ul><b>Custom-Made:</b> Each device is custom-molded to fit the unique contours of your ear, ensuring maximum comfort.</ul></li>
+<strong>Discreet Design:</strong>
+<ul>
+  <li><strong>Invisible Fit:</strong> Tailored to sit completely within your ear canal, making it virtually undetectable to others.</li>
+  <li><strong>Custom-Made:</strong> Each device is custom-molded to fit the unique contours of your ear, ensuring maximum comfort.</li>
+</ul>
 
-<b>Advanced Sound Technology:</b>
-<li><ul><b>Crystal Clear Audio:</b> Features advanced digital processing to provide clear, high-definition sound.</ul></li>
-<li><ul><b>Background Noise Reduction:</b> Equipped with sophisticated noise reduction technology that helps in minimizing background noise, enhancing speech clarity especially in noisy environments.</ul></li>
+<strong>Advanced Sound Technology:</strong>
+<ul>
+  <li><strong>Crystal Clear Audio:</strong> Features advanced digital processing to provide clear, high-definition sound.</li>
+  <li><strong>Background Noise Reduction:</strong> Equipped with sophisticated noise reduction technology that helps in minimizing background noise, enhancing speech clarity especially in noisy environments.</li>
+</ul>
 
-<b>User-Friendly:</b>
-<li><ul><b>Easy Adjustments:</b> Intuitive controls allow for easy adjustments to volume and settings without additional tools.</ul></li>
-<li><ul><b>Durable:</b> Designed to withstand everyday use with minimal maintenance.</ul></li>
+<strong>User-Friendly:</strong>
+<ul>
+  <li><strong>Easy Adjustments:</strong> Intuitive controls allow for easy adjustments to volume and settings without additional tools.</li>
+  <li><strong>Durable:</strong> Designed to withstand everyday use with minimal maintenance.</li>
+</ul>
 
-<b>Connectivity:</b>
-<li><ul><b>Wireless Streaming:</b> Compatible with a range of wireless accessories, allowing for direct audio streaming from devices like smartphones and TVs.</ul></li>
-<li><ul><b>Telecoil Option:</b> Includes a telecoil for better hearing in public venues equipped with induction loop systems.</ul></li>
+<strong>Connectivity:</strong>
+<ul>
+  <li><strong>Wireless Streaming:</strong> Compatible with a range of wireless accessories, allowing for direct audio streaming from devices like smartphones and TVs.</li>
+  <li><strong>Telecoil Option:</strong> Includes a telecoil for better hearing in public venues equipped with induction loop systems.</li>
+</ul>
 
-<b>Energy Efficient:</b>
-<li><ul><b>Long Battery Life:</b> Powered by highly efficient batteries that provide extended use on a single charge.</ul></li>
-<li><ul><b>Eco-Friendly Options:</b> Supports rechargeable options reducing the need for frequent battery replacements.</ul></li>
+<strong>Energy Efficient:</strong>
+<ul>
+  <li><strong>Long Battery Life:</strong> Powered by highly efficient batteries that provide extended use on a single charge.</li>
+  <li><strong>Eco-Friendly Options:</strong> Supports rechargeable options reducing the need for frequent battery replacements.</li>
+</ul>
 
-These features combine to make the Signia CIC Prompt Custom not just a hearing aid, but a comprehensive hearing enhancement tool. 
+<p>These features combine to make the Signia CIC Prompt Custom not just a hearing aid, but a comprehensive hearing enhancement tool.</p>
 
 <h2>Benefits and How It Works</h2>
 
-<b>Empowering Better Communication:</b>
+<strong>Empowering Better Communication:</strong>
 
-The Signia CIC Prompt Custom is engineered to transform your auditory experience. Here&apos;s how it benefits users:<br></br>
+<p>The Signia CIC Prompt Custom is engineered to transform your auditory experience. Here's how it benefits users:</p>
 
-<li><ul><b>Enhanced Speech Clarity:</b> Utilizes precision microphone technology and advanced sound processing to distinguish speech from noise, making conversations clearer, especially in crowded environments.</ul></li>
-<li><ul><b>Tailored Listening Experience:</b> Adapts to different soundscapes, ensuring optimal hearing whether you&apos;re in a quiet room or a bustling street. The automatic program adjustment caters to specific environments without manual intervention.</ul></li>
-<li><ul><b>Improved Sound Quality:</b> Delivers rich, nuanced sound quality that enhances the overall enjoyment of music and media, providing a fuller sensory experience.</ul></li>
+<ul>
+  <li><strong>Enhanced Speech Clarity:</strong> Utilizes precision microphone technology and advanced sound processing to distinguish speech from noise, making conversations clearer, especially in crowded environments.</li>
+  <li><strong>Tailored Listening Experience:</strong> Adapts to different soundscapes, ensuring optimal hearing whether you're in a quiet room or a bustling street. The automatic program adjustment caters to specific environments without manual intervention.</li>
+  <li><strong>Improved Sound Quality:</strong> Delivers rich, nuanced sound quality that enhances the overall enjoyment of music and media, providing a fuller sensory experience.</li>
+</ul>
 
-<b>How It Works:</b>
+<strong>How It Works:</strong>
 
-The technology behind the Signia CIC Prompt Custom involves several sophisticated components:
-<br></br>
-<b>1. Sound Capture and Processing:</b>
-<li><ul>Microphones capture the surrounding sounds, which are then analyzed by the built-in digital processor.</ul></li>
-<li><ul>The processor identifies and amplifies speech while reducing background noise, ensuring the wearer hears what is most important.</ul></li>
+<p>The technology behind the Signia CIC Prompt Custom involves several sophisticated components:</p>
 
-<b>2. Adaptive Algorithms:</b>
-<li><ul>These are used to dynamically adjust the sound settings based on the listening environment. This includes balancing volume levels and enhancing speech clarity automatically.</ul></li>
+<strong>1. Sound Capture and Processing:</strong>
+<ul>
+  <li>Microphones capture the surrounding sounds, which are then analyzed by the built-in digital processor.</li>
+  <li>The processor identifies and amplifies speech while reducing background noise, ensuring the wearer hears what is most important.</li>
+</ul>
 
-<b>3. Feedback Suppression System:</b>
-<li><ul>Prevents the annoying whistling sometimes heard from hearing aids by canceling out feedback sounds before they reach the ear.</ul></li>
+<strong>2. Adaptive Algorithms:</strong>
+<ul>
+  <li>These are used to dynamically adjust the sound settings based on the listening environment. This includes balancing volume levels and enhancing speech clarity automatically.</li>
+</ul>
 
-<b>4. Wireless Connectivity:</b>
-<li><ul>Allows the hearing aid to connect with other devices for audio streaming and control settings via smartphone applications. This integration extends usability and control, making it easier to manage preferences discreetly.</ul></li><br></br>
+<strong>3. Feedback Suppression System:</strong>
+<ul>
+  <li>Prevents the annoying whistling sometimes heard from hearing aids by canceling out feedback sounds before they reach the ear.</li>
+</ul>
+
+<strong>4. Wireless Connectivity:</strong>
+<ul>
+  <li>Allows the hearing aid to connect with other devices for audio streaming and control settings via smartphone applications. This integration extends usability and control, making it easier to manage preferences discreetly.</li>
+</ul>
 
 Through its advanced features, the Signia CIC Prompt Custom offers a superior hearing solution that not only meets but exceeds the expectations of its users. It provides them with the freedom to engage actively and confidently in all aspects of their lives.
 

@@ -39,23 +39,28 @@ const PureChargeGo1AX16Channel= () => {
 The Signia Pure Charge & Go 1AX represents a significant advancement in auditory assistance technology, bringing together superior sound quality and user-friendly functionality. Crafted by industry leaders, this model stands out with its sleek design and 16 channels of precision audio processing, making it ideal for those seeking a reliable solution to improve their hearing. Whether you&apos;re in a quiet room or a noisy environment, the Pure Charge & Go 1AX is engineered to provide unparalleled auditory support, ensuring you never miss a moment.<br></br><br></br>
 
 <h2>Features</h2>
-<li><ul><b>Rechargeability:</b> Say goodbye to constant battery changes. The Pure Charge & Go 1AX comes with a high-capacity lithium-ion battery that provides a full day&apos;s use on a single charge, including streaming.</ul></li>
-<li><ul><b>Bluetooth Connectivity:</b> Seamlessly connect with smartphones, TVs, and other devices, allowing you to enjoy music, calls, and TV with superior sound directly through your hearing aid.</ul></li>
-<li><ul><b>Own Voice Processing Technology:</b> Experience natural sound quality with advanced processing capabilities that detect and optimize your own voice.</ul></li>
-<li><ul><b>Signia App Compatibility:</b> Adjust settings and personalize your hearing experience directly from your smartphone using the intuitive Signia app.</ul></li>
+<ul>
+    <li><strong>Rechargeability:</strong> Say goodbye to constant battery changes. The Pure Charge & Go 1AX comes with a high-capacity lithium-ion battery that provides a full day's use on a single charge, including streaming.</li>
+    <li><strong>Bluetooth Connectivity:</strong> Seamlessly connect with smartphones, TVs, and other devices, allowing you to enjoy music, calls, and TV with superior sound directly through your hearing aid.</li>
+    <li><strong>Own Voice Processing Technology:</strong> Experience natural sound quality with advanced processing capabilities that detect and optimize your own voice.</li>
+    <li><strong>Signia App Compatibility:</strong> Adjust settings and personalize your hearing experience directly from your smartphone using the intuitive Signia app.</li>
+  </ul>
 
-<h2>Technical Specifications</h2>
-<li><ul><b>Channels: </b>16 adjustable sound channels for precise sound customization.</ul></li>
-<li><ul><b>Battery Life:</b> Up to 24 hours of use with a single charge.</ul></li>
-<li><ul><b>Dimensions:</b> Designed to fit comfortably and discreetly behind the ear.</ul></li>
-<li><ul><b>Weight:</b> Lightweight construction for comfortable all-day wear.</ul></li>
-<li><ul><b>Connectivity:</b> Bluetooth 5.0 for reliable and easy connection to devices.</ul></li>
+  <h2>Technical Specifications</h2>
+  <ul>
+    <li><strong>Channels:</strong> 16 adjustable sound channels for precise sound customization.</li>
+    <li><strong>Battery Life:</strong> Up to 24 hours of use with a single charge.</li>
+    <li><strong>Dimensions:</strong> Designed to fit comfortably and discreetly behind the ear.</li>
+    <li><strong>Weight:</strong> Lightweight construction for comfortable all-day wear.</li>
+    <li><strong>Connectivity:</strong> Bluetooth 5.0 for reliable and easy connection to devices.</li>
+  </ul>
 
-<h2>Benefits</h2>
-<li><ul><b>Improved Sound Clarity:</b> Enhanced speech understanding in noisy</ul></li> environments, allowing you to engage in conversations confidently.
-<li><ul><b>User-friendly Interface:</b> Easy-to-use features and automatic settings adjustments based on the listening environment.</ul></li>
-<li><ul><b>All-Day Comfort:</b> Ergonomic design ensures the device remains comfortable throughout the day, even with continuous use.</ul></li>
-
+  <h2>Benefits</h2>
+  <ul>
+    <li><strong>Improved Sound Clarity:</strong> Enhanced speech understanding in noisy environments, allowing you to engage in conversations confidently.</li>
+    <li><strong>User-friendly Interface:</strong> Easy-to-use features and automatic settings adjustments based on the listening environment.</li>
+    <li><strong>All-Day Comfort:</strong> Ergonomic design ensures the device remains comfortable throughout the day, even with continuous use.</li>
+  </ul>
 Through these features and specifications, the Signia Pure Charge & Go 1AX - 16 Channel Hearing Aid not only meets the essential needs of individuals with hearing impairments but also enhances their daily interactions and enjoyment of various media.
 <br>
 </br>

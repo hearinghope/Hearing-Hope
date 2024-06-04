@@ -39,27 +39,32 @@ const Digital16Channel = () => {
 At HearingHope.in, we understand the importance of clear and effective communication. That&apos;s why we&apos;re proud to offer the Signia Digital - 16 Channel, a product synonymous with innovation and quality in the hearing aid industry. Whether you&apos;re enjoying conversation in a noisy environment or listening to your favorite music at home, this hearing aid is crafted to provide exceptional sound fidelity across a wide range of settings. With its advanced features and user-friendly design, the Signia Digital - 16 Channel is your gateway to a world of auditory clarity.<br></br><br></br>
 <h2>Key Features of Signia Digital - 16 Channel Hearing Aid</h2>
 The Signia Digital - 16 Channel hearing aid is packed with innovative features designed to improve your hearing experience dramatically. Here&apos;s what makes it a leader in hearing technology:
-<li><ul><b>16 Channel Advanced Sound Processing:</b> Each channel can be adjusted independently, allowing for precise sound customization according to different frequency ranges. This ensures clear and rich sound quality, making it easier to understand speech and recognize various sound environments.</ul></li>
-<li><ul><b>Speech Enhancement Technology:</b> This feature specifically targets and enhances speech clarity, especially in noisy environments, helping users to hear conversations clearly without being overwhelmed by background noise.</ul></li>
-<li><ul><b>Directional Microphones:</b> These microphones focus on the sound coming from the front while reducing noise from other directions, making it easier to focus on conversations in crowded places.</ul></li>
-<li><ul><b>Wireless Connectivity:</b> Seamlessly connect to smartphones, TVs, and other devices, allowing for direct audio streaming and easy control over the hearing aid settings through a dedicated app.</ul></li>
-<li><ul><b>Rechargeable Battery:</b> Equipped with a long-lasting, rechargeable battery, this hearing aid offers all-day hearing comfort without the need for frequent battery changes.</ul></li>
-<li><ul><b>Tinnitus Relief:</b> Integrated tinnitus therapy features offer soothing sounds to help manage and mask tinnitus symptoms, providing relief to those who suffer from ringing in their ears.</ul></li>
-<li><ul><b>Water and Dust Resistant:</b> With an IP68 rating, the Signia Digital - 16 Channel is both water and dust resistant, ensuring durability and reliability in various environments.</ul></li>
-<li><ul><b>TeleCare Support:</b> Remote tuning and customer support are available, allowing adjustments to be made by a hearing professional without needing a physical appointment.</ul></li>
-These state-of-the-art features are designed not only to meet the diverse needs of individuals with hearing impairment but also to enhance their daily interactions and overall quality of life. Whether at a social gathering, at work, or during leisure activities, the Signia Digital - 16 Channel brings a level of sound clarity that enhances every listening experience.
-<h2>Technical Specifications of the Signia Digital - 16 Channel Hearing Aid</h2>
-The Signia Digital - 16 Channel hearing aid is designed with a host of technical specifications that contribute to its superior performance and user comfort. Here are the detailed technical specifications:
-<li><ul><b>Channels and Programs:</b> 16 independently adjustable channels for precise sound modulation and customization. Multiple hearing programs tailored to different environments (e.g., outdoors, crowded spaces, at home).</ul></li>
-<li><ul><b>Frequency Range:</b> Wide frequency range designed to enhance the detection and amplification of a variety of sounds, improving speech recognition and music appreciation.
-Battery Type: High-capacity lithium-ion rechargeable battery with up to 24 hours of life per charge.</ul></li>
-<li><ul><b>Connectivity Options:</b> Equipped with Bluetooth connectivity for wireless streaming from devices such as smartphones, TVs, and music players. Compatible with Android and iOS devices.</ul></li>
-<li><ul><b>Construction Materials:</b> Durable, medical-grade materials that are hypoallergenic and suitable for sensitive skin. Ergonomically designed for comfort and discreetness.</ul></li>
-<li><ul><b>Water and Dust Resistance:</b> Rated IP68, providing robust protection against moisture, sweat, and dust, ensuring functionality in diverse conditions.</ul></li>
-<li><ul><b>Dimensions and Weight:</b> Compact and lightweight design, ensuring minimal visibility and maximum comfort for prolonged wear.</ul></li>
-<li><ul><b>Color Options:</b> Available in a variety of colors to match your personal style or skin tone for a more inconspicuous appearance.</ul></li>
-<li><ul><b>Certifications:</b> Certified by major health and safety organizations to meet global standards of performance and safety.</ul></li>
+<h3>Key Features</h3>
+  <ul>
+    <li><strong>16 Channel Advanced Sound Processing:</strong> Each channel can be adjusted independently, allowing for precise sound customization according to different frequency ranges. This ensures clear and rich sound quality, making it easier to understand speech and recognize various sound environments.</li>
+    <li><strong>Speech Enhancement Technology:</strong> This feature specifically targets and enhances speech clarity, especially in noisy environments, helping users to hear conversations clearly without being overwhelmed by background noise.</li>
+    <li><strong>Directional Microphones:</strong> These microphones focus on the sound coming from the front while reducing noise from other directions, making it easier to focus on conversations in crowded places.</li>
+    <li><strong>Wireless Connectivity:</strong> Seamlessly connect to smartphones, TVs, and other devices, allowing for direct audio streaming and easy control over the hearing aid settings through a dedicated app.</li>
+    <li><strong>Rechargeable Battery:</strong> Equipped with a long-lasting, rechargeable battery, this hearing aid offers all-day hearing comfort without the need for frequent battery changes.</li>
+    <li><strong>Tinnitus Relief:</strong> Integrated tinnitus therapy features offer soothing sounds to help manage and mask tinnitus symptoms, providing relief to those who suffer from ringing in their ears.</li>
+    <li><strong>Water and Dust Resistant:</strong> With an IP68 rating, the Signia Digital - 16 Channel is both water and dust resistant, ensuring durability and reliability in various environments.</li>
+    <li><strong>TeleCare Support:</strong> Remote tuning and customer support are available, allowing adjustments to be made by a hearing professional without needing a physical appointment.</li>
+  </ul>
 
+  <h2>Technical Specifications of the Signia Digital - 16 Channel Hearing Aid</h2>
+  <ul>
+    <li><strong>Channels and Programs:</strong> 16 independently adjustable channels for precise sound modulation and customization. Multiple hearing programs tailored to different environments (e.g., outdoors, crowded spaces, at home).</li>
+    <li><strong>Frequency Range:</strong> Wide frequency range designed to enhance the detection and amplification of a variety of sounds, improving speech recognition and music appreciation.
+      
+      <strong>Battery Type:</strong> High-capacity lithium-ion rechargeable battery with up to 24 hours of life per charge.
+    </li>
+    <li><strong>Connectivity Options:</strong> Equipped with Bluetooth connectivity for wireless streaming from devices such as smartphones, TVs, and music players. Compatible with Android and iOS devices.</li>
+    <li><strong>Construction Materials:</strong> Durable, medical-grade materials that are hypoallergenic and suitable for sensitive skin. Ergonomically designed for comfort and discreetness.</li>
+    <li><strong>Water and Dust Resistance:</strong> Rated IP68, providing robust protection against moisture, sweat, and dust, ensuring functionality in diverse conditions.</li>
+    <li><strong>Dimensions and Weight:</strong> Compact and lightweight design, ensuring minimal visibility and maximum comfort for prolonged wear.</li>
+    <li><strong>Color Options:</strong> Available in a variety of colors to match your personal style or skin tone for a more inconspicuous appearance.</li>
+    <li><strong>Certifications:</strong> Certified by major health and safety organizations to meet global standards of performance and safety.</li>
+  </ul>
 
 These specifications demonstrate the commitment of the Signia Digital - 16 Channel to providing a technologically advanced, highly functional, and user-friendly hearing aid. Each feature is carefully crafted to address the common challenges faced by individuals with hearing impairments, ensuring that every user can experience enhanced hearing with confidence and ease.
 
