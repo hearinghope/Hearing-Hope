@@ -40,7 +40,7 @@ The Signia Pure Charge & Go 1AX represents a significant advancement in auditory
 
 <h2>Features</h2>
 <ul>
-    <li><strong>Rechargeability:</strong> Say goodbye to constant battery changes. The Pure Charge & Go 1AX comes with a high-capacity lithium-ion battery that provides a full day's use on a single charge, including streaming.</li>
+    <li><strong>Rechargeability:</strong> Say goodbye to constant battery changes. The Pure Charge & Go 1AX comes with a high-capacity lithium-ion battery that provides a full day&apos;s use on a single charge, including streaming.</li>
     <li><strong>Bluetooth Connectivity:</strong> Seamlessly connect with smartphones, TVs, and other devices, allowing you to enjoy music, calls, and TV with superior sound directly through your hearing aid.</li>
     <li><strong>Own Voice Processing Technology:</strong> Experience natural sound quality with advanced processing capabilities that detect and optimize your own voice.</li>
     <li><strong>Signia App Compatibility:</strong> Adjust settings and personalize your hearing experience directly from your smartphone using the intuitive Signia app.</li>

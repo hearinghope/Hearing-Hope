@@ -73,7 +73,7 @@ Whether you&apos;re a first-time user or looking to upgrade your current device,
 
 <h3>Performance Features:</h3>
 <ul>
-  <li><strong>Channels:</strong> Utilizes multiple channels for precise sound modulation and customization to user's hearing loss profile.</li>
+  <li><strong>Channels:</strong> Utilizes multiple channels for precise sound modulation and customization to user&apos;s hearing loss profile.</li>
   <li><strong>Programs:</strong> Equipped with various listening programs that can be easily switched to adapt to different sound environments.</li>
 </ul>
 
@@ -115,7 +115,7 @@ Whether you&apos;re a first-time user or looking to upgrade your current device,
 <h3>User Interaction:</h3>
 <ul>
   <li><strong>Program Selection:</strong> Users can switch between different preset programs tailored for specific listening environments (e.g., quiet settings, noisy outdoor areas, conversations in crowds).</li>
-  <li><strong>Volume Control:</strong> Simple controls allow for easy adjustments to volume based on the user's needs at any moment.</li>
+  <li><strong>Volume Control:</strong> Simple controls allow for easy adjustments to volume based on the user&apos;s needs at any moment.</li>
 </ul>
 
 <h3>Connectivity and Output:</h3>

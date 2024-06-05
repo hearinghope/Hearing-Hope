@@ -72,7 +72,7 @@ The Signia BTE INTUIS 4.1 P/SP is packed with features designed to improve the q
   <li><strong>Wireless Connectivity Options:</strong> Connect seamlessly with other devices like smartphones and TVs for a more integrated hearing experience.</li>
 </ul>
 
-<p>These features underscore the Signia BTE INTUIS 4.1 P/SP's commitment to quality and innovation, making it a top choice for those seeking to improve their hearing with technology that is both advanced and straightforward to use.</p>
+<p>These features underscore the Signia BTE INTUIS 4.1 P/SP&apos;s commitment to quality and innovation, making it a top choice for those seeking to improve their hearing with technology that is both advanced and straightforward to use.</p>
 
 <h2>Benefits of Using Signia BTE INTUIS 4.1 P/SP Hearing Aids</h2>
 
@@ -86,7 +86,7 @@ The Signia BTE INTUIS 4.1 P/SP is packed with features designed to improve the q
 
 <h3>Improved Overall Hearing Experience</h3>
 <ul>
-  <li><strong>Richer Sound Quality:</strong> Enjoy richer, more detailed sounds whether you're engaging in conversation, enjoying your favorite music, or watching TV.</li>
+  <li><strong>Richer Sound Quality:</strong> Enjoy richer, more detailed sounds whether you&apos;re engaging in conversation, enjoying your favorite music, or watching TV.</li>
   <li><strong>Reduced Listening Effort:</strong> With advanced noise reduction and sound amplification, listening becomes less tiring and more natural.</li>
 </ul>
 

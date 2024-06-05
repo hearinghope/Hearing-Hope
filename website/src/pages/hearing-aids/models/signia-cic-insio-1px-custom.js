@@ -49,7 +49,7 @@ The Signia CIC Insio 1Px Custom is meticulously crafted to blend seamlessly into
   <li><strong>In-Ear Placement:</strong> Demonstrates how the device sits invisibly inside the ear.</li>
 </ul>
 
-<p>Designed with the user's lifestyle in mind, the Signia CIC Insio 1Px Custom is equipped with advanced digital processing technology which ensures clarity of sound in a variety of settings, from quiet conversations to noisy environments. This technology not only enhances speech but also filters out background noise, making it easier for users to focus on what they want to hear.</p>
+<p>Designed with the user&apos;s lifestyle in mind, the Signia CIC Insio 1Px Custom is equipped with advanced digital processing technology which ensures clarity of sound in a variety of settings, from quiet conversations to noisy environments. This technology not only enhances speech but also filters out background noise, making it easier for users to focus on what they want to hear.</p>
 
 <h3>Key Features and Benefits</h3>
 <ul>
@@ -62,8 +62,8 @@ The Signia CIC Insio 1Px Custom is meticulously crafted to blend seamlessly into
 
 <h3>Benefits for Everyday Use</h3>
 <ul>
-  <li><strong>Seamless Listening Experiences:</strong> Whether you're engaging in conversation, enjoying music, or watching TV, experience sound that is automatically optimized to your environment.</li>
-  <li><strong>Enhanced Speech Understanding:</strong> In noisy environments, the device's sophisticated noise reduction technology helps isolate speech from background noise, making it easier to follow conversations.</li>
+  <li><strong>Seamless Listening Experiences:</strong> Whether you&apos;re engaging in conversation, enjoying music, or watching TV, experience sound that is automatically optimized to your environment.</li>
+  <li><strong>Enhanced Speech Understanding:</strong> In noisy environments, the device&apos;s sophisticated noise reduction technology helps isolate speech from background noise, making it easier to follow conversations.</li>
   <li><strong>All-day Comfort:</strong> Tailored to fit your ear canal, wear your hearing aid comfortably all day without irritation.</li>
 </ul>
 

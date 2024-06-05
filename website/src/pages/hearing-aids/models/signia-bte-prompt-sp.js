@@ -57,7 +57,7 @@ Designed for individuals experiencing severe to profound hearing loss, the Signi
   <li><strong>Improved Communication:</strong> Engage effortlessly in conversations without missing a beat. The enhanced speech clarity offered by Signia BTE Prompt SP means you can enjoy social gatherings and intimate chats alike, without strain.</li>
   <li><strong>Greater Independence:</strong> With reliable hearing support that adjusts to various environments, users feel more confident navigating daily activities independently, from shopping trips to attending theater performances.</li>
   <li><strong>Enhanced Comfort:</strong> Designed for prolonged wear, the Signia BTE Prompt SP features an ergonomic design that fits comfortably behind the ear. Its lightweight, discreet profile allows for all-day use without discomfort.</li>
-  <li><strong>Connectivity and Entertainment:</strong> Directly stream audio from your devices, whether you're taking calls or listening to your favorite music. This seamless connectivity brings a new level of enjoyment and convenience to your media consumption.</li>
+  <li><strong>Connectivity and Entertainment:</strong> Directly stream audio from your devices, whether you&apos;re taking calls or listening to your favorite music. This seamless connectivity brings a new level of enjoyment and convenience to your media consumption.</li>
   <li><strong>Emotional Well-being:</strong> By restoring the ability to hear clearly, users often experience a significant improvement in mental health and emotional well-being. Feeling connected to your surroundings can reduce feelings of isolation and support a more active, engaging lifestyle.</li>
 </ul>
 

@@ -47,7 +47,7 @@ The Signia Digital 12 Channel hearing aid is designed with precision to cater to
   <li><strong>Battery Life:</strong> Up to 7 days on a single charge</li>
   <li><strong>Type:</strong> Available in behind-the-ear (BTE) and in-the-ear (ITE) models</li>
   <li><strong>Compatibility:</strong> Syncs seamlessly with iOS and Android devices</li>
-  <li><strong>Warranty:</strong> 2 years manufacturer's warranty</li>
+  <li><strong>Warranty:</strong> 2 years manufacturer&apos;s warranty</li>
 </ul>
 
 <h2>Key Features</h2>

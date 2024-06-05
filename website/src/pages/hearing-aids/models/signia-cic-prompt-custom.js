@@ -75,11 +75,11 @@ At HearingHope.in, we understand the need for a hearing aid that doesn&apos;t ju
 
 <strong>Empowering Better Communication:</strong>
 
-<p>The Signia CIC Prompt Custom is engineered to transform your auditory experience. Here's how it benefits users:</p>
+<p>The Signia CIC Prompt Custom is engineered to transform your auditory experience. Here&apos;s how it benefits users:</p>
 
 <ul>
   <li><strong>Enhanced Speech Clarity:</strong> Utilizes precision microphone technology and advanced sound processing to distinguish speech from noise, making conversations clearer, especially in crowded environments.</li>
-  <li><strong>Tailored Listening Experience:</strong> Adapts to different soundscapes, ensuring optimal hearing whether you're in a quiet room or a bustling street. The automatic program adjustment caters to specific environments without manual intervention.</li>
+  <li><strong>Tailored Listening Experience:</strong> Adapts to different soundscapes, ensuring optimal hearing whether you&apos;re in a quiet room or a bustling street. The automatic program adjustment caters to specific environments without manual intervention.</li>
   <li><strong>Improved Sound Quality:</strong> Delivers rich, nuanced sound quality that enhances the overall enjoyment of music and media, providing a fuller sensory experience.</li>
 </ul>
 

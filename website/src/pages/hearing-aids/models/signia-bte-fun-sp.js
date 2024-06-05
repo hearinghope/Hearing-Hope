@@ -79,7 +79,7 @@ As you explore our detailed guide, you&apos;ll learn about the innovative featur
   <li><strong>IP Rating:</strong> Water-resistant, ensuring functionality in diverse weather conditions</li>
 </ul>
 
-<p>These specifications detail the technical aspects and performance capabilities of the Signia BTE Fun SP, highlighting its adaptability and robustness in various auditory environments. This comprehensive information helps users gauge the product's suitability for their specific hearing needs.</p>
+<p>These specifications detail the technical aspects and performance capabilities of the Signia BTE Fun SP, highlighting its adaptability and robustness in various auditory environments. This comprehensive information helps users gauge the product&apos;s suitability for their specific hearing needs.</p>
 
 <h2>Benefits</h2>
 

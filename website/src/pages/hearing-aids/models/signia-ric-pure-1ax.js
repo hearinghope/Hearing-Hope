@@ -43,12 +43,12 @@ The Signia Ric pure 1AX stands out in the market for its sleek design and superi
 Experience top-tier auditory support with the Signia Ric pure 1AX, designed to cater to your unique hearing needs. Below are some of the standout features and benefits of this innovative device:
 
 <ul>
-    <li><strong>Automatic Environment Adjustment:</strong> The Signia Ric pure 1AX utilizes sophisticated sensors to detect changes in your listening environment and automatically adjusts settings for optimal hearing, whether you're in a noisy street or a quiet room.</li>
+    <li><strong>Automatic Environment Adjustment:</strong> The Signia Ric pure 1AX utilizes sophisticated sensors to detect changes in your listening environment and automatically adjusts settings for optimal hearing, whether you&apos;re in a noisy street or a quiet room.</li>
     <li><strong>Bluetooth Connectivity:</strong> Seamlessly connect your hearing aids to smartphones, TVs, and other Bluetooth-enabled devices for a direct audio stream, enhancing your ability to engage with media and communications without strain.</li>
-    <li><strong>Rechargeable Batteries:</strong> Equipped with high-capacity rechargeable batteries, the Signia Ric pure 1AX offers a full day's power on a single charge. Forget the hassle of frequent battery replacements and enjoy uninterrupted hearing.</li>
+    <li><strong>Rechargeable Batteries:</strong> Equipped with high-capacity rechargeable batteries, the Signia Ric pure 1AX offers a full day&apos;s power on a single charge. Forget the hassle of frequent battery replacements and enjoy uninterrupted hearing.</li>
     <li><strong>Speech Clarity:</strong> Enhanced speech understanding technology focuses on human voices, reducing background noise and making conversations clearer, especially in crowded places.</li>
     <li><strong>Tinnitus Relief:</strong> Integrated tinnitus therapy features offer relief and management options for those experiencing ringing in the ears, providing comfort and improved quality of life.</li>
-    <li><strong>OVP™ (Own Voice Processing) Technology:</strong> Unique to Signia, this feature processes the wearer's voice separately from other sounds, delivering a natural voice experience and improving overall satisfaction.</li>
+    <li><strong>OVP™ (Own Voice Processing) Technology:</strong> Unique to Signia, this feature processes the wearer&apos;s voice separately from other sounds, delivering a natural voice experience and improving overall satisfaction.</li>
     <li><strong>TeleCare Support:</strong> Access remote tuning and support from hearing professionals, allowing adjustments to be made to your hearing aids from the comfort of your home.</li>
   </ul>
 
