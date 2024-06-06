@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import AnalogFAQS from '../components/HeairingAidsTypesFAQS/AnalogFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const AnalogHearingAids = () => {
   return (
@@ -216,9 +217,11 @@ Proper maintenance is key to ensuring the longevity and optimal performance of y
 <br></br>
 By following these maintenance guidelines, you can extend the life and enhance the performance of your Analog Hearing Aids. Remember, taking good care of your hearing aids is an integral part of your hearing health journey. Hearing Hope is here to support you with all your hearing aid maintenance needs.
       
+    
+    </div>
+    </div>
+    <HearingAidsTypesStrip></HearingAidsTypesStrip>
     <AnalogFAQS></AnalogFAQS>
-    </div>
-    </div>
     <Footer></Footer>
 
     </div>

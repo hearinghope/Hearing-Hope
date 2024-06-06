@@ -619,3 +619,45 @@
     font-size: 22px;
   }
 }
+
+/*----Services Srtip-------*/
+
+.TypesStrip{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+   background: rgb(1,146,116);
+    background: linear-gradient(90deg, rgba(1,146,116,1) 0%, rgba(86,200,175,1) 40%, rgba(86,200,175,1) 51%, rgba(1,146,116,1) 100%);
+    color: white;
+}
+
+.TypesHeading {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.TypesLinksContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.TypesButton{
+  margin-inline: 30px;
+  color: #ff6600;
+  font: bolder;
+  width: 150px;
+  height: 50px;
+  padding: 10px ;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 15px;
+}

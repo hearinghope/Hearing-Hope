@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/RICPure1AXFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const RICPure1AX= () => {
   return (
@@ -94,12 +95,11 @@ With its built-in lithium-ion battery, the Signia Ric pure 1AX can be easily cha
 
 This sophisticated integration of technology not only improves sound quality but also enhances the user&apos;s ease of use, making the Signia Ric pure 1AX a top choice for those seeking a reliable and advanced hearing solution.
 
-<br>
-</br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+<br></br>
       
     </div>
-    </div>
+    </div><HearingAidsModelsStrip></HearingAidsModelsStrip>
+      <HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/Digital16ChannelFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const Digital16Channel = () => {
   return (
@@ -71,11 +72,13 @@ These specifications demonstrate the commitment of the Signia Digital - 16 Chann
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+
       
     </div>
     </div>
-    <Footer></Footer>
+
+    <HearingAidsModelsStrip></HearingAidsModelsStrip>
+        <HearingModelsFAQS></HearingModelsFAQS>  <Footer></Footer>
 
     </div>
   );

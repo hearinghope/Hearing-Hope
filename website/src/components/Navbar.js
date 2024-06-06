@@ -98,7 +98,7 @@ const Navbar = () => {
               <Link href="../../services/speech-therapy-in-delhi" className={styles.dropdownContentLinks}>Speech Therapy Services</Link>
               {/* <Link href="../../services/Audiologist" className={styles.dropdownContentLinks}>Audiologist</Link> */}
               <Link href="../../services/hearing-care-solution-in-delhi" className={styles.dropdownContentLinks}>Hearing Care</Link>
-              <Link href="../../services/hearing-aid-center-in-delhi" className={styles.dropdownContentLinks}>Hearing Aid Centre</Link>
+              <Link href="../../services/hearing-aid-center-in-delhi" className={styles.dropdownContentLinks}>Hearing Aid Center</Link>
             </div>
           )}
         </div>

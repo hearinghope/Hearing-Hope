@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import CICFAQS from '../components/HeairingAidsTypesFAQS/CICFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const CICHearingAids = () => {
   return (
@@ -167,9 +168,11 @@ At HearingHope.in, our expertise and support are pillars of our service. When yo
 
 
       
-      <CICFAQS></CICFAQS>
+
     </div>
-    </div>
+    </div> 
+    <HearingAidsTypesStrip></HearingAidsTypesStrip>
+         <CICFAQS></CICFAQS>
     <Footer></Footer>
 
     </div>

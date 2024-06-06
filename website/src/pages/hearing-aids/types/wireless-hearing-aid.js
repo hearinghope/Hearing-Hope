@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import WirelessFAQS from '../components/HeairingAidsTypesFAQS/WirelessFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const WirelessHearingAids = () => {
   return (
@@ -117,9 +118,11 @@ Opting for Wireless Hearing Aids from Hearing Hope offers several advantages ove
 Choosing Wireless Hearing Aids from Hearing Hope means embracing a world of enhanced connectivity, comfort, and auditory clarity. These modern devices are designed not just to aid your hearing but to enrich your overall quality of life.
 
       
-      <WirelessFAQS></WirelessFAQS>
+
     </div>
     </div>
+    <HearingAidsTypesStrip></HearingAidsTypesStrip>
+    <WirelessFAQS></WirelessFAQS>    
     <Footer></Footer>
 
     </div>

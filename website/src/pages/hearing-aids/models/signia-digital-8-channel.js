@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/Digital8ChannelFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const Digital8Channel = () => {
   return (
@@ -149,10 +150,12 @@ This sophisticated mechanism of the Signia Digital 8 Channel Hearing Aid ensures
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+
       
     </div>
     </div>
+
+    <HearingAidsModelsStrip></HearingAidsModelsStrip>      <HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import RechargeableFAQS from '../components/HeairingAidsTypesFAQS/RechargeableFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const RechargeableHearingAids = () => {
   return (
@@ -124,9 +125,13 @@ Rechargeable Hearing Aids offer a host of advantages that make them a preferred 
 </ul>
 <br></br>
 At Hearing Hope, we believe that the benefits of Rechargeable Hearing Aids can significantly enhance the hearing experience, offering a combination of convenience, cost-effectiveness, and cutting-edge technology. These advantages make rechargeable hearing aids an excellent choice for many users.  
-      <RechargeableFAQS></RechargeableFAQS>
+     
     </div>
     </div>
+
+
+    <HearingAidsTypesStrip></HearingAidsTypesStrip>
+    <RechargeableFAQS></RechargeableFAQS> 
     <Footer></Footer>
 
     </div>

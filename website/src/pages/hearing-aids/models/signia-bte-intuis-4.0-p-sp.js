@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEIntuis40PSPFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const BTEIntuis40PSP = () => {
   return (
@@ -88,11 +89,11 @@ The Signia BTE INTUIS 4.0 P/SP offers a robust solution for those who seek not o
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+   
       
     </div>
     </div>
-    <Footer></Footer>
+    <HearingAidsModelsStrip></HearingAidsModelsStrip>   <HearingModelsFAQS></HearingModelsFAQS><Footer></Footer>
 
     </div>
   );

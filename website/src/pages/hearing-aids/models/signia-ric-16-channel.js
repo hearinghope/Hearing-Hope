@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/RIC16ChannelFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const RIC16Channel = () => {
   return (
@@ -70,10 +71,12 @@ These features collectively make the Signia RIC 16-Channel not just a tool, but 
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+     
       
     </div>
     </div>
+
+    <HearingAidsModelsStrip></HearingAidsModelsStrip> <HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

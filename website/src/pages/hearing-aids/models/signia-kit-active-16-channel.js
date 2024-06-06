@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/KitActive16ChannelFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const KitActive16Channel = () => {
   return (
@@ -77,10 +78,12 @@ Adapted for an active lifestyle, the Signia Kit Active - 16 Channel offers:
 <li><strong>Discreet Design:</strong> Its compact, stylish design means it can be worn confidently during any activity without drawing attention.</li></ul>
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+      
       
     </div>
     </div>
+
+    <HearingAidsModelsStrip></HearingAidsModelsStrip><HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/KITStyletto1AX16ChannelFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const KITStyletto1AX16Channel= () => {
   return (
@@ -54,10 +55,12 @@ Choosing the right hearing aid can significantly improve your quality of life. T
 <li><strong>Discreet and Fashionable:</strong> The Styletto 1AX is not only functional but also discreet and fashionable, catering to the aesthetically conscious. Its slim, stylish design ensures that wearing a hearing aid can be a statement of style rather than merely a necessity. This aspect is crucial for users who value both appearance and functionality in their hearing solutions.</li>
 </ul><br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+      
       
     </div>
     </div>
+<HearingAidsModelsStrip></HearingAidsModelsStrip>
+<HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/RICPure1PXFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const RIC16Channel = () => {
   return (
@@ -70,12 +71,13 @@ The Signia RIC Pure 1Px is designed not just for function but also for comfort. 
   <li><strong>Long-Lasting Comfort:</strong> Designed for all-day wear, users appreciate the comfort it provides, barely noticing it&apos;s there.</li>
 </ul>
 These benefits are designed to not only improve hearing but also to enhance the overall quality of life, making the Signia RIC Pure 1Px a superior choice for those seeking reliable and advanced hearing solutions.
-<br>
-</br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+<br></br>
       
     </div>
     </div>
+
+    <HearingAidsModelsStrip></HearingAidsModelsStrip>
+      <HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

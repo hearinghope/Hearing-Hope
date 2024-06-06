@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/PureChargeGo1AXChannelFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const PureChargeGo1AX16Channel= () => {
   return (
@@ -64,10 +65,12 @@ The Signia Pure Charge & Go 1AX represents a significant advancement in auditory
 Through these features and specifications, the Signia Pure Charge & Go 1AX - 16 Channel Hearing Aid not only meets the essential needs of individuals with hearing impairments but also enhances their daily interactions and enjoyment of various media.
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+      
       
     </div>
     </div>
+
+    <HearingAidsModelsStrip></HearingAidsModelsStrip><HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

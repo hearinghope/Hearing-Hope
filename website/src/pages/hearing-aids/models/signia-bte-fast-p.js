@@ -6,6 +6,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEFastPFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const BTEFastP = () => {
   return (
@@ -149,10 +151,13 @@ This comparison shows that while there might be various options available, the S
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+
+      
       
     </div>
     </div>
+    <HearingAidsModelsStrip></HearingAidsModelsStrip>
+    <HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

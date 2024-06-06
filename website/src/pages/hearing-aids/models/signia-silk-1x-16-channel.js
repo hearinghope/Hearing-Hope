@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/Silk1X16ChannelFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const Silk1X16Channel = () => {
   return (
@@ -87,10 +88,11 @@ The Signia Silk 1X- 16 channel hearing aid is more than just a device; it&apos;s
 By choosing the Signia Silk 1X, you&apos;re not just selecting a hearing aid; you&apos;re embracing a device that integrates seamlessly into your life, enhancing every interaction and experience with superior sound quality and comfort. This hearing aid not only meets the needs of those with hearing loss but also enriches the daily lives of its users.
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+      
       
     </div>
     </div>
+    <HearingAidsModelsStrip></HearingAidsModelsStrip><HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

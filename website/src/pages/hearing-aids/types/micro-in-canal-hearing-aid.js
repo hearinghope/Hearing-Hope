@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import MicroInCanalFAQS from '../components/HeairingAidsTypesFAQS/MicroInCanalFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const MicroInCanalHearingAids = () => {
   return (
@@ -178,9 +179,9 @@ Embracing a Micro In Canal Hearing Aid can transform your auditory experience. A
 At HearingHope, our Micro In Canal Hearing Aids are more than just devices  they are gateways to a fuller, more connected life. We invite you to experience the transformative benefits these advanced hearing solutions offer.
 
       
-      <MicroInCanalFAQS></MicroInCanalFAQS>
+
     </div>
-    </div>
+    </div><HearingAidsTypesStrip></HearingAidsTypesStrip>      <MicroInCanalFAQS></MicroInCanalFAQS>
     <Footer></Footer>
 
     </div>

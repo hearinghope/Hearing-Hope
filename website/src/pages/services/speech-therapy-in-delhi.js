@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import SpeechTherapyFAQS from './components/ServicesFAQS/SpeechTherapyFAQS';
+import ServiceTypesStrip from './components/ServiceTypesStrip';
 
 const SpeechTherapy = () => {
     return(
@@ -132,12 +133,13 @@ Aimed at restoring and enhancing communication skills for everyday life and prof
 
 
 
-<SpeechTherapyFAQS></SpeechTherapyFAQS>
+
       </div>
      
       </div>
+      <ServiceTypesStrip></ServiceTypesStrip>
   
-    
+    <SpeechTherapyFAQS></SpeechTherapyFAQS>
       <Footer />
       </>
     )

@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingcareFAQS from './components/ServicesFAQS/HearingCareFAQS'
+import ServiceTypesStrip from './components/ServiceTypesStrip';
 
 const HearingCare = () => {
     return(
@@ -55,11 +56,12 @@ const HearingCare = () => {
   <li><strong>Ongoing Support: </strong>Our relationship with our patients doesn&apos;t end with the fitting of a hearing aid. We provide ongoing support, advice, and adjustments to ensure long-term satisfaction and comfort.</li>
 </ul>
 <p>Choose Hearing Hope for your hearing care needs. Experience the perfect blend of professionalism, compassion, and advanced hearing care, all in the heart of Delhi. Visit us and take the first step towards a world of clearer hearing and improved quality of life.</p>
-  <HearingcareFAQS></HearingcareFAQS>
+
       </div>
      
       </div>
-  
+      <ServiceTypesStrip></ServiceTypesStrip>
+    <HearingcareFAQS></HearingcareFAQS>
      
       <Footer />
       </>

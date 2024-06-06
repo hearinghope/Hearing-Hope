@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/RICPure1XFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const RICPure1X= () => {
   return (
@@ -75,10 +76,11 @@ These benefits combine to not only enhance auditory performance but also to impr
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+      
       
     </div>
     </div>
+    <HearingAidsModelsStrip></HearingAidsModelsStrip><HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

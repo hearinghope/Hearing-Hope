@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/CICInsio1PXCustomFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const CICInsio1PXCustom = () => {
   return (
@@ -92,11 +93,11 @@ These specifications highlight the Signia CIC Insio 1Px Custom as a technologica
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+      
       
     </div>
-    </div>
-    <Footer></Footer>
+    </div><HearingAidsModelsStrip></HearingAidsModelsStrip>
+   <HearingModelsFAQS></HearingModelsFAQS> <Footer></Footer>
 
     </div>
   );

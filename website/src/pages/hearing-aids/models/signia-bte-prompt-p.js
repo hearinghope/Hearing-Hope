@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEPromptPFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const BTEPromptP = () => {
   return (
@@ -89,10 +90,12 @@ These specifications demonstrate the Signia BTE Prompt P&apos;s commitment to pr
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+     
       
     </div>
     </div>
+
+    <HearingAidsModelsStrip></HearingAidsModelsStrip> <HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

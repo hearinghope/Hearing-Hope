@@ -6,8 +6,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import ITCFAQS from '../components/HeairingAidsTypesFAQS/ITCFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
-const KitActivePro = () => {
+const ITCHearingAid = () => {
   return (
     <div>
       <Head>
@@ -101,13 +102,13 @@ At HearingHope, our commitment to you extends far beyond the purchase of your IT
 <br></br>
 By choosing HearingHope for your ITC Hearing Aid needs, you&apos;re not just getting a device; you&apos;re gaining a partner in your hearing health journey. We are dedicated to providing you with the highest level of care and support, every step of the way.
 
-    <ITCFAQS></ITCFAQS>
+
     </div>
-    </div>
+    </div> <HearingAidsTypesStrip></HearingAidsTypesStrip>   <ITCFAQS></ITCFAQS>
     <Footer></Footer>
 
     </div>
   );
 };
 
-export default KitActivePro;
+export default ITCHearingAid;

@@ -6,6 +6,7 @@ import ServiceAbout from './components/ServiceAbout';
 import ServiceStrip from './components/ServiceStrip';
 import ServiceTypes from './components/ServiceTypes';
 import ServiceStrip2 from './components/ServiceStrip2';
+
 import WhatsAppButton from '../WhatsAppButton';
 
 const ServicePage = () => {
@@ -21,6 +22,7 @@ const ServicePage = () => {
         <link rel="icon" href="./favicon.png" />
       </Head>
       <Navbar />
+      
       <ServiceAbout />
       <ServiceStrip2 />
       <ServiceTypes />

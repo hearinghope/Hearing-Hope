@@ -6,8 +6,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEFunSPFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
-const BTEFunP = () => {
+const BTEFunSP = () => {
   return (
     <div>
       <Head>
@@ -97,14 +98,15 @@ These benefits highlight the positive impact the Signia BTE Fun SP can have on t
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+  
       
     </div>
-    </div>
+    </div><HearingAidsModelsStrip></HearingAidsModelsStrip>
+        <HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>
   );
 };
 
-export default BTEFunP;
+export default BTEFunSP;

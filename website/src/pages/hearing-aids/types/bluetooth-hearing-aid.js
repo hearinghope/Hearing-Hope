@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import BluetoothFAQS from '../components/HeairingAidsTypesFAQS/BluetoothFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const BluetoothHearingAids = () => {
   return (
@@ -264,9 +265,11 @@ The introduction of Bluetooth Hearing Aids has revolutionized the way individual
 By choosing Bluetooth Hearing Aids from Hearing Hope, you&apos;re not just selecting a hearing device; you&apos;re embracing a technology that integrates seamlessly into your life, enhancing your hearing experience, and connecting you more closely to the world around you. With these advanced aids, step into a world where sound is not only heard but also experienced in its fullest and most vibrant form.
 
       
-      <BluetoothFAQS></BluetoothFAQS>
+      
     </div>
     </div>
+    <HearingAidsTypesStrip></HearingAidsTypesStrip>
+    <BluetoothFAQS></BluetoothFAQS>
     <Footer></Footer>
 
     </div>

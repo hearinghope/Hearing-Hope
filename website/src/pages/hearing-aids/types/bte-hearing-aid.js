@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingAidsTypesFAQ from '../components/HeairingAidsTypesFAQS/BTEFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const BTEHearingAids = () => {
   return (
@@ -145,9 +146,9 @@ Proper maintenance is crucial for the longevity and effectiveness of your BTE He
 <br>
 </br>
       
-      <HearingAidsTypesFAQ></HearingAidsTypesFAQ>
+      
     </div>
-    </div>
+    </div><HearingAidsTypesStrip></HearingAidsTypesStrip><HearingAidsTypesFAQ></HearingAidsTypesFAQ>
     <Footer></Footer>
 
     </div>

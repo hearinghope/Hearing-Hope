@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEFunPFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const BTEFunP = () => {
   return (
@@ -84,10 +85,10 @@ These specifications are designed to provide users with a reliable, high-perform
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+      
       
     </div>
-    </div>
+    </div><HearingAidsModelsStrip></HearingAidsModelsStrip><HearingModelsFAQS></HearingModelsFAQS>
     <Footer></Footer>
 
     </div>

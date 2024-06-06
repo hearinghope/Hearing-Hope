@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import RICFAQS from '../components/HeairingAidsTypesFAQS/RICFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const RICHearingAids = () => {
   return (
@@ -105,9 +106,11 @@ Embracing RIC Hearing Aids from Hearing Hope can significantly enhance your audi
 Choosing RIC Hearing Aids from Hearing Hope means opting for a life where sound is not just heard but experienced in its fullest clarity and richness. Enjoy the sounds of life in all its vibrancy and detail with our state-of-the-art hearing solutions.
 
       
-      <RICFAQS></RICFAQS>
+      
     </div>
     </div>
+    <HearingAidsTypesStrip></HearingAidsTypesStrip>
+    <RICFAQS></RICFAQS>
     <Footer></Footer>
 
     </div>

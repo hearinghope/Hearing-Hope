@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import AudiologistFAQS from './components/ServicesFAQS/AudiologistFAQS';
+import ServiceTypesStrip from './components/ServiceTypesStrip';
 
 const HearingTest = () => {
     return(
@@ -29,6 +30,7 @@ const HearingTest = () => {
         <Navbar />
 
         <div className={styles.BlogContainer}>
+          
 
         <div className={styles.BlogHeading}>
           <h1 style={{color:'teal'}}>Best Audiologist Clinic in Delhi </h1>
@@ -116,12 +118,12 @@ const HearingTest = () => {
 <li><strong>Online and Tele-Audiology Services: </strong>Recognizing the need for accessible care, we offer online consultations and remote services, making it easier for patients to access our expertise.</li>
   </ul> 
   <p>At Hearing Hope,our array of services is not just about treating hearing loss; it&apos;s about enhancing your auditory experience and overall quality of life. As a premier audiologist clinic in Delhi, we are dedicated to providing our patients with the best possible care using a blend of expertise, technology, and compassionate service.
-</p> 
-
+</p> </div></div>
+        <ServiceTypesStrip></ServiceTypesStrip>
 <AudiologistFAQS></AudiologistFAQS>
-        </div>
+        
   
-      </div>
+      
       <Footer />
       </>
     )

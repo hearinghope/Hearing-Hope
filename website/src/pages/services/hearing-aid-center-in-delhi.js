@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingAidCentreFAQS from './components/ServicesFAQS/HearingAidCentreFAQS';
+import ServiceTypesStrip from './components/ServiceTypesStrip';
 
 const HearingAidCentre = () => {
     return(
@@ -135,11 +136,12 @@ const HearingAidCentre = () => {
 </ul>
 <p>By choosing Hearing Hope, you are not just getting a hearing aid; you are embarking on a journey towards better hearing with a team that cares deeply about your auditory health. Our streamlined process at this leading hearing aid centre in Delhi ensures that your path to improved hearing is smooth, effective, and satisfying.</p>
 
-<HearingAidCentreFAQS></HearingAidCentreFAQS>
+
       </div>
      
       </div>
-  
+      <ServiceTypesStrip></ServiceTypesStrip>
+  <HearingAidCentreFAQS></HearingAidCentreFAQS>
      
       <Footer />
       </>

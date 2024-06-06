@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingTestFAQS from './components/ServicesFAQS/HearingTestFAQS';
+import ServiceTypesStrip from './components/ServiceTypesStrip';
 
 const HearingTest = () => {
     return(
@@ -157,11 +158,12 @@ const HearingTest = () => {
 <p>At Hearing Hope, our Hearing Test Service in Delhi is just the beginning. We pride ourselves on providing a holistic approach to hearing care, ensuring that each client receives not just a diagnosis but a comprehensive solution tailored to their individual needs. Our goal is to empower you with the best auditory health solutions, enabling you to enjoy a fuller, more connected life.</p>
 
 
-<HearingTestFAQS></HearingTestFAQS>
+
       </div>
      
       </div>
-  
+      <ServiceTypesStrip></ServiceTypesStrip>
+      <HearingTestFAQS></HearingTestFAQS>
 
       <Footer />
       </>

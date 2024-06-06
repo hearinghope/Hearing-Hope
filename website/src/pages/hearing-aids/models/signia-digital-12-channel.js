@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/Digital12ChannelFAQS';
+import HearingAidsModelsStrip from '../components/HearingAidModelsStrips';
 
 const Digital12Channel = () => {
   return (
@@ -70,11 +71,13 @@ Designed with the user&apos;s comfort in mind, the lightweight and sleek design 
 
 <br>
 </br>
-      <HearingModelsFAQS></HearingModelsFAQS>
+      
       
     </div>
     </div>
-    <Footer></Footer>
+
+    <HearingAidsModelsStrip></HearingAidsModelsStrip>
+   <HearingModelsFAQS></HearingModelsFAQS> <Footer></Footer>
 
     </div>
   );

@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import IICFAQS from '../components/HeairingAidsTypesFAQS/IICFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const IICHearingAids = () => {
   return (
@@ -96,9 +97,11 @@ When it comes to enhancing your hearing experience, IIC Hearing Aids stand out a
 At Hearing Hope, we understand that choosing the right hearing aid is a significant decision. IIC Hearing Aids offers a blend of aesthetics, comfort, and advanced technology, making them a popular choice for many of our clients. Our team of experts is here to guide you through the selection process, ensuring that you find the perfect fit for your lifestyle and hearing needs.
 
      
-     <IICFAQS></IICFAQS>
+
     </div>
     </div>
+    <HearingAidsTypesStrip></HearingAidsTypesStrip>
+    <IICFAQS></IICFAQS>
     <Footer></Footer>
 
     </div>

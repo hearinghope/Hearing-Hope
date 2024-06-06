@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import PocketFAQS from '../components/HeairingAidsTypesFAQS/PocketFAQS';
+import HearingAidsTypesStrip from '../components/HearingAidsTypesStrip';
 
 const PocketHearingAid = () => {
   return (
@@ -97,9 +98,11 @@ Enhance Your Hearing Experience with a Pocket Hearing Aid from HearingHope. Pock
 Discover the Advantages of a Pocket Hearing Aid at HearingHope. We&apos;re dedicated to providing hearing aids that not only improve hearing but also offer convenience, comfort, and a better quality of life.
 
       
-      <PocketFAQS></PocketFAQS>
+
     </div>
     </div>
+    <HearingAidsTypesStrip></HearingAidsTypesStrip>
+      <PocketFAQS></PocketFAQS>    
     <Footer></Footer>
 
     </div>
