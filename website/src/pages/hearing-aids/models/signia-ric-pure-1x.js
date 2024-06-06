@@ -32,7 +32,7 @@ const RICPure1X= () => {
       <h1 >Signia RIC Pure 1X </h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/Pure312X.png' alt='Pure312X' width={500} height={400} /> 
+      <Image src='/Products/Pure312X.png' alt='Signia RIC Pure 1X' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

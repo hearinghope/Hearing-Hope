@@ -4,7 +4,7 @@ import styles from '../styles/index.module.css';
 
 const IndexCards = ({ imgeSrc, text }) => {
   return (
-    <Link href="/service">
+    <Link href="/services">
       <div className={styles.card}>
         <Image src={imgeSrc} alt={text} width={350} height={170} style={{borderRadius:'11px'}}/>
       </div>

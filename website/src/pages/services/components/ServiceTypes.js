@@ -15,7 +15,7 @@ const ServiceTypes = () => {
             <p className={styles.ServiceAboutDescription}>
               Discover a World of Clear Hearing with Our Hearing Aids. Our expert team is dedicated to providing personalized fittings and ongoing support, ensuring the perfect solution for your unique needs. Experience the joy of improved hearing through our cutting-edge technology, designed to elevate your auditory experience. At Hearing Hope, we go beyond offering products; we provide a commitment to your satisfaction and the restoration of crystal-clear sound in your everyday life. Trust us to be your partner in embracing a world of clear hearing and enhanced communication.
             </p>
-            <Link href='/hearing-aids/Hearing-aids' >
+            <Link href='/services/hearing-aid-center-in-delhi' >
             <button type='button' className={styles.ServiceTypesButton}>Know More</button>
             </Link>
           </div>

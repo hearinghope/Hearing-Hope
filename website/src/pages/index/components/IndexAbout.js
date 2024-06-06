@@ -28,7 +28,7 @@ const IndexAbout = () => {
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.aboutColumn}>
-        <h2 style={{ color: 'teal', fontSize: '45px' }}>Welcome To Hearing Hope</h2>
+      <h1 style={{ color: 'teal', fontSize: '30px' }}>Best Hearing Care Clinic in Delhi - <span style={{color: '#ff6600'}}> Hearing Hope</span></h1>
         <p>
         We are <span style={{color: '#ff6600'}}>Signia Certified Center.</span> Our mission is to improve the health of our community by providing high quality, comprehensive hearing care in a welcoming and compassionate environment.
 

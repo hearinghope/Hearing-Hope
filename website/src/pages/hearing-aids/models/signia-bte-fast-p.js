@@ -30,10 +30,10 @@ const BTEFastP = () => {
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>
     <div className={styles.Heading}>
-      <h1 >BTE Fast P</h1>
+      <h1 >Signia BTE Fast P</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/SigniaBTEFastP.png' alt='BTEFastP' width={500} height={400} /> 
+      <Image src='/Products/SigniaBTEFastP.png' alt='Signia BTE Fast P' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

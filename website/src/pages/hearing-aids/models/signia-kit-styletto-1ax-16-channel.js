@@ -32,7 +32,7 @@ const KITStyletto1AX16Channel= () => {
       <h1 >Signia KIT Styletto 1 AX 16 Channel</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/Styletto.png' alt='SigniaStyletto' width={500} height={400} /> 
+      <Image src='/Products/Styletto.png' alt='Signia KIT Styletto 1 AX 16 Channel' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

@@ -32,7 +32,7 @@ const CICPromptCustom = () => {
       <h1 >Signia CIC Prompt Custom</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/CICInsio1.png' alt='CICInsio1' width={500} height={400} /> 
+      <Image src='/Products/CICInsio1.png' alt='Signia CIC Prompt Custom' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

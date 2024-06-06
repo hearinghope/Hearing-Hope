@@ -32,7 +32,7 @@ const BTEPromptSP = () => {
       <h1 >Signia BTE Prompt SP</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/SigniaPromptPSP.png' alt='SigniaPromptPSP' width={500} height={400} /> 
+      <Image src='/Products/SigniaPromptPSP.png' alt='Signia BTE Prompt SP' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

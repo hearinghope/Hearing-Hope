@@ -29,10 +29,10 @@ const Digital8Channel = () => {
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>
     <div className={styles.Heading}>
-      <h1 >Digital 8 Channel</h1>
+      <h1 >Signia Digital 8 Channel</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/SigniaPromptPSP.png' alt='SigniaPromptPSP' width={500} height={400} /> 
+      <Image src='/Products/SigniaPromptPSP.png' alt='Signia Digital 8 Channel' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

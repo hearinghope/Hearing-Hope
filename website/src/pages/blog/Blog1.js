@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from './styles/blog.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 
 const Blog1 = () => {
@@ -11,6 +12,20 @@ const Blog1 = () => {
         <div>
           <WhatsAppButton/>
         </div>
+        <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <meta name="description" content=""></meta>
+        <meta name="robots" content= "noindex,nofollow"/>
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+            <meta property="og:url" content=""/>
+            <meta property="og:image:url"
+        content="" />
+        <link rel="canonical" href=""/>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
 
         <Navbar />
         <div className={styles.BlogContainer}>

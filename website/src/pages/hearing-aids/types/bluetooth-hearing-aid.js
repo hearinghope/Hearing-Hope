@@ -29,10 +29,10 @@ const BluetoothHearingAids = () => {
     <WhatsAppButton />
     <div className={styles.ProductPageContainer}>
     <div className={styles.Heading}>
-      <h1 >Bluetooth Hearing Aids</h1>
+      <h1 >Bluetooth Hearing Aid</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/Styletto.png' alt='BluetoothHearingAids' width={500} height={400} /> 
+      <Image src='/Products/Styletto.png' alt='Bluetooth Hearing Aid' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

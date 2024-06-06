@@ -32,7 +32,7 @@ const BTEHearingAids = () => {
       <h1 >BTE Hearing Aids</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/BTEIntuis40PSP.png' alt='BTEHearingAid' width={500} height={400} /> 
+      <Image src='/Products/BTEIntuis40PSP.png' alt='BTE Hearing Aid' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

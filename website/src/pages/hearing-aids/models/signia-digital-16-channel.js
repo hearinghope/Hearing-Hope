@@ -32,7 +32,7 @@ const Digital16Channel = () => {
       <h1 >Signia Digital 16 Channel</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/BestSeller.png' alt='KitActivePro' width={500} height={400} /> 
+      <Image src='/Products/BestSeller.png' alt='Signia Digital 16 Channel' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

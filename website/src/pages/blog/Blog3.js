@@ -2,10 +2,25 @@ import Image from 'next/image';
 import styles from './styles/blog.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 const Blog3 = () => {
     return(
       <>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <meta name="description" content=""></meta>
+        <meta name="robots" content= "noindex,nofollow"/>
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+            <meta property="og:url" content=""/>
+            <meta property="og:image:url"
+        content="" />
+        <link rel="canonical" href=""/>
+        <link rel="icon" href="./favicon.png" />
+      </Head>
         <Navbar />
         <div className={styles.BlogContainer}>
 
