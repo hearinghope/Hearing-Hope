@@ -115,9 +115,9 @@ const Navbar = () => {
           </span>
           {isProductsMenuOpen && (
             <div className={styles.dropdownContent}>
-             <div className={styles.subDropdown} >
+             {/* <div className={styles.subDropdown} >
                <Link href="../../hearing-aids/Hearing-aids" className={styles.dropdownContentLinks}>All Hearing Aids</Link>
-               </div>
+               </div> */}
               <div className={styles.subDropdown} onClick={toggleSubProduct1Menu}>
                 <span>Hearing Aids Types &#9662;</span>
                 {isSubProduct1MenuOpen && (

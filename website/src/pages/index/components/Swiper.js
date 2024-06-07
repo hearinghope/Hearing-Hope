@@ -36,10 +36,10 @@ const Sliding = () => {
             <Image src='/Home/HomeCarousel4.png' width = {1400}  height= {500} alt="Carousel" style={{objectFit:'cover' , width:'100%' , height:'auto'}}></Image>
         </SwiperSlide>
         <SwiperSlide className={styles.SliderContent} >
-            <Image src='/Home/HomeCarousel5.png' width = {1400}  height= {500} alt="Carousel" style={{objectFit:'cover' , width:'100%' , height:'auto'}}></Image>
+            <Image src='/Home/HomeCarousel5.jpg' width = {1400}  height= {500} alt="Carousel" style={{objectFit:'cover' , width:'100%' , height:'auto'}}></Image>
         </SwiperSlide>
         <SwiperSlide className={styles.SliderContent} >
-            <Image src='/Home/HomeCarousel2.png' width = {1400}  height= {500} alt="Carousel" style={{objectFit:'cover' , width:'100%' , height:'auto'}}></Image>
+            <Image src='/Home/HomeCarousel2.jpg' width = {1400}  height= {500} alt="Carousel" style={{objectFit:'cover' , width:'100%' , height:'auto'}}></Image>
         </SwiperSlide>
       </Swiper>
     )

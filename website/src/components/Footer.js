@@ -24,7 +24,7 @@ const Footer = () => {
           <h3 style={{color:'#ff6600'}}>Useful Links</h3>
           <ul>
             <Link href="/about"><li>About</li></Link>
-            <Link href="/service"><li>Services</li></Link>
+            <Link href="/services"><li>Services</li></Link>
             <Link href="/products"><li>Products</li></Link>
             <Link href="/blog"><li>Blog</li></Link>
             <Link href="/contact"><li>Contact</li></Link>

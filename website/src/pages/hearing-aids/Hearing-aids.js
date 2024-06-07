@@ -23,7 +23,7 @@ const ProductsPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Products</title>
         <link rel="icon" href="./favicon.png" />
-
+        <meta name="robots" content= "noindex,nofollow"/>
       </Head>
       <Navbar />
       <ProductsHeader />

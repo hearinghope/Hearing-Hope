@@ -28,7 +28,7 @@ const Page = () => {
 
   return (
     <div className={styles.AboutContainer}>
-      <Image src='/About/AboutHeader.png' alt='AboutHeader' width={1200} height={600} />
+      <Image src='/About/AboutHeader.jpg' alt='AboutHeader' width={1200} height={600} />
       <div className={styles.countersContainer}>
         {counters.map((counter, index) => (
           <AboutHeader
