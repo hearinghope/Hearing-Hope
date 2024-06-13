@@ -21,7 +21,7 @@ const MicroInCanalHearingAids = () => {
         <meta property="og:description" content="Experience discreet Micro In Canal Hearing Aid at Hearing Hope. Personalized solutions for improved hearing." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/micro-in-canal-hearing-aid"/>
             <meta property="og:image:url"
-        content="" />
+        content="https://www.hearinghope.in/Products/CICInsio1.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/micro-in-canal-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

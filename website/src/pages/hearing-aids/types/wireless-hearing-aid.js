@@ -21,7 +21,7 @@ const WirelessHearingAids = () => {
         <meta property="og:description" content="Explore Wireless Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/wireless-hearing-aid"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FActivePro.png&w=1080&q=75" />
+        content="https://www.hearinghope.in/Products/ActivePro.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/wireless-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

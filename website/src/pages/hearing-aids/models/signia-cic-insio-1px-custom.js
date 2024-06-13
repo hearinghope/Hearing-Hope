@@ -21,7 +21,7 @@ const CICInsio1PXCustom = () => {
         <meta property="og:description" content="Get Signia Cic Insio 1Px Custom Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-cic-insio-1px-custom"/>
             <meta property="og:image:url"
-        content="" />
+        content="https://www.hearinghope.in/Products/CICInsio1.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-cic-insio-1px-custom"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

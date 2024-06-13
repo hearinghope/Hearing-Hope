@@ -21,7 +21,7 @@ const BTEFunP = () => {
         <meta property="og:description" content="Explore Signia BTE Fun P with personalized solutions at Hearing Hope. Enhance your hearing with expert consultations and support." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-bte-fun-p"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FSigniaBTEFastP.png&w=1080&q=75" />
+        content="https://www.hearinghope.in/Products/SigniaBTEFastP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-fun-p"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

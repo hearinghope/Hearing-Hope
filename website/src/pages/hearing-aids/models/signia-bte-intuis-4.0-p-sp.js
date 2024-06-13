@@ -21,7 +21,7 @@ const BTEIntuis40PSP = () => {
         <meta property="og:description" content="Find Signia BTE INTUIS 4.0 P/ SP Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-bte-intuis-4.0-p-sp"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEIntuis40PSP.png&w=1080&q=75" />
+        content="https://www.hearinghope.in/Products/BTEIntuis40PSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-intuis-4.0-p-sp"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

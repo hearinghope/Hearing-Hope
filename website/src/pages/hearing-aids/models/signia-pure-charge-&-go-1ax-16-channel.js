@@ -21,7 +21,7 @@ const PureChargeGo1AX16Channel= () => {
         <meta property="og:description" content="Experience Signia Pure Charge & Go 1AX - 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for improved hearing." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-pure-charge-&-go-1ax-16-channel"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FPure%20CnG%20IX.png&w=640&q=75" />
+        content="https://www.hearinghope.in/Products/Pure CnG IX.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-pure-charge-&-go-1ax-16-channel"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

@@ -23,7 +23,7 @@ const HearingTest = () => {
         <meta property="og:description" content="Get expert hearing test service in Delhi by Hearing Hope. Our specialists provide comprehensive assessments for your hearing needs. Book an appointment now!" />
             <meta property="og:url" content="https://www.hearinghope.in/services/hearing-test-in-delhi"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FService%2FHearingTest.png&w=828&q=75" />
+        content="https://www.hearinghope.in/Service/HearingTest.png" />
         <link rel="canonical" href="https://www.hearinghope.in/services/hearing-test-in-delhi"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

@@ -21,7 +21,7 @@ const Digital16Channel = () => {
         <meta property="og:description" content="Discover Signia Digital 16 Channel Hearing Aids at Hearing Hope. Our experts provide personalized solutions for better hearing." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-digital-16-channel"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FBestSeller.png&w=1080&q=75" />
+        content="https://www.hearinghope.in/Products/BestSeller.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-digital-16-channel"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

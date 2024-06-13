@@ -21,7 +21,7 @@ const CICPromptCustom = () => {
         <meta property="og:description" content="Get Signia CIC Prompt Custom Hearing Aids at Hearing Hope. Personalized solutions for better hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-cic-prompt-custom"/>
             <meta property="og:image:url"
-        content="" />
+        content="https://www.hearinghope.in/Products/CICInsio1.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-cic-prompt-custom"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

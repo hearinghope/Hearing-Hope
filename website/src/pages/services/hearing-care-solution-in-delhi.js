@@ -23,7 +23,7 @@ const HearingCare = () => {
         <meta property="og:description" content="Discover the best hearing care solutions in Delhi at Hearing Hope. Expert audiologists provide personalized care for better hearing. Book a consultation today!" />
             <meta property="og:url" content="https://www.hearinghope.in/services/hearing-care-solution-in-delhi"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FService%2FServiceHearingTest.png&w=828&q=75" />
+        content="https://www.hearinghope.in/Service/ServiceHearingTest.png" />
         <link rel="canonical" href="https://www.hearinghope.in/services/hearing-care-solution-in-delhi"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

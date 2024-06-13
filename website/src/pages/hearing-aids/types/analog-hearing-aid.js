@@ -21,7 +21,7 @@ const AnalogHearingAids = () => {
         <meta property="og:description" content="Find Analog Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/analog-hearing-aid"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEFunSP.png&w=1080&q=75" />
+        content="https://www.hearinghope.in/Products/BTEFunSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/analog-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

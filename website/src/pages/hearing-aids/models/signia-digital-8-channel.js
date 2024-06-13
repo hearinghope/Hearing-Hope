@@ -21,7 +21,7 @@ const Digital8Channel = () => {
         <meta property="og:description" content="Find Signia Digital 8 Channel Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-digital-8-channel"/>
             <meta property="og:image:url"
-        content="" />
+        content="https://www.hearinghope.in/Products/SigniaPromptPSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-digital-8-channel"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

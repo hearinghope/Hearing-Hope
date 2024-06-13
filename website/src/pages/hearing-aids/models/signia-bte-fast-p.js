@@ -22,7 +22,7 @@ const BTEFastP = () => {
         <meta property="og:description" content="Explore Signia BTE Fast P at Hearing Hope for tailored hearing solutions. Get expert consultations and support for better hearing today." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-bte-fast-p"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FSigniaBTEFastP.png&w=1080&q=75" />
+        content="https://www.hearinghope.in/Products/SigniaBTEFastP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-fast-p"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

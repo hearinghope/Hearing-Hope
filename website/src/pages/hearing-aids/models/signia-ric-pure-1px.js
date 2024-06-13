@@ -21,7 +21,7 @@ const RIC16Channel = () => {
         <meta property="og:description" content="Find Signia RIC Pure 1Px Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1px"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FPure312X.png&w=1080&q=75" />
+        content="https://www.hearinghope.in/Products/Pure312X.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1px"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

@@ -21,7 +21,7 @@ const RIC16Channel = () => {
         <meta property="og:description" content="Experience Signia RIC - 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-ric-16-channel"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FStyletto%20RIC.png&w=1080&q=75" />
+        content="https://www.hearinghope.in/Products/Styletto RIC.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-ric-16-channel"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

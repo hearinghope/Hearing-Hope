@@ -21,7 +21,7 @@ const KitActive16Channel = () => {
         <meta property="og:description" content="Discover Signia Kit Active - 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for improved hearing." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/models/signia-kit-active-16-channel"/>
             <meta property="og:image:url"
-        content="" />
+        content="https://www.hearinghope.in/Products/ActivePro.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-kit-active-16-channel"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

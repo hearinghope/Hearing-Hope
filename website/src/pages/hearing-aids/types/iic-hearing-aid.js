@@ -21,7 +21,7 @@ const IICHearingAids = () => {
         <meta property="og:description" content="Get discreet IIC Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/iic-hearing-aid"/>
             <meta property="og:image:url"
-        content="" />
+        content="https://www.hearinghope.in/Products/CICInsio1.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/iic-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>

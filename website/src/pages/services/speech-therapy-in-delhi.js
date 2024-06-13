@@ -23,7 +23,7 @@ const SpeechTherapy = () => {
         <meta property="og:description" content="Get professional speech therapy services in Delhi from Hearing Hope. Improve communication skills and overcome speech challenges with expert help." />
             <meta property="og:url" content="https://www.hearinghope.in/services/speech-therapy-in-delhi"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FService%2FOurService.jpg&w=828&q=75" />
+        content="https://www.hearinghope.in/Service/OurService.jpg" />
         <link rel="canonical" href="https://www.hearinghope.in/services/speech-therapy-in-delhi"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
