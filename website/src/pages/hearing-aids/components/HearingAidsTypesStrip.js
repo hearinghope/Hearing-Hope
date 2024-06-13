@@ -7,7 +7,7 @@ const HearingAidsTypesStrip = () => {
         <div className={styles.TypesStrip}>
 
             <div className={styles.TypesHeading}>
-            <h1>Other Hearing Aid Types</h1>
+            <h2>Other Hearing Aid Types</h2>
 
             </div>
             <div className={styles.TypesLinksContainer}>

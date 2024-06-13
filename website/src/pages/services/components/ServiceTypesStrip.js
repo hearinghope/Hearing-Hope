@@ -7,7 +7,7 @@ const ServiceTypesStrip = () => {
         <div className={styles.TypesStrip}>
 
             <div className={styles.TypesHeading}>
-            <h1>Other Services</h1>
+            <h2>Other Services</h2>
 
             </div>
             <div className={styles.TypesLinksContainer}>

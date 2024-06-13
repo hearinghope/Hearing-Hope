@@ -21,7 +21,7 @@ const BTEHearingAids = () => {
         <meta property="og:description" content="Find top-quality BTE Hearing Aid solutions at Hearing Hope. Our experts offer personalized consultations for enhanced hearing." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/bte-hearing-aid"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEIntuis40PSP.png&w=1080&q=75" />
+        content="https://www.hearinghope.in/Products/BTEIntuis40PSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/bte-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
       </Head>
