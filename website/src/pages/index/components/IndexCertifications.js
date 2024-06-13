@@ -56,7 +56,7 @@ const IndexCertifications = () => {
 
   return (
     <div className={styles.carouselContainer}>
-      <h1 style={{ color: '#ff6600', fontSize: '45px' }}>Certifications</h1>
+      <h2 style={{ color: '#ff6600', fontSize: '45px' }}>Certifications</h2>
       <div className={styles.carousel} ref={carouselRef} onWheel={(e) => e.preventDefault()}>
         {certificationsData.map((certification, index) => (
           <div

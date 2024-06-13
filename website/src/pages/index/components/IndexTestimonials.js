@@ -57,7 +57,7 @@ const IndexTestimonials = () => {
 
   return (
     <div className={styles.Testimonialcontainer}>
-      <h1 style={{ color: '#ff6600', marginBottom: '20px', fontSize: '40px' }}>Testimonials</h1>
+      <h2 style={{ color: '#ff6600', marginBottom: '20px', fontSize: '40px' }}>Testimonials</h2>
       <div className={styles.TestimonialcardContainer}>
         {reviews.map((review) => (
           <div key={review.id} className={styles.Testimonialcard}>

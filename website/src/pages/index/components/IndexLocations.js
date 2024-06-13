@@ -3,9 +3,9 @@ import styles from '../styles/index.module.css';
 const IndexLocations= () => {
     return (
         <div>
-        <h1 style={{ textAlign: "center",fontSize:'40px', color:'#ff6600', marginBottom: "25px", marginTop: "20px" }}>
+        <h2 style={{ textAlign: "center",fontSize:'40px', color:'#ff6600', marginBottom: "25px", marginTop: "20px" }}>
           Locations We Serve
-        </h1>
+        </h2>
         <div className={styles.mapsContainer}>
           {/* Map 1 */}
           <div className={styles.mapBox}>

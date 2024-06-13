@@ -10,7 +10,7 @@ const IndexFAQ = () => {
 
   return (
     <div className={styles.accordion}>
-      <h1>Frequently Asked Questions</h1>
+      <h2>Frequently Asked Questions</h2>
 
       {faqData.map((faq, index) => (
         <div className={styles.accordionItem} key={index}>

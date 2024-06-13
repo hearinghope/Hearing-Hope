@@ -27,7 +27,7 @@ const cardsData = [
 const Home = () => {
   return (
     <div>
-      <h1 className={styles.blogHeading}>My Blog</h1>
+      <h2 className={styles.blogHeading}>My Blog</h2>
       <div className={styles.cardsContainer}>
         {cardsData.map((card) => (
           <div key={card.id} className={styles.Blogcard}>

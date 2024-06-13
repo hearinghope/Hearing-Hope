@@ -6,7 +6,7 @@ const IndexTrust = () => {
     <div className={styles.ContactChoose}>
 
       <div className={styles.ChooseHeading}>
-        <h1>Why People Trust Us?</h1>
+        <h2>Why People Trust Us?</h2>
       </div>
 
       <div className={styles.ChoosePoints}>

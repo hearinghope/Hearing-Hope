@@ -67,7 +67,7 @@ const IndexProducts = () => {
 
   return (
     <div className={styles.ProductcarouselContainer}>
-      <h1 style={{ color: '#ff6600', fontSize: '45px' }}>Our Products</h1>
+      <h2 style={{ color: '#ff6600', fontSize: '45px' }}>Our Products</h2>
       <div className={styles.carousel} ref={carouselRef} onWheel={handleWheel}>
         {certificationsData.map((certification, index) => (
           <div key={certification.id} className={styles.certificationItem} onClick={() => handleManualNavigation(index)}>
