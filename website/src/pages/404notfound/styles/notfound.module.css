@@ -1,0 +1,32 @@
+.Notfoundcontainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Notfoundcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Notfoundlogo {
+    margin-bottom: -10px;
+}
+
+.Notfoundheading {
+    color: #ff6600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Notfoundtext {
+    color: black;
+}
+
+.Notfoundtime {
+    color: #ff6600;
+}
