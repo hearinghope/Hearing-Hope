@@ -49,7 +49,32 @@ const IndexPage = () => {
         content="https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75" />
         <link rel="canonical" href="https://www.hearinghope.in/"/>
         <link rel="icon" href="./favicon.png" />
-
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalOrganization",
+              "name": "Hearing Hope",
+              "alternateName": "hearing care clinic in Delhi",
+              "url": "https://www.hearinghope.in/",
+              "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91 9711871168",
+                "contactType": "customer service",
+                "contactOption": "TollFree",
+                "areaServed": "IN",
+                "availableLanguage": ["en", "Hindi"]
+              },
+              "sameAs": [
+                "https://www.facebook.com/people/Hearing-Hope/100063607797322/",
+                "https://www.youtube.com/@HearingHope",
+                "https://www.hearinghope.in/"
+              ]
+            })
+          }}
+        />
 
       </Head>
       <Navbar />
