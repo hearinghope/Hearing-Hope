@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar';
 import WhatsAppButton from '@/pages/WhatsAppButton';
 import Footer from '@/components/Footer';
 import Head from 'next/head';
+import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/products.module.css';
 import HearingModelsFAQS from '../components/HearingAidModelsFAQS/BTEFastPFAQS';
