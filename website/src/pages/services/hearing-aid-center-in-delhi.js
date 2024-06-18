@@ -26,6 +26,78 @@ const HearingAidCentre = () => {
         content="https://www.hearinghope.in/Service/OfficeFrontPic.png" />
         <link rel="canonical" href="https://www.hearinghope.in/services/hearing-aid-center-in-delhi"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalOrganization",
+              "name": "Hearing Aid Centre in Delhi - Hearing Hope",
+              "url": "https://www.hearinghope.in/services/hearing-aid-center-in-delhi",
+              "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91 9711871168",
+                "contactType": "customer service",
+                "contactOption": "TollFree",
+                "areaServed": "IN",
+                "availableLanguage": ["en","Hindi"]
+              },
+              "sameAs": [
+                "https://www.facebook.com/people/Hearing-Hope/100063607797322/",
+                "https://www.instagram.com/hearinghope/",
+                "https://www.youtube.com/@HearingHope"
+            
+              ]
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What types of hearing aids are available at your centre?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At Hearing Hope, we offer a wide range of hearing aids including behind-the-ear (BTE), in-the-ear (ITE), completely-in-canal (CIC), and more. Our selection includes the latest models featuring advanced technology such as Bluetooth connectivity and rechargeable batteries."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I know if I need a hearing aid?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you're experiencing difficulties in hearing conversations, noticing a need to increase the volume on your TV or phone, or finding it hard to hear in noisy environments, it may be time to consider a hearing aid. We recommend scheduling a hearing evaluation with our experts for a precise assessment."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long does it take to get used to a new hearing aid?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Adjustment periods vary from person to person. Generally, it can take a few weeks to a few months to fully adjust to your new hearing aid. During this time, our team at Hearing Hope provides continuous support and guidance to ensure a smooth transition."
+    }
+  },{
+    "@type": "Question",
+    "name": "What kind of aftercare and support do you offer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer comprehensive aftercare, which includes regular check-ups, cleaning and maintenance services, and any necessary adjustments to ensure your hearing aid is functioning optimally. Our team is always available to assist with any concerns or questions you might have."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I book a hearing test and consultation online?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can easily book an appointment for a hearing test and consultation through our website. Just visit our booking page, select a convenient time, and we will confirm your appointment. We welcome you to visit us at our hearing aid centre in Delhi for a personalised experience."
+    }
+  }
+    ]
+  })
+}}
+/>
+
       </Head>
         <Navbar />
 
