@@ -24,6 +24,64 @@ const Digital16Channel = () => {
         content="https://www.hearinghope.in/Products/BestSeller.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-digital-16-channel"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia Digital - 16 channel', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FBestSeller.png', 'description': 'Discover Signia Digital 16 Channel Hearing Aids at Hearing Hope. Our experts provide personalized solutions for better hearing.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-digital-16-channel', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if the Signia Digital - 16 Channel is right for my hearing needs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia Digital - 16 Channel is suitable for a wide range of hearing impairments, from mild to severe. We recommend scheduling a consultation with one of our audiologists who can perform a comprehensive hearing assessment and advise whether this model is the best fit for your specific condition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the Signia Digital - 16 Channel connect to my smartphone or tablet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia Digital - 16 Channel features Bluetooth connectivity, allowing it to wirelessly connect to your smartphone, tablet, or other Bluetooth-enabled devices. This enables you to stream audio directly to your hearing aid and control settings through a dedicated mobile app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the battery life of the Signia Digital - 16 Channel, and how often will I need to charge it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia Digital - 16 Channel is equipped with a rechargeable lithium-ion battery that provides up to 24 hours of usage on a single charge, depending on usage patterns. Charging is simple and can be done overnight, ensuring the hearing aid is ready to use each morning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any options available to manage tinnitus with the Signia Digital - 16 Channel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia Digital - 16 Channel includes a tinnitus therapy feature that offers relief to users experiencing tinnitus symptoms. This feature generates a therapeutic noise or sound pattern designed to distract from the tinnitus and reduce its impact."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I encounter issues with my Signia Digital - 16 Channel hearing aid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For any technical issues or operational concerns, contact our customer support team immediately. We offer TeleCare support, where you can receive remote assistance and adjustments from our hearing specialists. Additionally, your hearing aid comes with a comprehensive warranty and access to local service centers for more complex issues."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

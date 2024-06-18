@@ -24,6 +24,64 @@ const Digital12Channel = () => {
         content="https://www.hearinghope.in/Products/BTEIntuis40PSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-digital-12-channel"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia Digital - 12 channel', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEIntuis40PSP.png', 'description': 'Explore Signia Digital 12 Channel Hearing Aids at Hearing Hope. Our experts offer personalized solutions for improved hearing.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-digital-12-channel', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How does the Signia Digital 12 Channel hearing aid handle different sound environments?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Digital is equipped with adaptive sound technology that detects and adjusts to varying noise levels. Whether you're in a quiet room or a noisy environment, the device enhances speech while reducing unwanted background noise, providing a natural listening experience."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the connectivity options available with the Signia Digital 12 Channel?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "This hearing aid offers advanced wireless connectivity options, including Bluetooth. Users can easily connect the device to smartphones, tablets, and other Bluetooth-enabled devices for streaming audio directly to the hearing aid, managing settings, and more through a dedicated mobile app."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can the Signia Digital 12 Channel be used for all types of hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia Digital is suitable for a wide range of hearing loss conditions, from mild to severe. Its 12-channel system allows for precise sound adjustments tailored to individual hearing profiles, making it a versatile choice for many users."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I maintain and care for my Signia Digital hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Maintaining your Signia Digital involves regular cleaning with a soft, dry cloth and storing it in a dry, safe place when not in use. Avoid exposure to water and extreme temperatures. It's also recommended to check and replace the batteries or charge the device as per the manufacturer's instructions."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Where can I purchase the Signia Digital 12 Channel, and what is included in the purchase?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Digital 12 Channel can be purchased directly from HearingHope.in or through authorized retailers. Each purchase includes the hearing aid, a charging case (for rechargeable models), a user manual, an initial set of batteries (for non-rechargeable models), and a cleaning kit. Customers also have access to initial setup support and a two-year manufacturer warranty."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

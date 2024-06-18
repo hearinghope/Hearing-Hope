@@ -24,6 +24,65 @@ const Silk1X16Channel = () => {
         content="https://www.hearinghope.in/Products/SilkNxCouple.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-silk-1x-16-channel"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia Silk 1X- 16 channel', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FSilkNxCouple.png', 'description': 'Find Signia Silk 1X- 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-silk-1x-16-channel', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long does the battery last in the Signia Silk 1X?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The battery life depends on the usage but typically lasts between 3 to 5 days. The Signia Silk 1X uses size 10 zinc-air batteries, which are readily available and easy to replace."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can the Signia Silk 1X be worn while exercising or during sports?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia Silk 1X is designed to fit securely within the ear canal, making it suitable for physical activities, including sports. It's important, however, to avoid water exposure as the device is not waterproof."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the Signia Silk 1X compatible with all smartphones?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Silk 1X is compatible with most Bluetooth-enabled devices, including iOS and Android smartphones. For specific model compatibility, you can check the Signia compatibility list available on the website or consult with your hearing specialist."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I control the settings on my Signia Silk 1X?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can adjust the settings of your Signia Silk 1X using the Signia app, which allows you to change volume, switch between sound programs, and customize other features directly from your smartphone."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What should I do if I experience discomfort or feedback from my hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "If you experience any discomfort or feedback, it's recommended to first check the fit and positioning of your hearing aid. If the issue persists, contact your hearing care professional to adjust the fit or explore other settings adjustments. Regular maintenance and cleaning can also help minimize such issues."
+            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

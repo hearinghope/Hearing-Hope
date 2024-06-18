@@ -24,6 +24,64 @@ const RIC16Channel = () => {
         content="https://www.hearinghope.in/Products/Pure312X.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1px"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+             '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia RIC Pure 1Px', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FPure312X.png', 'description': 'Find Signia RIC Pure 1Px Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1px', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if the Signia RIC Pure 1Px is the right hearing aid for me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia RIC Pure 1Px is suitable for a wide range of hearing loss levels, from mild to severe. It's designed to offer clear sound quality and is equipped with various features to enhance speech understanding and reduce background noise. We recommend consulting with an audiologist to assess your specific needs and determine if this model is ideal for you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the Signia RIC Pure 1Px connect to my smartphone or other devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia RIC Pure 1Px features Bluetooth connectivity, allowing it to pair with smartphones, tablets, and even some modern TVs. This feature enables you to stream audio directly to your hearing aids, enhancing your listening experience during calls, music, or television viewing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of battery does the Signia RIC Pure 1Px use, and how long does it last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia RIC Pure 1Px uses a size 312 battery, which typically lasts for up to 14 days, depending on usage. Battery life can vary based on the streaming activity and the number of hours the hearing aids are used each day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a warranty on the Signia RIC Pure 1Px hearing aids?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia RIC Pure 1Px comes with a two-year manufacturer's warranty that covers defects in materials and workmanship. Additional coverage options may be available for purchase, such as loss and damage insurance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I maintain and care for my Signia RIC Pure 1Px hearing aids?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Regular maintenance is crucial for the longevity of your hearing aids. We recommend daily cleaning with a soft, dry cloth and storing the device in a dry, safe place when not in use. Avoid exposure to water and extreme temperatures. It’s also important to have your hearing aids professionally checked and cleaned periodically."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

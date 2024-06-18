@@ -24,6 +24,64 @@ const BTEIntuis40PSP = () => {
         content="https://www.hearinghope.in/Products/BTEIntuis40PSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-intuis-4.0-p-sp"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia BTE INTUIS 4.0 P/ SP', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEIntuis40PSP.png', 'description': 'Find Signia BTE INTUIS 4.0 P/ SP Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-bte-intuis-4.0-p-sp', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I pair my Signia BTE INTUIS 4.0 P/SP with my smartphone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To pair your Signia BTE INTUIS 4.0 P/SP with a smartphone, turn on the Bluetooth setting on both the hearing aid and your phone. Search for available devices on your phone’s Bluetooth menu, select your hearing aid from the list, and follow the prompts to complete the pairing process."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if my Signia BTE INTUIS 4.0 P/SP gets wet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If your Signia BTE INTUIS 4.0 P/SP becomes wet, remove it and dry it gently with a soft, dry cloth. Avoid using heat to dry the hearing aid. Although it has a high IP rating for water resistance, it’s advisable to keep the device as dry as possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I wear my Signia BTE INTUIS 4.0 P/SP while sleeping or during sports activities?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is not recommended to wear your Signia BTE INTUIS 4.0 P/SP while sleeping as it may cause discomfort and risk damage to the device. For sports, consider the nature of the activity; the device is secure for low-impact activities but may not be suitable for high-impact or water sports."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I replace the batteries in my Signia BTE INTUIS 4.0 P/SP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Battery life depends on usage, settings, and whether you are using rechargeable or disposable batteries. Typically, disposable batteries might need replacement every 1-2 weeks, while rechargeable batteries can last up to a full day on a single charge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I get my Signia BTE INTUIS 4.0 P/SP serviced or repaired?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can take your Signia BTE INTUIS 4.0 P/SP to any authorized service center or contact Hearing Hope for assistance. They can guide you to the nearest service location or help with direct manufacturer support."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
       
     <Navbar/>

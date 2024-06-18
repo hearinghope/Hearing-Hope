@@ -24,6 +24,65 @@ const RICPure1AX= () => {
         content="https://www.hearinghope.in/Products/Pure312X.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1ax"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia Ric pure 1AX', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FPure312X.png', 'description': 'Explore Signia RIC Pure 1AX Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1ax', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long does the battery last on a full charge?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Ric pure 1AX has a high-capacity lithium-ion battery that lasts up to 24 hours with typical use on a full charge. This allows users to enjoy a full day of hearing without the need for frequent recharging."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I connect the Signia Ric pure 1AX to my smartphone or TV?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia Ric pure 1AX features Bluetooth 5.0 connectivity, allowing it to connect seamlessly with smartphones, TVs, and other Bluetooth-enabled devices. This enables direct streaming of calls, music, and television audio right into your hearing aids."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the Signia Ric pure 1AX suitable for all levels of hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Ric pure 1AX is designed to accommodate a wide range of hearing loss levels, from mild to severe. It is recommended to consult with a hearing care professional to ensure it is the right fit for your specific hearing needs."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is OVP™, and how does it enhance my hearing experience?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "OVP™ stands for Own Voice Processing, a technology unique to Signia that processes the wearer's voice separately from other sounds. This helps to maintain a natural voice sound, making conversations more enjoyable and personal communication less strenuous."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can I manage settings and adjustments on my Signia Ric pure 1AX?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia app, available for both iOS and Android devices, offers extensive control over the settings of your Signia Ric pure 1AX. Through the app, you can adjust volume, change programs, and customize settings according to different listening environments, all from your smartphone. This feature adds a layer of convenience and personalization to your hearing aid experience."
+            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

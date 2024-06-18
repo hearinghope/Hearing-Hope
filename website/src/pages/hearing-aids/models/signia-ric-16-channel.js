@@ -24,6 +24,64 @@ const RIC16Channel = () => {
         content="https://www.hearinghope.in/Products/Styletto RIC.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-ric-16-channel"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia RIC - 16 channel', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FStyletto%20RIC.png', 'description': 'Experience Signia RIC - 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-ric-16-channel', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+ "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if the Signia RIC 16-Channel Hearing Aid is right for me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia RIC 16-Channel is suitable for individuals with mild to severe hearing loss. It's best to consult with a hearing specialist who can perform a comprehensive hearing test and determine if this model fits your specific hearing needs based on its features and your lifestyle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I connect the Signia RIC 16-Channel to my smartphone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia RIC 16-Channel Hearing Aid features Bluetooth connectivity that allows you to connect seamlessly to both Android and iOS devices. You can stream audio directly from your phone, including calls, music, and other media."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the battery life of the Signia RIC 16-Channel Hearing Aid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia RIC offers two battery options: disposable and rechargeable. The rechargeable model provides up to 24 hours of usage on a single charge, while the disposable battery life can vary depending on usage, typically lasting several days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there different color options available for the Signia RIC 16-Channel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia RIC 16-Channel Hearing Aid comes in a variety of colors to match your personal style and preference. Common choices include black, silver, and beige, but additional colors may be available. Check with your provider for all available options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I experience feedback or whistling sounds from my hearing aid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia RIC is equipped with advanced feedback cancellation technology to minimize or eliminate whistling sounds. If you experience ongoing feedback, consider checking the fit of your hearing aid, as an improper fit is a common cause. Additionally, consult with your hearing care professional to adjust the settings or examine the device for any issues."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

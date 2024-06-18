@@ -24,6 +24,64 @@ const KITStyletto1AX16Channel= () => {
         content="https://www.hearinghope.in/Products/Styletto.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-kit-styletto-1ax-16-channel"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia KIT Styletto 1AX- 16 channel', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FStyletto.png', 'description': 'Get Signia KIT Styletto 1AX - 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-kit-styletto-1ax-16-channel', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I set up my Signia KIT Styletto 1AX- 16 Channel for the first time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Setting up your new hearing aid is straightforward. First, fully charge your device using the provided charging case. Download the Signia app on your smartphone to connect via Bluetooth, and follow the in-app guide to personalize your settings. For further assistance, you can also visit our website or contact our support team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I connect the Styletto 1AX to my smartphone or TV?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Styletto 1AX features Bluetooth connectivity, allowing you to easily connect with smartphones, televisions, and other compatible devices. This enables you to stream audio directly to your hearing aid, enhancing your listening experience during calls, while watching TV, or listening to music."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for the Signia KIT Styletto 1AX?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To ensure optimal performance and longevity, clean your hearing aid regularly using a soft, dry cloth. Avoid exposure to water and extreme temperatures. It's also recommended to keep the device in its charging case when not in use to protect it and ensure it is always charged."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a warranty on the Signia KIT Styletto 1AX- 16 Channel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Styletto 1AX comes with a two-year manufacturer's warranty covering defects in materials and workmanship. Additional coverage options are available for purchase to extend protection and include services like damage from handling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I buy the Signia KIT Styletto 1AX- 16 Channel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can purchase this hearing aid directly from our website, HearingHope.in, or by visiting one of our authorized retailers. For a personalized purchasing experience, you can also schedule a consultation with one of our hearing specialists through the website or by calling our customer service hotline."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

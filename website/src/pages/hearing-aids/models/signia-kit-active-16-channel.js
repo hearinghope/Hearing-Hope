@@ -24,6 +24,64 @@ const KitActive16Channel = () => {
         content="https://www.hearinghope.in/Products/ActivePro.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-kit-active-16-channel"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+             '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia Kit Active  - 16 channel', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FActivePro.png', 'description': 'Discover Signia Kit Active - 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for improved hearing.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-kit-active-16-channel', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long does the battery last on a full charge?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The rechargeable batteries of the Signia Kit Active can last up to 24 hours on a full charge, depending on usage patterns, especially the amount of connected streaming."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I connect the Signia Kit Active to my smartphone?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia Kit Active is equipped with Bluetooth connectivity, allowing you to seamlessly connect with smartphones, tablets, and other compatible devices for streaming audio directly to your hearing aids."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the Signia Kit Active suitable for all types of hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Kit Active is designed to accommodate a range of hearing losses, from mild to severe. It is advisable to consult with an audiologist to ensure it fits your specific hearing needs."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What should I do if my hearing aid gets wet?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Kit Active is designed to be water-resistant, but it is not waterproof. If your hearing aid gets wet, it is recommended to immediately dry it with a soft cloth, turn it off, remove the battery if possible, and place it in a dry kit overnight."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Where can I purchase the Signia Kit Active and are there any warranties?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can purchase the Signia Kit Active through certified audiologists or authorized retailers. It typically comes with a manufacturer's warranty; details of which can be obtained from the point of purchase or by visiting the official Signia website. Make sure to discuss warranty options with your provider to understand what is covered."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

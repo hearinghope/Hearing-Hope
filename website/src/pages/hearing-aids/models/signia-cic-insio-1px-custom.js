@@ -24,6 +24,64 @@ const CICInsio1PXCustom = () => {
         content="https://www.hearinghope.in/Products/CICInsio1.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-cic-insio-1px-custom"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+             '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia Cic Insio 1Px Custom', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FCICInsio1.png', 'description': 'Get Signia Cic Insio 1Px Custom Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-cic-insio-1px-custom', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if the Signia CIC Insio 1Px Custom is right for my hearing needs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia CIC Insio 1Px Custom is suitable for individuals with mild to moderately severe hearing loss. It’s best to consult with an audiologist who can perform a hearing test and recommend whether this model is appropriate for your specific auditory profile."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use the Signia CIC Insio 1Px Custom with my smartphone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia CIC Insio 1Px Custom is equipped with Bluetooth technology, allowing it to connect seamlessly with most smartphones. This feature enables direct streaming of calls, music, and other audio directly to your hearing aids for a more integrated hearing experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the battery life of the Signia CIC Insio 1Px Custom, and how often will I need to replace the battery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The battery in the Signia CIC Insio 1Px Custom typically lasts between 7 to 10 days, depending on usage. Factors such as the amount of streaming and the listening environment can affect battery life. It uses a size 10 battery, which is readily available and easy to replace."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I maintain my Signia CIC Insio 1Px Custom hearing aids to ensure longevity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To maintain your hearing aids, it is recommended to clean them daily with a soft, dry cloth. Avoid exposure to water and extreme temperatures. Regularly check and replace batteries, and ensure that the battery compartment is clean and dry. For optimal performance, have them checked by an audiologist periodically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranty comes with the Signia CIC Insio 1Px Custom, and what does it cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia CIC Insio 1Px Custom typically comes with a warranty that covers any manufacturing defects for a period of up to two years from the date of purchase. This warranty does not cover damages caused by mishandling, improper maintenance, or exposure to water. Be sure to check with your provider for specific warranty details and any additional coverage options available."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

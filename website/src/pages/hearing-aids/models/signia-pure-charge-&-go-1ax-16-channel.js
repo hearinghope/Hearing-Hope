@@ -24,6 +24,64 @@ const PureChargeGo1AX16Channel= () => {
         content="https://www.hearinghope.in/Products/Pure CnG IX.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-pure-charge-&-go-1ax-16-channel"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+             '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia Pure charge & Go 1AX- 16 channel', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FPure%20CnG%20IX.png', 'description': 'Experience Signia Pure Charge & Go 1AX - 16 Channel Hearing Aids at Hearing Hope. Personalized solutions for improved hearing.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-pure-charge-&-go-1ax-16-channel', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long does the battery last on a full charge?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Pure Charge & Go 1AX - 16 Channel Hearing Aid offers up to 24 hours of hearing support on a full charge, which includes several hours of streaming. The duration can vary slightly based on usage patterns and settings."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I connect the Signia Pure Charge & Go 1AX to my smartphone or television?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the hearing aid features Bluetooth connectivity that allows you to connect seamlessly to smartphones, televisions, and other compatible devices, enabling you to stream audio directly to your hearing aid."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the Signia Pure Charge & Go 1AX suitable for all types of hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "This model is versatile enough to accommodate a range of hearing loss levels, from mild to severe. We recommend consulting with a hearing specialist at HearingHope.in to ensure it is the right fit for your specific needs."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is Own Voice Processing Technology, and how does it help?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Own Voice Processing Technology is an advanced feature that processes and optimizes the sound of your own voice separately from other sounds. This results in a more natural listening experience and clearer conversations, as it reduces the 'echo' effect that some hearing aid users experience."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I maintain my Signia Pure Charge & Go 1AX Hearing Aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Maintenance is straightforward: regularly clean the hearing aid with a dry, soft cloth and avoid exposure to water and extreme temperatures. It’s also important to keep the device in its charging case when not in use to protect it and ensure it is charged and ready for your next use. For more detailed care instructions, refer to the user manual or consult our support team at HearingHope.in."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

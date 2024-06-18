@@ -24,6 +24,64 @@ const RICPure1X= () => {
         content="https://www.hearinghope.in/Products/Pure312X.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1x"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia Ric pure 1X', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FPure312X.png', 'description': 'Discover Signia RIC Pure 1X Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-ric-pure-1x', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How do I know if the Signia Ric Pure 1X is right for me?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Ric Pure 1X is suitable for a variety of hearing loss levels, from mild to severe. We recommend scheduling a consultation with a hearing specialist at HearingHope.in to assess your specific needs and determine if this model is the best fit for you."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I connect the Signia Ric Pure 1X to my smartphone or other devices?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia Ric Pure 1X features Bluetooth connectivity, allowing you to stream audio directly from smartphones, TVs, and other compatible devices for a seamless listening experience."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is the battery life of the Signia Ric Pure 1X, and how do I charge it?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Ric Pure 1X uses a rechargeable lithium-ion battery which can last up to 24 hours on a single charge. The device comes with a wireless charging station, making it easy to charge by simply placing the hearing aids on the charger overnight."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are there options to help with tinnitus in the Signia Ric Pure 1X?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia Ric Pure 1X includes integrated tinnitus therapy features that offer various sound therapy options to help manage and mitigate the effects of tinnitus."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the Signia Ric Pure 1X resistant to water and dust?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia Ric Pure 1X is rated IP68 for dust and moisture resistance. This makes it durable and reliable, even in dusty environments or during light rain, suitable for active users or those living in humid climates."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

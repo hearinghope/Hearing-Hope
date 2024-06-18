@@ -24,6 +24,65 @@ const BTEIntuis41PSP = () => {
         content="https://www.hearinghope.in/Products/BTEIntuis40PSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-intuis-4.1-p-sp"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia BTE INTUIS 4.1 P/SP', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEIntuis40PSP.png', 'description': 'Explore Signia BTE INTUIS 4.1 P/SP Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our experts.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-bte-intuis-4.1-p-sp', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+ "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if the Signia BTE INTUIS 4.1 P/SP is right for my level of hearing loss?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia BTE INTUIS 4.1 P/SP is designed to accommodate mild to severe hearing loss. We recommend scheduling a hearing test with one of our audiologists who can provide a comprehensive evaluation and recommend the best model for your specific needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I connect the Signia BTE INTUIS 4.1 P/SP to my smartphone or TV?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia BTE INTUIS 4.1 P/SP features wireless connectivity options that allow you to connect seamlessly with smartphones, TVs, and other compatible devices. This makes it easier to enjoy your favorite shows, music, and conversations without missing a beat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What maintenance is required for the Signia BTE INTUIS 4.1 P/SP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Regular maintenance for the Signia BTE INTUIS 4.1 P/SP includes daily cleaning with a soft, dry cloth, checking and replacing batteries as needed, and keeping the device dry and free from earwax. Periodic checks with an audiologist are recommended to ensure optimal performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there different color options available for the Signia BTE INTUIS 4.1 P/SP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia BTE INTUIS 4.1 P/SP is available in a variety of colors to suit your personal style and preference. You can choose from a range of shades that best match your skin tone or hair color, making the device as inconspicuous as you prefer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I experience feedback or whistling from my hearing aid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Feedback or whistling can sometimes occur if the hearing aid is not seated properly in your ear or if the volume is set too high. Try reinserting the hearing aid or adjusting the volume. If the problem persists, contact us for a fit check or to explore other potential solutions like earwax removal or different ear domes."
+
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />
