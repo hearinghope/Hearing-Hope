@@ -24,6 +24,79 @@ const RechargeableHearingAids = () => {
         content="https://www.hearinghope.in/Products/Pure Charger.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/rechargeable-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "Rechargeable Hearing Aids",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FPure%20Charger.png",
+              "description": "Discover the convenience of Rechargeable Hearing Aids at Hearing Hope. Personalized solutions for improved hearing.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Signia"
+              },
+              "url": "https://www.hearinghope.in/hearing-aids/types/rechargeable-hearing-aid",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "150"
+              }            
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long do the batteries in a Rechargeable Hearing Aid last on a single charge?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The battery life of a Rechargeable Hearing Aid typically ranges from 12 to 30 hours on a single charge, depending on the model and usage. Most models are designed to last a full day of use, and you can simply recharge them overnight."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are Rechargeable Hearing Aids more expensive than traditional ones?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Initially, Rechargeable Hearing Aids may have a higher upfront cost compared to traditional battery-operated models. However, they can be more cost-effective in the long run as you save on the ongoing expense of disposable batteries."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I use my Rechargeable Hearing Aid while it is charging?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Typically, Rechargeable Hearing Aids are not designed to be used while charging. It’s recommended to charge them when you’re not using them, such as overnight, ensuring they are ready for use during the day."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How often will I need to replace the rechargeable battery in my hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The rechargeable batteries in Rechargeable Hearing Aids generally last for several years before they might need replacing. The exact lifespan varies by model and usage, but on average, you can expect them to last for about 3-5 years."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are Rechargeable Hearing Aids suitable for all types of hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rechargeable Hearing Aids are available in various models that cater to different degrees of hearing loss, from mild to profound. It's important to have a professional evaluation to determine the most suitable type for your specific hearing needs."
+            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

@@ -26,6 +26,77 @@ const HearingTest = () => {
         content="https://www.hearinghope.in/Service/HearingTest.png" />
         <link rel="canonical" href="https://www.hearinghope.in/services/audiologist-in-delhi"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  "name": "audiologist in delhi - Hearing Hope",
+  "url": "https://www.hearinghope.in/services/audiologist-in-delhi",
+  "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 9711871168",
+    "contactType": "customer service",
+    "contactOption": "TollFree",
+    "areaServed": "IN",
+    "availableLanguage": ["en","Hindi"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/people/Hearing-Hope/100063607797322/",
+    "https://www.instagram.com/hearinghope/",
+    "https://www.youtube.com/@HearingHope"
+            
+              ]
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "What types of hearing assessments do you offer at your clinic?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "At Hearing Hope, we offer a range of comprehensive hearing assessments, including pure-tone audiometry, speech audiometry, tympanometry, and otoacoustic emissions testing. These assessments help us accurately diagnose the nature and extent of hearing loss and guide us in creating a personalized treatment plan."
+                }
+              },{
+                "@type": "Question",
+                "name": "Can I trial different hearing aids before making a decision?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we understand the importance of finding the right hearing aid for your needs. We offer trial periods for various models of hearing aids, allowing you to experience different types and find the one that suits you best in terms of comfort, functionality, and aesthetics."
+                }
+              },{
+                "@type": "Question",
+                "name": "Do you provide services for children with hearing difficulties?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely! We offer pediatric audiology services, including specialized hearing assessments and hearing aid fittings designed for children. Our audiologists are experienced in working with children and provide a friendly and supportive environment for them and their families."
+                }
+              },{
+                "@type": "Question",
+                "name": "How can I manage my tinnitus?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Tinnitus management is a key service at our clinic. We begin with a thorough evaluation to understand the impact of your tinnitus. Based on the assessment, we may recommend various management strategies such as sound therapy, hearing aids with tinnitus masking features, and counseling to help you cope with the condition."
+                }
+              },{
+                "@type": "Question",
+                "name": "Is ongoing support available after I get my hearing aids?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we provide continuous support and aftercare for all our patients with hearing aids. This includes regular check-ups, adjustments, and maintenance of the devices. We also offer guidance and tips for better usage, ensuring you get the most out of your hearing aids."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
         <Navbar />
 

@@ -24,6 +24,71 @@ const WirelessHearingAids = () => {
         content="https://www.hearinghope.in/Products/ActivePro.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/wireless-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Wireless Hearing Aids",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FActivePro.png",
+  "description": "Explore Wireless Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Signia"
+  },
+  "url": "https://www.hearinghope.in/hearing-aids/types/wireless-hearing-aid",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "150"
+  }  
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long do the batteries last in Wireless Hearing Aids?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The battery life of Wireless Hearing Aids varies depending on the model and usage. Rechargeable wireless hearing aids can last anywhere from 12 to 30 hours on a single charge, while those with disposable batteries typically last 5 to 14 days, based on usage patterns."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can Wireless Hearing Aids connect to any smartphone or device?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Most Wireless Hearing Aids are compatible with a wide range of smartphones and devices, especially those with Bluetooth capabilities. However, compatibility can vary, so it's always best to check with Hearing Hope or refer to the specific model's specifications."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are Wireless Hearing Aids difficult to use for those who are not tech-savvy?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Wireless Hearing Aids are designed to be user-friendly, with intuitive controls and easy connectivity options. Many models come with smartphone apps that simplify control and customization. Hearing Hope also provides comprehensive guidance and support to ensure users are comfortable with their new hearing aids."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Will Wireless Hearing Aids be affected by interference from other wireless devices?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Modern Wireless Hearing Aids use advanced technology to minimize interference from other devices. They operate on specific frequencies and have built-in features to reduce the likelihood of interference, ensuring clear and consistent sound quality."
+            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

@@ -24,6 +24,70 @@ const BTEPromptP = () => {
         content="https://www.hearinghope.in/Products/SigniaPromptPSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-prompt-p"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Signia BTE prompt P",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FSigniaBTEPromptP.png",
+  "description": "Experience Signia BTE Prompt P Hearing Aids with customized hearing solutions at Hearing Hope. Get expert support today.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Signia"
+  },
+  "url": "https://www.hearinghope.in/hearing-aids/models/signia-bte-prompt-p",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "150"
+  }
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What makes the Signia BTE Prompt P different from other hearing aids?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia BTE Prompt P distinguishes itself with advanced sound technology that enhances speech clarity and reduces background noise, robust durability, and intuitive user controls. These features ensure an optimal balance of performance and user comfort, making it a standout choice for those needing reliable hearing support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I maintain my Signia BTE Prompt P hearing aid for optimal performance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Regular maintenance of your Signia BTE Prompt P includes daily cleaning with a soft, dry cloth, storing it in a dry, cool place, and ensuring the battery compartment is clean and free of debris. Additionally, it's important to regularly check and replace the batteries to ensure consistent performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the Signia BTE Prompt P be connected to a smartphone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia BTE Prompt P features Bluetooth connectivity that allows it to seamlessly pair with most smartphones. This connectivity enables you to control the settings of your hearing aid and personalize your hearing experience directly from your phone via the Signia app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Signia BTE Prompt P suitable for all types of hearing loss?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia BTE Prompt P is versatile and designed to cater to a broad range of hearing loss levels, from mild to severe. Its programmable settings can be precisely adjusted to match individual hearing loss patterns, making it highly effective for various auditory needs."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

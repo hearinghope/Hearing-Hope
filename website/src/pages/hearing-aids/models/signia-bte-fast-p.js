@@ -26,6 +26,79 @@ const BTEFastP = () => {
         content="https://www.hearinghope.in/Products/SigniaBTEFastP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-fast-p"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Signia BTE Fast P",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FSigniaBTEFastP.png",
+  "description": "Explore Signia BTE Fast P at Hearing Hope for tailored hearing solutions. Get expert consultations and support for better hearing today.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Signia"
+  },
+  "url": "https://www.hearinghope.in/hearing-aids/models/signia-bte-fast-p",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "89"
+  }
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How does the Signia BTE Fast P enhance speech clarity in noisy environments?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia BTE Fast P utilizes advanced sound processing technology to distinguish between speech and noise, enhancing voice clarity and reducing background sounds, ensuring clear communication in various environments."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the connectivity options available with the Signia BTE Fast P?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "This hearing aid offers Bluetooth connectivity, allowing users to wirelessly stream audio directly from smartphones, tablets, and other Bluetooth-enabled devices, enhancing the listening experience for calls and media playback."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the Signia BTE Fast P suitable for all levels of hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia BTE Fast P is designed to accommodate a range of hearing loss levels, from mild to severe, with customizable settings that can be adjusted to meet individual auditory needs."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How long does the battery last in the Signia BTE Fast P, and is it rechargeable?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The battery life varies depending on usage, but typically lasts several days under normal conditions. The current model uses disposable batteries, but users should check for any updates or newer models with rechargeable options."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I wear the Signia BTE Fast P while participating in sports or outdoor activities?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia BTE Fast P is designed with a durable and water-resistant build, making it suitable for sports and outdoor activities. However, it is advisable to use additional protection in extreme conditions to ensure the device's longevity."
+            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

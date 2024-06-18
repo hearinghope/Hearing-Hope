@@ -24,6 +24,78 @@ const Digital8Channel = () => {
         content="https://www.hearinghope.in/Products/SigniaPromptPSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-digital-8-channel"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "Signia Digital - 8 channel",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FSigniaDigital8Channel.png",
+              "description": "Explore Signia Digital 12 Channel Hearing Aids at Hearing Hope. Experience superior sound quality and expert consultations.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Signia"
+              },
+              "url": "https://www.hearinghope.in/hearing-aids/models/signia-digital-8-channel",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "150"
+              }            
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How does the Signia Digital 8 Channel hearing aid improve speech clarity in noisy environments?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Digital 8 Channel utilizes advanced speech enhancement technology and directional microphones to isolate and amplify speech. This feature helps users clearly hear conversations even in busy settings by focusing on sounds coming from in front of them and reducing background noise."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I connect my Signia Digital 8 Channel hearing aid to my smartphone or other Bluetooth devices?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia Digital 8 Channel hearing aid is equipped with Bluetooth connectivity, allowing you to stream audio directly from smartphones, tablets, and other Bluetooth-enabled devices. This includes phone calls, music, and sounds from television."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What kind of battery options are available for the Signia Digital 8 Channel hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Digital 8 Channel is available with both rechargeable and disposable battery options. The rechargeable model offers up to 24 hours of power on a single charge, while the high-quality disposable batteries provide several days of continuous use."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are there any specific care or maintenance tips for the Signia Digital 8 Channel hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "To ensure optimal performance and longevity of your Signia Digital 8 Channel hearing aid, regular maintenance such as cleaning the device with a dry, soft cloth and avoiding exposure to water or extreme temperatures is recommended. It’s also important to regularly check and replace batteries as needed and use the dedicated cleaning tools provided to clear any debris from the microphone ports."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can I adjust the settings on my Signia Digital 8 Channel hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia Digital 8 Channel can be adjusted manually on the device itself or through a dedicated smartphone app. The app allows for convenient control over volume, sound profiles, and program settings, enabling you to customize your hearing experience based on different environments or personal preferences."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

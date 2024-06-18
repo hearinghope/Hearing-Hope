@@ -24,6 +24,78 @@ const IICHearingAids = () => {
         content="https://www.hearinghope.in/Products/CICInsio1.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/iic-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "IIC Hearing Aids",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FCICInsio1.png",
+              "description": "Get discreet IIC Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Signia"
+              },
+              "url": "https://www.hearinghope.in/hearing-aids/types/iic-hearing-aid",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "150"
+              }            
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What are IIC Hearing Aids and how do they differ from other types of hearing aids?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "IIC Hearing Aids, or Invisible-In-Canal aids, are designed to be virtually undetectable when worn. Unlike larger, more visible types, they fit deep within the ear canal, offering a discreet solution for hearing enhancement. Their advanced technology provides clear sound quality while being hidden from view."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are IIC Hearing Aids comfortable to wear?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, IIC Hearing Aids are custom-made to fit the unique shape of your ear canal, ensuring maximum comfort. Users often report that after a brief adjustment period, they barely notice they're wearing them."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can IIC Hearing Aids help with all types of hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "IIC Hearing Aids are most effective for individuals with mild to moderate hearing loss. It's important to consult with a hearing specialist at Hearing Hope to determine if this type of aid is suitable for your specific hearing needs."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I maintain my IIC Hearing Aids and ensure their longevity?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Regular cleaning and proper storage are key to maintaining your IIC Hearing Aids. It's recommended to use a soft, dry cloth for cleaning and to keep them in a moisture-free case when not in use. Hearing Hope also offers maintenance services and advice."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I trial IIC Hearing Aids before making a purchase?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "At Hearing Hope, we understand the importance of finding the right hearing aid. We offer a trial period for our IIC Hearing Aids so you can experience the comfort and quality firsthand before making a decision."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

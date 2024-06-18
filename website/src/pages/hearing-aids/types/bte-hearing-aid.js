@@ -24,6 +24,78 @@ const BTEHearingAids = () => {
         content="https://www.hearinghope.in/Products/BTEIntuis40PSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/bte-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "BTE Hearing Aid",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEIntuis40PSP.png",
+              "description": "Find top-quality BTE Hearing Aid solutions at Hearing Hope. Our experts offer personalized consultations for enhanced hearing.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Signia"
+              },
+              "url": "https://www.hearinghope.in/hearing-aids/types/bte-hearing-aid",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "150"
+              }            
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What makes BTE hearing aids different from other types of hearing aids?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "BTE (Behind-The-Ear) hearing aids have the main components housed in a casing that sits behind the ear. This design allows for more power and features, making them suitable for a wide range of hearing losses."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I know if a BTE hearing aid is right for me?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The suitability of a BTE hearing aid depends on various factors, including the degree of hearing loss, lifestyle, and personal preference. Our audiologists can help determine if a BTE hearing aid is the best choice for you during your initial consultation."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How long does it take to adjust to a new BTE hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Adjustment periods vary from person to person. Generally, it can take a few weeks to a couple of months to fully adapt to your new hearing aid. We provide guidance and support throughout this transition period."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can BTE hearing aids be connected to smartphones or other devices?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Many modern BTE hearing aids come with wireless connectivity options that allow them to be paired with smartphones, TVs, and other devices for a more integrated listening experience."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How often should I have my BTE hearing aid serviced?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We recommend having your BTE hearing aid professionally serviced at least once a year. However, if you notice any changes in performance, it’s best to schedule an appointment immediately."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

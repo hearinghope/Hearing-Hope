@@ -24,6 +24,64 @@ const CICPromptCustom = () => {
         content="https://www.hearinghope.in/Products/CICInsio1.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-cic-prompt-custom"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org/', '@type': 'Product', 'name': 'Signia CIC prompt Custom', 'image': 'https://www.hearinghope.in/_next/image?url=%2FProducts%2FCICInsio1.png', 'description': 'Get Signia CIC Prompt Custom Hearing Aids at Hearing Hope. Personalized solutions for better hearing from our expert audiologists.', 'brand': {'@type': 'Brand', 'name': 'Signia'}, 'url': 'https://www.hearinghope.in/hearing-aids/models/signia-cic-prompt-custom', 'aggregateRating': {'@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '150'}
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long does the battery last in the Signia CIC Prompt Custom?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The battery life depends on usage, but typically, the zinc-air batteries can last up to 7 days with standard use. There's also a rechargeable option available which can be recharged overnight for a full day's use."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the Signia CIC Prompt Custom suitable for all types of hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia CIC Prompt Custom is most suitable for individuals with mild to moderately severe hearing loss. It may not be suitable for severe to profound hearing loss, so it's best to consult with an audiologist for a personalized assessment."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I use the Signia CIC Prompt Custom with my smartphone?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia CIC Prompt Custom is equipped with Bluetooth technology that allows it to connect with compatible smartphones. This connectivity enables direct streaming of calls and media as well as control over the hearing aid settings through dedicated apps."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are there any waterproof options available for the Signia CIC Prompt Custom?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia CIC Prompt Custom is designed to be durable and includes models that are rated IP68 for water and dust resistance. While they are resistant to moisture and can handle sweat or light rain, they are not fully waterproof and should not be submerged in water."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What warranty options are available with the Signia CIC Prompt Custom?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia CIC Prompt Custom comes with a standard 2-year manufacturer's warranty, which covers any defects in materials or workmanship. Extended warranties and service plans may also be available through your hearing aid provider or specialist."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

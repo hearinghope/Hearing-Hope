@@ -24,6 +24,79 @@ const BluetoothHearingAids = () => {
         content="https://www.hearinghope.in/Products/Styletto.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/bluetooth-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Bluetooth Hearing Aids",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FStyletto.png",
+  "description": "Get connected with Bluetooth Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Signia"
+  },
+  "url": "https://www.hearinghope.in/hearing-aids/types/bluetooth-hearing-aid",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "150"
+  }
+
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How do Bluetooth Hearing Aids differ from regular hearing aids?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Bluetooth Hearing Aids offer advanced connectivity features, allowing them to wirelessly connect to various Bluetooth-enabled devices like smartphones, TVs, and tablets. This enables direct streaming of audio, hands-free calling, and more personalized control through smartphone apps, which are not typically available in regular hearing aids."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can Bluetooth Hearing Aids connect to any Bluetooth-enabled device?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Most Bluetooth Hearing Aids are designed to be compatible with a wide range of Bluetooth-enabled devices. However, compatibility can vary based on the specific model of the hearing aid and the device. It's recommended to check the compatibility of your hearing aid with the intended devices."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are Bluetooth Hearing Aids difficult to set up and use?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Bluetooth Hearing Aids are designed with user-friendliness in mind. Setting them up usually involves a simple pairing process similar to connecting Bluetooth headphones to your smartphone. Many come with easy-to-use apps that guide you through the setup and daily use."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Will using Bluetooth drain the battery of my hearing aid faster?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "While using Bluetooth functionality can consume more battery than standard hearing aid use, many modern Bluetooth Hearing Aids are designed to be energy-efficient. Rechargeable models are also available, offering a convenient and eco-friendly option."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are Bluetooth Hearing Aids more expensive than traditional hearing aids?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The cost of Bluetooth Hearing Aids can be higher than traditional hearing aids due to the advanced technology and features they offer. However, the range of prices and models available means there are options for various budgets, and the additional benefits they provide can be a worthwhile investment."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

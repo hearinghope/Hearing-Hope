@@ -24,6 +24,78 @@ const RICHearingAids = () => {
         content="https://www.hearinghope.in/Products/Styletto RIC.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/ric-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "RIC Hearing Aids",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FStyletto%20RIC.png",
+              "description": "Experience advanced RIC Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Signia"
+              },
+              "url": "https://www.hearinghope.in/hearing-aids/types/ric-hearing-aid",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "150"
+              }            
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are RIC Hearing Aids and how do they differ from other types of hearing aids?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RIC (Receiver-in-Canal) Hearing Aids feature a design where the speaker or receiver is placed directly in the ear canal, separate from the main body of the hearing aid. This allows for a smaller, more discreet design compared to traditional behind-the-ear models. They offer superior sound quality, are less visible, and can be more comfortable due to their ergonomic design."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are RIC Hearing Aids suitable for all types of hearing loss?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RIC Hearing Aids are versatile and can be an excellent choice for a wide range of hearing loss levels, from mild to severe. However, the suitability depends on individual needs and ear anatomy. A consultation with our audiologists can help determine if RIC Hearing Aids are the best option for your specific situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do RIC Hearing Aids typically last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The lifespan of RIC Hearing Aids varies depending on usage, maintenance, and care. On average, they can last between 5-7 years. Regular servicing and proper care can help extend their lifespan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can RIC Hearing Aids be connected to smartphones or other devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, many modern RIC Hearing Aids come equipped with wireless connectivity options like Bluetooth, allowing them to be paired with smartphones, tablets, and other devices for streaming audio directly to the hearing aids."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of aftercare and support can I expect for my RIC Hearing Aids from Hearing Hope?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At Hearing Hope, we offer comprehensive aftercare for your RIC Hearing Aids. This includes regular check-ups, cleaning services, repairs, and firmware updates. We also provide ongoing support and guidance to ensure you get the most out of your hearing aids."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

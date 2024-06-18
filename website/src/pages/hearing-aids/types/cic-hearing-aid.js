@@ -24,6 +24,78 @@ const CICHearingAids = () => {
         content="https://www.hearinghope.in/Products/CICInsio1.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/cic-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "CIC Hearing Aids",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FCICInsio1.png",
+              "description": "Discover advanced CIC Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Signia"
+              },
+              "url": "https://www.hearinghope.in/hearing-aids/types/cic-hearing-aid",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "150"
+              }
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What makes CIC Hearing Aids different from other types of hearing aids?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CIC (Completely in Canal) Hearing Aids are uniquely designed to fit entirely within the ear canal, making them virtually invisible. They are tailored for individual ear shapes for maximum comfort and utilize advanced sound processing technologies to provide superior sound quality. Their discreet design is ideal for those seeking an unobtrusive hearing solution."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if CIC Hearing Aids are the right choice for me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CIC Hearing Aids are generally best suited for individuals with mild to moderate hearing loss who value discretion and comfort in a hearing aid. However, the best way to determine if they are right for you is through a professional hearing assessment and consultation, which we provide at HearingHope.in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can CIC Hearing Aids be connected to smartphones or other devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, many of our CIC Hearing Aids models come with wireless connectivity options, allowing them to be easily paired with smartphones, televisions, and other Bluetooth-enabled devices for a seamless audio experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I maintain and care for my CIC Hearing Aids?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintaining your CIC Hearing Aids involves regular cleaning with a soft, dry cloth, avoiding exposure to moisture and extreme temperatures, and changing batteries or charging them as needed. We provide comprehensive guidance and support on caring for your hearing aids at HearingHope.in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of support and aftercare can I expect with my CIC Hearing Aids?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At HearingHope.in, we offer extensive aftercare support, including regular check-ups, maintenance services, and adjustments as needed. Our team is always available to answer any questions and provide assistance to ensure you have the best experience with your Completely in Canal Hearing Aids."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

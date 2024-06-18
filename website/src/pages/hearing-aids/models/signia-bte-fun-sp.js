@@ -24,6 +24,78 @@ const BTEFunSP = () => {
         content="https://www.hearinghope.in/Products/BTEFunSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-fun-sp"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Signia BTE Fun SP",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEFunSP.png",
+  "description": "Find Signia BTE Fun SP with personalized solutions at Hearing Hope. Enhance your hearing with expert consultations and support.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Signia"
+  },
+  "url": "https://www.hearinghope.in/hearing-aids/models/signia-bte-fun-sp",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "150"
+  }
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What makes the Signia BTE Fun SP suitable for various environments?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Signia BTE Fun SP features advanced sound technology that adjusts to different settings, ensuring clear sound whether you are in a quiet room or a noisy space."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How long does the battery last on the Signia BTE Fun SP?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The battery in the Signia BTE Fun SP can last up to two weeks with regular use, depending on the usage frequency and volume settings."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the Signia BTE Fun SP hearing aid water-resistant?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the Signia BTE Fun SP has a water-resistant rating, making it capable of withstanding moisture and ensuring functionality in diverse weather conditions."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I customize the Signia BTE Fun SP to match my style?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely! The Signia BTE Fun SP comes in various colors, allowing you to choose one that best matches your personal style or remains discreet according to your preference."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Where can I get support for my Signia BTE Fun SP hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Support for your Signia BTE Fun SP can be found by contacting our customer service through the contact information provided on our website, where our specialists are ready to assist with any inquiries or support needs."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

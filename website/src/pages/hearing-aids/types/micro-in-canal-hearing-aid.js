@@ -24,6 +24,78 @@ const MicroInCanalHearingAids = () => {
         content="https://www.hearinghope.in/Products/CICInsio1.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/micro-in-canal-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "Micro In Canal Hearing Aid",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FCICInsio1.png",
+              "description": "Experience discreet Micro In Canal Hearing Aid at Hearing Hope. Personalized solutions for improved hearing.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Signia"
+              },
+              "url": "https://www.hearinghope.in/hearing-aids/types/micro-in-canal-hearing-aid",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "150"
+              }            
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is a Micro In Canal Hearing Aid and how does it differ from other types?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Micro In Canal (MIC) Hearing Aid is a type of hearing aid designed to fit almost completely inside your ear canal, making it nearly invisible. It differs from other types, like Behind-The-Ear or In-The-Ear aids, in terms of size, visibility, and how it uses the ear's natural acoustics for a more natural sound."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Who is the ideal candidate for a Micro In Canal Hearing Aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ideal candidates for Micro In Canal hearing aids include individuals with mild to moderate hearing loss, those who prefer a discreet hearing solution, active lifestyle enthusiasts, tech-savvy users, and those comfortable with handling small devices. First-time hearing aid users may also find them appealing due to their ease of use and comfort."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I know if a Micro In Canal Hearing Aid is right for me?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The best way to determine if a Micro In Canal hearing aid is right for you is to consult with a hearing specialist. They can assess your hearing needs, lifestyle, and preferences to recommend the most suitable option. At HearingHope.in, our experts are available to guide you through this process."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can Micro In Canal Hearing Aids be connected to smartphones or other devices?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, many Micro In Canal hearing aids come equipped with wireless connectivity, allowing you to easily connect with smartphones, televisions, and other electronic devices for a seamless audio experience."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What kind of after-sale support can I expect for my Micro In Canal Hearing Aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "At HearingHope.in, we offer comprehensive after-sale support for your Micro In Canal hearing aid, including regular maintenance checks, repairs, and adjustments to ensure your hearing aid is functioning optimally. Our dedicated team is always available to answer your queries and provide assistance."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

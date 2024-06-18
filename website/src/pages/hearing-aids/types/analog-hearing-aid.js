@@ -24,6 +24,80 @@ const AnalogHearingAids = () => {
         content="https://www.hearinghope.in/Products/BTEFunSP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/analog-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Analog Hearing Aid",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FBTEFunSP.png",
+  "description": "Find Analog Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Signia"
+  },
+  "url": "https://www.hearinghope.in/hearing-aids/types/analog-hearing-aid",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "150"
+  }
+
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is the main difference between Analog Hearing Aids and Digital Hearing Aids?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The primary difference lies in how they process sound. Analog Hearing Aids amplify all sounds (speech and noise) in the same way, while digital hearing aids convert sound into digital signals and can be programmed to amplify certain frequencies more than others, providing a more customized hearing experience."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How long do Analog Hearing Aids typically last?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "With proper care and maintenance, Analog Hearing Aids can last for several years. The longevity largely depends on the model, usage, and how well they are maintained."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can Analog Hearing Aids be used for all types of hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Analog Hearing Aids are suitable for a wide range of hearing loss levels, but they may not be the best option for everyone, especially those with severe or profound hearing loss. It’s best to consult with a specialist at Hearing Hope to determine the most appropriate type for your specific condition."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are there waterproof Analog Hearing Aids available?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "While most Analog Hearing Aids are designed to be water-resistant to a certain extent, fully waterproof models are less common. It's important to check the specific features of each model and discuss your needs with a Hearing Hope professional."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I know if an Analog Hearing Aid is the right choice for me?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The best way to determine if an Analog Hearing Aid is right for you is to undergo a hearing evaluation and consult with our hearing specialists. Factors like your hearing loss level, lifestyle, and personal preferences play a significant role in this decision."
+            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />

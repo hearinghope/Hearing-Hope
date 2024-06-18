@@ -24,6 +24,78 @@ const BTEFunP = () => {
         content="https://www.hearinghope.in/Products/SigniaBTEFastP.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/models/signia-bte-fun-p"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Signia BTE Fun P",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FSigniaBTEFastP.png",
+  "description": "Explore Signia BTE Fun P with personalized solutions at Hearing Hope. Enhance your hearing with expert consultations and support.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Signia"
+  },
+  "url": "https://www.hearinghope.in/hearing-aids/models/signia-bte-fun-p",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "150"
+  }
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+ "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What makes the Signia BTE Fun P suitable for severe hearing loss?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Signia BTE Fun P is designed with advanced sound amplification and clarity features that make it ideal for individuals with severe to profound hearing loss, ensuring they can hear clearly in various environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long can I use the Signia BTE Fun P before needing to change the batteries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The batteries in the Signia BTE Fun P are designed for extended use, allowing you to enjoy uninterrupted hearing support throughout your day without frequent changes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the Signia BTE Fun P connect to mobile phones or other devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Signia BTE Fun P features wireless connectivity options that enable seamless integration with mobile phones, TVs, and other audio devices for enhanced listening experiences."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Signia BTE Fun P comfortable to wear for long periods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely, the Signia BTE Fun P is crafted for comfort, with various size options to fit different ear shapes, ensuring comfort even with prolonged use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I get the Signia BTE Fun P fitted or purchase accessories?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can visit authorized distributors and service centers listed on our website to get your Signia BTE Fun P professionally fitted or to purchase genuine accessories and parts."
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
     <Navbar/>
     <WhatsAppButton />
