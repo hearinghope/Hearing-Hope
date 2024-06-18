@@ -26,6 +26,77 @@ const HearingCare = () => {
         content="https://www.hearinghope.in/Service/ServiceHearingTest.png" />
         <link rel="canonical" href="https://www.hearinghope.in/services/hearing-care-solution-in-delhi"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  "name": "Hearing care solution in Delhi - Hearing Hope",
+  "url": "https://www.hearinghope.in/services/hearing-care-solution-in-delhi",
+  "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 9711871168",
+    "contactType": "customer service",
+    "contactOption": "TollFree",
+    "areaServed": "IN",
+    "availableLanguage": ["en","Hindi"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/people/Hearing-Hope/100063607797322/",
+    "https://www.instagram.com/hearinghope/",
+    "https://www.youtube.com/@HearingHope"
+            
+              ]
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "What should I expect during my first hearing test at Hearing Hope?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "During your first visit for our Hearing Test Service in Delhi, you'll undergo a simple and painless process. It begins with a consultation to understand your hearing history and any concerns. The actual test involves listening to sounds through headphones in a controlled environment. Our audiologists will guide you through each step and explain the results afterward."
+                }
+              },{
+                "@type": "Question",
+                "name": "How often should I have my hearing tested?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We recommend adults, especially those over the age of 50, to have their hearing tested annually. However, if you are frequently exposed to loud noises, or if you notice any changes in your hearing ability, you should schedule a test sooner. Regular hearing assessments are key to detecting any issues early and managing them effectively."
+                }
+              },{
+                "@type": "Question",
+                "name": "Are hearing tests at Hearing Hope covered by insurance?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The coverage for hearing tests can vary depending on your insurance policy. We advise you to check with your insurance provider. Our staff can also assist you in understanding your coverage and ensuring that you make the most out of your benefits."
+                }
+              },{
+                "@type": "Question",
+                "name": "Can Hearing Hope provide hearing aids if they are needed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely! If your hearing test indicates that you could benefit from hearing aids, we offer a wide range of options to suit various needs and preferences. Our team will assist you in choosing the most suitable hearing aids and provide fitting, maintenance, and aftercare services"
+                }
+              },{
+                "@type": "Question",
+                "name": "What makes Hearing Hope different from other hearing test providers in Delhi?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Hearing Hope stands out due to our personalized approach, state-of-the-art technology, and comprehensive care. We not only provide Hearing Test Services in Delhi but also offer a full spectrum of hearing solutions, including hearing aids, rehabilitation services, and ongoing support. Our team's expertise and dedication to patient care ensure that you receive the best possible experience and results."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
         <Navbar />
 
