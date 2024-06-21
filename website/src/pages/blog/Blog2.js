@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './styles/blog.module.css';
 import Navbar from '@/components/Navbar';
+import Link from 'next/link';
 import Footer from '@/components/Footer';
 import Head from 'next/head';
 

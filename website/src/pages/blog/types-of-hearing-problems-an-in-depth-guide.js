@@ -3,6 +3,7 @@ import styles from './styles/blog.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Head from 'next/head';
+import Link from 'next/link';
 import WhatsAppButton from '../WhatsAppButton';
 
 const hearingproblem = () => {
@@ -37,7 +38,7 @@ const hearingproblem = () => {
         </div>
         <div className={styles.BlogDescription}>
           <p>Hearing is one of our most vital senses, allowing us to communicate, enjoy music, and be aware of our surroundings. Unfortunately, hearing problems are common and affect people of all ages. Understanding the different types of hearing problems can help you seek timely treatment and manage the condition effectively. This article explores various hearing problems, their causes, symptoms, and treatment options.
-Hearing problems can range from mild hearing loss to complete deafness. They can be congenital (present at birth) or acquired due to various factors such as age, noise exposure, infections, and more. Hearing problems can significantly impact an individual's quality of life, making early detection and intervention crucial. Early symptoms can include difficulty hearing conversations, needing to turn up the volume on devices, or experiencing a ringing sensation in the ears. Addressing these issues promptly can prevent further deterioration and improve quality of life. Modern medicine offers various solutions to manage and mitigate hearing problems effectively.
+Hearing problems can range from mild hearing loss to complete deafness. They can be congenital (present at birth) or acquired due to various factors such as age, noise exposure, infections, and more. Hearing problems can significantly impact an individual&apos;s quality of life, making early detection and intervention crucial. Early symptoms can include difficulty hearing conversations, needing to turn up the volume on devices, or experiencing a ringing sensation in the ears. Addressing these issues promptly can prevent further deterioration and improve quality of life. Modern medicine offers various solutions to manage and mitigate hearing problems effectively.
 </p>
         </div>
   
@@ -45,10 +46,10 @@ Hearing problems can range from mild hearing loss to complete deafness. They can
           <h2>Types of Hearing Problems          </h2>
         </div>
         <div className={styles.BlogDescription}>
-          <p>The three main categories of hearing impairments are typically distinguished as mixed hearing loss, sensorineural hearing loss, and conductive hearing loss. Let's delve into each type. Healthcare practitioners can find the best treatment plan by using these classifications. Understanding the differences between these types can aid in identifying symptoms, and proper diagnosis often involves a combination of hearing tests and physical examinations by an audiologist or an ENT specialist.
+          <p>The three main categories of hearing impairments are typically distinguished as mixed hearing loss, sensorineural hearing loss, and conductive hearing loss. Let&apos;s delve into each type. Healthcare practitioners can find the best treatment plan by using these classifications. Understanding the differences between these types can aid in identifying symptoms, and proper diagnosis often involves a combination of hearing tests and physical examinations by an audiologist or an ENT specialist.
           </p><br></br><br></br>
           <h3>Conductive Hearing Loss</h3>
-          <p>When sound waves cannot enter the inner ear, they result in conductive hearing loss. The hearing loss is typically brief and can often be treated medically or surgically. It affects the outer or middle ear structures, such as the ear canal, eardrum, or ossicles. Common symptoms include muffled hearing, a sense of fullness in the ear, or an earache. Conductive hearing loss can occur for various reasons, including infections, blockages, or abnormalities in the ear's anatomy. Prompt treatment can often restore hearing completely, highlighting the importance of early diagnosis and intervention.
+          <p>When sound waves cannot enter the inner ear, they result in conductive hearing loss. The hearing loss is typically brief and can often be treated medically or surgically. It affects the outer or middle ear structures, such as the ear canal, eardrum, or ossicles. Common symptoms include muffled hearing, a sense of fullness in the ear, or an earache. Conductive hearing loss can occur for various reasons, including infections, blockages, or abnormalities in the ear&apos;s anatomy. Prompt treatment can often restore hearing completely, highlighting the importance of early diagnosis and intervention.
           </p>
           <h4>Causes</h4>
           <ul>
@@ -95,7 +96,7 @@ Hearing problems can range from mild hearing loss to complete deafness. They can
             <li><strong>Head trauma: </strong>Head injuries can impair hearing.</li>
             <li><strong>Infections: </strong>Meningitis, measles, and mumps can lead to hearing loss.            </li>
           </ul>
-          <p>Other potential causes include autoimmune inner ear disease, Meniere's disease, and acoustic neuromas (benign tumors on the auditory nerve). Occupational noise exposure in environments like construction sites or factories can also contribute significantly to SNHL. It is essential to recognize these risk factors and take preventive measures when possible.
+          <p>Other potential causes include autoimmune inner ear disease, Meniere&apos;s disease, and acoustic neuromas (benign tumors on the auditory nerve). Occupational noise exposure in environments like construction sites or factories can also contribute significantly to SNHL. It is essential to recognize these risk factors and take preventive measures when possible.
           </p>
           <h4>Symptoms</h4>
           <ul>
@@ -196,7 +197,7 @@ Hearing problems can range from mild hearing loss to complete deafness. They can
             <li>Cognitive behavioral therapy (CBT).</li>
             <li>Medications to manage symptoms.</li>
           </ul>
-          <p>Other treatments may include tinnitus retraining therapy (TRT) or masking devices to provide background noise. Modifying one's way of living, such as avoiding caffeine, can also help manage symptoms.
+          <p>Other treatments may include tinnitus retraining therapy (TRT) or masking devices to provide background noise. Modifying one&apos;s way of living, such as avoiding caffeine, can also help manage symptoms.
           </p><br></br><br></br>
 
           <h3>Hyperacusis
@@ -214,7 +215,7 @@ Hearing problems can range from mild hearing loss to complete deafness. They can
             <li>Migraine.</li>
             <li>Chronic fatigue syndrome.</li>
           </ul>
-          <p>Other potential causes include Bell's palsy, Lyme disease, and temporomandibular joint (TMJ) disorders. Hyperacusis can also develop after exposure to certain medications or due to neurological conditions.
+          <p>Other potential causes include Bell&apos;s palsy, Lyme disease, and temporomandibular joint (TMJ) disorders. Hyperacusis can also develop after exposure to certain medications or due to neurological conditions.
           </p>
           <h4>Symptoms</h4>
           <ul>
@@ -274,7 +275,7 @@ Hearing problems can range from mild hearing loss to complete deafness. They can
             <li>Assistive listening devices.</li>
             <li>Communication strategies.</li>
           </ul>
-          <p>Other treatment options might include cochlear implants for severe cases, audiological rehabilitation, and lifestyle changes to enhance communication. Support groups and counseling may also offer helpful tools for managing hearing loss's emotional and social impacts.
+          <p>Other treatment options might include cochlear implants for severe cases, audiological rehabilitation, and lifestyle changes to enhance communication. Support groups and counseling may also offer helpful tools for managing hearing loss&apos;s emotional and social impacts.
           </p><br></br><br></br>
 
 
@@ -335,9 +336,9 @@ Hearing problems can range from mild hearing loss to complete deafness. They can
           <h2>Conclusion</h2>
         </div>
         <div className={styles.BlogDescription}>
-          <p>Hearing problems can significantly impact one's quality of life, but understanding the types, causes, and treatments can empower individuals to seek appropriate care. Regardless of the type of hearing loss, timely intervention can make a substantial difference. Stay informed, protect your hearing, and consult a healthcare professional if you experience any hearing issues.</p>
+          <p>Hearing problems can significantly impact one&apos;s quality of life, but understanding the types, causes, and treatments can empower individuals to seek appropriate care. Regardless of the type of hearing loss, timely intervention can make a substantial difference. Stay informed, protect your hearing, and consult a healthcare professional if you experience any hearing issues.</p>
         <br></br>
-        <p>Remember, early detection and management are crucial to preserving your hearing health. If you suspect you have a hearing problem, don't hesitate to seek professional advice. Your hearing is too necessary to ignore.</p>
+        <p>Remember, early detection and management are crucial to preserving your hearing health. If you suspect you have a hearing problem, don&apos;t hesitate to seek professional advice. Your hearing is too necessary to ignore.</p>
         </div>
       </div>
       <Footer />

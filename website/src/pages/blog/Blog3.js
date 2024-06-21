@@ -3,6 +3,7 @@ import styles from './styles/blog.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Head from 'next/head';
+import Link from 'next/link';
 
 const Blog3 = () => {
     return(
