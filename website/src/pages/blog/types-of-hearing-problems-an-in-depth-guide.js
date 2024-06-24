@@ -35,7 +35,7 @@ const hearingproblem = () => {
           <h1>Types of Hearing Problems: An In-Depth Guide</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Home/hearing-problem.png' alt='Hearing-problems' height={250} width={500} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
+          <Image src='/Home/hearing-problem.png' alt='Hearing-problems' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
         </div>
         <div className={styles.BlogDescription}>
           <p>Hearing is one of our most vital senses, allowing us to communicate, enjoy music, and be aware of our surroundings. Unfortunately, hearing problems are common and affect people of all ages. Understanding the different types of hearing problems can help you seek timely treatment and manage the condition effectively. This article explores various hearing problems, their causes, symptoms, and treatment options.
