@@ -16,16 +16,100 @@ const hearingaidscell = () => {
         <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title></title>
-        <meta name="description" content=""></meta>
-        <meta name="robots" content= "noindex,nofollow"/>
+        <title>Which cell keeps your hearing aids running?</title>
+        <meta name="description" content="Find out which cell keeps your hearing aids running smoothly. Learn about the best batteries for optimal performance and longer device life."></meta>
+        <meta name="robots" content= "index,follow"/>
         <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-            <meta property="og:url" content=""/>
+        <meta property="og:description" content="Find out which cell keeps your hearing aids running smoothly. Learn about the best batteries for optimal performance and longer device life." />
+            <meta property="og:url" content="https://www.hearinghope.in/blog/which-cell-keeps-your-hearing-aids-running"/>
             <meta property="og:image:url"
-        content="" />
-        <link rel="canonical" href=""/>
+        content="https://www.hearinghope.in/Home/hearing-aids-cell.png" />
+        <link rel="canonical" href="https://www.hearinghope.in/blog/which-cell-keeps-your-hearing-aids-running"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.hearinghope.in/blog/which-cell-keeps-your-hearing-aids-running"
+  },
+  "headline": "Which cell keeps your hearing aids running?",
+  "description": "Find out which cell keeps your hearing aids running smoothly. Learn about the best batteries for optimal performance and longer device life.",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FHome%2Fhearing-aids-cell.png&w=1920&q=75",  
+  "author": {
+    "@type": "Person",
+    "name": "Mr Mohit",
+    "url": "https://www.hearinghope.in/"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mr Mohit",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FMohit.jpg&w=256&q=75"
+    }
+  },
+  "datePublished": "2024-06-24T12:00:00+08:00",
+  "dateModified": "2024-06-24T15:20:00+08:00"
+    
+
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What type of battery powers traditional hearing aids?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Traditional hearing aids typically rely on mercury cells, which are non-rechargeable batteries known for their numerous advantages. One significant benefit is their long lifespan, lasting between one to three years, which minimizes the need for frequent battery changes. Additionally, mercury cells provide a stable voltage, ensuring consistent performance of the hearing aids. Their compact size allows them to fit seamlessly into discreet hearing aid designs, and their low current drain ensures efficient power delivery for the devices."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why are mercury cells becoming less common?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "While convenient, mercury cells pose a significant environmental concern due to the hazardous nature of mercury. Many countries have implemented regulations restricting their use, leading to a phase-out in some regions."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are some eco-friendly alternatives to mercury cells?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Zinc-air batteries are a rechargeable option that utilizes zinc and air (oxygen), making them a more sustainable choice, though they require regular charging. On the other hand, lithium-ion batteries, which are similar to those used in smartphones, offer a long life and are also rechargeable, albeit with a slightly higher initial cost."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I choose the correct battery for my hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "When selecting batteries, consider several factors. Lifestyle is important; long-life options like mercury (if available) or lithium-ion batteries might be ideal for those who prefer minimal changes, while rechargeable batteries provide an eco-friendly choice for those who are comfortable with a charging routine. Dexterity is another consideration; users with limited hand mobility might benefit from longer-lasting batteries such as mercury or lithium-ion. Hearing needs should also be taken into account, as more sophisticated hearing aids may drain batteries faster. It's essential to discuss your specific needs with your audiologist to ensure compatibility. Budget plays a role as well; although lithium-ion batteries might have a higher upfront cost, they can offer significant long-term savings due to fewer replacements. Finally, for environmental considerations, rechargeable options like zinc-air or lithium-ion are greener choices."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What resources can help me choose the correct battery?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Your audiologist is a valuable resource. Discuss your needs and preferences to find the power source that best suits your hearing aid and lifestyle. They can guide you through the available options and address any questions."
+            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
 
         <Navbar />
@@ -35,7 +119,7 @@ const hearingaidscell = () => {
           <h1>Which cell keeps your hearing aids running?</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Home/hearing-aids-cell.png' alt='Hearing-problems' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
+          <Image src='/Home/hearing-aids-cell.png' alt='Which cell keeps your hearing aids running?' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
         </div>
         <div className={styles.BlogDescription}>
           <p>Hearing aids are an essential tool that helps many people with hearing loss reintegrate into society. These tiny devices amplify sound, allowing individuals to participate in conversations, enjoy music, and navigate their daily lives more quickly. But have you ever wondered what tiny powerhouse keeps these devices ticking?<br></br>

@@ -16,16 +16,98 @@ const hearingproblem = () => {
         <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title></title>
-        <meta name="description" content=""></meta>
-        <meta name="robots" content= "noindex,nofollow"/>
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-            <meta property="og:url" content=""/>
+        <title>Types of Hearing Problems</title>
+        <meta name="description" content="Learn about the different types of hearing problems. Discover causes, symptoms, and treatments to protect your hearing and improve your quality of life."></meta>
+        <meta name="robots" content= "index,follow"/>
+        <meta property="og:title" content="Types of Hearing Problems" />
+        <meta property="og:description" content="Learn about the different types of hearing problems. Discover causes, symptoms, and treatments to protect your hearing and improve your quality of life." />
+            <meta property="og:url" content="https://www.hearinghope.in/blog/types-of-hearing-problems-an-in-depth-guide"/>
             <meta property="og:image:url"
-        content="" />
-        <link rel="canonical" href=""/>
+        content="https://www.hearinghope.in/Home/hearing-problem.png" />
+        <link rel="canonical" href="https://www.hearinghope.in/blog/types-of-hearing-problems-an-in-depth-guide"/>
         <link rel="icon" href="./favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BlogPosting",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.hearinghope.in/blog/types-of-hearing-problems-an-in-depth-guide"
+              },
+              "headline": "Types of Hearing Problems",
+              "description": "Learn about the different types of hearing problems. Discover causes, symptoms, and treatments to protect your hearing and improve your quality of life.",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FHome%2Fhearing-problem.png&w=1920&q=75",  
+              "author": {
+                "@type": "Person",
+                "name": "Mr Mohit",
+                "url": "https://www.hearinghope.in/"
+              },  
+              "publisher": {
+                "@type": "Organization",
+                "name": "Mr Mohit",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FMohit.jpg&w=256&q=75"
+                }
+              },
+              "datePublished": "2024-06-24T12:00:00+08:00",
+              "dateModified": "2024-06-24T15:20:00+08:00"           
+
+            })
+          }}
+        />
+       <script type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What are the main types of hearing problems?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Mixed, sensorineural, and conductive hearing loss are the three main hearing impairment categories. Each type affects different ear parts and has distinct causes and treatment options."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What causes conductive hearing loss, and how is it treated?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Conduction-related hearing loss is primarily caused by problems with the middle or outer ears that block sound waves from entering the inner ear. Ear infections, earwax accumulation, and perforations in the eardrum are common causes. Treatments often involve removing blockages, treating infections with antibiotics, or surgery for more severe conditions."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does sensorineural hearing loss occur, and what are the treatment options?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Issues with the inner ear or auditory nerve result in sensorineural hearing loss, which is often irreversible. Causes include ageing, exposure to loud noises, certain medications, and genetic factors. Interventions such as cochlear implants, assistive listening devices, and hearing aids are available."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is mixed hearing loss, and how is it managed?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Mixed hearing loss combines aspects of conductive and sensorineural hearing loss. Usually, the inner ear or auditory nerve and the outer or middle ear are injured. Management includes a combination of treatments appropriate for both types of hearing loss, such as surgery and hearing aids."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are there preventative measures for hearing loss?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, many forms of hearing loss can be prevented. Preventative measures include protecting ears from loud noises with earplugs or earmuffs, avoiding prolonged exposure to noisy environments, maintaining good ear hygiene, having regular hearing check-ups, and leading a healthy lifestyle to support overall ear health."            
+    }
+  }
+    ]
+  })
+}}
+/>
       </Head>
 
         <Navbar />
@@ -35,7 +117,7 @@ const hearingproblem = () => {
           <h1>Types of Hearing Problems: An In-Depth Guide</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Home/hearing-problem.png' alt='Hearing-problems' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
+          <Image src='/Home/hearing-problem.png' alt='Types of Hearing Problems' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
         </div>
         <div className={styles.BlogDescription}>
           <p>Hearing is one of our most vital senses, allowing us to communicate, enjoy music, and be aware of our surroundings. Unfortunately, hearing problems are common and affect people of all ages. Understanding the different types of hearing problems can help you seek timely treatment and manage the condition effectively. This article explores various hearing problems, their causes, symptoms, and treatment options.
