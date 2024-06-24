@@ -35,11 +35,11 @@ const hearingaidscell = () => {
           <h1>Which cell keeps your hearing aids running?</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Home/hearing-problem.png' alt='Hearing-problems' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
+          <Image src='/Home/hearing-aids-cell.png' alt='Hearing-problems' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
         </div>
         <div className={styles.BlogDescription}>
           <p>Hearing aids are an essential tool that helps many people with hearing loss reintegrate into society. These tiny devices amplify sound, allowing individuals to participate in conversations, enjoy music, and navigate their daily lives more quickly. But have you ever wondered what tiny powerhouse keeps these devices ticking?<br></br>
-          The answer might surprise you. Unlike the rechargeable batteries found in many of our everyday gadgets, traditional hearing aids rely on a specific type of non-rechargeable cell: the mercury cell.</p>
+          The answer might surprise you. Unlike the rechargeable batteries found in many of our everyday gadgets &apos traditional hearing aids rely on a specific type of non-rechargeable cell: the mercury cell.</p>
         </div>
   
         <div className={styles.BlogHeading}>
@@ -62,7 +62,7 @@ const hearingaidscell = () => {
           <h2>Inside the Mercury Cell: A Look at the Chemistry</h2>
         </div>
         <div className={styles.BlogDescription}>
-          <p>Mercury cells, also known as zinc-mercury oxide cells, generate electricity through a chemical reaction. Here's a breakdown of the critical components:
+          <p>Mercury cells, also known as zinc-mercury oxide cells, generate electricity through a chemical reaction. Here&apos;s a breakdown of the critical components:
           </p>
           <ul>
             <li><strong>Anode: </strong>Made from a zinc-mercury amalgam (a mixture of zinc metal and mercury). Zinc atoms lose electrons during operation and become positively charged ions (oxidation).</li>
@@ -104,7 +104,7 @@ As the reaction progresses, the zinc anode gradually dissolves, while the mercur
           <p>Selecting a hearing aid is crucial to regaining control over your hearing health. Beyond the device, another important decision involves the power source—the tiny battery that keeps your hearing aid functioning. Your audiologist will guide you through the available battery options, but understanding the factors at play empowers you to make an informed choice.
           </p>
           <ul>
-            <li><strong>Lifestyle: </strong>Consider your daily routine and hearing aid usage patterns. If you prioritize a long battery life with minimal changes, a mercury cell (where still available) might be tempting. These boast a 1-3 year lifespan, minimizing the need for frequent replacements. However, if environmental concerns weigh heavily on your mind or you're comfortable with a charging routine, rechargeable options like zinc-air or lithium-ion batteries offer a greener solution.</li>
+            <li><strong>Lifestyle: </strong>Consider your daily routine and hearing aid usage patterns. If you prioritize a long battery life with minimal changes, a mercury cell (where still available) might be tempting. These boast a 1-3 year lifespan, minimizing the need for frequent replacements. However, if environmental concerns weigh heavily on your mind or you&apos;re comfortable with a charging routine, rechargeable options like zinc-air or lithium-ion batteries offer a greener solution.</li>
             <li><strong>Dexterity: </strong>For some users, talent can be a limiting factor. Handling tiny batteries can be challenging, particularly for individuals with arthritis or limited hand mobility. In such cases, the extended life of a mercury or lithium-ion cell becomes a significant advantage. These options require fewer frequent changes than zinc-air batteries, which typically need charging every few days to a week, depending on usage.
             </li>
             <li><strong>Hearing Needs: </strong>The severity of your hearing loss and the features of your chosen hearing aid also play a role. More sophisticated hearing aids with advanced functionalities might consume battery power more quickly. Discussing your hearing needs with your audiologist can help determine if a particular battery type can meet the demands of your chosen device.</li>
@@ -123,10 +123,10 @@ As the reaction progresses, the zinc anode gradually dissolves, while the mercur
           <h2>Conclusion</h2>
         </div>
         <div className={styles.BlogDescription}>
-          <p>While the future of hearing aid batteries undoubtedly lies with environmentally friendly alternatives like zinc-air and lithium-ion options, we shouldn't diminish mercury cells' role. Their long lifespan and compact size revolutionized hearing aids, allowing people with hearing loss to experience a newfound connection with the world around them.
+          <p>While the future of hearing aid batteries undoubtedly lies with environmentally friendly alternatives like zinc-air and lithium-ion options, we shouldn&apos;t diminish mercury cells&apos; role. Their long lifespan and compact size revolutionized hearing aids, allowing people with hearing loss to experience a newfound connection with the world around them.
           </p>
         <br></br>
-        <p>However, mercury's environmental impact necessitates a shift towards sustainable solutions. Thankfully, advancements in battery technology have paved the way for powerful and eco-friendly options. As these technologies evolve, we can expect even more user-friendly and environmentally responsible power sources to emerge, empowering individuals with hearing loss to enjoy the benefits of clear sound while minimizing their environmental footprint.
+        <p>However, mercury&apos;s environmental impact necessitates a shift towards sustainable solutions. Thankfully, advancements in battery technology have paved the way for powerful and eco-friendly options. As these technologies evolve, we can expect even more user-friendly and environmentally responsible power sources to emerge, empowering individuals with hearing loss to enjoy the benefits of clear sound while minimizing their environmental footprint.
         </p>
         </div>
         <div className={styles.BlogAuthorBox}>

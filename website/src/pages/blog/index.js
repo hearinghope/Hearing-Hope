@@ -20,10 +20,10 @@ const cardsData = [
     },
     {
       "id": 2,
-      "image": "/Home/Home Blog2.png",
-      "heading": "Opening Doors to a Vibrant and Connected Life",
-      "description": "Hearing is one of our most vital senses, allowing us to communicate, enjoy music, and be aware of our surroundings. Unfortunately, hearing problems are common and affect people of all ages....",
-      "link": "/blog/Blog2"
+      "image": "/Home/hearing-aids-celllist.png",
+      "heading": "Which cell keeps your hearing aids running?",
+      "description": "Hearing aids are an essential tool that helps many people with hearing loss reintegrate into society. These tiny devices amplify sound, allowing individuals to participate in conversations,....",
+      "link": "/blog/which-cell-keeps-your-hearing-aids-running"
     },
     {
       "id": 3,
