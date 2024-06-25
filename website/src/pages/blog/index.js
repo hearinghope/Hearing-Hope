@@ -27,10 +27,10 @@ const cardsData = [
     },
     {
       "id": 3,
-      "image": "/Home/HomeBlog3.png",
-      "heading": "The Path to Healthy Hearing: Empowered by Hearing Hope",
-      "description": "The ability to hear is a priceless gift that connects us to the people and experiences around us in a world full of the symphony of life. Unfortunately, many people",
-      "link": "/blog/Blog3"
+      "image": "/Home/bera-testlist.png",
+      "heading": "Understanding the BERA Test: A Comprehensive Guide",
+      "description": "The Brainstem Evoked Response Audiometry (BERA) test is a crucial diagnostic tool used in both audiology and neurology. It is critical in assessing...",
+      "link": "/blog/understanding-the-bera-test-a-comprehensive-guide"
     },
     // {
     //   "id": 4,
