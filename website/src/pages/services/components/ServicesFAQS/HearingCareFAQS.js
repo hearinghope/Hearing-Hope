@@ -38,24 +38,24 @@ const HearingCareFAQS = () => {
 
 const faqData = [
   {
-    question: 'What types of hearing services does Hearing Hope offer?',
-    answer: 'At our hearing care clinic in Delhi, we offer a comprehensive range of services, including hearing assessments, hearing aid consultations, fittings, maintenance, and repairs. We also provide personalized hearing loss management plans and tinnitus therapy.',
+    question: 'What types of hearing aids are available at Hearing Hope?',
+    answer: 'At Hearing Hope, we provide an extensive selection of hearing aids, such as behind-the-ear (BTE), in-the-ear (ITE), and completely-in-canal (CIC) styles.Each type is equipped with the latest technology to suit different hearing loss needs and personal preferences.',
   },
   {
-    question: 'How do I know if I need a hearing test?',
-    answer: "If you're experiencing symptoms like difficulty understanding speech, frequently asking others to repeat themselves, or needing to increase the volume on your devices, it might be time for a hearing test. We recommend regular hearing assessments for adults, especially if you have a history of hearing loss in your family.",
+    question: 'How do I determine if I need a hearing aid?',
+    answer: "If you're experiencing difficulties in understanding conversations, especially in noisy environments, or find yourself frequently asking others to repeat themselves, it might be time to schedule a hearing evaluation. Our expert audiologists at Hearing Hope can conduct a comprehensive hearing test to determine if a hearing aid is recommended for your condition.",
   },
   {
-    question: 'Are there different types of hearing aids available?',
-    answer: 'Yes, we offer a variety of hearing aids to suit different preferences and needs. This includes behind-the-ear (BTE), in-the-ear (ITE), completely in-canal (CIC) models, and more. Our specialists will help you choose the best type based on your hearing assessment and lifestyle requirements.',
+    question: 'What is the process for getting a hearing aid at Hearing Hope?',
+    answer: 'The process begins with a detailed hearing assessment conducted by our audiologists. Based on the results, we discuss suitable hearing aid options and fit you with the device that best meets your needs. A follow-up appointment is then scheduled to fine-tune the device and ensure optimal performance.',
   },
   {
-    question: 'Does Hearing Hope provide financing options for hearing aids?',
-    answer: "Understanding the importance of accessible hearing care, we offer several financing options to make our services and products more affordable. Our staff can provide detailed information about payment plans and insurance coverage options during your visit.",
+    question: 'Are financing plans available for the purchase of hearing aids?',
+    answer: "Yes, Hearing Hope offers flexible financing options to make hearing aids more affordable. We provide various payment plans to fit different budgets, ensuring that our patients can access the hearing care they need without financial strain.",
   },
   {
-    question: 'How can I book an appointment with Hearing Hope?',
-    answer: "Booking an appointment is easy! You can call us directly at our clinic, use the online booking form on our website, or send us an email. Our team will assist you in scheduling a convenient time for your visit to our hearing care clinic in Delhi.",
+    question: 'How can I maintain my hearing aid to ensure it lasts longer?',
+    answer: "Proper maintenance is crucial for extending the life of your hearing aid. We recommend regular cleaning with a soft, dry cloth, avoiding exposure to moisture and heat, and storing the device in a dry, cool place when not in use. Additionally, Hearing Hope offers ongoing maintenance services and advice to help you keep your hearing aid in excellent condition.",
   },
   
   // Add more FAQ items as needed

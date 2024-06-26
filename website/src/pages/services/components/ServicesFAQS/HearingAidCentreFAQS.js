@@ -38,24 +38,24 @@ const HearingAidCentreFAQS = () => {
 
 const faqData = [
   {
-    question: 'What types of hearing aids are available at your centre?',
-    answer: 'At Hearing Hope, we offer a wide range of hearing aids including behind-the-ear (BTE), in-the-ear (ITE), completely-in-canal (CIC), and more. Our selection includes the latest models featuring advanced technology such as Bluetooth connectivity and rechargeable batteries.',
+    question: 'What types of hearing aids are available at Hearing Hope?',
+    answer: 'At Hearing Hope, we offer a wide variety of hearing aids, including behind-the-ear (BTE), in-the-ear (ITE), and completely-in-canal (CIC) models, featuring the latest technology like wireless connectivity, rechargeable batteries, and advanced noise cancellation to meet different lifestyle and budget requirements.',
   },
   {
-    question: 'How do I know if I need a hearing aid?',
-    answer: "If you're experiencing difficulties in hearing conversations, noticing a need to increase the volume on your TV or phone, or finding it hard to hear in noisy environments, it may be time to consider a hearing aid. We recommend scheduling a hearing evaluation with our experts for a precise assessment.",
+    question: 'How can I tell if I need a hearing aid?',
+    answer: "If you're experiencing difficulties hearing conversations, often ask people to repeat themselves, or find yourself increasing the volume on your devices, it may be time to consider a hearing test. We recommend visiting our hearing aid center in Delhi for a comprehensive hearing evaluation to determine if a hearing aid is suitable for you.",
   },
   {
-    question: 'How long does it take to get used to a new hearing aid?',
-    answer: 'Adjustment periods vary from person to person. Generally, it can take a few weeks to a few months to fully adjust to your new hearing aid. During this time, our team at Hearing Hope provides continuous support and guidance to ensure a smooth transition.',
+    question: 'What is the process of getting a hearing aid at Hearing Hope?',
+    answer: 'The process begins with an initial consultation to discuss your hearing concerns, followed by a detailed hearing evaluation using advanced diagnostic tools. Based on the results, we recommend and customize the best hearing aid for your needs, fit it precisely, and provide ongoing aftercare and support.',
   },
   {
-    question: ' What kind of aftercare and support do you offer?',
-    answer: "We offer comprehensive aftercare, which includes regular check-ups, cleaning and maintenance services, and any necessary adjustments to ensure your hearing aid is functioning optimally. Our team is always available to assist with any concerns or questions you might have.",
+    question: ' Am I able to test out a hearing aid prior to making a purchase?',
+    answer: "Yes, at Hearing Hope, we understand the importance of choosing the right hearing aid, and we offer trial periods for selected models. This allows you to experience how the hearing aid works in your daily environment, ensuring it meets your expectations before making a final decision.",
   },
   {
-    question: 'Can I book a hearing test and consultation online?',
-    answer: "Yes, you can easily book an appointment for a hearing test and consultation through our website. Just visit our booking page, select a convenient time, and we will confirm your appointment. We welcome you to visit us at our hearing aid centre in Delhi for a personalised experience.",
+    question: 'What support services are available after purchasing a hearing aid?',
+    answer: "We provide comprehensive aftercare services, including regular check-ups, maintenance, and fine-tuning of your hearing aids. Our dedicated team is always available to answer your questions, provide technical support, and make necessary adjustments to ensure you are completely satisfied with your hearing aid.",
   },
   
   // Add more FAQ items as needed

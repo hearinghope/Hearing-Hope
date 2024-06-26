@@ -38,24 +38,24 @@ const SpeechTherapyFAQS = () => {
 
 const faqData = [
   {
-    question: 'What age groups do your Speech Therapy Services in Delhi cater to?',
-    answer: " Our Speech Therapy Services in Delhi are designed to cater to individuals of all ages, from young children to adults. Each age group receives specialized care tailored to their specific needs.",
+    question: 'What age groups do you cater to at Hearing Hope?',
+    answer: " We provide speech therapy services in Delhi for all age groups. Our services are tailored for children experiencing developmental delays, as well as adults who may be recovering from strokes or managing degenerative conditions. We believe everyone deserves the chance to improve their communication abilities, regardless of age.",
   },
   {
-    question: ' How long does a typical course of Speech Therapy Services in Delhi last?  ',
-    answer: "The duration of speech therapy varies depending on the individual's needs and goals. After an initial assessment, we provide an estimated timeline, but therapy is often adjusted based on progress and ongoing evaluation.    ",
+    question: ' What is the duration of a standard speech therapy session?  ',
+    answer: "A typical session lasts between 30 and 60 minutes, depending on the specific needs and stamina of the client. The frequency and duration of sessions are customized based on individual treatment plans to ensure optimal results without causing fatigue. ",
   },
   {
-    question: ' Are your Speech Therapy Services in Delhi covered by insurance?  ',
-    answer: 'Coverage for speech therapy services depends on your insurance policy. We recommend checking with your insurance provider. Our team can assist with necessary documentation to facilitate claims ',
+    question: ' Are the speech therapy sessions conducted individually or in groups?  ',
+    answer: 'Most of our speech therapy services in Delhi are conducted on a one-on-one basis to ensure personalized attention and privacy. However, group sessions may be organized for specific activities or peer interaction scenarios where social communication skills can be effectively developed.',
   },
   {
-    question:  'Can I receive Speech Therapy Services at home in Delhi?  ',
-    answer: "Yes, we offer flexible options for speech therapy, including in-clinic sessions and at-home services in Delhi, ensuring convenience and comfort for our clients.",
+    question:  'Can family members participate in the therapy sessions?  ',
+    answer: "Absolutely, family involvement is encouraged at Hearing Hope. We believe that incorporating family members into the therapy process not only supports the client but also equips the family with strategies to help in everyday communication scenarios. This collaborative approach is crucial, especially in the familial and community-oriented culture of Delhi.",
   },
   {
-    question: 'What differentiates your Speech Therapy Services in Delhi from others?',
-    answer: "At Hearing Hope, we pride ourselves on our personalized approach, qualified therapists, state-of-the-art techniques, and a supportive environment. Our comprehensive and tailored services are designed to meet the unique needs of each individual.",
+    question: 'What makes Hearing Hope&apos;s approach to speech therapy unique?',
+    answer: "Our approach is deeply rooted in a personalized and evidence-based methodology, integrated with the latest advancements in speech therapy. We place a strong emphasis on involving family and caregivers, which is particularly effective in the context of Delhi&apos;s supportive community culture. Additionally, our commitment to continuous progress monitoring and adjustment of treatment plans ensures that each client receives the most effective care tailored to their evolving needs.",
   },
   
   // Add more FAQ items as needed

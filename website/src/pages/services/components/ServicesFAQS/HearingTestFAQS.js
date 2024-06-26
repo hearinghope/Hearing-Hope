@@ -38,24 +38,24 @@ const HearingTestFAQS = () => {
 
 const faqData = [
   {
-    question: 'What should I expect during my first hearing test at Hearing Hope?',
-    answer: "During your first visit for our Hearing Test Service in Delhi, you'll undergo a simple and painless process. It begins with a consultation to understand your hearing history and any concerns. The actual test involves listening to sounds through headphones in a controlled environment. Our audiologists will guide you through each step and explain the results afterward.",
+    question: 'What types of hearing tests do you offer at Hearing Hope in Delhi?',
+    answer: "At Hearing Hope, we offer a variety of hearing tests, including Pure tone Audiometry, Speech Audiometry, Tympanometry, and Otoacoustic Emissions (OAEs). Each test is tailored to assess various facets of your hearing capacity, providing a thorough auditory evaluation.",
   },
   {
-    question: 'How often should I have my hearing tested?',
-    answer: "We recommend adults, especially those over the age of 50, to have their hearing tested annually. However, if you are frequently exposed to loud noises, or if you notice any changes in your hearing ability, you should schedule a test sooner. Regular hearing assessments are key to detecting any issues early and managing them effectively.",
+    question: 'How often should I get my hearing tested?',
+    answer: "We recommend regular hearing assessments to monitor your auditory health, especially if you are frequently exposed to noisy environments, have noticed changes in your hearing, or are over the age of 60. Typically, an annual hearing test is advisable, but our audiologists might suggest a different frequency based on your specific circumstances.",
   },
   {
-    question: 'Are hearing tests at Hearing Hope covered by insurance? ',
-    answer: 'The coverage for hearing tests can vary depending on your insurance policy. We advise you to check with your insurance provider. Our staff can also assist you in understanding your coverage and ensuring that you make the most out of your benefits. ',
+    question: 'What should I expect during my first hearing test at Hearing Hope?  ',
+    answer: 'During your first visit, you&apos;ll undergo a brief interview to discuss your hearing history and any concerns. This is followed by a hearing test conducted in a sound-treated room to ensure accuracy. You&apos;ll be asked to listen to various sounds through headphones, and our audiologist will guide you through each step of the process. ',
   },
   {
-    question: 'Can Hearing Hope provide hearing aids if they are needed?',
-    answer: "Absolutely! If your hearing test indicates that you could benefit from hearing aids, we offer a wide range of options to suit various needs and preferences. Our team will assist you in choosing the most suitable hearing aids and provide fitting, maintenance, and aftercare services",
+    question: 'Can children and seniors undergo hearing tests at Hearing Hope?',
+    answer: "Yes, we offer specialized hearing assessments for both children and seniors. Our tests are tailored to meet the unique needs of these age groups, ensuring appropriate and effective evaluation and care.",
   },
   {
-    question: 'What makes Hearing Hope different from other hearing test providers in Delhi?',
-    answer: "Hearing Hope stands out due to our personalized approach, state-of-the-art technology, and comprehensive care. We not only provide Hearing Test Services in Delhi but also offer a full spectrum of hearing solutions, including hearing aids, rehabilitation services, and ongoing support. Our team's expertise and dedication to patient care ensure that you receive the best possible experience and results.",
+    question: 'What follow-up services do you provide after a hearing test?',
+    answer: "After your hearing test, we offer comprehensive follow-up services, including detailed discussions of your results, personalized recommendations for hearing aids or other interventions, and regular check-ups. We also provide ongoing support and maintenance for any hearing aids prescribed, ensuring optimal performance and comfort.",
   },
   
   // Add more FAQ items as needed
