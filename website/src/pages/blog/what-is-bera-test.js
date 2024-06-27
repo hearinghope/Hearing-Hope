@@ -16,15 +16,15 @@ const beratest = () => {
         <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Understanding the BERA Test: A Comprehensive Guide</title>
-        <meta name="description" content=""></meta>
+        <title>What is BERA Test?</title>
+        <meta name="description" content="Learn about the BERA test, a key diagnostic tool for hearing. Discover how it works, what to expect, and its importance in detecting hearing issues."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Understanding the BERA Test: A Comprehensive Guide" />
-        <meta property="og:description" content="" />
-            <meta property="og:url" content="https://www.hearinghope.in/blog/understanding-the-bera-test-a-comprehensive-guide"/>
+        <meta property="og:title" content="What is BERA Test?" />
+        <meta property="og:description" content="Learn about the BERA test, a key diagnostic tool for hearing. Discover how it works, what to expect, and its importance in detecting hearing issues." />
+            <meta property="og:url" content="https://www.hearinghope.in/blog/what-is-bera-test"/>
             <meta property="og:image:url"
         content="https://www.hearinghope.in/Home/bera-test.png" />
-        <link rel="canonical" href="https://www.hearinghope.in/blog/understanding-the-bera-test-a-comprehensive-guide"/>
+        <link rel="canonical" href="https://www.hearinghope.in/blog/what-is-bera-test"/>
         <link rel="icon" href="./favicon.png" />
         <script
           type="application/ld+json"

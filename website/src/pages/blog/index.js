@@ -30,7 +30,7 @@ const cardsData = [
       "image": "/Home/bera-testlist.png",
       "heading": "Understanding the BERA Test: A Comprehensive Guide",
       "description": "The Brainstem Evoked Response Audiometry (BERA) test is a crucial diagnostic tool used in both audiology and neurology. It is critical in assessing...",
-      "link": "/blog/understanding-the-bera-test-a-comprehensive-guide"
+      "link": "/blog/what-is-bera-test"
     },
     {
       "id": 4,
@@ -39,13 +39,13 @@ const cardsData = [
       "description": "Hearing plays a fundamental role in our day-to-day existence, influencing our capacity to communicate, enjoy entertainment, and maintain overall well...",
       "link": "/blog/the-importance-of-hearing-understanding-its-role-in-our-lives"
     },
-    // {
-    //   "id": 5,
-    //   "image": "/Home/HomeBlog3.png",
-    //   "heading": "The Path to Healthy Hearing: Empowered by Hearing Hope",
-    //   "description": "The ability to hear is a priceless gift that connects us to the people and experiences around us in a world full of the symphony of life. Unfortunately, many people face hearing problems, which can significantly lower their quality of life. Hearing Hope is committed to assisting you on a transformative journey towards better hearing and increased well-being.",
-    //   "link": "/blog/Blog3"
-    // },
+    {
+      "id": 5,
+      "image": "/Home/hearingmachine-pricelist.png",
+      "heading": "Understanding Digital Hearing Machine Prices: A Comprehensive Guide",
+      "description": "Digital hearing aids are essential for those with hearing impairments, offering advanced features that enhance auditory experiences. This thorough guide...",
+      "link": "/blog/understanding-digital-hearing-machine-prices-a-comprehensive-guide"
+    },
     // {
     //   "id": 6,
     //   "image": "/Home/HomeBlog3.png",
