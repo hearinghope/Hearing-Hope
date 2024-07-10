@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingMachinePriceFAQS from './blogFAQS/understanding-digital-hearing-machine-prices-a-comprehensive-guideblogFAQS';
+import BlogAuthorBox from './blogAuthorBox';
 
 const hearingmachineprice = () => {
     return(
@@ -234,18 +235,7 @@ const hearingmachineprice = () => {
         <p>Additionally, looking for deals, discounts, and financing options can make high-quality digital hearing aids more affordable. Regular maintenance and care, including cleaning and professional check-ups, are vital for ensuring the longevity and optimal performance of your hearing aids.</p><br></br>
         <p>Purchasing an appropriate digital assistive listening device can greatly raise your standard of living by enhancing both your auditory perception and general health. Making the ideal decision requires research and professional advice, which will provide you with the clarity and confidence you need to experience improved hearing.</p>
         </div>
-        <div className={styles.BlogAuthorBox}>
-          <Image className={styles.AuthorImage} src='/About/Mohit.jpg' alt='Author pic' width={100} height={100} style={{borderRadius:"50%"}}></Image>
-          <div className={styles.AuthorBio}>
-            <p className={styles.AuthorName}>Mr Mohit</p>
-            <span className={styles.AuthorDescription}>Mr. Mohit, is an accomplished Audiologist with extensive expertise in treating individuals with hearing impairments.</span>
-            <div className={styles.AuthorSocials}>
-            <Link href='https://www.instagram.com/hearinghope/'><Image className={styles.AuthorSocialsButtons} src='/Components/instagram.png' alt='instagram logo' width={30} height={30}></Image></Link>
-            <Link href='https://www.facebook.com/people/Hearing-Hope/100063607797322/'><Image className={styles.AuthorSocialsButtons} src='/Components/facebook.png' alt='facebook logo' width={30} height={30}></Image></Link>
-              <a href="mailto:hearinghope@gmail.com"><Image  className={styles.AuthorSocialsButtons} src='/Components/email.png' alt='Mail logo' width={30} height={30}></Image></a>
-            </div>
-          </div>
-        </div>
+        <BlogAuthorBox />
       <HearingMachinePriceFAQS></HearingMachinePriceFAQS>
       </div>
       <Footer />

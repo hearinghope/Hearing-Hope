@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingAidsRunningCellFAQS from './blogFAQS/which-cell-keeps-your-hearing-aids-running-blogFAQS';
+import BlogAuthorBox from './blogAuthorBox';
 
 const hearingaidscell = () => {
     return(
@@ -213,18 +214,7 @@ As the reaction progresses, the zinc anode gradually dissolves, while the mercur
         <p>However, mercury&apos;s environmental impact necessitates a shift towards sustainable solutions. Thankfully, advancements in battery technology have paved the way for powerful and eco-friendly options. As these technologies evolve, we can expect even more user-friendly and environmentally responsible power sources to emerge, empowering individuals with hearing loss to enjoy the benefits of clear sound while minimizing their environmental footprint.
         </p>
         </div>
-        <div className={styles.BlogAuthorBox}>
-          <Image className={styles.AuthorImage} src='/About/Mohit.jpg' alt='Author pic' width={100} height={100} style={{borderRadius:"50%"}}></Image>
-          <div className={styles.AuthorBio}>
-            <p className={styles.AuthorName}>Mr Mohit</p>
-            <span className={styles.AuthorDescription}>Mr. Mohit, is an accomplished Audiologist with extensive expertise in treating individuals with hearing impairments.</span>
-            <div className={styles.AuthorSocials}>
-            <Link href='https://www.instagram.com/hearinghope/'><Image className={styles.AuthorSocialsButtons} src='/Components/instagram.png' alt='instagram logo' width={30} height={30}></Image></Link>
-            <Link href='https://www.facebook.com/people/Hearing-Hope/100063607797322/'><Image className={styles.AuthorSocialsButtons} src='/Components/facebook.png' alt='facebook logo' width={30} height={30}></Image></Link>
-              <a href="mailto:hearinghope@gmail.com"><Image  className={styles.AuthorSocialsButtons} src='/Components/email.png' alt='Mail logo' width={30} height={30}></Image></a>
-            </div>
-          </div>
-        </div>
+        <BlogAuthorBox />
       <HearingAidsRunningCellFAQS></HearingAidsRunningCellFAQS>
       </div>
       <Footer />

@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingRoleInLiveFAQS from './blogFAQS/the-importance-of-hearing-understanding-its-role-in-our-livesblogFAQS';
+import BlogAuthorBox from './blogAuthorBox';
 
 const hearingroleinlive = () => {
     return(
@@ -251,18 +252,7 @@ const hearingroleinlive = () => {
         <p>Hearing is an essential sense that significantly impacts various aspects of life, from communication and learning to mental health and safety. Understanding the importance of hearing and taking steps to protect and improve auditory health can enhance overall well-being and quality of life. Regular hearing check-ups, protective measures against loud noises, and early intervention for hearing loss are crucial for maintaining good hearing health. We can ensure a more connected, engaged, and fulfilling life by prioritizing hearing. Investing in hearing health through prevention, early detection, and treatment can help individuals maintain their independence and enjoy a higher quality of life.
         </p>
         </div>
-        <div className={styles.BlogAuthorBox}>
-          <Image className={styles.AuthorImage} src='/About/Mohit.jpg' alt='Author pic' width={100} height={100} style={{borderRadius:"50%"}}></Image>
-          <div className={styles.AuthorBio}>
-            <p className={styles.AuthorName}>Mr Mohit</p>
-            <span className={styles.AuthorDescription}>Mr. Mohit, is an accomplished Audiologist with extensive expertise in treating individuals with hearing impairments.</span>
-            <div className={styles.AuthorSocials}>
-            <Link href='https://www.instagram.com/hearinghope/'><Image className={styles.AuthorSocialsButtons} src='/Components/instagram.png' alt='instagram logo' width={30} height={30}></Image></Link>
-            <Link href='https://www.facebook.com/people/Hearing-Hope/100063607797322/'><Image className={styles.AuthorSocialsButtons} src='/Components/facebook.png' alt='facebook logo' width={30} height={30}></Image></Link>
-              <a href="mailto:hearinghope@gmail.com"><Image  className={styles.AuthorSocialsButtons} src='/Components/email.png' alt='Mail logo' width={30} height={30}></Image></a>
-            </div>
-          </div>
-        </div>
+        <BlogAuthorBox />
       <HearingRoleInLiveFAQS></HearingRoleInLiveFAQS>
       </div>
       <Footer />

@@ -287,3 +287,40 @@
     font-size: 22px;
   }
 }
+
+
+/* Author Page */
+
+.AuthorPageContainer{
+  align-self: center;
+   margin-top: 5.5vw;
+  margin-left: 3vw;
+  display: flex;
+
+  @media screen and (max-width: 767px){
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40%;
+  }
+}
+
+.Author2Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  gap: 2vw;
+}
+
+.AuthorName{
+  color: #ff6600;
+  font-size:xx-large;
+}
+
+.AuthorMainPicture{
+  width: 25vw;
+  height: 30vw;
+  border-radius: 6%;
+  border: 1px solid #ff6600;
+ 
+}

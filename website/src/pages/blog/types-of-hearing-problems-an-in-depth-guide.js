@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import WhatsAppButton from '../WhatsAppButton';
 import TypesOfHearingProblemsFAQS from './blogFAQS/types-of-hearing-problems-blogFAQS';
+import BlogAuthorBox from './blogAuthorBox';
 
 const hearingproblem = () => {
     return(
@@ -423,18 +424,7 @@ Hearing problems can range from mild hearing loss to complete deafness. They can
         <br></br>
         <p>Remember, early detection and management are crucial to preserving your hearing health. If you suspect you have a hearing problem, don&apos;t hesitate to seek professional advice. Your hearing is too necessary to ignore.</p>
         </div>
-        <div className={styles.BlogAuthorBox}>
-          <Image className={styles.AuthorImage} src='/About/Mohit.jpg' alt='Author pic' width={100} height={100} style={{borderRadius:"50%"}}></Image>
-          <div className={styles.AuthorBio}>
-            <p className={styles.AuthorName}>Mr Mohit</p>
-            <span className={styles.AuthorDescription}>Mr. Mohit, is an accomplished Audiologist with extensive expertise in treating individuals with hearing impairments.</span>
-            <div className={styles.AuthorSocials}>
-            <Link href='https://www.instagram.com/hearinghope/'><Image className={styles.AuthorSocialsButtons} src='/Components/instagram.png' alt='instagram logo' width={30} height={30}></Image></Link>
-            <Link href='https://www.facebook.com/people/Hearing-Hope/100063607797322/'><Image className={styles.AuthorSocialsButtons} src='/Components/facebook.png' alt='facebook logo' width={30} height={30}></Image></Link>
-              <a href="mailto:hearinghope@gmail.com"><Image  className={styles.AuthorSocialsButtons} src='/Components/email.png' alt='Mail logo' width={30} height={30}></Image></a>
-            </div>
-          </div>
-        </div>
+        <BlogAuthorBox />
       <TypesOfHearingProblemsFAQS></TypesOfHearingProblemsFAQS>
       </div>
       <Footer />
