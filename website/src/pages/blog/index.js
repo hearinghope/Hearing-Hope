@@ -11,40 +11,42 @@ import Head from 'next/head';
 // Sample data for demonstration
 const cardsData = [
   
-    {
+  {
+    "id": 5,
+    "image": "/Home/hearingmachine-pricelist.png",
+    "heading": "Understanding Digital Hearing Machine Prices: A Comprehensive Guide",
+    "description": "Digital hearing aids are essential for those with hearing impairments, offering advanced features that enhance auditory experiences. This thorough guide...",
+    "link": "/blog/understanding-digital-hearing-machine-prices-a-comprehensive-guide"
+  },  
+  {
+    "id": 4,
+    "image": "/Home/hearing-rolelist.png",
+    "heading": "The Importance of Hearing: Understanding Its Role in Our Lives",
+    "description": "Hearing plays a fundamental role in our day-to-day existence, influencing our capacity to communicate, enjoy entertainment, and maintain overall well...",
+    "link": "/blog/the-importance-of-hearing-understanding-its-role-in-our-lives"
+  },
+
+  {
+    "id": 3,
+    "image": "/Home/bera-testlist.png",
+    "heading": "Understanding the BERA Test: A Comprehensive Guide",
+    "description": "The Brainstem Evoked Response Audiometry (BERA) test is a crucial diagnostic tool used in both audiology and neurology. It is critical in assessing...",
+    "link": "/blog/what-is-bera-test"
+  },
+
+  {
+    "id": 2,
+    "image": "/Home/hearing-aids-celllist.png",
+    "heading": "Which cell keeps your hearing aids running?",
+    "description": "Hearing aids are an essential tool that helps many people with hearing loss reintegrate into society. These tiny devices amplify sound, allowing individuals to participate in conversations,....",
+    "link": "/blog/which-cell-keeps-your-hearing-aids-running"
+  },
+  {
       "id": 1,
       "image": "/Home/hearing-problemlist.png",
       "heading": "Types of Hearing Problems: An In-Depth Guide",
       "description": "Hearing is one of our most vital senses, allowing us to communicate, enjoy music, and be aware of our surroundings. Unfortunately, hearing problems are common and affect people of all ages....",
       "link": "/blog/types-of-hearing-problems-an-in-depth-guide"
-    },
-    {
-      "id": 2,
-      "image": "/Home/hearing-aids-celllist.png",
-      "heading": "Which cell keeps your hearing aids running?",
-      "description": "Hearing aids are an essential tool that helps many people with hearing loss reintegrate into society. These tiny devices amplify sound, allowing individuals to participate in conversations,....",
-      "link": "/blog/which-cell-keeps-your-hearing-aids-running"
-    },
-    {
-      "id": 3,
-      "image": "/Home/bera-testlist.png",
-      "heading": "Understanding the BERA Test: A Comprehensive Guide",
-      "description": "The Brainstem Evoked Response Audiometry (BERA) test is a crucial diagnostic tool used in both audiology and neurology. It is critical in assessing...",
-      "link": "/blog/what-is-bera-test"
-    },
-    {
-      "id": 4,
-      "image": "/Home/hearing-rolelist.png",
-      "heading": "The Importance of Hearing: Understanding Its Role in Our Lives",
-      "description": "Hearing plays a fundamental role in our day-to-day existence, influencing our capacity to communicate, enjoy entertainment, and maintain overall well...",
-      "link": "/blog/the-importance-of-hearing-understanding-its-role-in-our-lives"
-    },
-    {
-      "id": 5,
-      "image": "/Home/hearingmachine-pricelist.png",
-      "heading": "Understanding Digital Hearing Machine Prices: A Comprehensive Guide",
-      "description": "Digital hearing aids are essential for those with hearing impairments, offering advanced features that enhance auditory experiences. This thorough guide...",
-      "link": "/blog/understanding-digital-hearing-machine-prices-a-comprehensive-guide"
     },
     // {
     //   "id": 6,

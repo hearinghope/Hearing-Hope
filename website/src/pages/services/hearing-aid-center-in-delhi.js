@@ -16,8 +16,8 @@ const HearingAidCentre = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Best Hearing Aid Centre in Delhi - Hearing Hope</title>
-        <meta name="description" content="Get expert solutions for hearing loss at Hearing Hope, the leading hearing aid centre in Delhi. Trust our specialists for personalized care."></meta>
+        <title>Best Hearing Aid Center in Delhi - Hearing Hope</title>
+        <meta name="description" content="Get expert solutions for hearing loss at Hearing Hope, the leading hearing aid center in Delhi. Trust our specialists for personalized care."></meta>
         <meta name="robots" content= "index,follow"/>
         <meta property="og:title" content="Best Hearing Aid Centre in Delhi - Hearing Hope" />
         <meta property="og:description" content="Get expert solutions for hearing loss at Hearing Hope, the leading hearing aid centre in Delhi. Trust our specialists for personalized care." />
@@ -110,7 +110,7 @@ const HearingAidCentre = () => {
         <div className={styles.BlogContainer}>
 
         <div className={styles.BlogHeading}>
-          <h1 style={{color:'teal'}}>Hearing Aid Centre in Delhi</h1>
+          <h1 style={{color:'teal'}}>Hearing Aid Center in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
           <Image src='/Service/OfficeFrontPic.png' alt='Hearing Aid Centre in Delhi' height={200} width={400} style={{borderRadius:'2px'}}  />

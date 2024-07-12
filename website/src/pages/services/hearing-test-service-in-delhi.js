@@ -6,6 +6,7 @@ import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingTestFAQS from './components/ServicesFAQS/HearingTestFAQS';
 import ServiceTypesStrip from './components/ServiceTypesStrip';
+
 const HearingTest = () => {
     return(
       <>
