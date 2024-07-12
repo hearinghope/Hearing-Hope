@@ -17,15 +17,15 @@ const hearingroleinlive = () => {
         <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Types of Hearing Problems</title>
-        <meta name="description" content="Learn about the different types of hearing problems. Discover causes, symptoms, and treatments to protect your hearing and improve your quality of life."></meta>
+        <title>Importance of Hearing: Key Insights</title>
+        <meta name="description" content="Discover the importance of hearing for communication, safety, and quality of life. Learn how to protect and improve your hearing health."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Types of Hearing Problems" />
-        <meta property="og:description" content="Learn about the different types of hearing problems. Discover causes, symptoms, and treatments to protect your hearing and improve your quality of life." />
-            <meta property="og:url" content="https://www.hearinghope.in/blog/types-of-hearing-problems-an-in-depth-guide"/>
+        <meta property="og:title" content="Importance of Hearing: Key Insights" />
+        <meta property="og:description" content="Discover the importance of hearing for communication, safety, and quality of life. Learn how to protect and improve your hearing health." />
+            <meta property="og:url" content="https://www.hearinghope.in/blog/the-importance-of-hearing-understanding-its-role-in-our-lives"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/Home/hearing-problem.png" />
-        <link rel="canonical" href="https://www.hearinghope.in/blog/types-of-hearing-problems-an-in-depth-guide"/>
+        content="https://www.hearinghope.in/Home/hearing-role.png" />
+        <link rel="canonical" href="https://www.hearinghope.in/blog/the-importance-of-hearing-understanding-its-role-in-our-lives"/>
         <link rel="icon" href="./favicon.png" />
         <script
           type="application/ld+json"
@@ -35,26 +35,28 @@ const hearingroleinlive = () => {
               "@type": "BlogPosting",
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://www.hearinghope.in/blog/types-of-hearing-problems-an-in-depth-guide"
+                "@id": "https://www.hearinghope.in/blog/the-importance-of-hearing-understanding-its-role-in-our-lives"
               },
-              "headline": "Types of Hearing Problems",
-              "description": "Learn about the different types of hearing problems. Discover causes, symptoms, and treatments to protect your hearing and improve your quality of life.",
-              "image": "https://www.hearinghope.in/_next/image?url=%2FHome%2Fhearing-problem.png&w=1920&q=75",  
+              "headline": "Importance of Hearing: Key Insights",
+              "description": "Discover the importance of hearing for communication, safety, and quality of life. Learn how to protect and improve your hearing health.",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FHome%2Fhearing-role.png&w=1920&q=75",  
               "author": {
-                "@type": "Person",
-                "name": "Mr Mohit",
-                "url": "https://www.hearinghope.in/"
+               "@type": "Person",
+                "name": "Dr Harshi",
+                "url": "https://www.hearinghope.in/blog/AuthorPage"
               },  
               "publisher": {
                 "@type": "Organization",
-                "name": "Mr Mohit",
+                "name": "Dr Harshi",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FMohit.jpg&w=256&q=75"
+                  "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FHarshi.jpg&w=256&q=75"
                 }
               },
-              "datePublished": "2024-06-24T12:00:00+08:00",
-              "dateModified": "2024-06-24T15:20:00+08:00"           
+              "datePublished": "2024-06-27T12:00:00+08:00",
+              "dateModified": "2024-06-27T15:20:00+08:00"
+            
+                      
 
             })
           }}
@@ -63,46 +65,47 @@ const hearingroleinlive = () => {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What are the main types of hearing problems?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mixed, sensorineural, and conductive hearing loss are the three main hearing impairment categories. Each type affects different ear parts and has distinct causes and treatment options."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What causes conductive hearing loss, and how is it treated?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Conduction-related hearing loss is primarily caused by problems with the middle or outer ears that block sound waves from entering the inner ear. Ear infections, earwax accumulation, and perforations in the eardrum are common causes. Treatments often involve removing blockages, treating infections with antibiotics, or surgery for more severe conditions."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How does sensorineural hearing loss occur, and what are the treatment options?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Issues with the inner ear or auditory nerve result in sensorineural hearing loss, which is often irreversible. Causes include ageing, exposure to loud noises, certain medications, and genetic factors. Interventions such as cochlear implants, assistive listening devices, and hearing aids are available."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What is mixed hearing loss, and how is it managed?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mixed hearing loss combines aspects of conductive and sensorineural hearing loss. Usually, the inner ear or auditory nerve and the outer or middle ear are injured. Management includes a combination of treatments appropriate for both types of hearing loss, such as surgery and hearing aids."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Are there preventative measures for hearing loss?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, many forms of hearing loss can be prevented. Preventative measures include protecting ears from loud noises with earplugs or earmuffs, avoiding prolonged exposure to noisy environments, maintaining good ear hygiene, having regular hearing check-ups, and leading a healthy lifestyle to support overall ear health."            
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the consequences of untreated hearing loss?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Untreated hearing loss can lead to various detrimental effects, including social isolation and loneliness due to difficulty following conversations, communication frustrations, and increased risk of mental health issues like depression and cognitive decline. It also poses safety hazards by impairing the ability to hear warning signals or alarms and reduces quality of life by making it challenging to enjoy activities like listening to music or attending social gatherings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I protect my hearing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To protect your hearing, limit exposure to loud noises by using earplugs or earmuffs and avoiding prolonged loud sounds. Lower the volume on personal audio devices and avoid extended high-volume listening. Maintain a healthy lifestyle with a balanced diet, regular exercise, and stress management. Lastly, schedule regular hearing check-ups, especially if you're at higher risk for hearing loss."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What options are there for treating hearing loss?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Popular treatments for hearing loss include hearing aids, which amplify sound to improve hearing, and cochlear implants, surgically implanted devices that help those with profound hearing loss experience sound. Additionally, assistive listening devices, such as amplified telephones and FM systems, enhance hearing in specific situations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is early detection of hearing loss important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early detection of hearing loss allows for prompt intervention, which can prevent further damage, improve communication and social interactions, support language development in children, reduce the risk of mental health issues, and enhance overall quality of life."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I overcome the stigma associated with hearing loss?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The stigma around hearing loss often deters people from seeking treatment. To overcome this, educate yourself and others about the prevalence of hearing loss and the effectiveness of modern treatments. Embrace hearing aids as helpful tools, much like eyeglasses for vision. Seek support from doctors, audiologists, or support groups for guidance and encouragement. Remember that treating hearing loss can significantly improve communication, social interactions, and overall well-being."
+            
     }
   }
     ]
@@ -118,7 +121,7 @@ const hearingroleinlive = () => {
           <h1>The Importance of Hearing: Understanding Its Role in Our Lives</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Home/hearing-role.png' alt='Types of Hearing Problems' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
+          <Image src='/Home/hearing-role.png' alt='importance of hearing' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
         </div>
         <div className={styles.BlogDescription}>
           <p>Hearing plays a fundamental role in our day-to-day existence, influencing our capacity to communicate, enjoy entertainment, and maintain overall well-being. Despite its importance, many people take their hearing for granted until it deteriorates. This article explores the significance of hearing, how it affects various aspects of life and ways to protect and improve auditory health.

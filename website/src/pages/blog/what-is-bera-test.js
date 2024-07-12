@@ -35,26 +35,27 @@ const beratest = () => {
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.hearinghope.in/blog/which-cell-keeps-your-hearing-aids-running"
+    "@id": "https://www.hearinghope.in/blog/what-is-bera-test"
   },
-  "headline": "Which cell keeps your hearing aids running?",
-  "description": "Find out which cell keeps your hearing aids running smoothly. Learn about the best batteries for optimal performance and longer device life.",
+  "headline": "What is BERA Test?",
+  "description": "Learn about the BERA test, a key diagnostic tool for hearing. Discover how it works, what to expect, and its importance in detecting hearing issues.",
   "image": "https://www.hearinghope.in/_next/image?url=%2FHome%2Fhearing-aids-cell.png&w=1920&q=75",  
   "author": {
-    "@type": "Person",
-    "name": "Mr Mohit",
-    "url": "https://www.hearinghope.in/"
+   "@type": "Person",
+    "name": "Dr Harshi",
+    "url": "https://www.hearinghope.in/blog/AuthorPage"
   },  
   "publisher": {
     "@type": "Organization",
-    "name": "Mr Mohit",
+    "name": "Dr Harshi",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FMohit.jpg&w=256&q=75"
+      "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FHarshi.jpg&w=256&q=75"
     }
   },
-  "datePublished": "2024-06-24T12:00:00+08:00",
-  "dateModified": "2024-06-24T15:20:00+08:00"
+  "datePublished": "2024-06-26T12:00:00+08:00",
+  "dateModified": "2024-06-26T15:20:00+08:00"
+
     
 
             })
@@ -130,7 +131,7 @@ const beratest = () => {
           <h2>What is the BERA Test?</h2>
         </div>
         <div className={styles.BlogDescription}>
-          <p>The Brainstem Evoked Response Audiometry (BERA) test, or the Auditory Brainstem Response test, is a non-invasive, objective method for assessing auditory nerve routes from the ear to the brainstem. It measures electrical activity in the auditory nerve and brainstem in response to sound stimuli. This test is beneficial for identifying hearing impairments that are not detectable through other conventional hearing tests. By using electrodes to capture electrical responses, the BERA test provides valuable insights into the functionality of the auditory system.
+          <p>The Brainstem Evoked Response Audiometry (BERA) test, or the Auditory Brainstem Response test, is a non-invasive, objective method for assessing auditory nerve routes from the ear to the brainstem. It measures electrical activity in the auditory nerve and brainstem in response to sound stimuli. This test is beneficial for identifying hearing impairments that are not detectable through other conventional <a href="https://www.hearinghope.in/services/hearing-test-in-delhi"><strong>hearing tests</strong></a>. By using electrodes to capture electrical responses, the BERA test provides valuable insights into the functionality of the auditory system.
           </p>
           </div>
           <div className={styles.BlogHeading}>

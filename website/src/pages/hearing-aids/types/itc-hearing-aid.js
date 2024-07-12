@@ -14,10 +14,10 @@ const ITCHearingAid = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>In The Canal (ITC) Hearing Aid</title>
+        <title>In The Canal (ITC) Hearing Aid - Hearing Hope</title>
         <meta name="description" content="Explore ITC Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="In The Canal (ITC) Hearing Aid" />
+        <meta property="og:title" content="In The Canal (ITC) Hearing Aid - Hearing Hope" />
         <meta property="og:description" content="Explore ITC Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/itc-hearing-aid"/>
             <meta property="og:image:url"

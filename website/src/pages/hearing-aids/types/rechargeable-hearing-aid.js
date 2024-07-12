@@ -14,10 +14,10 @@ const RechargeableHearingAids = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Rechargeable Hearing Aids</title>
+        <title>Rechargeable Hearing Aids - Hearing Hope</title>
         <meta name="description" content="Discover the convenience of Rechargeable Hearing Aids at Hearing Hope. Personalized solutions for improved hearing."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Rechargeable Hearing Aids" />
+        <meta property="og:title" content="Rechargeable Hearing Aids - Hearing Hope" />
         <meta property="og:description" content="Discover the convenience of Rechargeable Hearing Aids at Hearing Hope. Personalized solutions for improved hearing." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/rechargeable-hearing-aid"/>
             <meta property="og:image:url"

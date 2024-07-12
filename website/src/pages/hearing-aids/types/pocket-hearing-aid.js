@@ -14,10 +14,10 @@ const PocketHearingAid = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Pocket Hearing Aid</title>
+        <title>Pocket Hearing Aid - Hearing Hope</title>
         <meta name="description" content="Find portable Pocket Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Pocket Hearing Aid" />
+        <meta property="og:title" content="Pocket Hearing Aid - Hearing Hope" />
         <meta property="og:description" content="Find portable Pocket Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/pocket-hearing-aid"/>
             <meta property="og:image:url"

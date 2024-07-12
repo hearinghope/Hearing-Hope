@@ -42,19 +42,20 @@ const hearingproblem = () => {
               "image": "https://www.hearinghope.in/_next/image?url=%2FHome%2Fhearing-problem.png&w=1920&q=75",  
               "author": {
                 "@type": "Person",
-                "name": "Mr Mohit",
-                "url": "https://www.hearinghope.in/"
+                "name": "Dr Harshi",
+                "url": "https://www.hearinghope.in/blog/AuthorPage"
               },  
               "publisher": {
                 "@type": "Organization",
-                "name": "Mr Mohit",
+                "name": "Dr Harshi",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FMohit.jpg&w=256&q=75"
+                  "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FHarshi.jpg&w=256&q=75"
                 }
               },
               "datePublished": "2024-06-24T12:00:00+08:00",
-              "dateModified": "2024-06-24T15:20:00+08:00"           
+              "dateModified": "2024-06-24T15:20:00+08:00"
+                       
 
             })
           }}
@@ -130,7 +131,7 @@ Hearing problems can range from mild hearing loss to complete deafness. They can
           <h2>Types of Hearing Problems          </h2>
         </div>
         <div className={styles.BlogDescription}>
-          <p>The three main categories of hearing impairments are typically distinguished as mixed hearing loss, sensorineural hearing loss, and conductive hearing loss. Let&apos;s delve into each type. Healthcare practitioners can find the best treatment plan by using these classifications. Understanding the differences between these types can aid in identifying symptoms, and proper diagnosis often involves a combination of hearing tests and physical examinations by an audiologist or an ENT specialist.
+          <p>The three main categories of hearing impairments are typically distinguished as mixed hearing loss, sensorineural hearing loss, and conductive hearing loss. Let&apos;s delve into each type. Healthcare practitioners can find the best treatment plan by using these classifications. Understanding the differences between these types can aid in identifying symptoms, and proper diagnosis often involves a combination of hearing tests and physical examinations by an <a href="https://www.hearinghope.in/services/audiologist-in-delhi"><strong>audiologist</strong></a> or an ENT specialist.
           </p><br></br><br></br>
           <h3>Conductive Hearing Loss</h3>
           <p>When sound waves cannot enter the inner ear, they result in conductive hearing loss. The hearing loss is typically brief and can often be treated medically or surgically. It affects the outer or middle ear structures, such as the ear canal, eardrum, or ossicles. Common symptoms include muffled hearing, a sense of fullness in the ear, or an earache. Conductive hearing loss can occur for various reasons, including infections, blockages, or abnormalities in the ear&apos;s anatomy. Prompt treatment can often restore hearing completely, highlighting the importance of early diagnosis and intervention.
@@ -162,7 +163,7 @@ Hearing problems can range from mild hearing loss to complete deafness. They can
             <li>Antibiotics for ear infections.</li>
             <li>Surgery, such as tympanoplasty or stapedectomy.</li>
           </ul>
-          <p>Treatment might also include a myringotomy, a small incision made in the eardrum to drain fluid and relieve pressure. For chronic conditions, hearing aids might be recommended to amplify sound. Regular follow-ups with an audiologist ensure that the chosen treatment is effective and that the hearing condition does not deteriorate further.
+          <p>Treatment might also include a myringotomy, a small incision made in the eardrum to drain fluid and relieve pressure. For chronic conditions, <a href="https://www.hearinghope.in/services/hearing-aid-center-in-delhi"><strong>hearing aid</strong></a> might be recommended to amplify sound. Regular follow-ups with an audiologist ensure that the chosen treatment is effective and that the hearing condition does not deteriorate further.
           </p><br></br><br></br>
 
           <h3>Sensorineural Hearing Loss        </h3>

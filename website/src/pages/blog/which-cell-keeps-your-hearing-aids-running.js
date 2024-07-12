@@ -32,29 +32,30 @@ const hearingaidscell = () => {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.hearinghope.in/blog/which-cell-keeps-your-hearing-aids-running"
-  },
-  "headline": "Which cell keeps your hearing aids running?",
-  "description": "Find out which cell keeps your hearing aids running smoothly. Learn about the best batteries for optimal performance and longer device life.",
-  "image": "https://www.hearinghope.in/_next/image?url=%2FHome%2Fhearing-aids-cell.png&w=1920&q=75",  
-  "author": {
-    "@type": "Person",
-    "name": "Mr Mohit",
-    "url": "https://www.hearinghope.in/"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Mr Mohit",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FMohit.jpg&w=256&q=75"
-    }
-  },
-  "datePublished": "2024-06-24T12:00:00+08:00",
-  "dateModified": "2024-06-24T15:20:00+08:00"
+              "@type": "BlogPosting",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.hearinghope.in/blog/which-cell-keeps-your-hearing-aids-running"
+              },
+              "headline": "Which cell keeps your hearing aids running?",
+              "description": "Find out which cell keeps your hearing aids running smoothly. Learn about the best batteries for optimal performance and longer device life.",
+              "image": "https://www.hearinghope.in/_next/image?url=%2FHome%2Fhearing-aids-cell.png&w=1920&q=75",  
+              "author": {
+                "@type": "Person",
+                "name": "Dr Harshi",
+                "url": "https://www.hearinghope.in/blog/AuthorPage"
+              },  
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dr Harshi",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.hearinghope.in/_next/image?url=%2FAbout%2FHarshi.jpg&w=256&q=75"
+                }
+              },
+              "datePublished": "2024-06-24T12:00:00+08:00",
+              "dateModified": "2024-06-24T15:20:00+08:00"
+            
     
 
             })
@@ -131,7 +132,7 @@ const hearingaidscell = () => {
           <h2>Why Mercury Cells? </h2>
         </div>
         <div className={styles.BlogDescription}>
-          <p>Despite the environmental concerns surrounding mercury, mercury cells have been a popular choice for powering hearing aids due to several key advantages:
+          <p>Despite the environmental concerns surrounding mercury, mercury cells have been a popular choice for powering <a href="https://www.hearinghope.in/services/hearing-aid-center-in-delhi"><strong>hearing aid</strong></a> due to several key advantages:
           </p><br></br>
           <ul>
             <li><strong>Long Lifespan: </strong>Mercury cells boast an impressive lifespan, with a typical lifespan of one to three years; this extended life is a significant benefit, especially for users with dexterity issues who might find frequent battery changes difficult.

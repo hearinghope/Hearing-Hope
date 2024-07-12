@@ -14,10 +14,10 @@ const AnalogHearingAids = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Analog Hearing Aid</title>
+        <title>Analog Hearing Aid - Hearing Hope</title>
         <meta name="description" content="Find Analog Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Analog Hearing Aid" />
+        <meta property="og:title" content="Analog Hearing Aid - Hearing Hope" />
         <meta property="og:description" content="Find Analog Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/analog-hearing-aid"/>
             <meta property="og:image:url"

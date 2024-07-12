@@ -14,10 +14,10 @@ const MicroInCanalHearingAids = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Micro In Canal Hearing Aid</title>
+        <title>Micro In Canal Hearing Aid - Hearing Hope</title>
         <meta name="description" content="Experience discreet Micro In Canal Hearing Aid at Hearing Hope. Personalized solutions for improved hearing."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Micro In Canal Hearing Aid" />
+        <meta property="og:title" content="Micro In Canal Hearing Aid - Hearing Hope" />
         <meta property="og:description" content="Experience discreet Micro In Canal Hearing Aid at Hearing Hope. Personalized solutions for improved hearing." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/micro-in-canal-hearing-aid"/>
             <meta property="og:image:url"

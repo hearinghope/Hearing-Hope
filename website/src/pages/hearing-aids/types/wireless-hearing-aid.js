@@ -14,10 +14,10 @@ const WirelessHearingAids = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Wireless Hearing Aids</title>
+        <title>Wireless Hearing Aids - Hearing Hope</title>
         <meta name="description" content="Explore Wireless Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Wireless Hearing Aids" />
+        <meta property="og:title" content="Wireless Hearing Aids - Hearing Hope" />
         <meta property="og:description" content="Explore Wireless Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists." />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/wireless-hearing-aid"/>
             <meta property="og:image:url"
