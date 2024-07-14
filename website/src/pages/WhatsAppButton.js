@@ -28,7 +28,7 @@ const WhatsAppButton = () => {
 
       {/* "Call Now" bar for mobile screens */}
       <div className="call-now-bar" onClick={() => handleCallNowClick(phoneNumber)}>
-        <span><Image src='./CallPhone.svg' alt='CallPhone' width={22} height={22} className='CallPhone'></Image> Call Us Now</span>
+        <span><Image src='../CallPhone.svg' alt='CallPhone' width={22} height={22} className='CallPhone'></Image> Call Us Now</span>
       </div>
 
       <style jsx>{`
