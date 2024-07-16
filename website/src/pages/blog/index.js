@@ -12,6 +12,13 @@ import Head from 'next/head';
 const cardsData = [
   
   {
+    "id": 6,
+    "image": "/Home/speech-therapy-typeslist.png",
+    "heading": "Understanding the Different Types of Speech Therapy",
+    "description": "Speech therapy plays a crucial role in helping individuals overcome communication and swallowing disorders. These disorders can significantly impact a person's quality...",
+    "link": "/blog/understanding-the-different-types-of-speech-therapy"
+  },
+  {
     "id": 5,
     "image": "/Home/hearingmachine-pricelist.png",
     "heading": "Understanding Digital Hearing Machine Prices: A Comprehensive Guide",
