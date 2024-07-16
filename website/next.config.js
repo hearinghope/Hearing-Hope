@@ -22,14 +22,5 @@ module.exports = {
         },
       ];
     },
-    async redirects() {
-      return [
-        {
-          source: '/services/hearing-test-in-delhi',
-          destination: '/services/hearing-test-services-in-delhi',
-          permanent: true, // This sets the status code to 301 (permanent redirect)
-        },
-      ]
-    },
   };
   

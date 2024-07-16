@@ -15,10 +15,10 @@ const BluetoothHearingAids = () => {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title> Bluetooth Hearing Aids - Hearing Hope</title>
-        <meta name="description" content="Get connected with Bluetooth Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing."></meta>
+        <meta name="description" content="Connect seamlessly with Bluetooth Hearing Aids at Hearing Hope. High-tech, powerful, and affordable. Hear and connect better today!"></meta>
         <meta name="robots" content= "index,follow"/>
         <meta property="og:title" content=" Bluetooth Hearing Aids - Hearing Hope" />
-        <meta property="og:description" content="Get connected with Bluetooth Hearing Aids at Hearing Hope. Personalized solutions for enhanced hearing." />
+        <meta property="og:description" content="Connect seamlessly with Bluetooth Hearing Aids at Hearing Hope. High-tech, powerful, and affordable. Hear and connect better today!" />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/bluetooth-hearing-aid"/>
             <meta property="og:image:url"
         content="https://www.hearinghope.in/Products/Styletto.png" />
