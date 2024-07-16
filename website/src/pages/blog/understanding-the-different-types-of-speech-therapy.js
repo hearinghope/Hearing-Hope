@@ -256,7 +256,7 @@ const speechtherapy = () => {
           <p>Expected outcomes of adult speech therapy include enhanced communication abilities, improved swallowing safety, and better quality of life.</p><br></br><br></br>
         <h3>Group Speech Therapy</h3><br></br>
         <h4>Benefits of Group Sessions</h4><br></br>
-        <p>Group speech therapy involves multiple individuals working together under the guidance of a <a herf="https://www.hearinghope.in/services/speech-therapy-in-delhi"><strong>speech therapist.</strong></a> This setting provides unique benefits that individual therapy might not offer.</p>
+        <p>Group speech therapy involves multiple individuals working together under the guidance of a speech therapist. This setting provides unique benefits that individual therapy might not offer.</p>
         <br></br>
         <h4>Examples of Group Therapy Activities</h4>
         <ul>
@@ -275,8 +275,8 @@ const speechtherapy = () => {
         </div>
         <div className={styles.BlogDescription}>
         <p>Speech therapy is essential for improving communication and swallowing disorders, positively impacting individuals&apos; lives. Understanding the different types of speech therapy helps in selecting the most effective approach tailored to specific needs. Various speech therapy techniques such as articulation therapy, language intervention activities, oral motor therapy, and AAC provide comprehensive solutions. The categories of speech therapy, including paediatric, adult, and group therapy, ensure personalised and effective treatment.
-        </p>
-        <p>If you or someone you know could benefit from speech therapy, seek professional help to start making meaningful progress. Contact a speech therapist for a consultation and share this article to spread awareness about the importance of speech therapy.</p>
+        </p><br></br>
+        <p>If you or someone you know could benefit from speech therapy, seek professional help to start making meaningful progress. Contact a <a href="https://www.hearinghope.in/services/speech-therapy-in-delhi"><strong>speech therapist</strong></a> for a consultation and share this article to spread awareness about the importance of speech therapy.</p>
         </div>
         <BlogAuthorBox />
       <SpeechTherapyFAQS></SpeechTherapyFAQS>
