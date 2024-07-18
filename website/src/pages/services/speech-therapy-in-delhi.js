@@ -113,7 +113,7 @@ const SpeechTherapy = () => {
           <h1 style={{color:'teal'}}>Speech Therapy services in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/OurService.jpg' alt='Speech Therapy services in Delhi' height={200} width={400} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/ServiceSpeechTherapy.png' alt='Speech Therapy services in Delhi' height={400} width={800} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
           <p>Are you on the lookout for top-notch speech therapy services in Delhi? Welcome to Speaking Success, where we excel in delivering specialised Speech Therapy services in Delhi tailored to individuals across all age groups. Our expert team in Delhi is deeply committed to enhancing your communication skills, significantly elevating your day-to-day interactions and overall well-being.

@@ -111,7 +111,7 @@ const HearingTest = () => {
           <h1 style={{color:'teal'}}>Hearing Test Service in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/HearingTest.png' alt='Hearing Test Service in Delhi' height={200} width={400} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/ServiceHearingTest.png' alt='Hearing Test Service in Delhi' height={400} width={800} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
           <p>At Hearing Hope, we are committed to delivering exceptional hearing test service in Delhi, ensuring your auditory health is meticulously cared for. Our skilled team of audiologists in Delhi employs cutting-edge technology to perform thorough hearing assessments, essential for the early detection and effective management of hearing conditions.</p>

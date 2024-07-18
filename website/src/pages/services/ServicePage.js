@@ -17,7 +17,7 @@ const ServicePage = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Best Hearing Aid in Delhi - Hearing Hope</title>
+        <title>Services - Hearing Hope</title>
         <link rel="icon" href="./favicon.png" />
       </Head>
       <Navbar />

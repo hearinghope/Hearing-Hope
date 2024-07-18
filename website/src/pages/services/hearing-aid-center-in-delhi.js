@@ -113,7 +113,7 @@ const HearingAidCentre = () => {
           <h1 style={{color:'teal'}}>Hearing Aid Center in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/OfficeFrontPic.png' alt='Hearing Aid Centre in Delhi' height={200} width={400} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/ServiceHearingAids.jpg' alt='Hearing Aid Centre in Delhi' height={400} width={800} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
           <p>Welcome to Hearing Hope, your distinguished hearing aid center in Delhi, where cutting-edge technology meets compassionate care, ensuring you receive optimal hearing solutions. At Hearing Hope, we recognize the significant challenges posed by hearing loss and are committed to enhancing not only your hearing but also enriching your life experiences.</p>

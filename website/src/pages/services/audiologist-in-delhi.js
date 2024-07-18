@@ -107,7 +107,7 @@ const HearingTest = () => {
           <h1 style={{color:'teal'}}>Best Audiologist Clinic in Delhi </h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/HearingTest.png' alt='Audiologist Clinic in Delhi' height={200} width={400} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/audiologist.jpg' alt='Audiologist Clinic in Delhi' height={400} width={800} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
 <p>Welcome to Hearing Hope, your premier destination for exceptional audiological care in the heart of Delhi. As a leading audiologist clinic in Delhi, we specialise in providing comprehensive hearing solutions tailored to your individual needs. Whether you&apos;re experiencing hearing difficulties, seeking hearing enhancement, or need expert advice on auditory health, our team of dedicated professionals is here to guide you towards better hearing.</p>
