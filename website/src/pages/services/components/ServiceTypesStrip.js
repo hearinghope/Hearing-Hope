@@ -26,7 +26,7 @@ const ServiceTypesStrip = () => {
                         
                             <Link href={'./hearing-test-in-delhi'}> 
                             <button type='button' className={styles.TypesButton}>
-                            Hearing Test
+                            Hearing Test Services
                             </button></Link>
                        
                     </h2>
@@ -35,7 +35,7 @@ const ServiceTypesStrip = () => {
                         
                             <Link href={'./speech-therapy-in-delhi'}> 
                             <button type='button' className={styles.TypesButton}>
-                            Speech Therapy
+                            Speech Therapy Services
                             </button></Link>
                        
                     </h2>
@@ -53,7 +53,7 @@ const ServiceTypesStrip = () => {
                         
                             <Link href={'./hearing-aid-center-in-delhi'}> 
                             <button type='button' className={styles.TypesButton}>
-                            Hearing Aid Centers
+                            Hearing Aid Center
                             </button></Link>
                        
                     </h2>
