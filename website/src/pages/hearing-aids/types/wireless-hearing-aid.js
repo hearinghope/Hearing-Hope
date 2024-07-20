@@ -21,7 +21,7 @@ const WirelessHearingAids = () => {
         <meta property="og:description" content="Embrace the freedom of Wireless Hearing Aids at Hearing Hope. Convenient, powerful, and affordable. Enjoy seamless sound today!" />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/wireless-hearing-aid"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/Products/ActivePro.png" />
+        content="https://www.hearinghope.in/Products/wireless.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/wireless-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
         <script
@@ -31,7 +31,7 @@ const WirelessHearingAids = () => {
               "@context": "https://schema.org/",
   "@type": "Product",
   "name": "Wireless Hearing Aids",
-  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FActivePro.png",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2Fwireless.png",
   "description": "Explore Wireless Hearing Aids at Hearing Hope. Personalized solutions for improved hearing from our expert audiologists.",
   "brand": {
     "@type": "Brand",
@@ -97,7 +97,7 @@ const WirelessHearingAids = () => {
       <h1 >Wireless Hearing Aids</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='Wireless Hearing Aid' width={500} height={400} /> 
+      <Image src='/Products/wireless.png' alt='Wireless Hearing Aid' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

@@ -21,7 +21,7 @@ const ITCHearingAid = () => {
         <meta property="og:description" content="Discover ITC Hearing Aids at Hearing Hope. Comfort meets clarity with these affordable, powerful devices. Start hearing better today!" />
             <meta property="og:url" content="https://www.hearinghope.in/hearing-aids/types/itc-hearing-aid"/>
             <meta property="og:image:url"
-        content="https://www.hearinghope.in/Products/ActivePro.png" />
+        content="https://www.hearinghope.in/Products/itc.png" />
         <link rel="canonical" href="https://www.hearinghope.in/hearing-aids/types/itc-hearing-aid"/>
         <link rel="icon" href="./favicon.png" />
         <script
@@ -31,7 +31,7 @@ const ITCHearingAid = () => {
               "@context": "https://schema.org/",
   "@type": "Product",
   "name": "ITC Hearing Aid",
-  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2FActivePro.png",
+  "image": "https://www.hearinghope.in/_next/image?url=%2FProducts%2Fitc.png",
   "description": "Explore ITC Hearing Aid options at Hearing Hope. Personalized solutions for enhanced hearing from our expert audiologists.",
   "brand": {
     "@type": "Brand",
@@ -106,7 +106,7 @@ const ITCHearingAid = () => {
       <h1 >ITC Hearing Aids </h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
+      <Image src='/Products/itc.png' alt='itc' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
     Discover the world of seamless hearing with our premium In-The-Canal (ITC) Hearing Aids at HearingHope. Tailored for those who value discretion and comfort, our ITC hearing aids offer a perfect blend of sophisticated technology and user-friendly design. Choosing the right hearing aid is crucial for enhancing your daily communication and overall quality of life. At HearingHope, we understand this and are dedicated to providing hearing solutions that are not just aids, but extensions of your lifestyle.<br></br> <br></br>
