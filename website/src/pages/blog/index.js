@@ -12,6 +12,14 @@ import Head from 'next/head';
 const cardsData = [
   
   {
+    "id": 7,
+    "image": "/Home/hearing-aid-care-and-maintenancelist.png",
+    "heading": "Comprehensive Guide to Hearing Aid Care and Maintenance",
+    "description": "Maintaining hearing aids is essential for ensuring their optimal performance and longevity. Without proper care, hearing aids can accumulate dirt and moisture,...",
+    "link": "/blog/comprehensive-guide-to-hearing-aid-care-and-maintenance"
+  },
+  
+  {
     "id": 6,
     "image": "/Home/speech-therapy-typeslist.png",
     "heading": "Understanding the Different Types of Speech Therapy",
