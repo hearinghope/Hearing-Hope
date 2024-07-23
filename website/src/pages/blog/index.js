@@ -12,6 +12,14 @@ import Head from 'next/head';
 const cardsData = [
   
   {
+    "id": 8,
+    "image": "/Home/hearing-loss-aidlist.png",
+    "heading": "What Level of Hearing Loss Requires a Hearing Aid?",
+    "description": "Hearing loss is an important issue that can affect people of all ages. Addressing hearing loss early is crucial because it can impact daily activities,...",
+    "link": "/blog/what-level-of-hearing-loss-requires-a-hearing-aid"
+  },
+  
+  {
     "id": 7,
     "image": "/Home/hearing-aid-care-and-maintenancelist.png",
     "heading": "Comprehensive Guide to Hearing Aid Care and Maintenance",
