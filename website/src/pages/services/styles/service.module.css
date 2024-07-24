@@ -661,3 +661,160 @@
   background-color: white;
   font-size: 15px;
 }
+
+@media  (max-height: 498px) {
+  .Testimonialcontainer{
+    margin-top: 400px;
+  }
+}
+
+/*--------- HOME TESTIMONIALS -------------*/
+
+
+.Testimonialcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+}
+
+.TestimonialcardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Testimonialcard {
+  background-color: white;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 7px;
+  border: none;
+  margin: 10px;
+  padding: 20px;
+  width: 400px;
+}
+
+.Testimonialcard:hover {
+  transform: translateY(-5px);
+}
+
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userimge {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userName {
+  flex-grow: 1;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #f39c12; /* Star color */
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.review {
+  margin-top: 10px;
+}
+
+@media (max-width: 858px) {
+  .Testimonialcontainer{
+    margin-top: 30px;
+    margin-bottom: 350px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .Testimonialcontainer{
+    margin-top: 20px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .Testimonialcontainer{
+    margin-top: 30px;
+    margin-bottom: 350px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .Testimonialcontainer{
+    margin-top: 30px;
+    margin-bottom: 330px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .TestimonialcardContainer{
+    width: 100%;
+    margin-top: 3px;
+  }
+  .card {
+    width: 48%;
+  }
+
+}
+
+@media (max-width: 390px) {
+  .Testimonialcontainer{
+    margin-top: 450px;
+    margin-bottom: 330px;
+  }
+}
+@media (max-width: 370px) {
+  .Testimonialcontainer{
+    margin-top: 450px;
+    margin-bottom: 350px;
+  }
+
+}

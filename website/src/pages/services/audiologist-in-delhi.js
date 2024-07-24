@@ -6,6 +6,7 @@ import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import AudiologistFAQS from './components/ServicesFAQS/AudiologistFAQS';
 import ServiceTypesStrip from './components/ServiceTypesStrip';
+import ServiceTestimonials from './components/servicetestimonials';
 
 const HearingTest = () => {
     return(
@@ -191,6 +192,7 @@ const HearingTest = () => {
   <p>At Hearing Hope,our array of services is not just about treating hearing loss; it&apos;s about enhancing your auditory experience and overall quality of life. As a premier audiologist clinic in Delhi, we are dedicated to providing our patients with the best possible care using a blend of expertise, technology, and compassionate service.
 </p> </div></div>
         <ServiceTypesStrip></ServiceTypesStrip>
+<ServiceTestimonials></ServiceTestimonials>
 <AudiologistFAQS></AudiologistFAQS>
         
   

@@ -5,22 +5,25 @@ import styles from '../styles/index.module.css';
 
 const cardsData = [
   {
-    id: 1,
-    image: '/Home/HomeBlog1.png',
-    heading: '7 Healthy Habits for Lifelong Hearing Protection',
-    description: 'Hearing involves the harmonious interaction of our mind and body, not just our ears. Adopting healthy practices that enhance general well-being is crucial if we are to effectively safeguard our hearing and maintain lifelong auditory health. This blog post will discuss seven essential behaviors that can promote mental and physical balance while protecting your hearing.',
+   "id": 8,
+    "image": "/Home/hearing-loss-aidlist.png",
+    "heading": "What Level of Hearing Loss Requires a Hearing Aid?",
+    "description": "Hearing loss is an important issue that can affect people of all ages. Addressing hearing loss early is crucial because it can impact daily activities,...",
+    "link": "/blog/what-level-of-hearing-loss-requires-a-hearing-aid"
   },
   {
-    id: 2,
-    image: '/Home/Home Blog2.png',
-    heading: 'Opening Doors to a Vibrant and Connected Life',
-    description: 'Imagine living a life in which every interaction, sound, and moment is distinct and alive. At Hearing Hope, we believe that everyone deserves to enjoy the joy and connection that come with having their hearing at its best. We are committed to providing individuals with hearing issues access to a vibrant and connected life through our assortment of services and unique solutions.',
+    "id": 7,
+    "image": "/Home/hearing-aid-care-and-maintenancelist.png",
+    "heading": "Comprehensive Guide to Hearing Aid Care and Maintenance",
+    "description": "Maintaining hearing aids is essential for ensuring their optimal performance and longevity. Without proper care, hearing aids can accumulate dirt and moisture,...",
+    "link": "/blog/comprehensive-guide-to-hearing-aid-care-and-maintenance"
   },
   {
-    id: 3,
-    image: '/Home/HomeBlog3.png',
-    heading: 'The Path to Healthy Hearing: Empowered by Hearing Hope',
-    description: 'The ability to hear is a priceless gift that connects us to the people and experiences around us in a world full of the symphony of life. Unfortunately, many people face hearing problems, which can significantly lower their quality of life. Hearing Hope is committed to assisting you on a transformative journey towards better hearing and increased well-being.',
+    "id": 6,
+    "image": "/Home/speech-therapy-typeslist.png",
+    "heading": "Understanding the Different Types of Speech Therapy",
+    "description": "Speech therapy plays a crucial role in helping individuals overcome communication and swallowing disorders. These disorders can significantly impact a person's quality...",
+    "link": "/blog/understanding-the-different-types-of-speech-therapy"
   },
 ];
 
@@ -35,7 +38,7 @@ const Home = () => {
             <div className={styles.BlogCardContent}>
               <h2 className={styles.BlogCardHeading}>{card.heading}</h2>
               <p className={styles.BlogCardDescription}>{card.description}</p>
-              <Link href="/blog" legacyBehavior>
+              <Link href={card.link} legacyBehavior>
                 <a>
               <button className={styles.BlogBtn}>Learn More</button>
               </a>

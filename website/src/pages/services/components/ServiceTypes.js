@@ -38,7 +38,7 @@ const ServiceTypes = () => {
         <div className={styles.ServiceAboutContainer}>
           <div className={styles.AboutServiceimge}>
             <Image
-              src="/Service/ServiceHearingTest.png"
+              src="/Service/hearinghope.jpg"
               alt="Service Hearing Test"
               width={370}
               height={300}

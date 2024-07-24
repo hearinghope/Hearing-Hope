@@ -6,6 +6,7 @@ import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import SpeechTherapyFAQS from './components/ServicesFAQS/SpeechTherapyFAQS';
 import ServiceTypesStrip from './components/ServiceTypesStrip';
+import ServiceTestimonials from './components/servicetestimonials';
 
 const SpeechTherapy = () => {
     return(
@@ -187,7 +188,7 @@ const SpeechTherapy = () => {
      
       </div>
       <ServiceTypesStrip></ServiceTypesStrip>
-  
+      <ServiceTestimonials></ServiceTestimonials>
     <SpeechTherapyFAQS></SpeechTherapyFAQS>
       <Footer />
       </>

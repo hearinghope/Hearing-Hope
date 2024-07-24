@@ -6,6 +6,7 @@ import Head from 'next/head';
 import WhatsAppButton from '../WhatsAppButton';
 import HearingcareFAQS from './components/ServicesFAQS/HearingCareFAQS'
 import ServiceTypesStrip from './components/ServiceTypesStrip';
+import ServiceTestimonials from './components/servicetestimonials';
 
 const HearingCare = () => {
     return(
@@ -221,6 +222,7 @@ const HearingCare = () => {
      
       </div>
       <ServiceTypesStrip></ServiceTypesStrip>
+      <ServiceTestimonials></ServiceTestimonials>
     <HearingcareFAQS></HearingcareFAQS>
      
       <Footer />
