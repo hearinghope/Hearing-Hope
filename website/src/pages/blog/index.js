@@ -12,6 +12,14 @@ import Head from 'next/head';
 const cardsData = [
   
   {
+    "id": 9,
+    "image": "/Home/benefitsofspeechtherapylist.png",
+    "heading": "The Comprehensive Benefits of Speech Therapy",
+    "description": "Speech therapy is an essential intervention that helps individuals improve their communication skills and overcome speech-related challenges. It offers...",
+    "link": "/blog/the-comprehensive-benefits-of-speech-therapy"
+  },
+  
+  {
     "id": 8,
     "image": "/Home/hearing-loss-aidlist.png",
     "heading": "What Level of Hearing Loss Requires a Hearing Aid?",
