@@ -90,7 +90,7 @@ const KitActive16Channel = () => {
       <h1 >Signia Kit Active 16 Channel </h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='Signia Kit Active 16 Channel' width={500} height={400} /> 
+      <Image src='/Products/ActivePro.png' layout='responsive' alt='Signia Kit Active 16 Channel' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

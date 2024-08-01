@@ -90,7 +90,7 @@ const RIC16Channel = () => {
       <h1 >Signia RIC Pure 1PX </h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/Pure312X.png' alt='Signia RIC Pure 1PX' width={500} height={400} /> 
+      <Image src='/Products/Pure312X.png' layout='responsive' alt='Signia RIC Pure 1PX' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

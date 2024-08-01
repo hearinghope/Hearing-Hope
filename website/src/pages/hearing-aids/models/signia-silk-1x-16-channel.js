@@ -91,7 +91,7 @@ const Silk1X16Channel = () => {
       <h1 >Signia Silk 1X 16 Channel </h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/SilkNxCouple.png' alt='Signia Silk 1X 16 Channel' width={500} height={400} /> 
+      <Image src='/Products/SilkNxCouple.png' layout='responsive' alt='Signia Silk 1X 16 Channel' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

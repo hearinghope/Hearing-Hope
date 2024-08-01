@@ -105,7 +105,7 @@ const BluetoothHearingAids = () => {
       <h1 >Bluetooth Hearing Aid</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/Styletto.png' alt='Bluetooth Hearing Aid' width={500} height={400} /> 
+      <Image src='/Products/Styletto.png' layout='responsive' alt='Bluetooth Hearing Aid' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

@@ -90,7 +90,7 @@ const PureChargeGo1AX16Channel= () => {
       <h1 >Signia PureChargeGo 1 AX 16 Channel</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/Pure CnG IX.png' alt='Signia PureChargeGo 1 AX 16 Channel' width={500} height={400} /> 
+      <Image src='/Products/Pure CnG IX.png' layout='responsive' alt='Signia PureChargeGo 1 AX 16 Channel' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

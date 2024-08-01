@@ -38,7 +38,7 @@ const HearingCare = () => {
   "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+91 9711871168",
+    "telephone": "+91 9711871169",
     "contactType": "customer service",
     "contactOption": "TollFree",
     "areaServed": "IN",
@@ -193,7 +193,7 @@ const HearingCare = () => {
           <h1 style={{color:'teal'}}>Hearing Care Solution in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/hearingcare.jpg' alt='Hearing Care Clinic in Delhi' height={400} width={800} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/hearingcare.jpg' alt='Hearing Care Clinic in Delhi' layout='responsive' height={400} width={800} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
           <p>At Hearing Hope, we are deeply aware of the significant challenges posed by hearing impairment in everyday interactions and overall quality of life. Our dedicated team in Delhi is committed to delivering exemplary hearing care solutions that are meticulously tailored to meet the unique needs of our community. By harnessing cutting-edge technology and developing personalised treatment plans, we ensure that each visit brings you closer to achieving optimal auditory health.

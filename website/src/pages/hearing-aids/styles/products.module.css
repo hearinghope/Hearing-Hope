@@ -260,10 +260,12 @@
     display:flexbox;
     position: relative;
     float: left;
+    width: 30%;
 }
 @media  (max-width: 755px){
   .ProductImage{
-    width: 100%;
+    width: 80%;
+    float: none;
  
    
   }
@@ -278,7 +280,7 @@
 }
 .ProductImage{
     float:none;
-    width: 10%;
+    width: 80%;
 }
     
 }

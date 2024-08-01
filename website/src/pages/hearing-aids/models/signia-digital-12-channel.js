@@ -90,7 +90,7 @@ const Digital12Channel = () => {
       <h1 >Signia Digital 12 Channel</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/BTEIntuis40PSP.png' alt='Signia Digital 12 Channel' width={500} height={400} /> 
+      <Image src='/Products/BTEIntuis40PSP.png' layout='responsive' alt='Signia Digital 12 Channel' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

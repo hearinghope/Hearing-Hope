@@ -90,7 +90,7 @@ const RIC16Channel = () => {
       <h1 >Signia RIC 16 Channel</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/Styletto RIC.png' alt='Signia RIC 16 Channel' width={500} height={400} /> 
+      <Image src='/Products/Styletto RIC.png' layout='responsive' alt='Signia RIC 16 Channel' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

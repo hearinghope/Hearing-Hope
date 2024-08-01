@@ -91,7 +91,7 @@ const BTEIntuis40PSP = () => {
       <h1 >Signia BTE Intuis 4.0 P/SP</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/BTEIntuis40PSP.png' alt='Signia BTE Intuis 4.0 P/SP' width={500} height={400} /> 
+      <Image src='/Products/BTEIntuis40PSP.png' layout='responsive' alt='Signia BTE Intuis 4.0 P/SP' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

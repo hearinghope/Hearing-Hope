@@ -105,7 +105,7 @@ const RechargeableHearingAids = () => {
       <h1 >Rechargeable Hearing Aids</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/Pure Charger.png' alt='Rechargeable Hearing Aid' width={500} height={400} /> 
+      <Image src='/Products/Pure Charger.png' layout='responsive' alt='Rechargeable Hearing Aid' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

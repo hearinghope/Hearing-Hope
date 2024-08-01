@@ -104,7 +104,7 @@ const BTEFunP = () => {
       <h1 >Signia BTE Fun P</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/SigniaBTEFastP.png' alt='Signia BTE Fun P' width={500} height={400} /> 
+      <Image src='/Products/SigniaBTEFastP.png' layout='responsive' alt='Signia BTE Fun P' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

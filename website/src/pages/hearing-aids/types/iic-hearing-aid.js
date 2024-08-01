@@ -104,7 +104,7 @@ const IICHearingAids = () => {
       <h1 >IIC Hearing Aids </h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/CICInsio1.png' alt='IIC Hearing Aids' width={500} height={400} /> 
+      <Image src='/Products/CICInsio1.png' layout='responsive' alt='IIC Hearing Aids' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>

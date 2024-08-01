@@ -38,7 +38,7 @@ const SpeechTherapy = () => {
   "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+91 9711871168",
+    "telephone": "+91 9711871169",
     "contactType": "customer service",
     "contactOption": "TollFree",
     "areaServed": "IN",
@@ -114,7 +114,7 @@ const SpeechTherapy = () => {
           <h1 style={{color:'teal'}}>Speech Therapy services in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/ServiceSpeechTherapy.png' alt='Speech Therapy services in Delhi' height={400} width={800} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/ServiceSpeechTherapy.png' layout='responsive' alt='Speech Therapy services in Delhi' height={400} width={800} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
           <p>Are you on the lookout for top-notch speech therapy services in Delhi? Welcome to Speaking Success, where we excel in delivering specialised Speech Therapy services in Delhi tailored to individuals across all age groups. Our expert team in Delhi is deeply committed to enhancing your communication skills, significantly elevating your day-to-day interactions and overall well-being.

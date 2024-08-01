@@ -106,7 +106,7 @@ const ITCHearingAid = () => {
       <h1 >ITC Hearing Aids </h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/itc.png' alt='itc' width={500} height={400} /> 
+      <Image src='/Products/itc.png' layout='responsive' alt='itc' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
     Discover the world of seamless hearing with our premium In-The-Canal (ITC) Hearing Aids at HearingHope. Tailored for those who value discretion and comfort, our ITC hearing aids offer a perfect blend of sophisticated technology and user-friendly design. Choosing the right hearing aid is crucial for enhancing your daily communication and overall quality of life. At HearingHope, we understand this and are dedicated to providing hearing solutions that are not just aids, but extensions of your lifestyle.<br></br> <br></br>

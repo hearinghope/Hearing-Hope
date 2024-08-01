@@ -506,6 +506,7 @@
 .BlogContainer{
   margin:150px 60px;
 }
+
 }
 
 @media (max-width:400px){
@@ -552,7 +553,7 @@
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
-.accordionItem .accordionItemTitle {
+.accordionItemTitle {
   position: relative;
   margin: 0;
   display: flex;
@@ -566,7 +567,7 @@
   align-items: center;
 }
 
-.accordionItem .accordionItemDesc {
+.accordionItemDesc {
   display: none;
   font-size: 14px;
   line-height: 22px;
@@ -606,7 +607,7 @@
   margin-top: 0;
 }
 
-.accordionItem .icon {
+.icon {
   margin-left: 14px;
 }
 
@@ -615,10 +616,11 @@
     padding: 0 16px;
   }
 
-  .accordion h1 {
+  .accordion h2 {
     font-size: 22px;
   }
 }
+
 
 /*----Services Srtip-------*/
 
@@ -645,6 +647,9 @@
 
 .TypesLinksContainer{
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
 }
 
@@ -652,6 +657,7 @@
   margin-inline: 30px;
   color: #ff6600;
   font: bolder;
+  margin-top: 5px;
   width: 150px;
   height: 50px;
   padding: 10px ;
@@ -673,10 +679,11 @@
 
 .Testimonialcontainer {
   display: flex;
+  margin-top: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 150vh;
+  max-height: 150vh;
 }
 
 .TestimonialcardContainer {

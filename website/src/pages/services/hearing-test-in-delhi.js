@@ -37,7 +37,7 @@ const HearingTest = () => {
   "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+91 9711871168",
+    "telephone": "+91 9711871169",
     "contactType": "customer service",
     "contactOption": "TollFree",
     "areaServed": "IN",
@@ -112,7 +112,7 @@ const HearingTest = () => {
           <h1 style={{color:'teal'}}>Hearing Test Service in Delhi</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/hearinghope.jpg' alt='Hearing Test Service in Delhi' height={400} width={800} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/hearinghope.jpg' alt='Hearing Test Service in Delhi' layout='responsive' height={400} width={800} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
           <p>At Hearing Hope, we are committed to delivering exceptional hearing test service in Delhi, ensuring your auditory health is meticulously cared for. Our skilled team of audiologists in Delhi employs cutting-edge technology to perform thorough hearing assessments, essential for the early detection and effective management of hearing conditions.</p>
