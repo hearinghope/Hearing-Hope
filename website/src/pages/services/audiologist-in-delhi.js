@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import Audiologist from './audiologist-in-delhi-new';
+
 
 
 
