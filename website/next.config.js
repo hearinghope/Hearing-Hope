@@ -22,5 +22,33 @@ module.exports = {
         },
       ];
     },
+      async redirects() {
+        return [
+          {
+            source: '/services/hearing-aid-center-in-delhi',
+            destination: '/services/hearing-aid-center-in-delhi-new',
+            permanent: true,
+          },
+          {
+            source: '/services/hearing-care-solution-in-delhi',
+            destination: '/services/hearing-care-solution-in-delhi-new',
+            permanent: true,
+          },
+          {
+            source: '/services/hearing-test-in-delhi',
+            destination: '/services/hearing-test-in-delhi-new',
+            permanent: true,
+          },
+          {
+            source: '/services/speech-therapy-in-delhi',
+            destination: '/services/speech-therapy-in-delhi-new',
+            permanent: true,
+          },
+          {
+            source: '/services/audiologist-in-delhi',
+            destination: '/services/audiologist-in-delhi-new',
+            permanent: true,
+          },
+        ]}
   };
   
