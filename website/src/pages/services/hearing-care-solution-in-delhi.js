@@ -8,7 +8,7 @@ const HearingCare = () => {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace('/services/hearing-care-solution-in-delhi-new', undefined, { shallow: true });
+    router.replace('/services/hearing-care-solution-delhi', undefined, { shallow: true });
   }, [router]);
 
   return null; // Or a loading spinner if you prefer
