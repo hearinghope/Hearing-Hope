@@ -16,11 +16,11 @@ const HearingTest = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Best Hearing Test Service in Delhi - Hearing Hope </title>
-        <meta name="description" content="Get expert hearing test service in Delhi by Hearing Hope. Our specialists provide comprehensive assessments for your hearing needs. Book an appointment now!"></meta>
+        <title>Hearing Test in Delhi - Hearing Hope  </title>
+        <meta name="description" content="Book a hearing test in Delhi at Hearing Hope. Get precise diagnostics and expert recommendations to improve your hearing health today."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Best Hearing Test Service in Delhi - Hearing Hope" />
-        <meta property="og:description" content="Get expert hearing test service in Delhi by Hearing Hope. Our specialists provide comprehensive assessments for your hearing needs. Book an appointment now!" />
+        <meta property="og:title" content="Hearing Test in Delhi - Hearing Hope " />
+        <meta property="og:description" content="Book a hearing test in Delhi at Hearing Hope. Get precise diagnostics and expert recommendations to improve your hearing health today." />
             <meta property="og:url" content="https://www.hearinghope.in/services/hearing-test-delhi"/>
             <meta property="og:image:url"
         content="https://www.hearinghope.in/Service/HearingTest.png" />

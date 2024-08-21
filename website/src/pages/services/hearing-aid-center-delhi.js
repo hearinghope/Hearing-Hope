@@ -17,11 +17,11 @@ const HearingAidCentre = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Best Hearing Aid Center in Delhi - Hearing Hope</title>
-        <meta name="description" content="Get expert solutions for hearing loss at Hearing Hope, the leading hearing aid center in Delhi. Trust our specialists for personalized care."></meta>
+        <title>Hearing Aid Centre in Delhi - Hearing Hope</title>
+        <meta name="description" content="Visit Hearing Hope, the leading hearing aid centre in Delhi. Explore advanced hearing aids and get personalized solutions for your hearing needs."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Best Hearing Aid Centre in Delhi - Hearing Hope" />
-        <meta property="og:description" content="Get expert solutions for hearing loss at Hearing Hope, the leading hearing aid centre in Delhi. Trust our specialists for personalized care." />
+        <meta property="og:title" content="Hearing Aid Centre in Delhi - Hearing Hope" />
+        <meta property="og:description" content="Visit Hearing Hope, the leading hearing aid centre in Delhi. Explore advanced hearing aids and get personalized solutions for your hearing needs." />
             <meta property="og:url" content="https://www.hearinghope.in/services/hearing-aid-center-delhi"/>
             <meta property="og:image:url"
         content="https://www.hearinghope.in/Service/OfficeFrontPic.png" />

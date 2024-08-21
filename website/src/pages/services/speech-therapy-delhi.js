@@ -17,11 +17,11 @@ const SpeechTherapy = () => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Best Speech Therapy Service in Delhi - Hearing Hope </title>
-        <meta name="description" content="Get professional Speech Therapy in Delhi from Hearing Hope. Improve communication skills and overcome speech challenges with expert help."></meta>
+        <title>Speech Therapy in Delhi - Hearing Hope  </title>
+        <meta name="description" content="Experience effective speech therapy in Delhi at Hearing Hope. Our expert therapists offer tailored programs for improving speech and language skills."></meta>
         <meta name="robots" content= "index,follow"/>
-        <meta property="og:title" content="Best Speech Therapy Service in Delhi - Hearing Hope" />
-        <meta property="og:description" content="Get professional Speech Therapy in Delhi from Hearing Hope. Improve communication skills and overcome speech challenges with expert help." />
+        <meta property="og:title" content="Speech Therapy in Delhi - Hearing Hope " />
+        <meta property="og:description" content="Experience effective speech therapy in Delhi at Hearing Hope. Our expert therapists offer tailored programs for improving speech and language skills." />
             <meta property="og:url" content="https://www.hearinghope.in/services/speech-therapy-delhi"/>
             <meta property="og:image:url"
         content="https://www.hearinghope.in/Service/OurService.jpg" />
