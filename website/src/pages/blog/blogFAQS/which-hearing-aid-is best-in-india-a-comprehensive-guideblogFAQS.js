@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from '../styles/blog.module.css';
 
-const HearingAidInIndiaFAQS = () => {
+const HearingAidIndiaFAQS = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleAccordionClick = (index) => {
@@ -68,4 +68,4 @@ const faqData = [
   // Add more FAQ items as needed
 ];
 
-export default HearingAidInIndiaFAQS;
+export default HearingAidIndiaFAQS;

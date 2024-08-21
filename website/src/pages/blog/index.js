@@ -13,7 +13,7 @@ const cardsData = [
   
   {
     "id": 11,
-    "image": "/Home/benefitsofspeechtherapylist.png",
+    "image": "/Home/lowfrequencyhearinglosslist.png",
     "heading": "Understanding Low-Frequency Hearing Loss",
     "description": "Low-frequency hearing loss is a condition where individuals struggle to hear low-pitched sounds. This type of hearing loss affects the ability to perceive sounds...",
     "link": "/blog/understanding-low-frequency-hearing-loss"
@@ -21,7 +21,7 @@ const cardsData = [
 
   {
     "id": 10,
-    "image": "/Home/benefitsofspeechtherapylist.png",
+    "image": "/Home/hearingaidinindialist.png",
     "heading": "Which Hearing Aid is Best in India? A Comprehensive Guide",
     "description": "Hearing aids are vital tools for those with hearing impairments, greatly improving their quality of life. These small, yet powerful devices amplify sounds,...",
     "link": "/blog/which-hearing-aid-is-best-in-india-a-comprehensive-guide"

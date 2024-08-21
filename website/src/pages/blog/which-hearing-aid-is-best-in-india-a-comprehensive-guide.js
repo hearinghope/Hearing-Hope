@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Head from 'next/head';
 import Link from 'next/link';
 import WhatsAppButton from '../WhatsAppButton';
-import HearingAidInIndiaFAQS from './blogFAQS/understanding-digital-hearing-machine-prices-a-comprehensive-guideblogFAQS';
+import HearingAidIndiaFAQS from './blogFAQS/which-hearing-aid-is best-in-india-a-comprehensive-guideblogFAQS';
 import BlogAuthorBox from './blogAuthorBox';
 
 const hearingaidinindia = () => {
@@ -120,7 +120,7 @@ const hearingaidinindia = () => {
           <h1>Which Hearing Aid is Best in India? A Comprehensive Guide</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Home/hearingmachine-price.png' alt='Digital Hearing Machine Prices' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
+          <Image src='/Home/hearingaidinindia.png' alt='Digital Hearing Machine Prices' height={450} width={800} style={{borderRadius:'5px',boxShadow: "0px 4px 8px rgb(36, 35, 35)"}} />
         </div>
         <div className={styles.BlogDescription}>
           <p>Hearing aids are vital tools for those with hearing impairments, greatly improving their quality of life. These small, yet powerful devices amplify sounds, making it easier for users to engage in conversations and enjoy everyday activities. The importance of choosing the right hearing aid cannot be overstated, as the best hearing aid in India can dramatically improve hearing and overall well-being.
@@ -137,99 +137,201 @@ const hearingaidinindia = () => {
           <p>Selecting the appropriate hearing aid is a crucial choice that can greatly influence your quality of life. With numerous options available, understanding the key factors to consider will help you determine which hearing aid is best in India for your specific needs.</p><br></br>
           <h3>Sound Quality and Performance</h3>
           <ul>
-            <li><strong></strong></li>
-            <li><strong></strong></li>
+            <li><strong>Clarity and Natural Sound: </strong>Look for devices that offer clear and natural sound, with minimal background noise.</li>
+            <li><strong>Advanced Features: </strong>Ensure the hearing aid has noise reduction and feedback cancellation for optimal performance.</li>
           </ul><br></br>
-          <h3>Sound Quality and Performance</h3>
+          <h3>Comfort and Fit</h3>
           <ul>
-            <li><strong></strong></li>
-            <li><strong></strong></li>
-          </ul>
+            <li><strong>Style and Size Options: </strong>Modern hearing aids come in various styles and sizes, including <a href="https://www.hearinghope.in/hearing-aids/types/bte-hearing-aid"><strong>BTE hearing aids</strong></a>, <a href="https://www.hearinghope.in/hearing-aids/types/itc-hearing-aid"><strong>ITC Hearing aids</strong></a> , <a href="https://www.hearinghope.in/hearing-aids/types/ric-hearing-aid"><strong>RIC hearing aids</strong></a> and <a href="https://www.hearinghope.in/hearing-aids/types/cic-hearing-aid"><strong>CIC hearing aid</strong></a> models.</li>
+            <li><strong>Secure Fit: </strong>Choose a hearing aid that fits comfortably and securely, suitable for extended wear.</li>
+          </ul><br></br>
+          <h3>Features and Technology</h3>
+          <ul>
+            <li><strong>Bluetooth Connectivity: </strong>Allows for wireless streaming of audio from phones, TVs, and other devices.</li>
+            <li><strong>Rechargeable Batteries: </strong>Offers convenience and cost savings over disposable batteries.</li>
+            <li><strong>Customizable Settings: </strong>This enables you to adjust the hearing aid to your specific hearing needs and preferences.</li>
+          </ul><br></br>
+          <h3>Brand Reputation and Support</h3>
+          <ul>
+            <li><strong>Reliable Brands: </strong>Consider the reputation of the brand for quality and performance.</li>
+            <li><strong>Customer Service: </strong>Look for brands that provide excellent customer service, warranties, and professional support from audiologists.</li>
+          </ul><br></br>
+          <h3>Price and Value</h3>
+          <ul>
+            <li><strong>Cost vs. Value: </strong>While cost is a significant factor, consider the overall value in terms of features, durability, and support.</li>
+            <li><strong>Long-Term Investment: </strong>Sometimes, investing a bit more upfront can save money in the long run due to better performance and longevity.</li>
+          </ul><br></br>
+          <p>By considering these factors, you can make an informed decision on which hearing aid is best in India for you, ensuring improved hearing and a better quality of life.</p>
         </div>
 
         <div className={styles.BlogHeading}>
-          <h2>Factors Influencing the Cost of Digital Hearing Aids
+          <h2>Best Hearing Aids Available in India
           </h2>
         </div>
         <div className={styles.BlogDescription}>
-          <h3>Technology and Features
-          </h3>
-          <p>The cost of digital hearing aids varies significantly based on their technology and features. Advanced features such as automatic noise reduction, feedback suppression, and multichannel processing can increase prices. Devices with Bluetooth connectivity and rechargeable batteries also tend to be more expensive. These features include functionality and user experience, justifying the higher costs associated with more advanced models.
+          <p>Choosing the best hearing aid can be confusing with so many options available. Here, we&apos;ll look at some of the best hearing aids available in India. Each brand provides distinct features tailored to various requirements. This guide will help you understand what each brand offers and why they are considered the top-rated hearing aids in India.
           </p><br></br><br></br>
 
-          <h3>Brand and Model
+          <h3>Signia India
           </h3>
-          <p>The prices of different models and brands vary. Famous brands with a reputation for quality and reliability, such as Phone, Motion, and Resound, often charge more for their devices. Additionally, newer models with cutting-edge technology will generally be priced higher than older ones. Brand reputation and technological advancements are crucial in determining the price of digital hearing aids.
-          </p><br></br><br></br>
-
-          <h3>Customization and Fit hearing aid
-          </h3>
-          <p>Customization and Fit hearing aids, which are molded to fit the user&apos;s ear, can be more expensive than standard models. These customizations ensure a better fit and comfort, which can significantly enhance the user&apos;s experience. The process involves:
+          <p>Signia is known for its high-quality hearing aids that provide clear sound and advanced technology.
           </p>
           <ul>
-            <li>Creating a mold of the ear canal.</li>
-            <li>Resulting in a hearing solution that is more effective and customized.
+            <li><strong>Clear Sound: </strong>Signia hearing aids are known for their exceptional sound quality, making them a top choice for many.
             </li>
-            <li>Thus contributing to higher costs.
-            </li>
-          </ul><br></br><br></br>
-          <h3>Additional Services and Warranties</h3>
-          <p>The price of digital hearing aids often includes additional services such as professional fitting, follow-up adjustments, and warranties. Extended warranties and service packages can add to the overall cost but also provide peace of mind and long-term support. These services ensure the hearing aids are well-maintained and any issues are promptly addressed, enhancing the overall user experience.</p>
+            <li><strong>Comfortable Fit: </strong>These hearing aids are designed to be comfortable, ensuring they can be worn all day without discomfort.</li>
+            <li><strong>Advanced Features: </strong>Signia offers features like noise reduction and feedback cancellation, which are important for better hearing experiences.</li>
+          </ul><br></br>
+          <p>Signia is one of the top-rated hearing aids in India because of its focus on providing a natural listening experience.</p>
+          <br></br><br></br>
+
+          <h3>Phonak India
+          </h3>
+          <p>Phonak is another leading brand offering some of the best hearing aids available in India.
+          </p>
+          <ul>
+            <li><strong>Wide Range: </strong>Phonak provides a wide range of hearing aids, suitable for all types of hearing loss.</li>
+            <li><strong>Technology: </strong>They are known for innovative technology, including Bluetooth connectivity for streaming audio.</li>
+            <li><strong>Durability: </strong>Phonak hearing aids are durable and built to last, making them a reliable choice.</li>
+          </ul><br></br>
+          <p>Phonak&apos;s combination of technology and reliability makes them one of the top-rated hearing aids in India.</p>
+          <br></br><br></br>
+          <h3>Siemens India</h3>
+          <p>Siemens offers hearing aids that combine advanced technology with ease of use.</p>
+          <ul>
+            <li><strong>User-Friendly: </strong>Siemens hearing aids are designed to be user-friendly, making them easy to adjust and use.</li>
+            <li><strong>Quality Sound: </strong>They provide high-quality sound with features like directional microphones and noise reduction.</li>
+            <li><strong>Variety: </strong>Siemens offers a variety of models to suit different preferences and needs.</li>
+          </ul><br></br>
+          <p>Siemens is recognized for its user-friendly design, which has placed it among the top-rated hearing aids in India.</p>
+          <br></br><br></br>
+          <h3>Resound India</h3>
+          <p>Resound is known for its innovative hearing aids that enhance the user&apos;s hearing experience.</p>
+          <ul>
+            <li><strong>Natural Sound: </strong>Resound hearing aids are designed to deliver natural and clear sound.</li>
+            <li><strong>Connectivity: </strong>They offer excellent connectivity options, including Bluetooth for easy pairing with devices.</li>
+            <li><strong>Comfort: </strong>Resound hearing aids are made to be comfortable for long-term use.</li>
+          </ul><br></br>
+          <p>Resound stands out among the top-rated hearing aids in India due to its focus on natural sound and connectivity.
+          </p>
+          <br></br><br></br>
+          <h3>Starkey India</h3>
+          <p>Starkey provides hearing aids with advanced features and customization options.</p>
+          <ul>
+            <li><strong>Customizable: </strong>Starkey hearing aids can be customized to fit the user&apos;s specific hearing needs.</li>
+            <li><strong>Advanced Technology: </strong>They offer features like automatic volume adjustment and noise reduction.</li>
+            <li><strong>Comfortable: </strong>Designed for comfort, Starkey hearing aids can be worn comfortably all day.</li>
+          </ul><br></br>
+          <p>Starkey&apos;s customizable options make them a preferred choice for many, ranking them as top-rated hearing aids in India.</p>
+          <br></br><br></br>
+          <h3>Oticon India</h3>
+          <p>Oticon hearing aids are designed to provide a clear and natural hearing experience.</p>
+          <ul>
+            <li><strong>Clear Sound: </strong>Oticon focuses on delivering clear and natural sound.</li>
+            <li><strong>Innovative Technology: </strong>Their hearing aids include features like brain-hearing technology, which helps the brain make sense of sound.</li>
+            <li><strong>Comfortable Design: </strong>Oticon hearing aids are comfortable and can be worn for long periods.</li>
+          </ul><br></br>
+          <p>Oticon&apos;s innovative approach places them among the top-rated hearing aids in India.</p>
+          <br></br><br></br>
+          <h3>Interton India</h3>
+          <p>Interton offers affordable hearing aids without compromising on quality.</p>
+          <ul>
+            <li><strong>Affordable: </strong>Interton hearing aids are priced competitively, making them accessible to more people.</li>
+            <li><strong>Quality Sound: </strong>Despite their affordability, they offer good sound quality.</li>
+            <li><strong>Basic Features: </strong>They include essential features like noise reduction and feedback cancellation.</li>
+          </ul><br></br>
+          <p>Interton is known for providing top-rated hearing aids in India at an affordable price.</p>
+          <br></br><br></br>
+          <h3>Unitron India</h3>
+          <p>Unitron focuses on providing hearing aids that adapt to the user&apos;s environment.</p>
+          <ul>
+            <li><strong>Adaptive Technology: </strong>Unitron hearing aids adjust automatically to different listening environments.</li>
+            <li><strong>Comfortable Fit: </strong>Designed for comfort, these hearing aids are easy to wear all day.</li>
+            <li><strong>Connectivity: </strong>They offer good connectivity options, including Bluetooth.</li>
+          </ul><br></br>
+          <p>Unitron&apos;s adaptive technology makes it one of the top-rated hearing aids in India.</p>
+          <br></br><br></br>
+          <h3>Bernafon India</h3>
+          <p>Bernafon offers hearing aids that provide clear sound and advanced features.</p>
+          <ul>
+            <li><strong>Clear Sound: </strong>Bernafon hearing aids are known for their clear and precise sound.</li>
+            <li><strong>Advanced Features: </strong>They include features like automatic noise management and feedback cancellation.</li>
+            <li><strong>Comfort: </strong>Designed for comfort, Bernafon hearing aids can be worn throughout the day.</li>
+          </ul><br></br>
+          <p>Bernafon&apos;s clear sound and advanced features place it among the top-rated hearing aids in India.</p>
+          <br></br><br></br>
+          <h3>Sonic India</h3>
+          <p>Sonic hearing aids focus on providing natural sound and advanced technology.</p>
+          <ul>
+            <li><strong>Natural Sound: </strong>Sonic hearing aids deliver natural and clear sound.</li>
+            <li><strong>Innovative Technology: </strong>They offer features like adaptive directionality and noise reduction.</li>
+            <li><strong>Comfortable: </strong>Designed for comfort, Sonic hearing aids can be worn for extended periods.</li>
+          </ul><br></br>
+          <p>Sonic&apos;s commitment to natural sound makes them one of the top-rated hearing aids in India.</p><br></br>
+          <p>Each of these brands provides distinct features that cater to different needs and preferences. By understanding what each brand offers, you can make an informed decision about the best hearing aids available in India for you.</p>
+          <br></br><br></br>
         </div>
   
         <div className={styles.BlogHeading}>
-          <h2>Price Ranges and What to Expect</h2>
+          <h2>Recommended Hearing Aids in India</h2>
         </div>
         <div className={styles.BlogDescription}>
-          <h3>Low-End Digital Hearing Aids</h3>
-          <p>Low-end digital hearing aids typically range from $500 to $1,500 per device. These models offer basic features suitable for mild to moderate hearing loss. They are a good option for those seeking affordable digital hearing aids. Despite being lower in price, these aids can still significantly improve hearing clarity and quality, making them a viable option for budget-conscious consumers.
+          <p>When it comes to selecting the recommended hearing aids in India, user reviews and expert opinions play a crucial role. Here, we will list and describe some of the most recommended hearing aids, highlighting their features and benefits.
           </p><br></br><br></br>
-          <h3>Mid-Range Digital Hearing Aids
-          </h3>
-          <p>Mid-range models, priced between $1,500 and $3,000, balance advanced features and affordability. These hearing aids often include better sound processing, noise reduction, and sometimes connectivity features. They offer a good compromise between cost and functionality, making them a popular choice for many users who need reliable performance without the premium price tag.</p><br></br><br></br>
-        <h3>High-End Digital Hearing Aids </h3>
-        <p>High-end digital hearing aids can cost from $3,000 to $5,000 or more. These devices offer the latest technology, including superior sound quality, advanced noise management, and full connectivity options. They are ideal for users with severe hearing loss or requiring top-tier performance. Investing in these high-end devices often results in the best possible hearing experience and user satisfaction.</p>
+          <h3>Digital Hearing Aids</h3>
+          <p>Digital hearing aids are among the best hearing aids available in India due to their advanced technology and superior sound quality.</p><br></br>
+        <ul>
+          <li><strong>Clear Sound: </strong>Digital hearing aids convert sound into digital signals, providing clearer and more precise sound.</li>
+          <li><strong>Noise Reduction: </strong>They come with advanced noise reduction features, making it easier to hear in noisy environments.</li>
+          <li><strong>Customization: </strong>These hearing aids can be finely tuned to match the user&apos;s specific hearing needs.</li>
+          <li><strong>Connectivity: </strong>Many digital hearing aids offer Bluetooth connectivity, allowing users to stream audio from their devices directly to their hearing aids.</li>
+        </ul><br></br>
+        <p>Digital hearing aids are highly recommended because of their ability to provide a customized and clear hearing experience.</p><br></br><br></br>
+        
+        
+        <h3>Invisible Hearing Aids</h3>
+        <p>Invisible hearing aids are small and discreet, making them a popular choice among the best hearing aids available in India.</p>
+        <br></br>
+        <ul>
+          <li><strong>Discreet Design: </strong>These hearing aids fit deep inside the ear canal, making them virtually invisible.</li>
+          <li><strong>Comfortable Fit: </strong>Designed for comfort, invisible hearing aids can be worn all day without discomfort.</li>
+          <li><strong>Natural Sound: </strong>They provide natural sound quality by utilizing the ear&apos;s anatomy to enhance sound localization.</li>
+          <li><strong>Advanced Technology: </strong>Despite their small size, they include advanced features like noise reduction and feedback cancellation.</li>
+        </ul><br></br>
+        <p>Invisible hearing aids are recommended for those who prefer a discreet and comfortable hearing solution.</p><br></br><br></br>
+
+        <h3>Bluetooth Hearing Aids</h3>
+        <p>Bluetooth hearing aids are considered some of the best hearing aids available in India due to their advanced connectivity options.</p>
+        <br></br>
+        <ul>
+          <li><strong>Wireless Streaming: </strong>Bluetooth hearing aids can connect wirelessly to smartphones, TVs, and other devices, allowing users to stream audio directly to their hearing aids.</li>
+          <li><strong>Ease of Use: </strong>They are easy to pair with multiple devices, providing a seamless listening experience.</li>
+          <li><strong>Improved Communication: </strong>With Bluetooth connectivity, users can enjoy clearer phone calls and video chats.</li>
+          <li><strong>Additional Features: </strong>Many Bluetooth hearing aids come with apps that allow users to adjust settings and monitor battery life.</li>
+        </ul><br></br>
+        <p><a href="https://www.hearinghope.in/hearing-aids/types/bluetooth-hearing-aid"><strong>Bluetooth hearing aids</strong></a> are highly recommended for those who want the convenience of wireless connectivity and superior sound quality.</p><br></br>
+        <p>These recommended hearing aids in India offer a range of features to suit different needs and preferences, ensuring that everyone can find a hearing aid that works best for them.</p>
         </div>
 
         <div className={styles.BlogHeading}>
-          <h2>How to Choose the Greatest Digital Hearing Aid to Fit Your Budget
+          <h2>Best-Selling Hearing Aids in India
           </h2>
         </div>
         <div className={styles.BlogDescription}>
-          <h3>Assessing Your Hearing Needs
-          </h3>
-          <p>Start by evaluating your hearing requirements. Consider the severity of your hearing loss, lifestyle needs, and specific features that are important to you. Making an informed decision and ensuring that the selected hearing aid effectively addresses your specific challenges can be achieved by being aware of your hearing profile.
+          <p>In the Indian market, certain hearing aids have gained immense popularity due to their exceptional features and performance. Here, we highlight the best-selling hearing aids in India, showcasing why they are preferred by many users.
           </p><br></br><br></br>
-          <h3>Comparing Prices and Features
+          <h3>Factors Contributing to Their Popularity
           </h3>
-          <p>Research and compare different models and their prices. Look for devices that offer the features you need within your budget. Use reviews and ratings to assess performance and measure user satisfaction.Comparing different options will help you find the best balance between cost and functionality, ensuring you get the best value for your money.
-          </p><br></br><br></br>
-          <h3>Consult with an audiologist
-          </h3>
-          <p>An audiologist can provide professional advice tailored to your hearing needs. They can assist you in selecting a hearing aid that fits comfortably and performs well, guaranteeing that you get the most out of your money. Their knowledge guarantees that you choose a gadget that fulfills your requirements and improves your hearing experience in general.
-          </p><br></br><br></br>
-          <h3>Looking for Deals and Discounts</h3>
-          <p>Search for promotions, discounts, and financing options that can make digital hearing aids more affordable. Some manufacturers and retailers offer payment plans and seasonal sales. By taking advantage of these deals, you can lower the total cost considerably and make it easier to afford high-quality hearing aids.</p>
-        </div>
-
-        <div className={styles.BlogHeading}>
-          <h2>Tips for Maintaining Your Digital Hearing Aid
-          </h2>
-        </div>
-        <div className={styles.BlogDescription}>
-          <h3>Regular cleaning and care
-          </h3>
-          <p>Keep your hearing aids clean and dry. Their lifespan can be increased by routinely cleaning them with a soft, dry cloth and storing them properly when not in use. Proper maintenance ensures optimal performance and longevity, helping you get the most out of your investment.
-          </p><br></br><br></br>
-          <h3>Regular check-ups
-          </h3>
-          <p>Make an appointment for routine checkups with your audiologist to make sure your aids are functioning at their optimum level and that they are Regular professional inspections can catch and resolve issues early, maintaining the effectiveness and comfort of your hearing aids.
-          </p><br></br><br></br>
-          <h3>Troubleshooting Common Issues
-          </h3>
-          <p>Learn basic troubleshooting for common issues like feedback, battery problems, and connectivity issues. Consult the user handbook and, if necessary, <a href="https://www.hearinghope.in/"><strong>get expert assistance.</strong></a>
-          </p><br></br>
-          <p>Understanding how to address minor problems can prevent downtime and keep your hearing aids working smoothly.</p>
+          <p>The best-selling hearing aids in India are favoured for several key reasons:
+          </p>
+          <ul>
+            <li><strong>Price: </strong>Affordability is a significant factor. Many of the best-selling hearing aids offer a balance between cost and quality, making them accessible to a larger audience. Competitive pricing without compromising on essential features makes these hearing aids a popular choice.</li>
+            <li><strong>Features: </strong>Advanced features like noise reduction, Bluetooth connectivity, and rechargeable batteries contribute to their popularity. Users look for hearing aids that provide clear sound quality and additional functionalities that enhance their overall experience.</li>
+            <li><strong>Customer Service: </strong>Excellent customer service and support from the manufacturer play a crucial role. Brands that offer reliable warranties, easy access to service centres, and professional support from audiologists tend to have higher customer satisfaction, leading to better sales.</li>
+          </ul>
+          <p>By focusing on these factors, manufacturers ensure that their products stand out as the best hearing aids available in India, driving their popularity and making them best-sellers.</p>
+        <br></br>
+        <p>Understanding the factors that make certain hearing aids the best-selling hearing aids in India can help you make an informed decision. Whether it&apos;s the competitive price, advanced features, or excellent customer service, these elements contribute to the success and preference of these hearing aids in the Indian market. When looking for the best hearing aids available in India, consider these aspects to find the one that best meets your needs and enhances your hearing experience.</p>
         </div>
 
         
@@ -238,14 +340,14 @@ const hearingaidinindia = () => {
           <h2>Conclusion</h2>
         </div>
         <div className={styles.BlogDescription}>
-        <p>In conclusion, in order to make an informed choice, it is critical to comprehend the several aspects that affect the price of digital hearing aids. A variety of features and technologies are available in digital hearing aids, also known as digital hearing machines, to enhance the user experience and hearing quality. Depending on the degree of technology, the brand, model, customization choices, and extra services like expert fitters and warranties, the cost of these gadgets might differ dramatically.
+        <p>In this comprehensive guide, we explored various aspects to help you find which hearing aid is best in India. We discussed the key factors to consider, such as sound quality, comfort, features, brand reputation, and price. We also highlighted some of the best hearing aids available in India, including top-rated brands like Signia, Phonak, Siemens, Resound, Starkey, Oticon, Interton, Unitron, Bernafon, and Sonic.
         </p><br></br>
-        <p>When choosing a digital hearing aid, assessing your specific hearing needs and budget is crucial. Comparing different models and their features can help you find the best option for value and functionality. Consulting with an audiologist is highly recommended, as they can provide professional insights and personalized recommendations, ensuring that you select a device that effectively suits your hearing requirements.</p><br></br>
-        <p>Additionally, looking for deals, discounts, and financing options can make high-quality digital hearing aids more affordable. Regular maintenance and care, including cleaning and professional check-ups, are vital for ensuring the longevity and optimal performance of your hearing aids.</p><br></br>
-        <p>Purchasing an appropriate digital assistive listening device can greatly raise your standard of living by enhancing both your auditory perception and general health. Making the ideal decision requires research and professional advice, which will provide you with the clarity and confidence you need to experience improved hearing.</p>
+        <p>Additionally, we looked at the most recommended hearing aids in India, focusing on digital, invisible, and Bluetooth hearing aids for their advanced technology and user benefits. Finally, we identified the best-selling hearing aids in India, emphasising the factors contributing to their popularity, such as price, features, and customer service.</p><br></br>
+        <p>Selecting the appropriate hearing aid is a critical decision that can greatly improve your quality of life. It&apos;s important to consult with a professional audiologist to find the best hearing aid for your specific needs. An audiologist can provide personalised recommendations and ensure that your hearing aid is perfectly fitted and adjusted.</p><br></br>
+        <p>For more information and personalised assistance, contact Ear Solutions. Our team of expert audiologists is ready to help you find the best hearing aids available in India to improve your hearing and quality of life. <a href="https://www.hearinghope.in/contact"><strong>Contact us</strong></a> today to schedule a consultation and take the first step towards better hearing.</p>
         </div>
         <BlogAuthorBox />
-      <HearingAidInIndiaFAQS></HearingAidInIndiaFAQS>
+      <HearingAidIndiaFAQS></HearingAidIndiaFAQS>
       </div>
       <Footer />
       </>
