@@ -22,10 +22,10 @@ const SpeechTherapy = () => {
         <meta name="robots" content= "index,follow"/>
         <meta property="og:title" content="Best Speech Therapy Service in Delhi - Hearing Hope" />
         <meta property="og:description" content="Get professional Speech Therapy in Delhi from Hearing Hope. Improve communication skills and overcome speech challenges with expert help." />
-            <meta property="og:url" content="https://www.hearinghope.in/services/speech-therapy-in-delhi"/>
+            <meta property="og:url" content="https://www.hearinghope.in/services/speech-therapy-delhi"/>
             <meta property="og:image:url"
         content="https://www.hearinghope.in/Service/OurService.jpg" />
-        <link rel="canonical" href="https://www.hearinghope.in/services/speech-therapy-in-delhi"/>
+        <link rel="canonical" href="https://www.hearinghope.in/services/speech-therapy-delhi"/>
         <link rel="icon" href="./favicon.png" />
         <script
           type="application/ld+json"
@@ -34,7 +34,7 @@ const SpeechTherapy = () => {
               "@context": "https://schema.org",
   "@type": "MedicalOrganization",
   "name": "Speech Therapy in Delhi - Hearing Hope",
-  "url": "https://www.hearinghope.in/services/speech-therapy-in-delhi",
+  "url": "https://www.hearinghope.in/services/speech-therapy-delhi",
   "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
   "contactPoint": {
     "@type": "ContactPoint",

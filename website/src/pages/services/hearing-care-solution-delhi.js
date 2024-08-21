@@ -22,10 +22,10 @@ const HearingCare = () => {
         <meta name="robots" content= "index,follow"/>
         <meta property="og:title" content="Best Hearing Care Solution in Delhi - Hearing Hope" />
         <meta property="og:description" content="Discover the best hearing care solutions in Delhi at Hearing Hope. Expert audiologists provide personalized care for better hearing. Book a consultation today!" />
-            <meta property="og:url" content="https://www.hearinghope.in/services/hearing-care-solution-in-delhi"/>
+            <meta property="og:url" content="https://www.hearinghope.in/services/hearing-care-solution-delhi"/>
             <meta property="og:image:url"
         content="https://www.hearinghope.in/Service/ServiceHearingTest.png" />
-        <link rel="canonical" href="https://www.hearinghope.in/services/hearing-care-solution-in-delhi"/>
+        <link rel="canonical" href="https://www.hearinghope.in/services/hearing-care-solution-delhi"/>
         <link rel="icon" href="./favicon.png" />
         <script
           type="application/ld+json"
@@ -34,7 +34,7 @@ const HearingCare = () => {
               "@context": "https://schema.org",
   "@type": "MedicalOrganization",
   "name": "Hearing care solution in Delhi - Hearing Hope",
-  "url": "https://www.hearinghope.in/services/hearing-care-solution-in-delhi",
+  "url": "https://www.hearinghope.in/services/hearing-care-solution-delhi",
   "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
   "contactPoint": {
     "@type": "ContactPoint",
