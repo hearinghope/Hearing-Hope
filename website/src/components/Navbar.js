@@ -74,9 +74,6 @@ const Navbar = () => {
         <Link href="/" style={{ fontWeight: '500' }}>
           Home
         </Link>
-        <Link href="/about" style={{ fontWeight: '500' }}>
-          About
-        </Link>
         {/* <Link href="/onlineHearingTest" style={{ fontWeight: '500'}}>
           Online Hearing Test
           <p style={{fontSize: '10px', color:'orange'}}>Quick Test!!</p>
@@ -102,9 +99,6 @@ const Navbar = () => {
             </div>
           )}
         </div>
-        <Link href="/blog" style={{ fontWeight: '500' }}>
-          Blog
-        </Link>
         <div className={styles.dropdown}>
           <span
             className={styles.dropbtn}
@@ -177,6 +171,12 @@ const Navbar = () => {
             </div>
           )}
         </div>
+        <Link href="/about" style={{ fontWeight: '500' }}>
+          About
+        </Link>
+        <Link href="/blog" style={{ fontWeight: '500' }}>
+          Blog
+        </Link>
         <Link href="/contact">
           <button type="button" className={styles.NavButton}>
             Contact Us
