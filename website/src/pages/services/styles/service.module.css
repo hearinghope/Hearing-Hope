@@ -627,6 +627,7 @@
 .TypesStrip{
   width: 100%;
   margin-top: 50px;
+  
   display: flex;
     flex-direction: column;
     justify-content: center;
@@ -814,8 +815,8 @@
 
 @media (max-width: 390px) {
   .Testimonialcontainer{
-    margin-top: 45px;
-    margin-bottom: 30px;
+    margin-top: 300px;
+    margin-bottom: 300px;
   }
 }
 @media (max-width: 370px) {
