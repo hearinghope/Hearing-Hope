@@ -31,23 +31,20 @@ const HearingAidCentre = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "MedicalOrganization",
-              "name": "Hearing Aid Centre in Delhi - Hearing Hope",
-              "url": "https://www.hearinghope.in/services/hearing-aid-center-delhi",
-              "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+91 9711871169",
-                "contactType": "customer service",
-                "contactOption": "TollFree",
-                "areaServed": "IN",
-                "availableLanguage": ["en","Hindi"]
-              },
-              "sameAs": [
-                "https://www.facebook.com/people/Hearing-Hope/100063607797322/",
-                "https://www.instagram.com/hearinghope/",
-                "https://www.youtube.com/@HearingHope"
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [{
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Home",
+                "item": "https://www.hearinghope.in/"  
+              },{
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "Hearing Aid Center in Delhi - Hearing Hope",
+                "item": "https://www.hearinghope.in/services/hearing-aid-center-delhi"  
+              }
+            
             
               ]
             })
@@ -222,9 +219,10 @@ const HearingAidCentre = () => {
       </div>
      
       </div>
+      <HearingAidCentreFAQS></HearingAidCentreFAQS>
       <ServiceTypesStrip></ServiceTypesStrip>
       <ServiceTestimonials></ServiceTestimonials>
-  <HearingAidCentreFAQS></HearingAidCentreFAQS>
+  
      
       <Footer />
       </>

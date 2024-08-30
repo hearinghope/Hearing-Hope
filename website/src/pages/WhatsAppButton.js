@@ -28,9 +28,7 @@ const WhatsAppButton = () => {
 
       {/* "Call Now" bar for mobile screens */}
       <div className="call-now-bar" onClick={() => handleCallNowClick(phoneNumber)}>
-        <span><Image src='../CallPhone.svg' alt='CallPhone' width={22} height={22} className='CallPhone'></Image> Call Us Now</span>
-      </div>
-
+        <span><Image src='../CallPhone.svg' alt='CallPhone' width={22} height={22} className='CallPhone'></Image> Call Us Now</span>      </div>
       <style jsx>{`
         .float {
           position: fixed;
@@ -48,11 +46,11 @@ const WhatsAppButton = () => {
         }
 
         .call-now-bar {
-          display: none;
+          display: block;
           position: fixed;
           bottom: 0;
           left: 0;
-          width: 100%;
+          width: 30%;
           background-color: #ff6600;
           z-index: 100;
           align-items: center;
@@ -61,6 +59,8 @@ const WhatsAppButton = () => {
           padding: 12px;
           font-size:20px;
           cursor: pointer;
+          border-radius: 4px;
+          margin-left: 430px;
         }
 
         .CallPhone{

@@ -31,23 +31,20 @@ const Audiologist = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org",
-  "@type": "MedicalOrganization",
-  "name": "audiologist in delhi - Hearing Hope",
-  "url": "https://www.hearinghope.in/services/audiologist-delhi",
-  "logo": "https://www.hearinghope.in/_next/image?url=%2Flogo-transparent.png&w=256&q=75",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91 9711871169",
-    "contactType": "customer service",
-    "contactOption": "TollFree",
-    "areaServed": "IN",
-    "availableLanguage": ["en","Hindi"]
-  },
-  "sameAs": [
-    "https://www.facebook.com/people/Hearing-Hope/100063607797322/",
-    "https://www.instagram.com/hearinghope/",
-    "https://www.youtube.com/@HearingHope"
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [{
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Home",
+                "item": "https://www.hearinghope.in/"  
+              },{
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "Best Audiologist in Delhi - Hearing Hope",
+                "item": "https://www.hearinghope.in/services/audiologist-delhi"  
+              }
+            
             
               ]
             })
@@ -191,9 +188,10 @@ const Audiologist = () => {
   </ul> 
   <p>At Hearing Hope,our array of services is not just about treating hearing loss; it&apos;s about enhancing your auditory experience and overall quality of life. As a premier audiologist clinic in Delhi, we are dedicated to providing our patients with the best possible care using a blend of expertise, technology, and compassionate service.
 </p> </div></div>
+<AudiologistFAQS></AudiologistFAQS>
         <ServiceTypesStrip></ServiceTypesStrip>
 <ServiceTestimonials></ServiceTestimonials>
-<AudiologistFAQS></AudiologistFAQS>
+
         
   
       
