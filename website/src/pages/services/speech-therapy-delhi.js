@@ -56,46 +56,47 @@ const SpeechTherapy = () => {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What age groups do you cater to at Hearing Hope?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We provide Speech Therapy in Delhi for all age groups. Our services are tailored for children experiencing developmental delays, as well as adults who may be recovering from strokes or managing degenerative conditions. We believe everyone deserves the chance to improve their communication abilities, regardless of age."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What is the duration of a standard speech therapy session?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A typical session lasts between 30 and 60 minutes, depending on the specific needs and stamina of the client. The frequency and duration of sessions are customized based on individual treatment plans to ensure optimal results without causing fatigue."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Are the speech therapy sessions conducted individually or in groups?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Most of our Speech Therapy in Delhi are conducted on a one-on-one basis to ensure personalized attention and privacy. However, group sessions may be organized for specific activities or peer interaction scenarios where social communication skills can be effectively developed."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Can family members participate in the therapy sessions?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely, family involvement is encouraged at Hearing Hope. We believe that incorporating family members into the therapy process not only supports the client but also equips the family with strategies to help in everyday communication scenarios. This collaborative approach is crucial, especially in the familial and community-oriented culture of Delhi."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What makes Hearing Hope’s approach to speech therapy unique?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Our approach is deeply rooted in a personalized and evidence-based methodology, integrated with the latest advancements in speech therapy. We place a strong emphasis on involving family and caregivers, which is particularly effective in the context of Delhi's supportive community culture. Additionally, our commitment to continuous progress monitoring and adjustment of treatment plans ensures that each client receives the most effective care tailored to their evolving needs."
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is speech therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Speech therapy is a treatment that addresses speech, language, and swallowing disorders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who needs speech therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anyone facing communication challenges, from toddlers to adults, may require speech therapy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does anyone need speech therapy? Am I or my child one amongst them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Symptoms of needing speech therapy include speech delays, difficulty producing sounds, or challenges with understanding and using language effectively."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if I or my child needs speech therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Signs that you or your child may need speech therapy include delayed speech development, difficulty articulating words, or struggles with language comprehension and expression."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens during a speech therapy session?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "During a speech therapy session, exercises are conducted to improve language skills, articulation, and overall communication effectiveness."
+
             
             
     }

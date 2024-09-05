@@ -57,22 +57,6 @@ const faqData = [
     question: 'How do I care for my hearing aid?',
     answer: "To better serve you, we  provide detailed instructions on how to clean your hearing aids and other tips for maintaining them so that they last.",
   },
-  {
-    question: 'Do you offer a hearing aid warranty?',
-    answer: "We provide a wide-ranging warranty, which includes maintenance and repairs for our hearing aids. You can also access a solution whenever you face any issues post the warranty phase.",
-  },
-  {
-    question: 'Do you provide support or counselling for new Hearing aid  users?',
-    answer: "Of course, we also provide newly fitted clients with any necessary training and education to help them adapt their hearing aids properly so that they are able hear all the things that matter in life.",
-  },
-  {
-    question: 'What is the minimum age when testing can be performed?',
-    answer: "Our facilities contain child appropriate equipment, and our staff are trained to test children in an environment that they find calming and safe.",
-  },
-  {
-    question: 'How frequently should I be retested?',
-    answer: "We suggest you have your hearing tested on an annual basis, or sooner if you find that there are significant changes in the way you hear things.",
-  },
   
   // Add more FAQ items as needed
 ];

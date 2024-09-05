@@ -59,122 +59,43 @@ const HearingCare = () => {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What services does Hearing Hope offer?",
+      "name": "How can I tell if I require a hearing aid?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hearing Hope offers a comprehensive range of services including diagnostic evaluations, personalised hearing aid fittings, tinnitus management, auditory rehabilitation, and ongoing support for hearing health."
+        "text": "If you experience difficulty understanding conversations, particularly in noisy environments, or find yourself frequently asking others to repeat themselves, it may be time to schedule a hearing assessment with one of our audiologists."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I know if I need a hearing evaluation?",
+      "name": "What is the process for getting a hearing aid from HearingHope?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you're experiencing difficulty hearing conversations, asking others to repeat themselves often, or noticing ringing in your ears, it may be time for a hearing evaluation at Hearing Hope."
+        "text": "The process starts with a comprehensive hearing evaluation. If a hearing aid is recommended, we will guide you through the selection, fitting, and customization of your device, followed by ongoing support and adjustments as needed."
       }
     },
     {
       "@type": "Question",
-      "name": "What should I expect during a hearing evaluation?",
+      "name": "Can hearing aids be invisible?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A hearing evaluation at Hearing Hope typically includes a series of tests to assess your hearing ability, determine the type and degree of hearing loss, and understand your unique hearing needs."
+        "text": "Yes, we offer invisible-in-canal (IIC) hearing aids that are custom-fitted to sit completely within the ear canal, making them virtually undetectable when worn."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I choose the right hearing aid?",
+      "name": "How often should I have my hearing tested?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our audiologists at Hearing Hope will guide you through the process of selecting the right hearing aid based on your hearing loss, lifestyle, and personal preferences."
+        "text": "We recommend having your hearing tested annually, or more frequently if you notice any changes in your hearing abilities."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you offer different types of hearing aids?",
+      "name": "Can I finance the purchase of hearing aids?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we offer a variety of hearing aids including behind-the-ear (BTE), in-the-ear (ITE), and invisible-in-canal (IIC) styles, among others, to suit different levels of hearing loss and aesthetic preferences."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is tinnitus and how can Hearing Hope help?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tinnitus is a ringing or buzzing sensation in the ears. At Hearing Hope, we provide management strategies and treatments to alleviate the symptoms of tinnitus and improve your quality of life."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer maintenance and support for hearing aids?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hearing Hope provides ongoing maintenance, adjustments, and support for your hearing aids to ensure they continue to function optimally and meet your hearing needs over time."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are there financing options available for hearing aids?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer flexible payment plans and financing options to make our hearing aids and services affordable for all patients in Delhi."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How often should I get my hearing aids checked?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Regular check-ups at Hearing Hope are recommended to monitor the performance of your hearing aids, adjust settings if necessary, and address any changes in your hearing health."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can hearing loss be prevented?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While some forms of hearing loss are preventable (such as noise-induced hearing loss), others may be age-related or due to medical conditions. Hearing Hope offers guidance on hearing protection and preventive measures."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide educational resources on hearing health?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Hearing Hope offers educational materials and resources to help patients and their families understand hearing loss, hearing aid technology, and strategies for maintaining optimal hearing health."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I schedule an appointment at Hearing Hope?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can schedule an appointment by calling our clinic directly or through our website. Our staff will assist you in finding a convenient time for your visit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I bring to my first appointment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For your first appointment at Hearing Hope, please bring any previous hearing test results, a list of medications you are currently taking, and your insurance information (if applicable)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Hearing Hope covered by insurance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We accept various insurance plans. Please check with your insurance provider to verify coverage details for hearing evaluations, hearing aids, and related services at Hearing Hope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why should I choose Hearing Hope for my hearing care needs in Delhi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hearing Hope distinguishes itself with a commitment to personalised care, advanced technology, affordability, and a reputation for excellence in hearing care services throughout Delhi."
+        "text": "Yes, HearingHope provides several financing plans to make hearing care affordable, including instalment payments and partnerships with healthcare financing companies."
+
                        
     }
   }

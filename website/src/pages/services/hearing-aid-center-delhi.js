@@ -55,47 +55,48 @@ const HearingAidCentre = () => {
        <script type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-"@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of hearing aids are available at Hearing Hope?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "At Hearing Hope, we offer a wide variety of hearing aids, including behind-the-ear (BTE), in-the-ear (ITE), and completely-in-canal (CIC) models, featuring the latest technology like wireless connectivity, rechargeable batteries, and advanced noise cancellation to meet different lifestyle and budget requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I tell if I need a hearing aid?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If you're experiencing difficulties hearing conversations, often ask people to repeat themselves, or find yourself increasing the volume on your devices, it may be time to consider a hearing test. We recommend visiting our hearing aid center in Delhi for a comprehensive hearing evaluation to determine if a hearing aid is suitable for you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the process of getting a hearing aid at Hearing Hope?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The process begins with an initial consultation to discuss your hearing concerns, followed by a detailed hearing evaluation using advanced diagnostic tools. Based on the results, we recommend and customize the best hearing aid for your needs, fit it precisely, and provide ongoing aftercare and support."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Am I able to test out a hearing aid prior to making a purchase?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, at Hearing Hope, we understand the importance of choosing the right hearing aid, and we offer trial periods for selected models. This allows you to experience how the hearing aid works in your daily environment, ensuring it meets your expectations before making a final decision."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What support services are available after purchasing a hearing aid?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We provide comprehensive aftercare services, including regular check-ups, maintenance, and fine-tuning of your hearing aids. Our dedicated team is always available to answer your questions, provide technical support, and make necessary adjustments to ensure you are completely satisfied with your hearing aid."
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How long does a hearing aid fitting take?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The average hearing aid fitting session is 30-60 minutes. This will include tuning the hearing aid to your particular loss configuration, and also appropriate orientation about wearing it."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What hearing aids do HearingHope offer?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide a number of different types of hearing aids, such as Behind-the-Ear (BTE), In-the-Ear (ITE), and Completely-in-Canal(CIC). Every design caters to individual needs in terms of hearing loss and aesthetics."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is it possible to preview a hearing aid before buying one?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely! Some hearing aids also come with a risk-free trial, so you can experience how the device works in your daily environment before committing to purchase it."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are your Hearing Aid Financing Options?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer various financing options including instalment plans and possible cooperation with insurance providers to make our hearing aids more accessible."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I care for my hearing aid?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "To better serve you, we provide detailed instructions on how to clean your hearing aids and other tips for maintaining them so that they last."
+            
 
     }
   }

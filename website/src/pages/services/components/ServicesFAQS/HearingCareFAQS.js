@@ -57,24 +57,6 @@ const faqData = [
     question: 'Can I finance the purchase of hearing aids?',
     answer: "Yes, HearingHope provides several financing plans to make hearing care affordable, including instalment payments and partnerships with healthcare financing companies.",
   },
-
-
-  {
-    question: 'What warranty comes with hearing aids purchased at HearingHope?',
-    answer: "Our hearing aids come with a comprehensive warranty that covers repairs, maintenance, and even replacements if necessary, typically for up to three years.",
-  },
-  {
-    question: 'How do I care for my hearing aids?',
-    answer: "We provide detailed instructions on daily care and maintenance, including cleaning tips and advice on storing your devices to ensure they function optimally.",
-  },
-  {
-    question: 'Can I use my hearing aids while participating in sports or other physical activities?',
-    answer: "Yes, many modern hearing aids are designed to be durable and water-resistant. We also offer specific advice on how to protect and maintain your hearing aids during such activities.",
-  },
-  {
-    question: 'What should I do if I experience discomfort or feedback from my hearing aid?',
-    answer: "If you experience any discomfort or feedback, schedule an appointment with us for an adjustment. Often, minor tweaks to the fit or settings can resolve these issues quickly.",
-  },
   
   // Add more FAQ items as needed
 ];
