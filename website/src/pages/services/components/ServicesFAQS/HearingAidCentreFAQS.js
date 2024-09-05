@@ -38,24 +38,40 @@ const HearingAidCentreFAQS = () => {
 
 const faqData = [
   {
-    question: 'What types of hearing aids are available at Hearing Hope?',
-    answer: 'At Hearing Hope, we offer a wide variety of hearing aids, including behind-the-ear (BTE), in-the-ear (ITE), and completely-in-canal (CIC) models, featuring the latest technology like wireless connectivity, rechargeable batteries, and advanced noise cancellation to meet different lifestyle and budget requirements.',
+    question: 'How long does a hearing aid fitting take?',
+    answer: 'The average hearing aid fitting session is 30-60 minutes. This will include tuning the hearing aid to your particular loss configuration, and also appropriate orientation about wearing it.',
   },
   {
-    question: 'How can I tell if I need a hearing aid?',
-    answer: "If you're experiencing difficulties hearing conversations, often ask people to repeat themselves, or find yourself increasing the volume on your devices, it may be time to consider a hearing test. We recommend visiting our hearing aid center in Delhi for a comprehensive hearing evaluation to determine if a hearing aid is suitable for you.",
+    question: 'What hearing aids do HearingHope offer?',
+    answer: "We provide a number of different types of hearing aids, such as Behind-the-Ear (BTE), In-the-Ear (ITE), and Completely-in-Canal(CIC). Every design caters to individual needs in terms of hearing loss and aesthetics.",
   },
   {
-    question: 'What is the process of getting a hearing aid at Hearing Hope?',
-    answer: 'The process begins with an initial consultation to discuss your hearing concerns, followed by a detailed hearing evaluation using advanced diagnostic tools. Based on the results, we recommend and customize the best hearing aid for your needs, fit it precisely, and provide ongoing aftercare and support.',
+    question: 'Is it possible to preview a hearing aid before buying one?',
+    answer: 'Absolutely! Some hearing aids also come with a risk-free trial, so you can experience how the device works in your daily environment before committing to purchase it.',
   },
   {
-    question: ' Am I able to test out a hearing aid prior to making a purchase?',
-    answer: "Yes, at Hearing Hope, we understand the importance of choosing the right hearing aid, and we offer trial periods for selected models. This allows you to experience how the hearing aid works in your daily environment, ensuring it meets your expectations before making a final decision.",
+    question: 'What are your Hearing Aid Financing Options?',
+    answer: "We offer various financing options including instalment plans and possible cooperation with insurance providers to make our hearing aids more accessible.",
   },
   {
-    question: 'What support services are available after purchasing a hearing aid?',
-    answer: "We provide comprehensive aftercare services, including regular check-ups, maintenance, and fine-tuning of your hearing aids. Our dedicated team is always available to answer your questions, provide technical support, and make necessary adjustments to ensure you are completely satisfied with your hearing aid.",
+    question: 'How do I care for my hearing aid?',
+    answer: "To better serve you, we  provide detailed instructions on how to clean your hearing aids and other tips for maintaining them so that they last.",
+  },
+  {
+    question: 'Do you offer a hearing aid warranty?',
+    answer: "We provide a wide-ranging warranty, which includes maintenance and repairs for our hearing aids. You can also access a solution whenever you face any issues post the warranty phase.",
+  },
+  {
+    question: 'Do you provide support or counselling for new Hearing aid  users?',
+    answer: "Of course, we also provide newly fitted clients with any necessary training and education to help them adapt their hearing aids properly so that they are able hear all the things that matter in life.",
+  },
+  {
+    question: 'What is the minimum age when testing can be performed?',
+    answer: "Our facilities contain child appropriate equipment, and our staff are trained to test children in an environment that they find calming and safe.",
+  },
+  {
+    question: 'How frequently should I be retested?',
+    answer: "We suggest you have your hearing tested on an annual basis, or sooner if you find that there are significant changes in the way you hear things.",
   },
   
   // Add more FAQ items as needed

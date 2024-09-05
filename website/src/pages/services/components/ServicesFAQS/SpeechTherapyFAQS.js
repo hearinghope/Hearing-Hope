@@ -38,24 +38,24 @@ const SpeechTherapyFAQS = () => {
 
 const faqData = [
   {
-    question: 'What age groups do you cater to at Hearing Hope?',
-    answer: "We provide speech therapy services in Delhi for all age groups. Our services are tailored for children experiencing developmental delays, as well as adults who may be recovering from strokes or managing degenerative conditions. We believe everyone deserves the chance to improve their communication abilities, regardless of age.",
+    question: 'What is speech therapy?',
+    answer: "Speech therapy treats speech, language and swallowing disorders.",
   },
   {
-    question: 'What is the duration of a standard speech therapy session?',
-    answer: "A typical session lasts between 30 and 60 minutes, depending on the specific needs and stamina of the client. The frequency and duration of sessions are customized based on individual treatment plans to ensure optimal results without causing fatigue.",
+    question: 'Who needs speech therapy?',
+    answer: "From a toddler to an adult, anyone who is facing communication challenges may require speech therapy.",
   },
   {
-    question: 'Are the speech therapy sessions conducted individually or in groups?',
-    answer: 'Most of our speech therapy services in Delhi are conducted on a one-on-one basis to ensure personalized attention and privacy. However, group sessions may be organized for specific activities or peer interaction scenarios where social communication skills can be effectively developed.',
+    question: 'Does anyone need speech therapy, am I/my child one amongst them?',
+    answer: 'Symptoms can range from a speech delay or difficulties in producing sounds, to problems comprehending and using the linguistic qualities of words.',
   },
   {
-    question: 'Can family members participate in the therapy sessions?',
-    answer: "Absolutely, family involvement is encouraged at Hearing Hope. We believe that incorporating family members into the therapy process not only supports the client but also equips the family with strategies to help in everyday communication scenarios. This collaborative approach is crucial, especially in the familial and community-oriented culture of Delhi.",
+    question: 'How do I know if I or my child needs speech therapy?',
+    answer: "Signs include delayed speech, trouble articulating words, or difficulty understanding and expressing language.",
   },
   {
-    question: 'What makes Hearing Hope\'s approach to speech therapy unique?',
-    answer: "Our approach is deeply rooted in a personalized and evidence-based methodology, integrated with the latest advancements in speech therapy. We place a strong emphasis on involving family and caregivers, which is particularly effective in the context of Delhi's supportive community culture. Additionally, our commitment to continuous progress monitoring and adjustment of treatment plans ensures that each client receives the most effective care tailored to their evolving needs.",
+    question: 'What happens during a speech therapy session?',
+    answer: "Sessions may involve exercises to improve language skills, articulation, and communication effectiveness.",
   },
   // Add more FAQ items as needed
 ];
