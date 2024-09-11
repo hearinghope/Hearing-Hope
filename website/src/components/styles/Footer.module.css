@@ -36,8 +36,8 @@
 
 .socials {
   position: absolute;
-  right: 300px;
-  margin-top: 20px;
+  right: 120px;
+  margin-top: 0px;
 }
 
 .socialIcons {
@@ -49,7 +49,12 @@
   width: 40px;
   margin-right: 15px;
 }
-
+  
+.FooterContent{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
 @media screen and (max-width: 1300px) {
   .footer {
     flex-direction: column;
