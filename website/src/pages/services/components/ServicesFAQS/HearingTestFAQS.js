@@ -38,24 +38,24 @@ const HearingTestFAQS = () => {
 
 const faqData = [
   {
-    question: 'What types of hearing tests do you offer at Hearing Hope in Delhi?',
-    answer: "At Hearing Hope, we offer a variety of hearing tests, including Pure tone Audiometry, Speech Audiometry, Tympanometry, and Otoacoustic Emissions (OAEs). Each test is tailored to assess various facets of your hearing capacity, providing a thorough auditory evaluation.",
+    question: 'What is a hearing test?',
+    answer: "An audiometer assesses how good an individual can hear different sounds and pitches at various volumes.",
   },
   {
-    question: 'How often should I get my hearing tested?',
-    answer: "We recommend regular hearing assessments to monitor your auditory health, especially if you are frequently exposed to noisy environments, have noticed changes in your hearing, or are over the age of 60. Typically, an annual hearing test is advisable, but our audiologists might suggest a different frequency based on your specific circumstances.",
+    question: 'Why do I need to take a hearing test in Delhi?',
+    answer: "Frequent hearings are quite crucial for the early detection of hearing loss to enhance therapy results.",
   },
   {
-    question: 'What should I expect during my first hearing test at Hearing Hope?  ',
-    answer: 'During your first visit, you&apos;ll undergo a brief interview to discuss your hearing history and any concerns. This is followed by a hearing test conducted in a sound-treated room to ensure accuracy. You&apos;ll be asked to listen to various sounds through headphones, and our audiologist will guide you through each step of the process. ',
+    question: 'How do I book a hearing test in Delhi?',
+    answer: 'You can call or visit our website to book a hearing test in Delhi through Hearing Hope.',
   },
   {
-    question: 'Can children and seniors undergo hearing tests at Hearing Hope?',
-    answer: "Yes, we offer specialized hearing assessments for both children and seniors. Our tests are tailored to meet the unique needs of these age groups, ensuring appropriate and effective evaluation and care.",
+    question: 'Which hearing tests are available In Delhi?',
+    answer: "The test types available in Delhi are auditory brainstem response, audiometry or hearing testing, tympanometry and otoacoustic emissions OAE.",
   },
   {
-    question: 'What follow-up services do you provide after a hearing test?',
-    answer: "After your hearing test, we offer comprehensive follow-up services, including detailed discussions of your results, personalized recommendations for hearing aids or other interventions, and regular check-ups. We also provide ongoing support and maintenance for any hearing aids prescribed, ensuring optimal performance and comfort.",
+    question: 'What should you look forward to at your hearing test in Delhi?',
+    answer: "A hearing test is where the audiologist plays sounds at different volumes and frequencies to determine, based upon which softest sound you can hear.",
   },
   
   // Add more FAQ items as needed

@@ -74,9 +74,6 @@ const Navbar = () => {
         <Link href="/" style={{ fontWeight: '500' }}>
           Home
         </Link>
-        <Link href="/about" style={{ fontWeight: '500' }}>
-          About
-        </Link>
         {/* <Link href="/onlineHearingTest" style={{ fontWeight: '500'}}>
           Online Hearing Test
           <p style={{fontSize: '10px', color:'orange'}}>Quick Test!!</p>
@@ -94,17 +91,14 @@ const Navbar = () => {
           {isServicesMenuOpen && (
             <div className={styles.dropdownContent}>
               <Link href="../../services" className={styles.dropdownContentLinks}>All Services</Link>
-              <Link href="../../services/hearing-test-in-delhi" className={styles.dropdownContentLinks}>Hearing Test Services</Link>
-              <Link href="../../services/speech-therapy-in-delhi" className={styles.dropdownContentLinks}>Speech Therapy Services</Link>
+              <Link href="../../services/hearing-test-delhi" className={styles.dropdownContentLinks}>Hearing Test Services</Link>
+              <Link href="../../services/speech-therapy-delhi" className={styles.dropdownContentLinks}>Speech Therapy Services</Link>
               {/* <Link href="../../services/Audiologist" className={styles.dropdownContentLinks}>Audiologist</Link> */}
-              <Link href="../../services/hearing-care-solution-in-delhi" className={styles.dropdownContentLinks}>Hearing Care</Link>
-              <Link href="../../services/hearing-aid-center-in-delhi" className={styles.dropdownContentLinks}>Hearing Aid Center</Link>
+              <Link href="../../services/hearing-care-solution-delhi" className={styles.dropdownContentLinks}>Hearing Care</Link>
+              <Link href="../../services/hearing-aid-center-delhi" className={styles.dropdownContentLinks}>Hearing Aid Center</Link>
             </div>
           )}
         </div>
-        <Link href="/blog" style={{ fontWeight: '500' }}>
-          Blog
-        </Link>
         <div className={styles.dropdown}>
           <span
             className={styles.dropbtn}
@@ -177,6 +171,12 @@ const Navbar = () => {
             </div>
           )}
         </div>
+        <Link href="/about" style={{ fontWeight: '500' }}>
+          About
+        </Link>
+        <Link href="/blog" style={{ fontWeight: '500' }}>
+          Blog
+        </Link>
         <Link href="/contact">
           <button type="button" className={styles.NavButton}>
             Contact Us
