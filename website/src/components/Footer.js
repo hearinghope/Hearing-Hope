@@ -10,7 +10,8 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.column}>
         <Image
-          src="/../logo-transparent.png"
+          className={styles.FooterLogo}
+          src='/../logo-transparent.png'
           alt="logo"
           height={250}
           width={250}
