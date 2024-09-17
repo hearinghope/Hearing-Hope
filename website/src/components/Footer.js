@@ -11,8 +11,8 @@ const Footer = () => {
       <div className={styles.column}>
         <Image
           className={styles.FooterLogo}
-          src='/../logo-transparent.png'
-          alt="logo"
+          src='/logo-transparent.png'
+          alt="Company logo"
           height={250}
           width={250}
         ></Image>
